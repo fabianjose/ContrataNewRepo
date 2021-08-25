@@ -183,39 +183,17 @@
                   </li>
                 </ul>
                 </div>
+                
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12  my-2  order-1  order-sm-12 ">
                   <h5 class="footer-title-color font-weight-bold text-ws " style="text-align: center;">FORMULARIO DE CONTACTO</h5>
                   <ul class="footer-list p-2">
-                  <li><input type="text" id="nombre"  placeholder="NOMBRE" class="form-control form-control-footer" name=""/></li>
-                   <li><input id="telefono"  type="email" placeholder="EMAIL"  class="form-control form-control-footer" name=""/></li>
-                    <li><textarea id="mensaje"   placeholder="MENSAJE" class="form-control form-control-footer" name=""></textarea> </li>
-                     <li><button  type="button" value="Submit" onclick="correo();"  class="btn btn-footer mt-2 ">ENVIAR MENSAJE</button>
-      
-      <script src="https://smtpjs.com/v3/smtp.js"></script>
-      <script >
-                                                                   
-      function correo(){                   
-        var nombre = document.getElementById('nombre').value;
-        var num = document.getElementById('telefono').value;
-        var mensaje = document.getElementById('mensaje').value;
-
-        Email.send({
-        SecureToken : "06009ff8-2c43-499f-865a-b92f62e04395",
-        To : 'espejofabian@gmail.com',
-        From : "admin@internetcolombia.co",
-        Subject : "llamar al cliente ",
-        Body : " El cliente es de Contrata internet El cliente se llama: " + nombre + " el numero de telefono es:  "+ num + " y el mensaje es:  " + mensaje
-
-        }).then(
-
-
-        );
-
-          console.log('sale')
-          alert("Mensaje Enviado Correctamente")
-}
-            
- </script>
+                  <form action="../conta.php" method="post"> 
+                  <li><input type="text" id="nombre"  placeholder="NOMBRE" class="form-control form-control-footer" name="nombre"/></li>
+                   <li><input id="telefono"  type="email" placeholder="EMAIL"  class="form-control form-control-footer" name="correo"/></li>
+                    <li><textarea id="mensaje"   placeholder="MENSAJE" class="form-control form-control-footer" name="mensaje"></textarea> </li>
+                     <li><button   type="submit" name="submit"   class="btn btn-footer mt-2 ">ENVIAR MENSAJE</button>
+           </form>
+   
 
                          </li>
                   </ul>

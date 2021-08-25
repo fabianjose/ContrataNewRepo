@@ -84,6 +84,8 @@
                  <high-plans></high-plans>
              </div>
             </section>
+
+            <form action="../conta.php" method="post">
             <section class="section-form formulario-centro" >
                        
                     <div class="row  justify-content-center  pb-5  " style="align-items: center;">
@@ -93,54 +95,15 @@
                         </div>
 
                         <div class="col-12 col-sm-4 px-3">
-                             <input id="nombre1" style="" class="form-control text-form mt-1  p-2"  type="text" name="" placeholder="Nombre"/>
-                             <input id="celular1" style="" class="form-control text-form mt-1 p-2" type="text" name="" placeholder="Celular"/>
-                             <input id="email1" style="" class="form-control text-form mt-1 p-2" type="text" name="" placeholder="Email"/>
+                             <input id="nombre1" style="" class="form-control text-form mt-1  p-2"  type="text" name="nombre" placeholder="Nombre"/>
+                             <input id="celular1" style="" class="form-control text-form mt-1 p-2" type="text" name="telefono" placeholder="Celular"/>
+                             <input id="email1" style="" class="form-control text-form mt-1 p-2" type="text" name="correo" placeholder="Email"/>
                         </div>
                         <div class="col-12 col-sm-3">
-                            <button id="btn-enviar" onclick="correo2();" class="btn text-white" style="background: rgb(13,217,244);font-size: 25px;">ENVIAR</button>
+                            <button type="submit" name="submit" id="btn-enviar" class="btn text-white" style="background: rgb(13,217,244);font-size: 25px;">ENVIAR</button>
                         </div>
                     </div>
-<script src=""></script>
-<script>
-
-function correo2(){                   
-        var nombre = document.getElementById('nombre1').value;
-        var num = document.getElementById('celular1').value;
-        var mensaje = document.getElementById('email1').value;
-        var t= num.length; 
-
-
-        if(t == 10 || t == 7){ 
-
-
-
-        Email.send({
-        SecureToken : "06009ff8-2c43-499f-865a-b92f62e04395",
-        To : 'espejofabian@gmail.com',
-        From : "admin@internetcolombia.co",
-        Subject : "llamar al cliente ",
-        Body : " El cliente es de Contrata internet El cliente se llama: " + nombre + " el numero de telefono es:  "+ num + " y el mensaje es:  " + mensaje
-
-        }).then(
-
-
-        );
-
-          console.log('sale')
-          alert("Mensaje Enviado Correctamente")
-          }
-
-
-          else { alert('numero escrito invalido');
-                  }             
-
-              
-
-                }
-            
-</script>
-                
+                    </form>    
             </section>
 
             <section class="contador2" style="margin-top: 0px;">
