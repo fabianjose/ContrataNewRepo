@@ -4,14 +4,14 @@
 
       
 
-        <div class="d-flex flex-row w-100 justify-content-around mb-2 mt-3 bloque-proveedor-precios" >
+        <div class="d-flex flex-row w-100 justify-content-around mb-2 mt-3 bloque-proveedor-precios">
           <div class="col-xl-2 col-lg-3 col-md-4 px-1">
             <div class="text-center p-2 offer-table-label w-100 text-white mx-auto bg-dark-blue rounded-pill  p-1 text-wrap "><p class="text-tabla-detalles" >Proveedor</p></div>
           </div>
           
           <div v-for="(field,k2) in compFields" :key="k2" :class="'col-xl-2 px-1 col-lg-3 col-md-4 col-sm-4 offer-benefits hidden-md hidden-xs hidden-sm '+(!k2?'d-lg-flex':'hidden-lg')">
             <div class="text-center p-2 offer-table-label w-100 text-white mx-auto bg-dark-blue rounded-pill  p-1 text-wrap ">   <p @click="emitSpeed"  class="text-tabla-detalles" > {{field.name}}
-                <i v-if="field.name == 'Velocidad'"  :class="'fa fa-angle-' +( (sortByDesc && sortBy !='')?'up':'down')"></i>
+                <i v-if="field.name == 'Velocidad'"  :class="'fa fa-angle-' +( (sortByDesc && sortBy !='')?'up':'down')" ></i>
            
              </p>  </div>
           </div>
@@ -36,7 +36,8 @@
         </div>
         <div v-for="(offer,k) in compItems" :key="k" class="d-flex w-100 justify-content-around my-1 mb-3 offer offers-pagination-item pb-3">
 
-              <div class="row">
+              <div class="row"  style="hover:  {box-shadow: 0px 0px 4px 5px rgb(0 0 0 / 61%); }  
+">
 
 
 
@@ -138,7 +139,7 @@
                   <div class=" tecnologia-movil  text-center p-2 offer-table-label w-100 text-white mx-auto bg-dark-blue rounded-pill p-1 text-wrap " >   <p class="text-tabla-detalles" style="margin-top: -68px;">  Velocidad</p> </div>
 
                     <div class="icono-ondas"  >
-                            <img src="/images/icono-ondas.png" width="42%" alt="">
+                            <img src="/images/icono-ondas.png" width="60%" alt="">
                       </div>
                     <h6 class="text-lg">
                       

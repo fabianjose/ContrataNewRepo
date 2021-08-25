@@ -326,6 +326,10 @@ a {
   border-color: #0cd9f4;
 }
 
+.offers-pagination-item:hover {
+  box-shadow: 0px 0px 4px 5px rgba(0, 0, 0, 0.61);
+}
+
 .stars-container {
   color: #00c2d6;
   font-size: 13px;
