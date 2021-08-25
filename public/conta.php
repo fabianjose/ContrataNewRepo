@@ -1,6 +1,11 @@
 <?php
 
 
+// No mostrar los errores de PHP
+error_reporting(0);
+
+
+
 $result="";
 if(isset($_POST['submit'])){
     require 'phpmailer/PHPMailerAutoload.php';
