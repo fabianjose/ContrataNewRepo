@@ -1,0 +1,9 @@
+[17-Dec-2020 08:27:37 America/Mexico_City] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[17-Dec-2020 08:27:37 America/Mexico_City] PHP Warning:  Module 'SourceGuardian' already loaded in Unknown on line 0
+[17-Dec-2020 08:27:37 America/Mexico_City] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home3/remotepc/contratainternet.co/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[17-Dec-2020 08:27:50 America/Mexico_City] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[17-Dec-2020 08:27:50 America/Mexico_City] PHP Warning:  Module 'SourceGuardian' already loaded in Unknown on line 0
+[17-Dec-2020 08:27:50 America/Mexico_City] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home3/remotepc/contratainternet.co/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[17-Dec-2020 08:28:42 America/Mexico_City] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[17-Dec-2020 08:28:42 America/Mexico_City] PHP Warning:  Module 'SourceGuardian' already loaded in Unknown on line 0
+[17-Dec-2020 08:28:42 America/Mexico_City] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home3/remotepc/contratainternet.co/vendor/symfony/polyfill-php80/bootstrap.php on line 23

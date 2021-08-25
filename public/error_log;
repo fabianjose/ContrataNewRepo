@@ -1,0 +1,2 @@
+[22-Dec-2020 10:27:53 America/Bogota] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 199233536 bytes) in /home3/remotepc/contratainternet.co/app/Http/Controllers/OfferController.php on line 397
+[22-Dec-2020 10:28:30 America/Bogota] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 199233536 bytes) in /home3/remotepc/contratainternet.co/app/Http/Controllers/OfferController.php on line 397

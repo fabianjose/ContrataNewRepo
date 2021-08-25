@@ -1,0 +1,78 @@
+.text-main-blue{
+    color:$main-blue;
+}
+
+.text-dark-blue{
+    color: $dark-blue;
+}
+
+
+.text-ws{
+   font-family: 'Work Sans', sans-serif;
+}
+
+
+.text-heebo{
+    font-family: 'Heebo', sans-serif;
+}
+.text-dark-gray{
+    color: $dark-gray;
+}
+
+.company-card-label{
+    height: 90px;
+}
+
+@media (max-width:768px){
+    .company-card-label{
+        height: 100px;
+    }
+}
+
+.text-wrap {
+    word-break: break-word;
+  
+}
+
+.text-wrap-all {
+    word-break: break-all;
+    
+}
+
+@media(min-width:1000px){
+
+    .offers-label{
+        font-size: .8rem!important;
+    }
+    
+}
+
+
+.text-item-list{
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-family: "Work Sans", sans-serif;
+    color: #D6D8DB;
+}
+.text-item-list a{
+    font-size: 0.8rem;
+    font-weight: bold;
+    font-family: "Work Sans", sans-serif;
+    text-transform: uppercase;
+    color: #D6D8DB;
+}
+.offer-table-label{
+    font-size: .7rem;
+    background-color: transparent;
+}
+.text-tabla-detalles{
+    color:#00c2d6;
+    font-size: 1.2rem;
+    font-family: 'Heebo';
+    font-weight: 600;
+}
+
+.offer-table-price{
+    font-size: 1.2rem;
+}
+

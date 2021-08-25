@@ -1,0 +1,18 @@
+
+
+  .contador2{
+    display: none;
+
+}
+@media (max-width: 500px){
+    .contador1{
+        display: none;
+
+    }
+    .contador2{
+
+display: inline;
+    }
+
+}
+

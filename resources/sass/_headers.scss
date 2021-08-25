@@ -1,0 +1,139 @@
+
+.grid-header2{
+    display: none;
+    font-size: 13px;
+}
+.ic-main{
+    font-size: 1.27rem;
+    font-family: 'Work Sans', sans-serif;
+/*    color: $dark-blue;*/
+    text-align: center;
+
+}
+
+a{
+    color: $main-blue;
+}
+.i-c-fab{
+    padding: 3px;
+    border-radius: 30%;
+    color: white;
+}
+
+.ic-bg-main{
+    background-color: $main-blue;
+}
+
+.ic-logo{
+    margin-left: 33px;
+  
+  
+}
+
+.nav-btn{
+    font-size: 20px;
+    color: $dark-blue;
+}
+  
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: $main-blue;
+}
+.nav-item-border:after {
+    display:block;
+    content: '';
+    border-bottom: solid 3.5px $dark-blue;  
+    border-radius: 15px;
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+}
+
+.nav-item-border.active:after{
+    transform: scaleX(0.45);
+}
+
+.nav-item-border:hover:after { transform: scaleX(1); }
+
+.texto-header{
+   padding: 5px; 
+   /*border: 1px solid rgb(12,207,244) ;*/
+   font-family: 'Work Sans', sans-serif;
+   font-size:20px
+}
+
+@media (max-width: 1300px){
+    .ic-main{
+        font-size: 1rem;
+        font-family: 'Work Sans', sans-serif;
+    /*    color: $dark-blue;*/
+        text-align: center;
+    
+    }
+
+    .texto-header{
+        padding: 5px; 
+       /* border: 1px solid rgb(12,207,244) ;*/
+        font-family: 'Work Sans', sans-serif;
+        font-size:16px
+     }
+     
+
+}
+
+@media (max-width: 1140px){
+    .ic-main{
+        font-size: 0.8rem;
+        font-family: 'Work Sans', sans-serif;
+    /*    color: $dark-blue;*/
+        text-align: center;
+    
+    }
+
+    .texto-header{
+        padding: 5px; 
+      /*  border: 1px solid rgb(12,207,244) ;*/
+        font-family: 'Work Sans', sans-serif;
+        font-size:13px
+     }
+     
+
+}
+
+
+@media (max-width: 767px){
+
+
+    .ic-logo{
+        margin-left: 0px;
+        margin-top: -35px;
+       
+    }
+   
+
+    .grid-header1{
+        display: none;
+    }
+    .grid-header2{
+        display: inline;
+    }
+    
+    .nav-item-border:after {
+        display: none;
+    }
+
+    .section-form{
+        text-align: center;
+        margin-top: -38%;
+        
+    }
+    #btn-enviar{
+        
+        margin-top: 20px;
+    }
+
+    
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 2.3rem;
+}

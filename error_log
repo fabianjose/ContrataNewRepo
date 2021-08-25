@@ -1,0 +1,3 @@
+[17-Feb-2020 14:30:18 America/Mexico_City] PHP Parse error:  syntax error, unexpected '?' in /home3/remotepc/contratainternet.co/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 500
+[17-Feb-2020 14:40:40 America/Mexico_City] PHP Fatal error:  Out of memory (allocated 718798848) (tried to allocate 28284569 bytes) in phar:///opt/cpanel/composer/bin/composer/src/Composer/Json/JsonFile.php on line 270
+[17-Feb-2020 14:41:17 America/Mexico_City] PHP Parse error:  syntax error, unexpected '?' in /home3/remotepc/contratainternet.co/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 500

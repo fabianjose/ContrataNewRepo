@@ -1,0 +1,51 @@
+@media (max-width: 368px) {
+    .hidden-xs-xs {
+      display: none;
+    }
+  }
+  
+  /* Extra Small devices (tablets, 576px and down) */
+  @media (max-width: 576px) {
+    .hidden-xs {
+      display: none;
+    }
+  }
+  
+  /* Small devices (tablets, 576px and up to 768px and down) */
+  @media (min-width: 576px) and (max-width: 767px) {
+    .hidden-sm {
+      display: none;
+    }
+  }
+  
+  /* Medium devices (desktops, 768px and up to 992px and down) */
+  @media (min-width: 767px) and (max-width: 991px) {
+    .hidden-md {
+      display: none;
+    }
+  }
+  
+  /* Large devices (large desktops, 1200px and up to 1200px and down) */
+  @media (min-width: 991px) and (max-width: 1199px) {
+    .hidden-lg {
+      display: none;
+    }
+  }
+  
+  /* Large devices (large desktops, 1200px and up to 1320px and down) */
+  @media (min-width: 1199px) and (max-width: 1320px) {
+    .hidden-xl {
+      display: none;
+    }
+  }
+  
+  /* Large devices (large desktops, 1200px and up) */
+  @media (min-width: 1320px) {
+    .hidden-xl-xl {
+      display: none;
+    }
+  }
+
+.vld-overlay.is-full-page {
+  z-index: 1051 !important;
+}

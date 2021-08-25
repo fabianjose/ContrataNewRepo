@@ -1,0 +1,65 @@
+.nosotros-main{
+	min-height: 100vh;
+}
+.nosotros-title{
+	min-height: 15vh;
+	background: linear-gradient(to bottom, rgba($dark-blue,80%),rgba($dark-blue,80%)),url("images/nosotros-bg.jpg");
+	background-repeat:  no-repeat;
+	background-size: 100%;
+	background-position: center center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+}
+.nosotros-title-text{
+	font-size: 48px;
+}
+.nosotros-main-content{
+	min-height: 50vh;
+}
+.nosotros-main-content span{
+	font-family: montserrat-regular;
+}
+.mision-title::after{
+	display: block;
+	content: '';
+	padding-top: 5px;
+	border-bottom: solid 3.5px $main-blue;
+	border-radius: 5px;
+	transform: scaleX(0.25);
+	transition: transform 250ms ease-in-out;
+}
+.mision-title{
+	color: $main-blue;
+	font-size: 1.3rem;
+}
+.nosotros-services-bg{
+	min-height: 40vh;
+	background-color: #f7f7f8;
+}
+.nosotros-services-title{
+	color: #000000;
+	font-size: 2.0rem;
+}
+.nosotros-services-title::after{
+	display: block;
+	content: '';
+	padding-top: 5px;
+	border-bottom: solid 3.5px rgba(230,230,230,1);
+	border-radius: 5px;
+	transform: scaleX(0.25);
+	transition: transform 250ms ease-in-out;
+}
+.img-nosotros-services{
+	width: 100px;
+	height: 100px;
+}
+.nosotros-service-text{
+	color: rgba(0, 173, 239, 1);
+}
+.nosotros-service-btn{
+	border: 2px solid rgba(0, 173, 239, 1);
+}
+.nosotros-service-btn:hover{
+	color: #fff;
+}

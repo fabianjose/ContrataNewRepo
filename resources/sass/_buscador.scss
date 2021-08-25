@@ -1,0 +1,233 @@
+.botones-sobre-buscador{
+    background-color: transparent;
+}
+
+
+.fila-de-botones-sobre-buscador{ 
+    margin-top: 40px;
+    padding-left: 177px;
+    padding-right: 208px;
+    margin-bottom: -30px;
+}
+
+
+
+.btn-1{
+    background-color: #3d3c3c63;
+    color: white;
+    font-size: 13px;
+    
+    
+}
+.btn-1:hover{
+    color:white;
+}
+
+.fila-iconos-buscador{
+    padding-left: 51px;
+    padding-right: 160px;
+    padding-top: 30px;
+}
+
+
+.lupa{
+
+    cursor: pointer;
+    margin-top: -71px;
+    margin-left: 61px;
+    height: 120px;
+}
+
+
+.borde-caja-buscador{
+    padding-left: 137px;
+    padding-right: 182px;
+}
+
+@media (max-width: 1400px){
+    .btn-1{
+        background-color: #3d3c3c63;
+        color: white;
+        font-size: 9px;
+    }
+
+
+    
+}
+
+
+@media (max-width: 1200px){
+    .btn-1{
+        background-color: #3d3c3c63;
+        color: white;
+        font-size: 7px;
+    }
+
+    .borde-caja-buscador{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .lupa{
+
+
+        margin-top: -71px;
+        margin-left: -21px;
+        height: 84px;
+    }
+    
+
+}
+
+
+@media (max-width: 1095px){
+
+    .fila-iconos-buscador {
+        padding-left: 25px;
+        padding-right: 120px;
+        padding-top: 15px;
+    }
+        }
+
+
+    @media (max-width: 991px){
+
+        .fila-iconos-buscador {
+            padding-left: 25px;
+            padding-right: 56px;
+            padding-top: 15px;
+        }
+
+
+        .fila-de-botones-sobre-buscador{
+            margin-top: -50px;
+            padding-left: 0px;
+            padding-right:0px;
+            }
+
+            .borde-caja-buscador{
+                padding-left: 0px;
+                padding-right: 0px;
+            }
+
+            .lupa{
+
+
+                margin-top: -12px;
+                margin-left: 85px;
+                height: 73px;
+            }
+
+         
+
+           
+
+}
+
+@media (max-width: 411x){
+
+    .lupa{
+        margin-top: 0px;
+        margin-left: 129px;
+        height: 77px;
+    }
+
+}
+
+@media (max-width: 375x){
+
+    .lupa{
+        margin-top: 0px;
+        margin-left: 109px;
+        height: 77px;
+    }
+
+}
+@media (max-width: 768px){
+
+.lupa{
+    margin-top: 0px;
+    margin-left: 116px;
+    height: 77px;
+}
+    span.text0-botones::before { content: ‘\A’; white-space: pre;}
+
+    .borde-caja-buscador{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .fila-de-botones-sobre-buscador{
+    margin-top: 54px;
+    padding-left: 9px;
+    padding-right:0px;
+    }
+
+    .botones-sobre-buscador{
+        background-color: transparent;
+    }
+
+
+
+    
+    .fila-iconos-buscador{
+        padding-left: 00px;
+        padding-right: 00px;
+    }
+
+    .about-number{
+        width: 2rem;
+        height: 2rem;  
+        background-color: #00c2d6;
+       
+    }
+
+    .texto-btn{
+        font-size:11px;
+        color:black;
+        
+    }
+
+    .btn-1{
+       background-color: white;
+        color: black;
+        font-size: 14px;
+    }
+
+}
+
+
+@media (max-width: 500px){
+
+
+   
+    .fila-de-botones-sobre-buscador{
+    margin-top: 43px;
+    padding-left: 9px;
+    padding-right:0px;
+    }
+    .btn-1{
+ 
+         font-size: 17px;
+     }
+
+
+}
+
+@media (max-width: 441px){
+
+
+   
+    .fila-de-botones-sobre-buscador{
+    margin-top: 43px;
+    padding-left: 9px;
+    padding-right:0px;
+    }
+    .btn-1{
+      
+         font-size: 17px;
+     }
+
+
+}
+
+

@@ -1,0 +1,54 @@
+.contacto-main{
+	min-height: 100vh;
+}
+.contacto-title{
+	min-height: 40vh;
+	background: linear-gradient(to bottom, rgba($dark-blue,80%),rgba($dark-blue,80%)),url("images/contacta-bg.jpg");
+	background-repeat:  no-repeat;
+	background-size: 100%;
+	background-position: center center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+}
+.contacto-title-text{
+	font-size: 48px;
+}
+.contacto-main-content{
+	padding-bottom: 3rem;
+}
+.contacto-main-content span{
+	font-family: montserrat-regular;
+}
+.contacto-card{
+	position: sticky;
+	margin-top: -40px;
+  border-radius: 50px;
+  -webkit-box-shadow: 0px 0px 5px 4px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0px 0px 5px 4px rgba(0,0,0,0.25);
+  box-shadow: 0px 0px 5px 4px rgba(0,0,0,0.25);
+}
+.contacto-card-title{
+  color: $main-blue;
+}
+.contacto-card-title::after{
+	display: block;
+	content: '';
+	padding-top: 5px;
+	border-bottom: solid 3.5px $main-blue;
+	border-radius: 5px;
+	transform: scaleX(0.25);
+	transition: transform 250ms ease-in-out;
+}
+.contacto-card-label{
+  font-size: 14px;
+}
+.contacto-footer{
+	/*background-color: rgba(0, 173, 239, 1);
+	min-height: 40vh;*/
+	background: #20ADF4;
+}
+.contacto-footer-title{
+	color: rgba(230, 230, 230, 1);
+	font-size: 36px;
+}

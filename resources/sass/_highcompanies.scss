@@ -1,0 +1,36 @@
+.high-companies-color{
+  color: $dark-blue;
+}
+.high-companies-title:after {
+    display: block;
+    padding-top: 5px;
+    content: '';
+    border-bottom: solid 3.5px $dark-gray;
+    border-radius: 5px;
+    transform: scaleX(0.25);
+    transition: transform 250ms ease-in-out;
+}
+.high-companies-carousel{
+  width: 80vw;
+}
+.high-companies-img{
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 100px;
+}
+
+
+.vueperslide--active{
+ 
+  
+   transition: height 1s;
+
+   
+}
+
+.vueperslide--active .offer-card{
+  
+  
+   transition: height 1s;
+
+}

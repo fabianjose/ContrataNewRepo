@@ -1,0 +1,25 @@
+.counters-container{
+    display: flex;
+    padding: 1.4rem 0;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.counter-value{
+    font-size: 3rem;
+}
+
+.counter-label{
+    font-size: 1.3rem!important;
+}
+
+
+@media (max-width: 767px){ 
+
+.counter-label{
+    font-family: 'Heebo';
+    font-weight: 100;
+}
+
+}

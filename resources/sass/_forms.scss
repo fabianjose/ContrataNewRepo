@@ -1,0 +1,112 @@
+.custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    border-color: $dark-blue;
+    background-color: $dark-blue;
+}
+
+.main-search-form{
+    z-index: 10;
+    height:auto;
+    background: white;
+    border-image-slice: 1;
+    border-radius: 20px;
+    width: 70%;
+box-shadow: 0 3px 3px #06D1FC, ease-in-out 0 2px 2px #00FFDA ;
+    border-color: #00FFDA;
+   border: 3px solid  #00FFDA ;
+}
+@media (max-width:768px){
+    .main-search-form{
+        width:100%;
+          z-index: 10;      
+    }
+
+
+}
+
+.main-form-title-container:after {
+    display: block;
+    content: '';
+    border-bottom: solid 3.5px $mid-gray;  
+    border-radius: 5px;
+    transform: scaleX(0.35);  
+    transition: transform 250ms ease-in-out;
+}
+
+.main-form-title{
+    color: $main-blue;
+    font-size: 1.3rem;
+}
+
+.ci-select {
+    padding-left: 2.375rem!important;
+    color: gray;
+   /* background-image: url("images/PaginaWEBFlechas.png");
+    background-size: 17px;;*/
+    border-radius: 10px;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+@media(max-width:767px){
+    .main-search-form{
+        width:100%;
+    }    
+}
+
+@media(min-width:992px){
+    
+    .filterCard{
+        position: sticky;
+        left: 0;
+        top: 15%;
+    }
+    
+}
+
+#btn-enviar{
+    
+    -webkit-box-shadow: 1px 5px 8px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 5px 8px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 5px 8px 0px rgba(0,0,0,0.75);
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+#btn-enviar2{
+    
+    -webkit-box-shadow: 1px 5px 8px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 5px 8px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 5px 8px 0px rgba(0,0,0,0.75);
+    font-family: 'Work Sans', sans-serif;
+    
+margin-left: 9px;
+margin-top: 5px;
+}
+
+
+
+
+#text-form::placeholder {
+    font-family: 'Work Sans', sans-serif;
+    font-style: italic;
+  }
+.form-control-footer{
+    margin-top: 3px;
+}
+.form-control-footer::placeholder{
+    color: #9B999F;
+    font-family: 'Work Sans', sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+}

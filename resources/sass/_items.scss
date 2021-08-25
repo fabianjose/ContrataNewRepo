@@ -1,0 +1,180 @@
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.icon-btn{
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #fff;
+}
+
+.offers-pagination-item{
+    background-color: white;;
+    border-radius: 20px;
+    border-color: $main-blue;
+    text-align: center;
+    padding-top: 10px;
+   
+    border: solid 1px;
+    border-color:#0cd9f4;
+}
+
+.stars-container{
+    color: $main-blue;
+    font-size: 13px;
+}
+
+.consult-card{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    border-radius: 50px;
+    max-width: 80vw!important;
+    border-width: 0!important
+}
+
+.modal-adjust{
+    width: auto!important;
+}
+
+.consult-card-modal{
+    max-width: 80vw!important;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
+
+.consult-card-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-bottom: solid .22rem $mid-gray;
+}
+
+.consult-card-logo{
+    max-height: 150px;
+}
+
+.consult-card-company{
+    text-align: center;
+    font-size: 1.5rem;
+    color: $dark-blue;
+    margin-top: 1.2rem;
+}
+
+.consult-card-sub-title{
+    font-size: .8rem;
+    color: $dark-gray;
+}
+
+.benefits-content{
+    font-size: .85rem;
+    color: $dark-blue;
+}
+
+.field-content{
+    font-size: 1.75rem;
+    color: $dark-blue;
+}
+
+.consult-card-benefits{
+    padding: .3rem
+}
+
+.consult-card-fields{
+    display: flex;
+    flex-direction: row;
+}
+
+.form-consulting-field{
+    border-bottom-right-radius: 50px;
+    justify-content: center;
+
+}
+
+.form-consulting-input{
+    background-color: transparent!important;
+    border: 1px solid white!important;
+    color: white!important;
+}
+
+.form-consulting-header{
+    text-align: center;
+}
+
+.form-consulting-header:after {
+    display:block;
+    content: '';
+    border-bottom: solid 3.5px $main-gray;  
+    border-radius: 15px;
+    transform: scaleX(0.25);  
+    transition: transform 250ms ease-in-out;
+}
+
+.form-consulting-title{
+    font-size: 1.5rem;    
+    color: #fff;
+}
+
+.consult-card-full-rounded{
+    border-radius: 50px!important;
+}
+
+@media(min-width:992px){
+    .form-consulting-field{
+        border-top-right-radius: 50px;        
+    }
+}
+
+@media(max-width:991px){
+    .consult-card{
+        width: 90vw;
+    }
+    .form-consulting-field{
+        border-bottom-left-radius: 50px;        
+    }
+}
+
+@media(max-width:575px){
+    .consult-card{
+        width: 100%;
+    }
+}
+
+.modal-xl-xl{
+    width: 100% !important;
+}
+
+.company-logo-item{
+    max-width: 100%;
+    max-height: 120px;
+    object-fit: contain;
+}
+.offer-card-separator {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 0.1rem;
+    margin-top: -8px;
+}
+.card {
+    box-shadow: none;
+}
