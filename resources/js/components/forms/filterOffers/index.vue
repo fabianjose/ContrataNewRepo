@@ -9,6 +9,20 @@
         Filtro de búsqueda</h4>
      </div>
          <br>
+
+           <div class="form-horizontal my-2 col-12 flex-wrap" >
+        <div  type="button" data-toggle="collapse" data-target="#collapsePlan" aria-expanded="false" aria-controls="collapsePlan" style="display:flex;justify-content: space-between;">
+          <h4 class="btn-block" style="color:#606060; font-family:'Work Sans'; font-weight: 500;">  Tipo de Plan   </h4> <span><i class="fas fa-angle-down" style="margin-left: auto; font-size: 33px;   color: #afaeb4;"></i></span>
+        </div>
+        <div class="collapse" id="collapsePlan">
+          <div class="card card-body" style="background-color: #f7f7f7;">
+            <div v-for="(value) in plans" :key="value.id">
+              <input type="checkbox" :value="value.id" v-model="checked_plans">
+              <label class="text-ws" style="color: #606060; font-size: 0.8em;"  >{{value.name}}</label>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="form-horizontal my-2 col-12 flex-wrap" >
         <div  type="button" data-toggle="collapse" data-target="#collapseProveedor" aria-expanded="false" aria-controls="collapseProveedor" style="display:flex;justify-content: space-between;">
           <h4 class="btn-block" style="color:#606060; font-family:'Work Sans'; font-weight: 500;">  Proveedor   </h4> <span><i class="fas fa-angle-down" style="margin-left: auto; font-size: 33px;   color: #afaeb4;"></i></span>
@@ -22,19 +36,7 @@
           </div>
         </div>
       </div>
-       <div class="form-horizontal my-2 col-12 flex-wrap" >
-        <div  type="button" data-toggle="collapse" data-target="#collapsePlan" aria-expanded="false" aria-controls="collapsePlan" style="display:flex;justify-content: space-between;">
-          <h4 class="btn-block" style="color:#606060; font-family:'Work Sans'; font-weight: 500;">  Plan   </h4> <span><i class="fas fa-angle-down" style="margin-left: auto; font-size: 33px;   color: #afaeb4;"></i></span>
-        </div>
-        <div class="collapse" id="collapsePlan">
-          <div class="card card-body" style="background-color: #f7f7f7;">
-            <div v-for="(value) in plans" :key="value.id">
-              <input type="checkbox" :value="value.id" v-model="checked_plans">
-              <label class="text-ws" style="color: #606060; font-size: 0.8em;"  >{{value.name}}</label>
-            </div>
-          </div>
-        </div>
-      </div>
+     
       <div class="form-horizontal my-2 col-12 flex-wrap">
         <div  type="button" data-toggle="collapse" data-target="#collapseTecnologia" aria-expanded="false" aria-controls="collapseTecnologia"  style="display:flex;justify-content: space-between;">
         <h4 class="btn-block text-ws" style="color:#606060; font-weight: 500;">  Tecnología   </h4> <span><i class="fas fa-angle-down" style="margin-left: auto; font-size: 33px;   color: #afaeb4;"></i></span>    

@@ -3367,6 +3367,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ["fields", "providers", "plans", "max_price", "min_price", "technologies", "speeds"],
   data: function data() {
@@ -45684,6 +45686,84 @@ var render = function() {
                 _vm._v(" "),
                 _c(
                   "div",
+                  { staticClass: "collapse", attrs: { id: "collapsePlan" } },
+                  [
+                    _c(
+                      "div",
+                      {
+                        staticClass: "card card-body",
+                        staticStyle: { "background-color": "#f7f7f7" }
+                      },
+                      _vm._l(_vm.plans, function(value) {
+                        return _c("div", { key: value.id }, [
+                          _c("input", {
+                            directives: [
+                              {
+                                name: "model",
+                                rawName: "v-model",
+                                value: _vm.checked_plans,
+                                expression: "checked_plans"
+                              }
+                            ],
+                            attrs: { type: "checkbox" },
+                            domProps: {
+                              value: value.id,
+                              checked: Array.isArray(_vm.checked_plans)
+                                ? _vm._i(_vm.checked_plans, value.id) > -1
+                                : _vm.checked_plans
+                            },
+                            on: {
+                              change: function($event) {
+                                var $$a = _vm.checked_plans,
+                                  $$el = $event.target,
+                                  $$c = $$el.checked ? true : false
+                                if (Array.isArray($$a)) {
+                                  var $$v = value.id,
+                                    $$i = _vm._i($$a, $$v)
+                                  if ($$el.checked) {
+                                    $$i < 0 &&
+                                      (_vm.checked_plans = $$a.concat([$$v]))
+                                  } else {
+                                    $$i > -1 &&
+                                      (_vm.checked_plans = $$a
+                                        .slice(0, $$i)
+                                        .concat($$a.slice($$i + 1)))
+                                  }
+                                } else {
+                                  _vm.checked_plans = $$c
+                                }
+                              }
+                            }
+                          }),
+                          _vm._v(" "),
+                          _c(
+                            "label",
+                            {
+                              staticClass: "text-ws",
+                              staticStyle: {
+                                color: "#606060",
+                                "font-size": "0.8em"
+                              }
+                            },
+                            [_vm._v(_vm._s(value.name))]
+                          )
+                        ])
+                      }),
+                      0
+                    )
+                  ]
+                )
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "form-horizontal my-2 col-12 flex-wrap" },
+              [
+                _vm._m(2),
+                _vm._v(" "),
+                _c(
+                  "div",
                   {
                     staticClass: "collapse",
                     attrs: { id: "collapseProveedor" }
@@ -45744,84 +45824,6 @@ var render = function() {
                             {
                               staticClass: "text-ws",
                               staticStyle: { color: "#606060" }
-                            },
-                            [_vm._v(_vm._s(value.name))]
-                          )
-                        ])
-                      }),
-                      0
-                    )
-                  ]
-                )
-              ]
-            ),
-            _vm._v(" "),
-            _c(
-              "div",
-              { staticClass: "form-horizontal my-2 col-12 flex-wrap" },
-              [
-                _vm._m(2),
-                _vm._v(" "),
-                _c(
-                  "div",
-                  { staticClass: "collapse", attrs: { id: "collapsePlan" } },
-                  [
-                    _c(
-                      "div",
-                      {
-                        staticClass: "card card-body",
-                        staticStyle: { "background-color": "#f7f7f7" }
-                      },
-                      _vm._l(_vm.plans, function(value) {
-                        return _c("div", { key: value.id }, [
-                          _c("input", {
-                            directives: [
-                              {
-                                name: "model",
-                                rawName: "v-model",
-                                value: _vm.checked_plans,
-                                expression: "checked_plans"
-                              }
-                            ],
-                            attrs: { type: "checkbox" },
-                            domProps: {
-                              value: value.id,
-                              checked: Array.isArray(_vm.checked_plans)
-                                ? _vm._i(_vm.checked_plans, value.id) > -1
-                                : _vm.checked_plans
-                            },
-                            on: {
-                              change: function($event) {
-                                var $$a = _vm.checked_plans,
-                                  $$el = $event.target,
-                                  $$c = $$el.checked ? true : false
-                                if (Array.isArray($$a)) {
-                                  var $$v = value.id,
-                                    $$i = _vm._i($$a, $$v)
-                                  if ($$el.checked) {
-                                    $$i < 0 &&
-                                      (_vm.checked_plans = $$a.concat([$$v]))
-                                  } else {
-                                    $$i > -1 &&
-                                      (_vm.checked_plans = $$a
-                                        .slice(0, $$i)
-                                        .concat($$a.slice($$i + 1)))
-                                  }
-                                } else {
-                                  _vm.checked_plans = $$c
-                                }
-                              }
-                            }
-                          }),
-                          _vm._v(" "),
-                          _c(
-                            "label",
-                            {
-                              staticClass: "text-ws",
-                              staticStyle: {
-                                color: "#606060",
-                                "font-size": "0.8em"
-                              }
                             },
                             [_vm._v(_vm._s(value.name))]
                           )
@@ -46161,9 +46163,9 @@ var staticRenderFns = [
         attrs: {
           type: "button",
           "data-toggle": "collapse",
-          "data-target": "#collapseProveedor",
+          "data-target": "#collapsePlan",
           "aria-expanded": "false",
-          "aria-controls": "collapseProveedor"
+          "aria-controls": "collapsePlan"
         }
       },
       [
@@ -46177,7 +46179,7 @@ var staticRenderFns = [
               "font-weight": "500"
             }
           },
-          [_vm._v("  Proveedor   ")]
+          [_vm._v("  Tipo de Plan   ")]
         ),
         _vm._v(" "),
         _c("span", [
@@ -46204,9 +46206,9 @@ var staticRenderFns = [
         attrs: {
           type: "button",
           "data-toggle": "collapse",
-          "data-target": "#collapsePlan",
+          "data-target": "#collapseProveedor",
           "aria-expanded": "false",
-          "aria-controls": "collapsePlan"
+          "aria-controls": "collapseProveedor"
         }
       },
       [
@@ -46220,7 +46222,7 @@ var staticRenderFns = [
               "font-weight": "500"
             }
           },
-          [_vm._v("  Plan   ")]
+          [_vm._v("  Proveedor   ")]
         ),
         _vm._v(" "),
         _c("span", [
