@@ -1,0 +1,135 @@
+#offer-cards .vueperslides__inner .vueperslides__parallax-wrapper {
+    padding-bottom: 520px!important;
+    padding-top: 40px;
+}
+
+.high-plans-color {
+    color: rgba(83, 83, 83, 1);
+}
+
+.high-plans-title:after {
+    display: block;
+    padding-top: 5px;
+    content: '';
+    border-bottom: solid 3.5px rgba(205, 205, 205, 1);
+    border-radius: 5px;
+    transform: scaleX(0.25);
+    transition: transform 250ms ease-in-out;
+}
+
+.high-plans-carousel {
+    width: 80vw;
+}
+
+.offer-card {
+    width: 300px;
+    /* height:480px;*/
+    border-radius: 24px;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 3px 0px #606060;
+    -moz-box-shadow: 0px 0px 3px 0px #606060;
+    box-shadow: 0px 0px 4px 2px #606060;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: solid 1px;
+    border-color: #7fe0e9;
+}
+
+@media(max-width:450px) {
+    .offer-card {
+        /* width: 260px;*/
+    }
+}
+
+.offer-card-lg {
+    width: 60vw;
+    height: auto;
+    border-radius: 40px;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 24px 0px rgba(30, 30, 30, 0.35);
+    -moz-box-shadow: 0px 0px 24px 0px rgba(30, 30, 30, 0.35);
+    box-shadow: 0px 0px 24px 0px rgba(30, 30, 30, 0.35);
+}
+
+@media(max-width:768px) {
+    .offer-card-lg {
+        width: 80vw;
+    }
+}
+
+.offer-card-header {
+    flex-flow: column;
+    padding: 1.2rem;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer-card-separator {
+    width: 80%;
+    height: 1px;
+    background: rgb(0, 194, 214);
+}
+
+.offer-card-content {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    color: $dark-blue;
+}
+
+.offer-card-title {
+    font-size: 15px;
+    background: rgb(0, 255, 218);
+    background: linear-gradient(90deg, rgba(0, 255, 218, 1) 0%, rgba(6, 209, 252, 1) 100%);
+    border-radius: 3px;
+    font-family: 'Heebo', sans-serif;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-weight: bold;
+}
+
+.rounded-pill {
+    border-radius: 5px !important;
+}
+
+.offer-card-benefits {
+    margin-bottom: .5rem;
+    font-size: 1rem;
+    height: 90px;
+    overflow-y: visible;
+}
+
+.offer-card-logo {
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.offer-card-price {
+    font-size: 33px;
+    word-break: break-all;
+    font-family: "Heebo", sans-serif;
+    margin-top: -20px;
+    color: #434040;
+}
+
+.offer-card-footer {
+    display: flex;
+    padding: 0 1rem;
+    padding-bottom: 1rem;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 8px;
+}
+
+.offer-card-btn {
+    font-size: 25px;
+    background: $main-blue;
+    color: white;
+    font-family: 'Heebo';
+    font-weight: bold;
+    margin-top: -20px;
+}

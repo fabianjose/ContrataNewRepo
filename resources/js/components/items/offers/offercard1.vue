@@ -5,20 +5,11 @@
     <div class="offer-card-header">
       <div class="offer-card-header" >
        
-<<<<<<< HEAD
          <div class="ribbon">Planes
             <span v-if="offer.type =='private'"> Hogar  </span> 
             <span v-if="offer.type =='isp'"> ISP  </span> 
             <span v-if="offer.type =='company'"> Empresa  </span> 
             <span v-if="offer.type =='pyme'"> pyme  </span> 
-=======
-         <div class="ribbon">
-            <span v-if="offer.type =='private'"> Hogar  </span> 
-            <span v-if="offer.type =='isp'"> ISP  </span> 
-            <span v-if="offer.type =='company'"> Empresa  </span> 
-            <span v-if="offer.type =='pyme'"> Pyme  </span> 
-            <span v-if="offer.type !='pyme' & offer.type !='company' & offer.type !='isp' & offer.type !='private'  "> Empresas / Hogar  </span>
->>>>>>> master4
              </div> 
        
     
@@ -35,8 +26,13 @@
        <!-- <h6 class="col-12 offer-card-title">{{offer.company_name}}</h6> -->
        <h6 class="col-12 offer-card-title">
          
-         {{offer.fields_values[0].value}} 
-         
+     <!--    {{offer.fields_values[0].value}} -->
+          <span v-if="offer.tecnologia ==0">Fibra Óptica</span> 
+          <span v-if="offer.tecnologia ==1">Satelital</span> 
+          <span v-if="offer.tecnologia ==2">Híbrido</span> 
+          <span v-if="offer.tecnologia ==3">Cobre</span> 
+          <span v-if="offer.tecnologia ==4">Radio</span> 
+          <span v-if="offer.tecnologia ==5">Voz Ip</span> 
          </h6>       
       </div>
       <div class="row text-center">
@@ -127,10 +123,14 @@
     <div class="offer-card-footer">
       <div class="col-10">
         <div>
-  <button onclick="llamaAWhatsapp();" data-toggle="modal" data-target="#modalConsultOffer" 
+ 
+        
+                        <a target="_blank"href="https://api.whatsapp.com/send?phone=573212120281&text=hola, me gustaria saber de los planes"> 
+                         <button onclick="llamaAWhatsapp();" data-toggle="modal" data-target="#modalConsultOffer" 
           :class="'btn  text-white offer-card-btn rounded-pill '+(index%2?'bg-main-blue':'bg-main-pink')" style="box-shadow: 0px 0px 7px 0px black;">
           ADQUIÉRELO
         </button>
+                        </a>
         <!-- <button @click="emitContact" data-toggle="modal" data-target="#modalConsultOffer" 
           :class="'btn  text-white offer-card-btn rounded-pill '+(index%2?'bg-main-blue':'bg-main-pink')" style="box-shadow: 0px 0px 7px 0px black;">
           ADQUIÉRELO

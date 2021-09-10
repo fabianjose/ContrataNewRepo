@@ -201,14 +201,15 @@ a {
 }
 
 .section-search {
-  background: url(/images/fondo_satelite.jpg?14e35b3065fb09f40e303931427ca4d0);
+  background: url(/images/FondoWEB2-23.webp?9f95b0c8e8851e5fe2427d752f656269);
   /* background: no-repeat; */
   background-size: cover;
+  padding-bottom: 64px;
 }
 
 @media (max-width: 768px) {
   .section-search {
-    background: white;
+    background: url(/images/FondoWEB2-23.webp?9f95b0c8e8851e5fe2427d752f656269);
   }
 
   .footer-bg {
@@ -589,10 +590,9 @@ a {
   /* height:480px;*/
   border-radius: 24px;
   background-color: white;
-  box-shadow: 0px 0px 4px 2px #606060;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  border: solid 1px;
-  border-color: #7fe0e9;
+  border: solid 7px;
+  border-color: #00c2d6;
 }
 
 @media (max-width: 450px) {
@@ -626,7 +626,7 @@ a {
 
 .offer-card-separator {
   width: 80%;
-  height: 1px;
+  /*  height: 1px;*/
   background: #00c2d6;
 }
 
@@ -640,14 +640,14 @@ a {
 }
 
 .offer-card-title {
-  font-size: 15px;
   background: #00ffda;
   background: linear-gradient(90deg, #00ffda 0%, #06d1fc 100%);
   border-radius: 3px;
-  font-family: "Heebo", sans-serif;
+  font-family: "Heebo";
   padding-top: 3px;
   padding-bottom: 3px;
-  font-weight: bold;
+  font-weight: 500;
+  color: #fff;
 }
 
 .rounded-pill {
@@ -686,8 +686,7 @@ a {
 }
 
 .offer-card-btn {
-  font-size: 25px;
-  background: #00c2d6;
+  font-size: 15px;
   color: white;
   font-family: "Heebo";
   font-weight: bold;
@@ -1416,9 +1415,8 @@ a {
 .formulario-centro {
   background: #00c2d6;
   min-height: 400px;
-  padding-top: 15%;
-  border-radius: 27% 27% 0 0px;
-  margin-top: -15%;
+  padding-top: 9%;
+  margin-top: -16px;
 }
 
 .texto-formulario-centro1 {
@@ -1435,11 +1433,10 @@ a {
   .formulario-centro {
     margin-left: 0px;
     margin-right: 0px;
-    margin-top: -51%;
-    padding-top: 30%;
+    margin-top: -36%;
+    padding-top: 12%;
     padding-left: 38px;
     padding-right: 38px;
-    border-radius: 12% 12% 0 0px;
   }
 
   .texto-formulario-centro1 {
@@ -1463,21 +1460,30 @@ a {
   }
 }
 
+.fondo-ETB {
+  background: #20487f;
+}
+
+.fondo-Azteca_Comunicaciones {
+  background: #04a64b;
+}
+
+.logo-home-2 {
+  margin-top: -59px;
+  padding-bottom: 93px;
+}
+
 .ribbon {
   width: 125px;
   height: 32px;
-  font-size: 15px;
+  font-size: 12px;
   text-align: center;
   color: #fff;
   font-weight: bold;
-  box-shadow: 1px 2px 3px rgba(136, 136, 136, 0.25);
-  background: #00c2d6;
   transform: rotate(0deg);
   /* position: absolute;*/
-  right: 120px;
-  top: 10px;
+  margin-top: -11px;
   padding-top: 5px;
-  border-radius: 8px;
 }
 
 .titulo-blog {
@@ -1563,11 +1569,14 @@ a {
 }
 
 @media (min-width: 1226px) {
+  .logo-home-2 {
+    width: 20%;
+  }
+
   .ribbon {
     right: 122px;
     top: 5px;
     padding-top: 5px;
-    border-radius: 8px;
   }
 
   .logo-tecnologia {
@@ -1581,11 +1590,14 @@ a {
 }
 
 @media (max-width: 1000px) {
+  .logo-home-2 {
+    width: 20%;
+  }
+
   .ribbon {
     right: 100px;
     top: 5px;
     padding-top: 5px;
-    border-radius: 8px;
   }
 }
 
@@ -1653,11 +1665,14 @@ a {
 }
 
 @media (max-width: 500px) {
+  .logo-home-2 {
+    width: 50%;
+  }
+
   .ribbon {
     right: 122px;
     top: 5px;
     padding-top: 5px;
-    border-radius: 8px;
   }
 
   .bloque-proveedor-precios {
@@ -1666,11 +1681,14 @@ a {
 }
 
 @media (max-width: 500px) and (min-width: 300px) {
+  .logo-home-2 {
+    width: 50%;
+  }
+
   .ribbon {
     right: 75px;
     top: 5px;
     padding-top: 5px;
-    border-radius: 8px;
   }
 
   .logo-tecnologia {
@@ -1753,11 +1771,14 @@ a {
 }
 
 @media (max-width: 500px) and (min-width: 360px) {
+  .logo-home-2 {
+    width: 50%;
+  }
+
   .ribbon {
     right: 115px;
     top: 5px;
     padding-top: 5px;
-    border-radius: 8px;
   }
 
   .logo-tecnologia {
@@ -1840,11 +1861,14 @@ a {
 }
 
 @media (max-width: 500px) and (min-width: 375px) {
+  .logo-home-2 {
+    width: 50%;
+  }
+
   .ribbon {
     right: 122px;
     top: 5px;
     padding-top: 5px;
-    border-radius: 8px;
   }
 
   .logo-tecnologia {
@@ -1927,11 +1951,14 @@ a {
 }
 
 @media (max-width: 500px) and (min-width: 411px) {
+  .logo-home-2 {
+    width: 50%;
+  }
+
   .ribbon {
     right: 135px;
     top: 5px;
     padding-top: 5px;
-    border-radius: 8px;
   }
 
   .logo-tecnologia {
@@ -2014,11 +2041,14 @@ a {
 }
 
 @media (max-width: 500px) and (min-width: 499px) {
+  .logo-home-2 {
+    width: 50%;
+  }
+
   .ribbon {
     right: 180px;
     top: 5px;
     padding-top: 5px;
-    border-radius: 8px;
   }
 
   .logo-tecnologia {

@@ -15,14 +15,14 @@ if(isset($_POST['submit'])){
     $mail->Port=465;
     $mail->SMTPAuth=true;
     $mail->SMTPSecure='ssl';
-    $mail->Username='fabian.espejo@teledisca.com';
-    $mail->Password='Fabianjose-01';
+    $mail->Username='envios@teledisca.com';
+    $mail->Password=';3Wt5+H)3!FO';
 
-    $mail->setFrom($_POST['fabian.espejo@teledisca.com']);
+    $mail->setFrom($_POST['envios@teledisca.com']);
     $mail->addAddress('espejofabian@gmail.com');
 
     $mail->isHTML(true);
-    $mail->Subject='Enviado por Informacion Contratainternet';
+    $mail->Subject='Enviado por Desde Contrata Internet';
     $mail->Body='<h1 align=center> correo de contratainternet'.
     '<br>Nombre: '.$_POST['nombre'].
     '<br>Telefono: '.$_POST['telefono'].    

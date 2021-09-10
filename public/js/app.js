@@ -4902,6 +4902,17 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ['offer', 'index'],
   data: function data() {
@@ -48628,23 +48639,33 @@ var render = function() {
   return _c("div", { staticClass: "offer-card d-flex flex-column" }, [
     _c("div", { staticClass: "offer-card-header" }, [
       _c("div", { staticClass: "offer-card-header" }, [
-        _c("div", { staticClass: "ribbon" }, [
-          _vm._v("Planes\n          "),
-          _vm.offer.type == "private"
-            ? _c("span", [_vm._v(" Hogar  ")])
-            : _vm._e(),
-          _vm._v(" "),
-          _vm.offer.type == "isp" ? _c("span", [_vm._v(" ISP  ")]) : _vm._e(),
-          _vm._v(" "),
-          _vm.offer.type == "company"
-            ? _c("span", [_vm._v(" Empresa  ")])
-            : _vm._e(),
-          _vm._v(" "),
-          _vm.offer.type == "pyme" ? _c("span", [_vm._v(" pyme  ")]) : _vm._e()
-        ]),
+        _c(
+          "div",
+          {
+            class:
+              "ribbon " + "fondo-" + _vm.offer.company_name.replace(" ", "_")
+          },
+          [
+            _vm._v("Planes    \n            "),
+            _vm.offer.type == "private"
+              ? _c("span", [_vm._v(" Hogar  ")])
+              : _vm._e(),
+            _vm._v(" "),
+            _vm.offer.type == "isp" ? _c("span", [_vm._v(" ISP  ")]) : _vm._e(),
+            _vm._v(" "),
+            _vm.offer.type == "company"
+              ? _c("span", [_vm._v(" Empresa  ")])
+              : _vm._e(),
+            _vm._v(" "),
+            _vm.offer.type == "pyme"
+              ? _c("span", [_vm._v(" pyme  ")])
+              : _vm._e()
+          ]
+        ),
         _vm._v(" "),
         _c("img", {
           staticClass: "h-100 ",
+          staticStyle: { "margin-top": "6px" },
           attrs: {
             src: _vm.baseUrl + "/storage/" + _vm.offer.company_logo,
             alt: "logo"
@@ -48653,49 +48674,52 @@ var render = function() {
       ])
     ]),
     _vm._v(" "),
-    _c("div", {
-      class:
-        "offer-card-separator " +
-        (_vm.index % 2 ? "bg-main-blue" : "bg-main-pink")
-    }),
-    _vm._v(" "),
     _c("div", { staticClass: "offer-card-content" }, [
       _c(
         "div",
         {
           staticClass: "row",
           staticStyle: {
-            "padding-left": "30px",
-            "padding-right": "30px",
+            "padding-left": "50px",
+            "padding-right": "50px",
             "margin-top": "-12px"
           }
         },
         [
-          _c("h6", { staticClass: "col-12 offer-card-title" }, [
-            _vm.offer.tecnologia == 0
-              ? _c("span", [_vm._v("Fibra Óptica")])
-              : _vm._e(),
-            _vm._v(" "),
-            _vm.offer.tecnologia == 1
-              ? _c("span", [_vm._v("Satelital")])
-              : _vm._e(),
-            _vm._v(" "),
-            _vm.offer.tecnologia == 2
-              ? _c("span", [_vm._v("Híbrido")])
-              : _vm._e(),
-            _vm._v(" "),
-            _vm.offer.tecnologia == 3
-              ? _c("span", [_vm._v("Cobre")])
-              : _vm._e(),
-            _vm._v(" "),
-            _vm.offer.tecnologia == 4
-              ? _c("span", [_vm._v("Radio")])
-              : _vm._e(),
-            _vm._v(" "),
-            _vm.offer.tecnologia == 5
-              ? _c("span", [_vm._v("Voz Ip")])
-              : _vm._e()
-          ])
+          _c(
+            "h6",
+            {
+              class:
+                "col-12 offer-card-title " +
+                "fondo-" +
+                _vm.offer.company_name.replace(" ", "_")
+            },
+            [
+              _vm.offer.tecnologia == 0
+                ? _c("span", [_vm._v("Fibra Óptica")])
+                : _vm._e(),
+              _vm._v(" "),
+              _vm.offer.tecnologia == 1
+                ? _c("span", [_vm._v("Satelital")])
+                : _vm._e(),
+              _vm._v(" "),
+              _vm.offer.tecnologia == 2
+                ? _c("span", [_vm._v("Híbrido")])
+                : _vm._e(),
+              _vm._v(" "),
+              _vm.offer.tecnologia == 3
+                ? _c("span", [_vm._v("Cobre")])
+                : _vm._e(),
+              _vm._v(" "),
+              _vm.offer.tecnologia == 4
+                ? _c("span", [_vm._v("Radio")])
+                : _vm._e(),
+              _vm._v(" "),
+              _vm.offer.tecnologia == 5
+                ? _c("span", [_vm._v("Voz Ip")])
+                : _vm._e()
+            ]
+          )
         ]
       ),
       _vm._v(" "),
@@ -48721,14 +48745,15 @@ var render = function() {
               "font-family": "'Heebo'",
               color: "#5b5b5f",
               "margin-top": "-18px",
-              "font-weight": "800"
+              "font-weight": "800",
+              "font-size": "3em"
             }
           },
           [
             _vm._v(
-              " \n \n             \n            " +
+              " \n   \n               \n              " +
                 _vm._s(_vm.offer.fields_values[1].value) +
-                " \n"
+                " \n  "
             ),
             _c("span", [
               _vm.offer.company_name == "Net2Phone" ||
@@ -48762,7 +48787,7 @@ var render = function() {
         ),
         _vm._v(" "),
         _c(
-          "h1",
+          "h5",
           {
             staticClass: "col-12 ",
             staticStyle: {
@@ -48794,7 +48819,7 @@ var render = function() {
         _vm._v(" "),
         _vm.offer.telefonia == 0
           ? _c(
-              "h1",
+              "h5",
               {
                 staticClass: "col-12 ",
                 staticStyle: {
@@ -48810,7 +48835,7 @@ var render = function() {
         _vm._v(" "),
         _vm.offer.telefonia == 1
           ? _c(
-              "h1",
+              "h5",
               {
                 staticClass: "col-12 ",
                 staticStyle: {
@@ -48829,26 +48854,24 @@ var render = function() {
       _vm.offer.titulo2 != _vm.NULL &&
       _vm.offer.titulo3 != _vm.NULL
         ? _c("div", [
-            _c(
-              "div",
-              {
-                staticClass: "row",
-                staticStyle: {
-                  "padding-left": "30px",
-                  "padding-right": "30px",
-                  "margin-top": ""
-                }
-              },
-              [
-                _c("h6", { staticClass: "col-12 offer-card-title" }, [
+            _c("div", { staticClass: "row" }, [
+              _c(
+                "h5",
+                {
+                  class:
+                    "col-12 offer-card-title " +
+                    "fondo-" +
+                    _vm.offer.company_name.replace(" ", "_")
+                },
+                [
                   _vm._v(_vm._s(_vm.offer.titulo1)),
                   _c("br"),
                   _vm._v(_vm._s(_vm.offer.titulo2)),
                   _c("br"),
                   _vm._v(_vm._s(_vm.offer.titulo3))
-                ])
-              ]
-            )
+                ]
+              )
+            ])
           ])
         : _vm._e(),
       _vm._v(" "),
@@ -48856,26 +48879,24 @@ var render = function() {
       _vm.offer.titulo2 != _vm.NULL &&
       _vm.offer.titulo3 == _vm.NULL
         ? _c("div", [
-            _c(
-              "div",
-              {
-                staticClass: "row",
-                staticStyle: {
-                  "padding-left": "30px",
-                  "padding-right": "30px",
-                  "margin-top": ""
-                }
-              },
-              [
-                _c("h6", { staticClass: "col-12 offer-card-title" }, [
+            _c("div", { staticClass: "row" }, [
+              _c(
+                "h5",
+                {
+                  class:
+                    "col-12 offer-card-title " +
+                    "fondo-" +
+                    _vm.offer.company_name.replace(" ", "_")
+                },
+                [
                   _vm._v(_vm._s(_vm.offer.titulo1)),
                   _c("br"),
                   _vm._v(_vm._s(_vm.offer.titulo2)),
                   _c("br"),
                   _c("br")
-                ])
-              ]
-            )
+                ]
+              )
+            ])
           ])
         : _vm._e(),
       _vm._v(" "),
@@ -48883,45 +48904,38 @@ var render = function() {
       _vm.offer.titulo2 == _vm.NULL &&
       _vm.offer.titulo3 == _vm.NULL
         ? _c("div", [
-            _c(
-              "div",
-              {
-                staticClass: "row",
-                staticStyle: {
-                  "padding-left": "30px",
-                  "padding-right": "30px",
-                  "margin-top": ""
-                }
-              },
-              [
-                _c(
-                  "h6",
-                  { staticClass: "col-12 offer-card-title", staticStyle: {} },
-                  [
-                    _c("br"),
-                    _vm._v(_vm._s(_vm.offer.titulo1)),
-                    _c("br"),
-                    _c("br")
-                  ]
-                )
-              ]
-            )
+            _c("div", { staticClass: "row" }, [
+              _c(
+                "h5",
+                { staticClass: "col-12 offer-card-title", staticStyle: {} },
+                [
+                  _c("br"),
+                  _vm._v(_vm._s(_vm.offer.titulo1)),
+                  _c("br"),
+                  _c("br")
+                ]
+              )
+            ])
           ])
         : _vm._e(),
       _vm._v(" "),
-      _c(
-        "p",
-        {
-          staticClass: "col-12 ",
-          staticStyle: { "font-family": "'Heebo'", color: "#88868b" }
-        },
-        [_vm._v("Desde")]
-      ),
+      _c("br"),
       _vm._v(" "),
       _c("div", { staticClass: "row" }, [
-        _c("h5", { staticClass: "col-12 offer-card-price" }, [
-          _vm._v("$ " + _vm._s(_vm.showPrice(_vm.offer.tariff)))
-        ])
+        _c(
+          "h1",
+          {
+            staticClass: "col-12 ",
+            staticStyle: {
+              "font-family": "'Heebo'",
+              color: "#5b5b5f",
+              "margin-top": "-18px",
+              "font-weight": "800",
+              "font-size": "3em"
+            }
+          },
+          [_vm._v("$ " + _vm._s(_vm.showPrice(_vm.offer.tariff)))]
+        )
       ])
     ]),
     _vm._v(" "),
@@ -48932,10 +48946,10 @@ var render = function() {
             "a",
             {
               attrs: {
-                target: "_blank",
-                href:
-                  "https://api.whatsapp.com/send?phone=573212120281&text=hola, me gustaria saber de los planes"
-              }
+                "data-toggle": "modal",
+                "data-target": "#modalConsultOffer"
+              },
+              on: { click: _vm.emitContact }
             },
             [
               _c(
@@ -48943,15 +48957,15 @@ var render = function() {
                 {
                   class:
                     "btn  text-white offer-card-btn rounded-pill " +
-                    (_vm.index % 2 ? "bg-main-blue" : "bg-main-pink"),
-                  staticStyle: { "box-shadow": "0px 0px 7px 0px black" },
+                    (_vm.index % 2
+                      ? "fondo-" + _vm.offer.company_name.replace(" ", "_")
+                      : "fondo-" + _vm.offer.company_name.replace(" ", "_")),
                   attrs: {
-                    onclick: "llamaAWhatsapp();",
                     "data-toggle": "modal",
                     "data-target": "#modalConsultOffer"
                   }
                 },
-                [_vm._v("\n        ADQUIÉRELO\n      ")]
+                [_vm._v("\n          DETALLE DEL PLAN\n        ")]
               )
             ]
           )

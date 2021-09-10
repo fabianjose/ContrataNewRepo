@@ -1,12 +1,10 @@
-
-.bg-ic{
-    background:
-    linear-gradient(to bottom, rgba($dark-blue,80%),rgba($dark-blue,80%)),url("./../assets/images/fondo_switch.jpg");
-    background-repeat:  no-repeat;
+.bg-ic {
+    background: linear-gradient(to bottom, rgba($dark-blue, 80%), rgba($dark-blue, 80%)), url("./../assets/images/fondo_switch.jpg");
+    background-repeat: no-repeat;
     background-size: 100%;
     background-position: center center;
     background-size: cover;
-	-webkit-background-size: cover;
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     height: auto;
     padding: 2rem 1em;
@@ -15,69 +13,68 @@
     display: flex;
     z-index: 3;
     margin-top: -124px;
-   
     height: 300px;
 }
 
-.bg-dark-blue{
-  background-color: #3d3c3c63;
-
+.bg-dark-blue {
+    background-color: #3d3c3c63;
 }
 
-.bg-main-blue{
-  background-color: $main-blue;
+.bg-main-blue {
+    background-color: $main-blue;
 }
 
-.bg-main-pink{
-  background-color: $main-pink;
+.bg-main-pink {
+    background-color: $main-pink;
 }
 
-.main-section-bg{
-  padding-bottom: 5vh;
-  position: relative;
+.main-section-bg {
+    padding-bottom: 5vh;
+    position: relative;
     background: transparent;
     margin-top: -20%;
 }
 
-.high-companies{
-  background: white;
-  border-bottom: solid 50px #00adef;
-  border-top: solid 50px #00adef;
-}
-.footer-bg{
-  min-height: 35vh;
-  background:   url("./../assets/images/fondo_signal.jpg"), linear-gradient(to bottom, rgba($main-blue,80%),rgba($main-blue,80%));
- background-size: cover;
-  padding: 20px 100px;
-}
-.section-search{
-  background: url("./../assets/images/fondo_satelite.jpg");
-  /* background: no-repeat; */
-  background-size: cover;
-}
-@media(max-width:768px){
-
-  .section-search{
+.high-companies {
     background: white;
- 
-}
-  .footer-bg{
-    padding: 20px 1rem;
-  }
-
-  .bg-main-pink{
-    background: white !important;
-  }
-}
-.footer-footer{
-  min-height: 5vh;
-  background-color: rgba(33, 33, 33, 1);
-}
-.planComparator-bg{
-  padding-top: 8vh!important;
-  width: 100%;
-  min-height: 50vh;
-  background-color: #f7f7f7!important;
+    border-bottom: solid 50px #00adef;
+    border-top: solid 50px #00adef;
 }
 
+.footer-bg {
+    min-height: 35vh;
+    background: url("./../assets/images/fondo_signal.jpg"), linear-gradient(to bottom, rgba($main-blue, 80%), rgba($main-blue, 80%));
+    background-size: cover;
+    padding: 20px 100px;
+}
 
+.section-search {
+    background: url("./../assets/images/FondoWEB2-23.webp");
+    /* background: no-repeat; */
+    background-size: cover;
+    padding-bottom: 64px;
+}
+
+@media(max-width:768px) {
+    .section-search {
+        background: url("./../assets/images/FondoWEB2-23.webp");
+    }
+    .footer-bg {
+        padding: 20px 1rem;
+    }
+    .bg-main-pink {
+        background: white !important;
+    }
+}
+
+.footer-footer {
+    min-height: 5vh;
+    background-color: rgba(33, 33, 33, 1);
+}
+
+.planComparator-bg {
+    padding-top: 8vh!important;
+    width: 100%;
+    min-height: 50vh;
+    background-color: #f7f7f7!important;
+}
