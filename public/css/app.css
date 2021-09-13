@@ -1520,6 +1520,10 @@ a {
   margin-top: -72px;
 }
 
+.logo-movil-planes2 {
+  width: 126px;
+}
+
 .bloque-3 {
   margin-top: 55px;
 }
@@ -1582,6 +1586,10 @@ a {
   .logo-tecnologia {
     width: 77px;
     margin-top: -16px;
+  }
+
+  .logo-tecnologia2 {
+    width: 77px;
   }
 
   .texto-resultado-busqueda-banner {
@@ -1744,6 +1752,11 @@ a {
     width: 65%;
   }
 
+  .logo-movil-planes2 {
+    margin-left: 190px;
+    width: 65%;
+  }
+
   .tegnologia-movil {
     display: block;
   }
@@ -1829,6 +1842,12 @@ a {
   }
 
   .logo-movil-planes {
+    margin-left: 190px;
+    margin-top: -313px;
+    width: 87%;
+  }
+
+  .logo-movil-planes2 {
     margin-left: 190px;
     margin-top: -313px;
     width: 87%;
@@ -1924,6 +1943,12 @@ a {
     width: 81%;
   }
 
+  .logo-movil-planes2 {
+    margin-left: 208px;
+    margin-top: -313px;
+    width: 81%;
+  }
+
   .tegnologia-movil {
     display: block;
   }
@@ -2014,6 +2039,12 @@ a {
     width: 71%;
   }
 
+  .logo-movil-planes2 {
+    margin-left: 242px;
+    margin-top: -313px;
+    width: 71%;
+  }
+
   .tegnologia-movil {
     display: block;
   }
@@ -2099,6 +2130,12 @@ a {
   }
 
   .logo-movil-planes {
+    margin-left: 392px;
+    margin-top: -313px;
+    width: 30%;
+  }
+
+  .logo-movil-planes2 {
     margin-left: 392px;
     margin-top: -313px;
     width: 30%;

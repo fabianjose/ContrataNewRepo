@@ -3224,6 +3224,118 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ["offer", "fields"],
   data: function data() {
@@ -3969,7 +4081,6 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-//
 //
 //
 //
@@ -45563,92 +45674,367 @@ var render = function() {
               _c(
                 "div",
                 {
-                  staticClass:
-                    "col-lg-7 col-xl-7 col-md-12 col-12 d-flex flex-column p-4"
+                  staticClass: "col col-sm-4  ",
+                  staticStyle: { "background-color": "blue" }
                 },
                 [
-                  _c("div", { staticClass: "consult-card-content" }, [
-                    _c(
-                      "div",
-                      { staticClass: "consult-card-header pt-4 pb-3" },
-                      [
-                        _c("img", {
-                          staticClass: "consult-card-logo img-fluid",
-                          attrs: {
-                            src:
-                              _vm.baseUrl +
-                              "/storage/" +
-                              _vm.offer.company_logo,
-                            alt: "logo"
-                          }
-                        }),
-                        _vm._v(" "),
-                        _c(
-                          "h6",
-                          { staticClass: "col-12 consult-card-company" },
-                          [_vm._v(_vm._s(_vm.offer.company_name))]
-                        )
-                      ]
-                    ),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "consult-card-benefits py-3" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass: "row  pt-5 pb-5",
+                      staticStyle: { "justify-content": "center" }
+                    },
+                    [
                       _c(
-                        "h6",
-                        {
-                          staticClass: "col-12 consult-card-sub-title py-1 m-0"
-                        },
-                        [_vm._v("Beneficios:")]
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "h6",
-                        { staticClass: "col-12 benefits-content text-wrap" },
-                        [_vm._v(_vm._s(_vm.offer.benefits))]
+                        "div",
+                        { staticClass: "consult-card-header pt-4 pb-3" },
+                        [
+                          _c("img", {
+                            staticClass: "consult-card-logo img-fluid",
+                            attrs: {
+                              src:
+                                _vm.baseUrl +
+                                "/storage/" +
+                                _vm.offer.company_logo,
+                              alt: "logo"
+                            }
+                          })
+                        ]
                       )
-                    ]),
-                    _vm._v(" "),
-                    _c(
-                      "div",
-                      { staticClass: "consult-card-fields" },
-                      _vm._l(_vm.offer.fields_values, function(fieldValue, k) {
-                        return _c(
-                          "div",
-                          { key: k, staticClass: "consult-card-field col-6" },
-                          [
-                            _c(
-                              "h6",
-                              {
-                                staticClass: "consult-card-sub-title py-1 m-0"
-                              },
-                              [_vm._v(_vm._s(fieldValue.field_name) + ":")]
-                            ),
-                            _vm._v(" "),
-                            _c("h6", { staticClass: "field-content" }, [
-                              _vm._v(
-                                _vm._s(fieldValue.value) +
-                                  " " +
-                                  _vm._s(fieldValue.unit ? fieldValue.unit : "")
-                              )
-                            ])
-                          ]
-                        )
-                      }),
-                      0
-                    )
-                  ])
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _vm._m(0),
+                  _vm._v(" "),
+                  _vm._m(1)
                 ]
               ),
               _vm._v(" "),
-              _c("contact-form", { attrs: { offer: _vm.offer } })
-            ],
-            1
+              _c(
+                "div",
+                {
+                  staticClass: "col col-sm-8  ",
+                  staticStyle: { "background-color": "white" }
+                },
+                [
+                  _c("div", { staticClass: "row" }, [
+                    _c(
+                      "h1",
+                      {
+                        staticClass: "col-12 ",
+                        staticStyle: {
+                          "font-family": "'Heebo'",
+                          color: "#5b5b5f",
+                          "font-weight": "800",
+                          "font-size": "3em"
+                        }
+                      },
+                      [
+                        _vm._v(
+                          "                \n              " +
+                            _vm._s(_vm.offer.fields_values[1].value) +
+                            " \n  "
+                        ),
+                        _c("span", [
+                          _vm.offer.company_name == "Net2Phone" ||
+                          _vm.offer.company_name == "SkyNet"
+                            ? _c("span", [_vm._v(" Kbps  ")])
+                            : _vm._e(),
+                          _vm._v(" "),
+                          _vm.offer.company_name != "Net2Phone" &&
+                          _vm.offer.company_name != "SkyNet"
+                            ? _c("span", [_vm._v(" Mbps ")])
+                            : _vm._e()
+                        ]),
+                        _vm._v("\n   de Internet     \n      \n  ")
+                      ]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "row" }, [
+                    _vm.offer.tipo_plan_logos == 0
+                      ? _c("div", [_vm._m(2)])
+                      : _vm._e(),
+                    _vm._v(" "),
+                    _vm.offer.tipo_plan_logos == 1
+                      ? _c("div", [_vm._m(3)])
+                      : _vm._e(),
+                    _vm._v(" "),
+                    _vm.offer.tipo_plan_logos == 2
+                      ? _c("div", [_vm._m(4)])
+                      : _vm._e(),
+                    _vm._v(" "),
+                    _vm.offer.tipo_plan_logos == 3
+                      ? _c("div", [_vm._m(5)])
+                      : _vm._e(),
+                    _vm._v(" "),
+                    _vm.offer.tipo_plan_logos != 0 &&
+                    _vm.offer.tipo_plan_logos != 1 &&
+                    _vm.offer.tipo_plan_logos != 2 &&
+                    _vm.offer.tipo_plan_logos != 3
+                      ? _c("div", [
+                          _c("img", {
+                            staticClass: "logo-movil-planes2",
+                            attrs: {
+                              src: "/images/Icono-trio.png",
+                              width: "30%",
+                              alt: ""
+                            }
+                          })
+                        ])
+                      : _vm._e()
+                  ]),
+                  _vm._v(" "),
+                  _c("br"),
+                  _c("br"),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "row" }, [
+                    _c("div", { staticClass: "bloque-tecnologia" }, [
+                      _vm.offer.tecnologia == 0
+                        ? _c("div", [_vm._m(6)])
+                        : _vm._e(),
+                      _vm._v(" "),
+                      _vm.offer.tecnologia == 1
+                        ? _c("div", [_vm._m(7)])
+                        : _vm._e(),
+                      _vm._v(" "),
+                      _vm.offer.tecnologia == 2
+                        ? _c("div", [_vm._m(8)])
+                        : _vm._e(),
+                      _vm._v(" "),
+                      _vm.offer.tecnologia == 3
+                        ? _c("div", [_vm._m(9)])
+                        : _vm._e(),
+                      _vm._v(" "),
+                      _vm.offer.tecnologia == 4
+                        ? _c("div", [_vm._m(10)])
+                        : _vm._e(),
+                      _vm._v(" "),
+                      _vm.offer.tecnologia == 5
+                        ? _c("div", [_vm._m(11)])
+                        : _vm._e()
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "row" }),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "row" }),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "row" }),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "row" }, [
+                    _c(
+                      "h1",
+                      {
+                        staticClass: "col-12 ",
+                        staticStyle: {
+                          "font-family": "'Heebo'",
+                          color: "#5b5b5f",
+                          "font-weight": "800",
+                          "font-size": "3em"
+                        }
+                      },
+                      [_vm._v("$ " + _vm._s(_vm.offer.tariff))]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "row" })
+                ]
+              )
+            ]
           )
         ]
       )
     ]
   )
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "row  pt-5 pb-5",
+        staticStyle: { "justify-content": "center" }
+      },
+      [
+        _c(
+          "button",
+          {
+            staticClass:
+              "btn-adquierelo btn btn-lx btn-lg btn-main-blue rounded-pill mx-1 px-1 text-uppercase img-fluid",
+            attrs: { type: "button" }
+          },
+          [_vm._v("ADQUIÉRELO")]
+        )
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "row pt-5 pb-5",
+        staticStyle: {
+          "background-color": "yellow",
+          "justify-content": "center"
+        }
+      },
+      [
+        _c("img", {
+          staticStyle: { width: "50%" },
+          attrs: { src: "/images/logoCI-1.png", alt: "" }
+        })
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "h6",
+      {
+        staticClass: "text-dark-blue pt-2",
+        staticStyle: { "text-align": "center" }
+      },
+      [
+        _c("img", {
+          staticClass: "logo-movil-planes2",
+          attrs: { src: "/images/service-2.png", width: "30%", alt: "" }
+        }),
+        _vm._v(" Internet")
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "h6",
+      {
+        staticClass: "text-dark-blue pt-2",
+        staticStyle: { "text-align": "center" }
+      },
+      [
+        _c("img", {
+          staticClass: "logo-movil-planes2",
+          attrs: { src: "/images/Icono-duo.png", width: "30%", alt: "" }
+        }),
+        _vm._v("Internet + Telefonía ")
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("p", [
+      _c("img", {
+        staticClass: "logo-movil-planes2",
+        attrs: { src: "/images/Icono-trio.png", width: "30%" }
+      }),
+      _vm._v("Internet + Telefonía +tv      ")
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "h6",
+      {
+        staticClass: "text-dark-blue pt-2",
+        staticStyle: { "text-align": "center" }
+      },
+      [
+        _c("img", {
+          staticClass: "logo-movil-planes2",
+          attrs: { src: "/images/service-2.png", width: "30%", alt: "" }
+        })
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("p", [
+      _c("img", {
+        staticClass: "logo-tecnologia2 ",
+        staticStyle: { transform: "rotate(90deg)" },
+        attrs: { src: "/images/Fibra1.png", alt: "", width: "20%" }
+      }),
+      _vm._v(" fibra Óptica     ")
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("p", [
+      _c("img", {
+        staticClass: "logo-tecnologia2 ",
+        attrs: { src: "/images/satelital11.png", width: "20%" }
+      }),
+      _vm._v(" Stelital     ")
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("p", [
+      _c("img", {
+        staticClass: "logo-tecnologia2",
+        attrs: { src: "/images/hibrido.png", alt: "", width: "20%" }
+      }),
+      _vm._v(" Hibrido ")
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("p", [
+      _c("img", {
+        staticClass: "logo-tecnologia2",
+        attrs: { src: "/images/cobre.png", alt: "", width: "20%" }
+      }),
+      _vm._v(" Cobre ")
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("p", [
+      _c("img", {
+        staticClass: "logo-tecnologia2",
+        attrs: { src: "/images/radio.png", alt: "", width: "20%" }
+      }),
+      _vm._v(" Radio ")
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("p", [
+      _c("img", {
+        staticClass: "logo-tecnologia2",
+        attrs: { src: "/images/vozip.png", alt: "", width: "20%" }
+      }),
+      _vm._v(" VozIp ")
+    ])
+  }
+]
 render._withStripped = true
 
 
@@ -47775,7 +48161,40 @@ var render = function() {
                   ]
                 ),
                 _vm._v(" "),
-                _vm._m(11, true)
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "col-6 order-6   order-sm-6         col-xl-2 col-lg-3 col-md-4 col-sm-4 py-2 text-center d-flex flex-column align-items-center justify-content-center"
+                  },
+                  [
+                    _c("div", {
+                      staticClass:
+                        "stars-container flex-row justify-content-center mb-2"
+                    }),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "d-flex flex-row" }, [
+                      _c(
+                        "button",
+                        {
+                          staticClass:
+                            "btn-adquierelo btn btn-lx btn-lg btn-main-blue rounded-pill mx-1 px-1 text-uppercase img-fluid",
+                          attrs: {
+                            type: "button",
+                            "data-toggle": "modal",
+                            "data-target": "#modalConsultOffer"
+                          },
+                          on: {
+                            click: function($event) {
+                              return _vm.emitConsult(k)
+                            }
+                          }
+                        },
+                        [_vm._v("ADQUIÉRELO")]
+                      )
+                    ])
+                  ]
+                )
               ]
             )
           ]
@@ -48059,52 +48478,6 @@ var staticRenderFns = [
           },
           [_vm._v("  Beneficios")]
         )
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      {
-        staticClass:
-          "col-6 order-6   order-sm-6         col-xl-2 col-lg-3 col-md-4 col-sm-4 py-2 text-center d-flex flex-column align-items-center justify-content-center"
-      },
-      [
-        _c("div", {
-          staticClass: "stars-container flex-row justify-content-center mb-2"
-        }),
-        _vm._v(" "),
-        _c("div", { staticClass: "d-flex flex-row" }, [
-          _c(
-            "a",
-            {
-              attrs: {
-                target: "_blank",
-                href:
-                  "https://api.whatsapp.com/send?phone=573212120281&text=hola, me gustaria saber de los planes"
-              }
-            },
-            [
-              _c(
-                "button",
-                {
-                  staticClass:
-                    "btn-adquierelo btn btn-lx btn-lg btn-main-blue rounded-pill mx-1 px-1 text-uppercase img-fluid",
-                  attrs: {
-                    type: "button",
-                    "data-toggle": "modal",
-                    onclick: "llamaAWhatsapp();",
-                    "data-target": "#modalConsultOffer"
-                  }
-                },
-                [_vm._v("ADQUIÉRELO")]
-              )
-            ]
-          )
-        ])
       ]
     )
   }

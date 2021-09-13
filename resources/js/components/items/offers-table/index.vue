@@ -186,9 +186,8 @@
                     </div>
                     <div class="d-flex flex-row">
                       
-                        <a target="_blank"href="https://api.whatsapp.com/send?phone=573212120281&text=hola, me gustaria saber de los planes"> 
                         
-                        <button  type="button" data-toggle="modal" onclick="llamaAWhatsapp();" data-target="#modalConsultOffer" class="btn-adquierelo btn btn-lx btn-lg btn-main-blue rounded-pill mx-1 px-1 text-uppercase img-fluid" >ADQUIÉRELO</button></a>
+                        <button  type="button" data-toggle="modal" @click="emitConsult(k)" data-target="#modalConsultOffer"class="btn-adquierelo btn btn-lx btn-lg btn-main-blue rounded-pill mx-1 px-1 text-uppercase img-fluid" >ADQUIÉRELO</button>
 
                       <!--
                                               <button  type="button" data-toggle="modal" @click="emitConsult(k)" data-target="#modalConsultOffer" class="btn-adquierelo btn btn-lx btn-lg btn-main-blue rounded-pill mx-1 px-1 text-uppercase img-fluid" >ADQUIÉRELO</button>
