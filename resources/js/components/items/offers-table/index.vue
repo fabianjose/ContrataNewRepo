@@ -82,23 +82,23 @@
                             
                               <div class="bloque-tecnologia">
                             <div   v-if="offer.tecnologia == 0">
-                                  <img class="logo-tecnologia" src="/images/Fibra1.png"  alt="" style="transform: rotate(90deg);">
+                                  <img class="logo-tecnologia"  src="/images/Fibra1.png"  alt="" style="transform: rotate(90deg); margin-top: -18px;">
                             </div>
                             <div   v-if="offer.tecnologia == 1 ">
-                                  <img class="logo-tecnologia" src="/images/satelital11.png" alt="">
+                                  <img class="logo-tecnologia" style="margin-top: -18px;" src="/images/satelital11.png" alt="">
                             </div>
                             <div   v-if="offer.tecnologia == 2">
-      <!--poner aca la imagen de Hibrido -->    <img class="logo-tecnologia" src="/images/hibrido.png" alt="">
+      <!--poner aca la imagen de Hibrido -->    <img class="logo-tecnologia" style="margin-top: -18px;" src="/images/hibrido.png" alt="">
                             </div>
                             <div   v-if="offer.tecnologia == 3 ">
-                                  <img class="logo-tecnologia" src="/images/cobre.png" alt="">
+                                  <img class="logo-tecnologia" style="margin-top: -18px;" src="/images/cobre.png" alt="">
                             </div>
                             <div   v-if="offer.tecnologia == 4 ">
-                                  <img class="logo-tecnologia" src="/images/radio.png" alt="">
+                                  <img class="logo-tecnologia" style="margin-top: -18px;" src="/images/radio.png" alt="">
                             </div>
 
                                <div   v-if="offer.tecnologia == 5 ">
-  <!--poner aca la imagen de vozIP -->  <img class="logo-tecnologia" src="/images/vozip.png" alt="">
+  <!--poner aca la imagen de vozIP -->  <img class="logo-tecnologia" style="margin-top: -18px;" src="/images/vozip.png" alt="">
                             </div>
                             
                             </div>

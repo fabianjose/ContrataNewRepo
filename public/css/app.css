@@ -360,7 +360,6 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  border-bottom: solid 0.22rem #cdcdcd;
 }
 
 .consult-card-logo {
@@ -1460,6 +1459,14 @@ a {
   }
 }
 
+.fondo-ETB-modal {
+  background: #20487f;
+}
+
+.fondo-Movistar-modal {
+  background: #019df4;
+}
+
 .fondo-ETB {
   background: #20487f;
 }
@@ -2179,7 +2186,7 @@ a {
   margin-top: 4px;
   font-size: 1.59rem !important;
   color: #5b5757;
-  margin-top: 31px !important;
+  margin-top: 13px !important;
 }
 
 /*
