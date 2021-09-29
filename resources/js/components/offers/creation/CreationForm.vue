@@ -171,6 +171,65 @@
           </div>
         </div>
 
+
+<div class="row">------------Informacion para el modal----------------</div> <br>
+        <div class="row">
+          
+          <div class="col">
+              <label style="color:red">
+              Permanencia
+              </label>
+              <select class="custom-select" v-model="permanencia">
+                <option value="Con Permancencia" selected>Con Permancencia</option>
+                <option value="Sin Permancencia">Sin Permancencia</option>
+                
+           
+              </select>
+          </div>
+          <div class="col">
+                    <label style="color:red">
+              Fijo
+              </label>
+              <select class="custom-select" v-model="fijo">
+                <option value="Si" selected>Si</option>
+                <option value="No">NO</option>
+                
+           
+              </select>
+          </div>
+          <div class="col">
+               <label style="color:red">
+              Movil
+              </label>
+              <select class="custom-select" v-model="movil">
+                <option value="Si" selected>Si</option>
+                <option value="No">NO</option>
+                
+           
+              </select>
+          </div>
+          <div class="col">
+
+             <label  style="color:red">Deco (max 21 caracteres)</label>
+              <input type="text" name="" id="" class="form-control" maxlength="21" placeholder="Ingresa descripcion para deco" v-model="deco" >
+             
+              </div>
+          </div> <br><br><br><br>
+          <div class="row">
+            <div class="col">
+             <label  style="color:red">Color para Modal y destacados</label>
+              <input type="text" name="" id="" class="form-control" maxlength="21" placeholder="#535353"  >
+             
+              </div>
+            <div class="col">
+              <p>Si no conoces el Color preguntale a nico <br>
+              La forma de escribir el color es: #123536 llevan normalmente despues del # 6 digitos </p>
+            </div>
+            <div class="col"></div>
+            <div class="col"></div>
+          </div>
+       
+
         <div class="card-footer">
           <button type="button" class="btn btn-outline-success" @click="createOffer">Agregar</button>
         </div>
@@ -204,6 +263,10 @@ export default {
       tipo_plan_logos:"",
       tegnologia:"",
       telefonia:"",
+      permanencia:"" ,
+      fijo:"" ,
+      movil:"" ,
+      deco:"" ,
       
     }
   },
@@ -279,6 +342,10 @@ export default {
       fd.append("titulo2", this.titulo2);
       fd.append("titulo3", this.titulo3);
       fd.append("titulo4", this.titulo4);
+      fd.append("permanencia", this.permanencia);
+      fd.append("fijo", this.fijo);
+      fd.append("movil", this.movil);
+      fd.append("deco", this.deco);
       fd.append("canales", this.canales);
       fd.append("service", this.service);
       fd.append("points", this.points);
@@ -304,6 +371,10 @@ export default {
         this.titulo2 = "";
         this.titulo3 = "";
         this.titulo4 = "";
+        this.permanencia = "";
+        this.fijo = "";
+        this.movil = "";
+        this.deco = "";
         this.canales = "";
         this.tipo_plan_logos = 0;
         this.tecnologia = 0;

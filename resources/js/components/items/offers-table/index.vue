@@ -82,23 +82,23 @@
                             
                               <div class="bloque-tecnologia">
                             <div   v-if="offer.tecnologia == 0">
-                                  <img class="logo-tecnologia"  src="/images/Fibra1.png"  alt="" style="transform: rotate(90deg); margin-top: -18px;">
+                                  <img class="logo-tecnologia"  src="/images/Fibra1.png"  alt="" style="transform: rotate(90deg); margin-top: -5px;">
                             </div>
                             <div   v-if="offer.tecnologia == 1 ">
-                                  <img class="logo-tecnologia" style="margin-top: -18px;" src="/images/satelital11.png" alt="">
+                                  <img class="logo-tecnologia" style="margin-top: -5px;" src="/images/satelital11.png" alt="">
                             </div>
                             <div   v-if="offer.tecnologia == 2">
-      <!--poner aca la imagen de Hibrido -->    <img class="logo-tecnologia" style="margin-top: -18px;" src="/images/hibrido.png" alt="">
+      <!--poner aca la imagen de Hibrido -->    <img class="logo-tecnologia" style="margin-top: -5px;" src="/images/hibrido.png" alt="">
                             </div>
                             <div   v-if="offer.tecnologia == 3 ">
-                                  <img class="logo-tecnologia" style="margin-top: -18px;" src="/images/cobre.png" alt="">
+                                  <img class="logo-tecnologia" style="margin-top: -5px;" src="/images/cobre.png" alt="">
                             </div>
                             <div   v-if="offer.tecnologia == 4 ">
-                                  <img class="logo-tecnologia" style="margin-top: -18px;" src="/images/radio.png" alt="">
+                                  <img class="logo-tecnologia" style="margin-top: -5px;" src="/images/radio.png" alt="">
                             </div>
 
                                <div   v-if="offer.tecnologia == 5 ">
-  <!--poner aca la imagen de vozIP -->  <img class="logo-tecnologia" style="margin-top: -18px;" src="/images/vozip.png" alt="">
+  <!--poner aca la imagen de vozIP -->  <img class="logo-tecnologia" style="margin-top: -5px;" src="/images/vozip.png" alt="">
                             </div>
                             
                             </div>
@@ -139,7 +139,7 @@
                   <div class=" tecnologia-movil  text-center p-2 offer-table-label w-100 text-white mx-auto bg-dark-blue rounded-pill p-1 text-wrap " >   <p class="text-tabla-detalles" style="margin-top: -68px;">  Velocidad</p> </div>
 
                     <div class="icono-ondas"  >
-                            <img src="/images/icono-ondas.png" width="60%" alt="">
+                            <img src="/images/icono-ondas.png" width="50%" alt="" style="margin-top: 15px;">
                       </div>
                     <h6 class="text-lg">
                       
@@ -147,7 +147,7 @@
                     </h6>
                   </div>
 
-                  <div class="col-6 order-2  order-sm-4         text-wrap  col-2 col-xl-2 col-lg-3 col-md-4 col-sm-4 text-center flex-column align-items-center justify-content-center d-xl-flex d-lg-flex d-md-flex  hidden-sm">
+                  <div class="col-6 order-2  order-sm-4         text-wrap  col-2 col-xl-2 col-lg-3 col-md-4 col-sm-4 text-center flex-column align-items-center justify-content-center d-xl-flex d-lg-flex d-md-flex  hidden-sm" style="margin-top: 31px;">
                         
                     <div class="hbo">
                     <div class=" tecnologia-movil  text-center p-2 offer-table-label w-100 text-white mx-auto bg-dark-blue rounded-pill p-1 text-wrap " >   <p class="text-tabla-detalles" style="margin-top: -50px;">  Beneficios</p> </div>
@@ -187,7 +187,7 @@
                     <div class="d-flex flex-row">
                       
                         
-                        <button  type="button" data-toggle="modal" @click="emitConsult(k)" data-target="#modalConsultOffer"class="btn-adquierelo btn btn-lx btn-lg btn-main-blue rounded-pill mx-1 px-1 text-uppercase img-fluid" >ADQUIÉRELO</button>
+                        <button  type="button" data-toggle="modal" @click="emitConsult(k)" data-target="#modalConsultOffer"class="btn-adquierelo btn btn-lx btn-lg btn-main-blue rounded-pill mx-1 px-1 text-uppercase img-fluid" >Más Detalles</button>
 
                       <!--
                                               <button  type="button" data-toggle="modal" @click="emitConsult(k)" data-target="#modalConsultOffer" class="btn-adquierelo btn btn-lx btn-lg btn-main-blue rounded-pill mx-1 px-1 text-uppercase img-fluid" >ADQUIÉRELO</button>

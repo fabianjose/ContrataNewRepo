@@ -29,6 +29,11 @@ class Offer extends Model{
     'titulo2',
     'titulo3',
     'titulo4',
+    'permanencia',
+    'fijo',
+    'movil',
+    'deco' ,
+    'canales'
     
   ];
 

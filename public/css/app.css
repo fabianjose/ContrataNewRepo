@@ -1467,6 +1467,10 @@ a {
   background: #019df4;
 }
 
+.fondo-Azteca_Comunicaciones-modal {
+  background: #04a64b;
+}
+
 .fondo-ETB {
   background: #20487f;
 }
@@ -1478,6 +1482,10 @@ a {
 .logo-home-2 {
   margin-top: -59px;
   padding-bottom: 93px;
+}
+
+.modal-chatea {
+  width: 170px;
 }
 
 .ribbon {
@@ -1518,7 +1526,7 @@ a {
 }
 
 .logo-tecnologia {
-  width: 77px;
+  width: 65px;
   margin-top: -31px;
 }
 
@@ -1531,6 +1539,10 @@ a {
   width: 126px;
 }
 
+.logo-movil-tecnologia1 {
+  width: 126px;
+}
+
 .bloque-3 {
   margin-top: 55px;
 }
@@ -1540,6 +1552,7 @@ a {
   background: #0bdcf3;
   box-shadow: 0px 0px 7px 0px black;
   font-weight: bold;
+  font-size: 1vw;
 }
 
 .logo-mb {
@@ -1552,7 +1565,7 @@ a {
 
 .logo-tecnologia {
   width: 41px;
-  margin-top: -31px;
+  margin-top: -51px;
 }
 
 .tegnologia-movil {
@@ -1591,12 +1604,12 @@ a {
   }
 
   .logo-tecnologia {
-    width: 77px;
-    margin-top: -16px;
+    width: 65px;
+    margin-top: -5px;
   }
 
   .logo-tecnologia2 {
-    width: 77px;
+    width: 65px;
   }
 
   .texto-resultado-busqueda-banner {
@@ -1634,8 +1647,8 @@ a {
   }
 
   .logo-tecnologia {
-    width: 77px;
-    margin-top: -31px;
+    width: 65px;
+    margin-top: -5px;
   }
 
   .texto-resultado-busqueda-banner {
@@ -1646,7 +1659,7 @@ a {
 @media (max-width: 755px) {
   .logo-tecnologia {
     width: 41px;
-    margin-top: -31px;
+    margin-top: -5px;
   }
 
   .header-posicion {
@@ -1764,6 +1777,11 @@ a {
     width: 65%;
   }
 
+  .logo-movil-tecnologia1 {
+    margin-left: 190px;
+    width: 65%;
+  }
+
   .tegnologia-movil {
     display: block;
   }
@@ -1855,6 +1873,12 @@ a {
   }
 
   .logo-movil-planes2 {
+    margin-left: 190px;
+    margin-top: -313px;
+    width: 87%;
+  }
+
+  .logo-movil-tecnologia1 {
     margin-left: 190px;
     margin-top: -313px;
     width: 87%;
@@ -1956,6 +1980,12 @@ a {
     width: 81%;
   }
 
+  .logo-movil-tecnologia1 {
+    margin-left: 208px;
+    margin-top: -313px;
+    width: 81%;
+  }
+
   .tegnologia-movil {
     display: block;
   }
@@ -2047,6 +2077,12 @@ a {
   }
 
   .logo-movil-planes2 {
+    margin-left: 242px;
+    margin-top: -313px;
+    width: 71%;
+  }
+
+  .logo-movil-tecnologia1 {
     margin-left: 242px;
     margin-top: -313px;
     width: 71%;
@@ -2148,6 +2184,12 @@ a {
     width: 30%;
   }
 
+  .logo-movil-tecnologia1 {
+    margin-left: 392px;
+    margin-top: -313px;
+    width: 30%;
+  }
+
   .tegnologia-movil {
     display: block;
   }
@@ -2187,6 +2229,71 @@ a {
   font-size: 1.59rem !important;
   color: #5b5757;
   margin-top: 13px !important;
+}
+
+.modal-velocidad-1 {
+  font-family: "Heebo";
+  color: #5b5b5f;
+  font-weight: 800;
+  font-size: 3em;
+}
+
+@media (max-width: 500px) {
+  .modal-velocidad-1 {
+    font-size: 4vw;
+  }
+
+  .logo-movil-planes2 {
+    display: none;
+    margin-left: -9px !important;
+    margin-top: 0px !important;
+    width: 20px !important;
+  }
+
+  .logo-movil-tecnologia1 {
+    margin-left: 0px !important;
+    margin-top: 0px !important;
+    width: 80% !important;
+  }
+
+  .imagen-movil-tecnologia2 {
+    margin-top: 33px !important;
+    margin-left: -28px !important;
+    width: 41% !important;
+  }
+
+  .modal-valor-1 {
+    font-size: 4.5vw !important;
+  }
+
+  .btn-adquierelo {
+    margin-top: -52px !important;
+  }
+
+  .modal-texto-atributos {
+    font-size: 3vw !important;
+  }
+
+  .modal-atributos {
+    line-height: 81%;
+  }
+
+  .btn-main-blue {
+    font-size: 4vw !important;
+  }
+
+  .modal-texto-tecnologia3 {
+    font-size: 2.3vw !important;
+  }
+
+  .modal-texto-tecnologia4 {
+    margin-left: -29px;
+  }
+
+  .modal-chatea {
+    width: 130px;
+    margin-top: -15px;
+  }
 }
 
 /*

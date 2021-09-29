@@ -84,6 +84,12 @@ class OfferController extends Controller{
       'tecnologia' => ['string', 'min:1', 'max:21'],
       'canales' => ['string', 'min:1', 'max:21'],
       'tipo_plan_logos' => ['string', 'min:1', 'max:21'],
+      'permanencia' => ['string', 'min:1', 'max:21'],
+      'fijo' => ['string', 'min:1', 'max:21'],
+      'movil' => ['string', 'min:1', 'max:21'],
+      'deco' => ['string', 'min:1', 'max:21'],
+
+
 
 
       'fields_values' => ['json', 'nullable'],
@@ -131,6 +137,10 @@ class OfferController extends Controller{
       'tecnologia',
       'canales',
       'tipo_plan_logos',
+      'permanencia',
+      'fijo',
+      'movil',
+      'deco'
 
     ];
 
