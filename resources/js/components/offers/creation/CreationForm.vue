@@ -218,7 +218,7 @@
           <div class="row">
             <div class="col">
              <label  style="color:red">Color para Modal y destacados</label>
-              <input type="text" name="" id="" class="form-control" maxlength="21" placeholder="#535353"  >
+              <input type="text" name="" id="" class="form-control" maxlength="21" placeholder="#535353" v-model="color" >
              
               </div>
             <div class="col">
@@ -267,6 +267,7 @@ export default {
       fijo:"" ,
       movil:"" ,
       deco:"" ,
+      color:"" ,
       
     }
   },
@@ -346,13 +347,13 @@ export default {
       fd.append("fijo", this.fijo);
       fd.append("movil", this.movil);
       fd.append("deco", this.deco);
+      fd.append("color", this.color);
       fd.append("canales", this.canales);
       fd.append("service", this.service);
       fd.append("points", this.points);
       fd.append("tecnologia", this.tecnologia);
-            fd.append("telefonia", this.telefonia);
-
-       fd.append("tipo_plan_logos", this.tipo_plan_logos);
+      fd.append("telefonia", this.telefonia);
+      fd.append("tipo_plan_logos", this.tipo_plan_logos);
       fd.append("fields_values", valuesArray.length?JSON.stringify(valuesArray):null);
 
       let loader = this.$loading.show();
@@ -375,6 +376,7 @@ export default {
         this.fijo = "";
         this.movil = "";
         this.deco = "";
+         this.color = "";
         this.canales = "";
         this.tipo_plan_logos = 0;
         this.tecnologia = 0;

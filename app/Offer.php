@@ -33,7 +33,7 @@ class Offer extends Model{
     'fijo',
     'movil',
     'deco' ,
-    'canales'
+    'color'
     
   ];
 

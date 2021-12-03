@@ -7,7 +7,12 @@
     border-radius: 40px !important;
     width: 95vw;
      border-width: 8px !important;" >
-      <div :class="'col col-sm-4 '+'fondo-'+offer.company_name.replace(' ','_')+'-modal'" >            
+     <!--+'fondo-'+offer.company_name.replace(' ','_')+'-modal'-->
+
+
+         <div  :class="'col col-sm-4 '" :style="'background-color:'+offer.color" >   
+
+
                <div class="row  pt-5 pb-5" style=" justify-content: center;">
                   <div class="consult-card-header pt-4 pb-3">
                        <img  class="consult-card-logo img-fluid"  :src="'/images/logos-modal/'+offer.company_name.replace(' ','_')+'.png'" alt="">
@@ -24,7 +29,7 @@
                     
                </div>
                <div class="row pt-2 pb-2" style="background-color:#06d1fc;  justify-content: center; margin-top: 89px;">
-                  <img src="/images/logoCI-1.png" alt="" style="width:50%">
+                  <img src="/images/logoCI-1.png" alt="" style="width:60%">
                </div>
             </div>
             <div class="col col-sm-8 p-0 px-1 " style="background-color:white; overflow: hidden; line-height: 100%;">
@@ -109,8 +114,8 @@
                </div>
 
               
-               <div :class="'row p-1 mb-2 mt-2 '+'fondo-'+offer.company_name.replace(' ','_')+'-modal'"  style="width:104%;color: white;margin: -4 !important;">            
-
+               <div :class="'row p-1 mb-2 mt-2 '"  :style="'width:104%;color: white;margin: -4 !important; background-color:'+offer.color">            
+                                                
                <div class="pl-3 mt-2">
                    
                     <h4 class="modal-valor-1">{{offer.tariff.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}}/mes</h4>
@@ -144,7 +149,7 @@
                  <div>
                                              
 
-                  <a :class="'col-12 btn btn-main-blue rounded-pill '+'fondo-'+offer.company_name.replace(' ','_')+'-modal'"  style="font-family: 'Heebo';  border-radius: 28px !important;   font-weight: 800; font-size:3em; color: white;" >
+                  <a :class="'col-12 btn btn-main-blue rounded-pill '"  :style="'font-family: Heebo;  border-radius: 28px !important;   font-weight: 800; font-size:3em; color: white; background-color:'+offer.color" >
                       $  {{offer.tariff.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}}/mes</a>
               </div>
                   <hr>

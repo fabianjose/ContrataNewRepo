@@ -3382,6 +3382,11 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ["offer", "fields"],
   data: function data() {
@@ -7200,7 +7205,8 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
       permanencia: "",
       fijo: "",
       movil: "",
-      deco: ""
+      deco: "",
+      color: ""
     };
   },
   mounted: function mounted() {
@@ -7294,6 +7300,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
                 fd.append("fijo", _this3.fijo);
                 fd.append("movil", _this3.movil);
                 fd.append("deco", _this3.deco);
+                fd.append("color", _this3.color);
                 fd.append("canales", _this3.canales);
                 fd.append("service", _this3.service);
                 fd.append("points", _this3.points);
@@ -7319,6 +7326,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
                   _this3.fijo = "";
                   _this3.movil = "";
                   _this3.deco = "";
+                  _this3.color = "";
                   _this3.canales = "";
                   _this3.tipo_plan_logos = 0;
                   _this3.tecnologia = 0;
@@ -7364,7 +7372,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
                   return loader.hide();
                 });
 
-              case 30:
+              case 31:
               case "end":
                 return _context.stop();
             }
@@ -45800,11 +45808,8 @@ var render = function() {
               _c(
                 "div",
                 {
-                  class:
-                    "col col-sm-4 " +
-                    "fondo-" +
-                    _vm.offer.company_name.replace(" ", "_") +
-                    "-modal"
+                  class: "col col-sm-4 ",
+                  style: "background-color:" + _vm.offer.color
                 },
                 [
                   _c(
@@ -45932,16 +45937,10 @@ var render = function() {
                   _c(
                     "div",
                     {
-                      class:
-                        "row p-1 mb-2 mt-2 " +
-                        "fondo-" +
-                        _vm.offer.company_name.replace(" ", "_") +
-                        "-modal",
-                      staticStyle: {
-                        width: "104%",
-                        color: "white",
-                        margin: "-4 !important"
-                      }
+                      class: "row p-1 mb-2 mt-2 ",
+                      style:
+                        "width:104%;color: white;margin: -4 !important; background-color:" +
+                        _vm.offer.color
                     },
                     [
                       _c("div", { staticClass: "pl-3 mt-2" }, [
@@ -46105,18 +46104,10 @@ var render = function() {
                       _c(
                         "a",
                         {
-                          class:
-                            "col-12 btn btn-main-blue rounded-pill " +
-                            "fondo-" +
-                            _vm.offer.company_name.replace(" ", "_") +
-                            "-modal",
-                          staticStyle: {
-                            "font-family": "'Heebo'",
-                            "border-radius": "28px !important",
-                            "font-weight": "800",
-                            "font-size": "3em",
-                            color: "white"
-                          }
+                          class: "col-12 btn btn-main-blue rounded-pill ",
+                          style:
+                            "font-family: Heebo;  border-radius: 28px !important;   font-weight: 800; font-size:3em; color: white; background-color:" +
+                            _vm.offer.color
                         },
                         [
                           _vm._v(
@@ -46219,7 +46210,7 @@ var staticRenderFns = [
       },
       [
         _c("img", {
-          staticStyle: { width: "50%" },
+          staticStyle: { width: "60%" },
           attrs: { src: "/images/logoCI-1.png", alt: "" }
         })
       ]
@@ -54075,7 +54066,47 @@ var render = function() {
           _c("br"),
           _c("br"),
           _vm._v(" "),
-          _vm._m(2),
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col" }, [
+              _c("label", { staticStyle: { color: "red" } }, [
+                _vm._v("Color para Modal y destacados")
+              ]),
+              _vm._v(" "),
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.color,
+                    expression: "color"
+                  }
+                ],
+                staticClass: "form-control",
+                attrs: {
+                  type: "text",
+                  name: "",
+                  id: "",
+                  maxlength: "21",
+                  placeholder: "#535353"
+                },
+                domProps: { value: _vm.color },
+                on: {
+                  input: function($event) {
+                    if ($event.target.composing) {
+                      return
+                    }
+                    _vm.color = $event.target.value
+                  }
+                }
+              })
+            ]),
+            _vm._v(" "),
+            _vm._m(2),
+            _vm._v(" "),
+            _c("div", { staticClass: "col" }),
+            _vm._v(" "),
+            _c("div", { staticClass: "col" })
+          ]),
           _vm._v(" "),
           _c("div", { staticClass: "card-footer" }, [
             _c(
@@ -54117,37 +54148,14 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "col" }, [
-        _c("label", { staticStyle: { color: "red" } }, [
-          _vm._v("Color para Modal y destacados")
-        ]),
-        _vm._v(" "),
-        _c("input", {
-          staticClass: "form-control",
-          attrs: {
-            type: "text",
-            name: "",
-            id: "",
-            maxlength: "21",
-            placeholder: "#535353"
-          }
-        })
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "col" }, [
-        _c("p", [
-          _vm._v("Si no conoces el Color preguntale a nico "),
-          _c("br"),
-          _vm._v(
-            "\n              La forma de escribir el color es: #123536 llevan normalmente despues del # 6 digitos "
-          )
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "col" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "col" })
+    return _c("div", { staticClass: "col" }, [
+      _c("p", [
+        _vm._v("Si no conoces el Color preguntale a nico "),
+        _c("br"),
+        _vm._v(
+          "\n              La forma de escribir el color es: #123536 llevan normalmente despues del # 6 digitos "
+        )
+      ])
     ])
   }
 ]

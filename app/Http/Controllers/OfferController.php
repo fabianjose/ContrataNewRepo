@@ -88,6 +88,7 @@ class OfferController extends Controller{
       'fijo' => ['string', 'min:1', 'max:21'],
       'movil' => ['string', 'min:1', 'max:21'],
       'deco' => ['string', 'min:1', 'max:21'],
+      'color' => ['string', 'min:1', 'max:21'],
 
 
 
@@ -140,7 +141,8 @@ class OfferController extends Controller{
       'permanencia',
       'fijo',
       'movil',
-      'deco'
+      'deco',
+      'color'
 
     ];
 
