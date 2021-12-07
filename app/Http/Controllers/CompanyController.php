@@ -15,6 +15,7 @@ class CompanyController extends Controller{
     $validation = Validator::make($data, [
       'name' => ['required', 'string', 'min:3', 'max:128'],
       'logo' => ['required', 'image'],
+      'logo2' => ['nullable', 'image'],
       'nit' => ["nullable", 'string', 'max:16'],
       'phone' => ['required', 'string', 'max:16'],
       'web' => ['required', 'string', 'min:3','max:128'],
@@ -35,6 +36,18 @@ class CompanyController extends Controller{
       );
       $data['logo'] = $filename;
     }
+
+    if ($data['logo2']){
+      $filename = uniqid(time()).'.'.$data['logo2']->getClientOriginalExtension();
+      $uploadedFile = $data['logo2'];
+      $result = Storage::disk('local')->putFileAs(
+        'public/uploads/logos',
+        $uploadedFile,
+        $filename
+      );
+      $data['logo2'] = $filename;
+    }
+
 
     $company = Company::create($data);
     if (!$company) return response()->json(['errorMessage' =>  'Error en la base de datos'],500);
