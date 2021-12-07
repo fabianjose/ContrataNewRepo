@@ -31,6 +31,15 @@
             </div>
           </div>
         </div>
+        <div class="form-group">
+          <label for="exampleInputFile">Logo de moda</label>
+          <div class="input-group">
+            <div class="custom-file">
+              <input type="file" @change="uploadLogoModa" class="custom-file-input" ref="SelectFile2" id="InputFile2">
+              <label class="custom-file-label" for="InputFile2">Seleccionar Archivo</label>
+            </div>
+          </div>
+        </div>
 
         <div class="form-group">
           <label>NIT de la Empresa</label>
@@ -66,6 +75,7 @@ export default {
         active:false,
         name:"",
         logo:null,
+        logo2:null,
         nit:"",
         phone:"",
         web:"",
@@ -89,12 +99,23 @@ export default {
         this.logo=uploadFile;
         this.onPreview=URL.createObjectURL(uploadFile);
       },
+      uploadLogoModa: function(){
+        console.log("[File] Change")
+        let uploadFile2=this.$refs.SelectFile2.files[0]
+        if(!uploadFile2){
+          console.log("[File] None")
+          return;
+        }
+        this.logo2=uploadFile2;
+        this.onPreview=URL.createObjectURL(uploadFile2);
+      },
 
       submitNewCompany: function(){
 
         let fd= new FormData();
         fd.append("name", this.name);
         fd.append("logo", this.logo);
+        fd.append("logo2", this.logo2);
         fd.append("nit", this.nit);
         fd.append("phone", this.phone);
         fd.append("web", this.web);
