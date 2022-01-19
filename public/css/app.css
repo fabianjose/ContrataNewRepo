@@ -1,1 +1,2341 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);@import url(https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap);@import url(https://fonts.googleapis.com/css2?family=Heebo&display=swap);.image-logo-banner{max-width:100%;max-height:70px}.ic-logo{padding-top:27px;max-height:92%}.icon-btn-sm{height:47px;width:47px;display:flex;align-items:center;justify-content:center}.grid-header2{display:none;font-size:13px}.ic-main{font-size:1.27rem;font-family:Work Sans,sans-serif;text-align:center}a{color:#00c2d6}.i-c-fab{padding:3px;border-radius:30%;color:#fff}.ic-bg-main{background-color:#00c2d6}.ic-logo{margin-left:33px}.nav-btn{font-size:20px;color:#13293d}.navbar-light .navbar-nav .active>.nav-link,.navbar-light .navbar-nav .nav-link.active,.navbar-light .navbar-nav .nav-link.show,.navbar-light .navbar-nav .show>.nav-link{color:#00c2d6}.nav-item-border:after{display:block;content:"";border-bottom:3.5px solid #13293d;border-radius:15px;transform:scaleX(0);transition:transform .25s ease-in-out}.nav-item-border.active:after{transform:scaleX(.45)}.nav-item-border:hover:after{transform:scaleX(1)}.texto-header{padding:5px;font-family:Work Sans,sans-serif;font-size:20px}@media (max-width:1300px){.ic-main{font-size:1rem;text-align:center}.ic-main,.texto-header{font-family:Work Sans,sans-serif}.texto-header{padding:5px;font-size:16px}}@media (max-width:1140px){.ic-main{font-size:.8rem;text-align:center}.ic-main,.texto-header{font-family:Work Sans,sans-serif}.texto-header{padding:5px;font-size:13px}}@media (max-width:767px){.ic-logo{margin-left:0;margin-top:-35px}.grid-header1{display:none}.grid-header2{display:inline}.nav-item-border:after{display:none}.section-form{text-align:center;margin-top:-38%}#btn-enviar{margin-top:20px}}.navbar-expand-md .navbar-nav .nav-link{padding-right:1rem;padding-left:2.3rem}.bg-ic{background:linear-gradient(180deg,rgba(19,41,61,.8),rgba(19,41,61,.8)),url(/images/fondo_switch.jpg?bdd900f51ec26d13f42d23f8b5f2f82a);background-repeat:no-repeat;background-size:100%;background-position:50%;background-size:cover;-webkit-background-size:cover;-moz-background-size:cover;height:auto;padding:2rem 1em;align-items:center;justify-content:center;display:flex;z-index:3;margin-top:-124px;height:300px}.bg-dark-blue{background-color:rgba(61,60,60,.38823529411764707)}.bg-main-blue{background-color:#00c2d6}.bg-main-pink{background-color:#ec008c}.main-section-bg{padding-bottom:5vh;position:relative;background:transparent;margin-top:-20%}.high-companies{background:#fff;border-bottom:50px solid #00adef;border-top:50px solid #00adef}.footer-bg{min-height:35vh;background:url(/images/fondo_signal.jpg?d47b689077795af54a745eee62009098),linear-gradient(180deg,rgba(0,194,214,.8),rgba(0,194,214,.8));background-size:cover;padding:20px 100px}.section-search{background:url(/images/FondoWEB2-23.webp?9f95b0c8e8851e5fe2427d752f656269);background-size:cover;padding-bottom:64px}@media (max-width:768px){.section-search{background:url(/images/FondoWEB2-23.webp?9f95b0c8e8851e5fe2427d752f656269)}.footer-bg{padding:20px 1rem}.bg-main-pink{background:#fff!important}}.footer-footer{min-height:5vh;background-color:#212121}.planComparator-bg{padding-top:8vh!important;width:100%;min-height:50vh;background-color:#f7f7f7!important}.ic-logo-grey{max-width:220px;padding:5px 10px}.main-middle{min-height:45%;width:auto;display:flex;flex-direction:column;justify-content:space-around;align-items:center}.about-section{width:100%;height:auto;background:#fff}.about-number{width:2rem;height:2rem}.about-text{font-size:.85rem;color:#13293d;padding:0}.about-title{font-weight:700;font-size:1.6rem;text-align:center}.about-title-container:after{display:block;content:"";border-bottom:3.5px solid #cdcdcd;border-radius:15px;transform:scaleX(0);transition:transform .25s ease-in-out;transform:scaleX(.45)}.texto-btn{font-size:11px;background-color:transparent;color:#fff!important}.has-search .form-control{padding-left:2.375rem}.icon-btn{position:absolute;z-index:2;display:block;width:2.375rem;height:2.375rem;line-height:2.375rem;text-align:center;pointer-events:none;color:#fff}.offers-pagination-item{background-color:#fff;border-radius:20px;text-align:center;padding-top:10px;border:1px solid #0cd9f4}.offers-pagination-item:hover{box-shadow:0 0 4px 5px rgba(0,0,0,.61)}.stars-container{color:#00c2d6;font-size:13px}.consult-card{background-color:#fff;display:flex;flex-direction:row;border-radius:50px;max-width:80vw!important;border-width:0!important}.modal-adjust{width:auto!important}.consult-card-modal{max-width:80vw!important;flex-direction:row;display:flex;justify-content:center}.consult-card-header{display:flex;flex-wrap:wrap;justify-content:center}.consult-card-logo{max-height:150px}.consult-card-company{text-align:center;font-size:1.5rem;color:#13293d;margin-top:1.2rem}.consult-card-sub-title{font-size:.8rem;color:#9b9b9b}.benefits-content{font-size:.85rem;color:#13293d}.field-content{font-size:1.75rem;color:#13293d}.consult-card-benefits{padding:.3rem}.consult-card-fields{display:flex;flex-direction:row}.form-consulting-field{border-bottom-right-radius:50px;justify-content:center}.form-consulting-input{background-color:transparent!important;border:1px solid #fff!important;color:#fff!important}.form-consulting-header{text-align:center}.form-consulting-header:after{display:block;content:"";border-bottom:3.5px solid #e6e6e6;border-radius:15px;transform:scaleX(.25);transition:transform .25s ease-in-out}.form-consulting-title{font-size:1.5rem;color:#fff}.consult-card-full-rounded{border-radius:50px!important}@media (min-width:992px){.form-consulting-field{border-top-right-radius:50px}}@media (max-width:991px){.consult-card{width:90vw}.form-consulting-field{border-bottom-left-radius:50px}}@media (max-width:575px){.consult-card{width:100%}}.modal-xl-xl{width:100%!important}.company-logo-item{max-width:100%;max-height:120px;-o-object-fit:contain;object-fit:contain}.offer-card-separator{margin-left:auto;margin-right:auto;height:.1rem;margin-top:-8px}.card{box-shadow:none}.btn-dark-blue{background-color:#13293d;color:#fff}.btn-main-pink{background-color:#ec008c;color:#fff}.btn-main-blue{background-color:#00c2d6;color:#fff}.btn-main-pink:hover{background-color:#de007c;color:#cdcdcd}.btn-dark-blue:hover{background-color:#16415f;color:#d3d3d3}.btn-main-blue:hover{background-color:#109de4;color:#cdcdcd}.btn-footer{background-color:#0dd9f5;font-family:Work Sans,sans-serif;font-weight:700;color:#fff;box-shadow:2px 2px 6px #000}.autocomplete__suggestions{z-index:3!important}.rounded-input+.autocomplete__suggestions{box-shadow:0 0 3px .3px rgba(0,0,0,.75)}.page-item{width:2.7rem;height:2.6rem;font-size:1.1rem;text-align:center}.high-companies-color{color:#13293d}.high-companies-title:after{display:block;padding-top:5px;content:"";border-bottom:3.5px solid #9b9b9b;border-radius:5px;transform:scaleX(.25);transition:transform .25s ease-in-out}.high-companies-carousel{width:80vw}.high-companies-img{-o-object-fit:contain;object-fit:contain;max-width:100%;max-height:100px}.vueperslide--active,.vueperslide--active .offer-card{transition:height 1s}#offer-cards .vueperslides__inner .vueperslides__parallax-wrapper{padding-bottom:520px!important;padding-top:40px}.high-plans-color{color:#535353}.high-plans-title:after{display:block;padding-top:5px;content:"";border-bottom:3.5px solid #cdcdcd;border-radius:5px;transform:scaleX(.25);transition:transform .25s ease-in-out}.high-plans-carousel{width:80vw}.offer-card{width:300px;border-radius:24px;background-color:#fff;font-family:Trebuchet MS,Lucida Sans Unicode,Lucida Grande,Lucida Sans,Arial,sans-serif;border:7px solid #00c2d6}.offer-card-lg{width:60vw;height:auto;border-radius:40px;background-color:#fff;box-shadow:0 0 24px 0 rgba(30,30,30,.35)}@media (max-width:768px){.offer-card-lg{width:80vw}}.offer-card-header{flex-flow:column;padding:1.2rem;height:120px;display:flex;justify-content:center;align-items:center}.offer-card-separator{width:80%;background:#00c2d6}.offer-card-content{flex-direction:column;justify-content:flex-start;align-items:center;text-align:center;padding:1rem;color:#13293d}.offer-card-title{background:#00ffda;background:linear-gradient(90deg,#00ffda,#06d1fc);border-radius:3px;font-family:Heebo;padding-top:3px;padding-bottom:3px;font-weight:500;color:#fff}.rounded-pill{border-radius:5px!important}.offer-card-benefits{margin-bottom:.5rem;font-size:1rem;height:90px;overflow-y:visible}.offer-card-logo{-o-object-fit:contain;object-fit:contain;max-width:100%;max-height:100%}.offer-card-price{font-size:33px;word-break:break-all;font-family:Heebo,sans-serif;margin-top:-20px;color:#434040}.offer-card-footer{display:flex;flex-direction:column;align-items:center;padding:0 1rem 8px}.offer-card-btn{font-size:15px;color:#fff;font-family:Heebo;font-weight:700;margin-top:-20px}.nosotros-main{min-height:100vh}.nosotros-title{min-height:15vh;background:linear-gradient(180deg,rgba(19,41,61,.8),rgba(19,41,61,.8)),url(/images/nosotros-bg.jpg?19b0dcc137c7a27ad415d163b4f13c04);background-repeat:no-repeat;background-size:100%;background-position:50%;background-size:cover;-webkit-background-size:cover;-moz-background-size:cover}.nosotros-title-text{font-size:48px}.nosotros-main-content{min-height:50vh}.nosotros-main-content span{font-family:montserrat-regular}.mision-title:after{display:block;content:"";padding-top:5px;border-bottom:3.5px solid #00c2d6;border-radius:5px;transform:scaleX(.25);transition:transform .25s ease-in-out}.mision-title{color:#00c2d6;font-size:1.3rem}.nosotros-services-bg{min-height:40vh;background-color:#f7f7f8}.nosotros-services-title{color:#000;font-size:2rem}.nosotros-services-title:after{display:block;content:"";padding-top:5px;border-bottom:3.5px solid #e6e6e6;border-radius:5px;transform:scaleX(.25);transition:transform .25s ease-in-out}.img-nosotros-services{width:100px;height:100px}.nosotros-service-text{color:#00adef}.nosotros-service-btn{border:2px solid #00adef}.nosotros-service-btn:hover{color:#fff}.contacto-main{min-height:100vh}.contacto-title{min-height:40vh;background:linear-gradient(180deg,rgba(19,41,61,.8),rgba(19,41,61,.8)),url(/images/contacta-bg.jpg?348012bed6dbf0b129a4cbd40fb39392);background-repeat:no-repeat;background-size:100%;background-position:50%;background-size:cover;-webkit-background-size:cover;-moz-background-size:cover}.contacto-title-text{font-size:48px}.contacto-main-content{padding-bottom:3rem}.contacto-main-content span{font-family:montserrat-regular}.contacto-card{position:-webkit-sticky;position:sticky;margin-top:-40px;border-radius:50px;box-shadow:0 0 5px 4px rgba(0,0,0,.25)}.contacto-card-title{color:#00c2d6}.contacto-card-title:after{display:block;content:"";padding-top:5px;border-bottom:3.5px solid #00c2d6;border-radius:5px;transform:scaleX(.25);transition:transform .25s ease-in-out}.contacto-card-label{font-size:14px}.contacto-footer{background:#20adf4}.contacto-footer-title{color:#e6e6e6;font-size:36px}.footer-img{max-height:130px;max-width:180px}.footer-links{margin-top:30px}.footer-link-border{border-left:3px solid hsla(0,0%,49.4%,.4);padding-left:20px}@media (max-width:575px){.footer-link-border{border-left:none;padding-left:0;margin-top:10px}}.footer-title-color{color:#d6d8db}.footer-list{list-style:none}.footer-list li{font-size:12px;color:hsla(0,0%,100%,.7)}.footer-footer span{color:hsla(0,0%,49.4%,.7);font-size:12px}.filter-card{background-color:#f7f7f7}.filter-card-title{color:#525973}.filter-card-label{font-size:14px}.offer-company{max-height:3rem}@media (max-width:980px){.offer-benefits{display:none!important}}@media (max-width:368px){.hidden-xs-xs{display:none}}@media (max-width:576px){.hidden-xs{display:none}}@media (min-width:576px)and (max-width:767px){.hidden-sm{display:none}}@media (min-width:767px)and (max-width:991px){.hidden-md{display:none}}@media (min-width:991px)and (max-width:1199px){.hidden-lg{display:none}}@media (min-width:1199px)and (max-width:1320px){.hidden-xl{display:none}}@media (min-width:1320px){.hidden-xl-xl{display:none}}.vld-overlay.is-full-page{z-index:1051!important}.custom-control-input:checked~.custom-control-label:before{color:#fff;border-color:#13293d;background-color:#13293d}.main-search-form{z-index:10;height:auto;background:#fff;border-image-slice:1;border-radius:20px;width:70%;box-shadow:0 3px 3px #06d1fc,0 2px 2px ease-in-out #00ffda;border:3px solid #00ffda}@media (max-width:768px){.main-search-form{width:100%;z-index:10}}.main-form-title-container:after{display:block;content:"";border-bottom:3.5px solid #cdcdcd;border-radius:5px;transform:scaleX(.35);transition:transform .25s ease-in-out}.main-form-title{color:#00c2d6;font-size:1.3rem}.ci-select{padding-left:2.375rem!important;color:grey;border-radius:10px}.has-search .form-control-feedback{position:absolute;z-index:2;display:block;width:2.375rem;height:2.375rem;line-height:2.375rem;text-align:center;pointer-events:none;color:#aaa}@media (max-width:767px){.main-search-form{width:100%}}@media (min-width:992px){.filterCard{position:-webkit-sticky;position:sticky;left:0;top:15%}}#btn-enviar,#btn-enviar2{box-shadow:1px 5px 8px 0 rgba(0,0,0,.75);font-family:Work Sans,sans-serif}#btn-enviar2{margin-left:9px;margin-top:5px}#text-form::-moz-placeholder{font-family:Work Sans,sans-serif;font-style:italic}#text-form:-ms-input-placeholder{font-family:Work Sans,sans-serif;font-style:italic}#text-form::placeholder{font-family:Work Sans,sans-serif;font-style:italic}.form-control-footer{margin-top:3px}.form-control-footer::-moz-placeholder{color:#9b999f;font-family:Work Sans,sans-serif;font-style:italic;font-weight:lighter}.form-control-footer:-ms-input-placeholder{color:#9b999f;font-family:Work Sans,sans-serif;font-style:italic;font-weight:lighter}.form-control-footer::placeholder{color:#9b999f;font-family:Work Sans,sans-serif;font-style:italic;font-weight:lighter}.text-main-blue{color:#00c2d6}.text-dark-blue{color:#13293d}.text-ws{font-family:Work Sans,sans-serif}.text-heebo{font-family:Heebo,sans-serif}.text-dark-gray{color:#9b9b9b}.company-card-label{height:90px}@media (max-width:768px){.company-card-label{height:100px}}.text-wrap{word-break:break-word}.text-wrap-all{word-break:break-all}@media (min-width:1000px){.offers-label{font-size:.8rem!important}}.text-item-list{font-size:1.25rem}.text-item-list,.text-item-list a{font-weight:700;font-family:Work Sans,sans-serif;color:#d6d8db}.text-item-list a{font-size:.8rem;text-transform:uppercase}.offer-table-label{font-size:.7rem;background-color:transparent}.text-tabla-detalles{color:#00c2d6;font-size:1.2rem;font-family:Heebo;font-weight:600}.offer-table-price{font-size:1.2rem}.counters-container{display:flex;padding:1.4rem 0;margin-top:3rem;flex-wrap:wrap;justify-content:space-around}.counter-value{font-size:3rem}.counter-label{font-size:1.3rem!important}@media (max-width:767px){.counter-label{font-family:Heebo;font-weight:100}}.whatsapp{position:fixed;bottom:10px;left:10px;width:100px}.botones-sobre-buscador{background-color:transparent}.fila-de-botones-sobre-buscador{margin-top:40px;padding-left:177px;padding-right:208px;margin-bottom:-30px}.btn-1{background-color:rgba(61,60,60,.38823529411764707);font-size:13px}.btn-1,.btn-1:hover{color:#fff}.fila-iconos-buscador{padding-left:51px;padding-right:160px;padding-top:30px}.lupa{cursor:pointer;margin-top:-71px;margin-left:61px;height:120px}.borde-caja-buscador{padding-left:137px;padding-right:182px}@media (max-width:1400px){.btn-1{background-color:rgba(61,60,60,.38823529411764707);color:#fff;font-size:9px}}@media (max-width:1200px){.btn-1{background-color:rgba(61,60,60,.38823529411764707);color:#fff;font-size:7px}.borde-caja-buscador{padding-left:0;padding-right:0}.lupa{margin-top:-71px;margin-left:-21px;height:84px}}@media (max-width:1095px){.fila-iconos-buscador{padding-left:25px;padding-right:120px;padding-top:15px}}@media (max-width:991px){.fila-iconos-buscador{padding-left:25px;padding-right:56px;padding-top:15px}.fila-de-botones-sobre-buscador{margin-top:-50px;padding-left:0;padding-right:0}.borde-caja-buscador{padding-left:0;padding-right:0}.lupa{margin-top:-12px;margin-left:85px;height:73px}}@media (max-width:411x){.lupa{margin-top:0;margin-left:129px;height:77px}}@media (max-width:375x){.lupa{margin-top:0;margin-left:109px;height:77px}}@media (max-width:768px){.lupa{margin-top:0;margin-left:116px;height:77px}span.text0-botones:before{content:‘\a ’;white-space:pre}.borde-caja-buscador{padding-left:0;padding-right:0}.fila-de-botones-sobre-buscador{margin-top:54px;padding-left:9px;padding-right:0}.botones-sobre-buscador{background-color:transparent}.fila-iconos-buscador{padding-left:0;padding-right:0}.about-number{width:2rem;height:2rem;background-color:#00c2d6}.texto-btn{font-size:11px;color:#000}.btn-1{background-color:#fff;color:#000;font-size:14px}}@media (max-width:500px){.fila-de-botones-sobre-buscador{margin-top:43px;padding-left:9px;padding-right:0}.btn-1{font-size:17px}}@media (max-width:441px){.fila-de-botones-sobre-buscador{margin-top:43px;padding-left:9px;padding-right:0}.btn-1{font-size:17px}}.contador2{display:none}@media (max-width:500px){.contador1{display:none}.contador2{display:inline}}.counters-container{z-index:0}.bg-ic2{background:linear-gradient(180deg,rgba(19,41,61,.8),rgba(19,41,61,.8)),url(/images/fondo_switch.jpg?bdd900f51ec26d13f42d23f8b5f2f82a);background-repeat:no-repeat;background-size:100%;background-position:50%;background-size:cover;-webkit-background-size:cover;-moz-background-size:cover;height:auto;padding:2rem 1em;align-items:center;justify-content:center;display:flex;z-index:3;margin-top:0;height:348px}.formulario-centro{background:#00c2d6;min-height:400px;padding-top:9%;margin-top:-16px}.texto-formulario-centro1{font-weight:700;font-size:25px}.texto-formulario-centro2{font-weight:700;font-size:30px}@media (max-width:767px){.formulario-centro{margin-left:0;margin-right:0;margin-top:-36%;padding-top:12%;padding-left:38px;padding-right:38px}.texto-formulario-centro1{font-size:20px}.texto-formulario-centro2{font-size:25px}.counter-value{font-size:1.5rem}.counters-container{display:flex;margin-top:-3rem;flex-wrap:wrap;justify-content:space-around}}.fondo-ETB-modal{background:#20487f}.fondo-Movistar-modal{background:#019df4}.fondo-Azteca_Comunicaciones-modal{background:#04a64b}.fondo-ETB{background:#20487f}.fondo-Azteca_Comunicaciones{background:#04a64b}.logo-home-2{margin-top:-59px;padding-bottom:93px}.modal-chatea{width:170px}.ribbon{width:125px;height:32px;font-size:12px;text-align:center;color:#fff;font-weight:700;transform:rotate(0deg);margin-top:-11px;padding-top:5px}.titulo-blog{font-family:Heebo;font-size:20px;font-weight:400;color:#5b5a5f}.fondo-blog{background-color:#d7d8dc}.texto-blog{color:#88868b;font-size:15px;font-weight:300;text-align:justify;padding-left:10px;padding-right:10px}.bloque-tecnologia{margin-top:-7px}.logo-tecnologia{width:65px;margin-top:-31px}.logo-movil-planes{width:126px;margin-top:-72px}.logo-movil-planes2,.logo-movil-tecnologia1{width:126px}.bloque-3{margin-top:55px}.btn-adquierelo{font-family:Heebo;background:#0bdcf3;box-shadow:0 0 7px 0 #000;font-weight:700;font-size:1vw}.logo-mb{max-height:130px}.tecnologia-movil{display:none}.logo-tecnologia{width:41px;margin-top:-51px}.tegnologia-movil{display:none}.titulo-nosotros{font-family:Heebo;color:#7f7f7f;font-size:56px}.texto-resultado-busqueda-banner{line-height:0;font-weight:300}.texto-nosotros{padding-left:73px;padding-right:73px;font-size:20px;font-family:Heebo;text-align:initial;line-height:100%}@media (min-width:1226px){.logo-home-2{width:20%}.ribbon{right:122px;top:5px;padding-top:5px}.logo-tecnologia{width:65px;margin-top:-5px}.logo-tecnologia2{width:65px}.texto-resultado-busqueda-banner{line-height:0}}@media (max-width:1000px){.logo-home-2{width:20%}.ribbon{right:100px;top:5px;padding-top:5px}}@media (min-width:1200px){.sin-resultados-1,.sin-resultados-2,.sin-resultados-3,.sin-resultados-4{margin-top:30px}.logo-tecnologia{width:65px;margin-top:-5px}.texto-resultado-busqueda-banner{line-height:12px}}@media (max-width:755px){.logo-tecnologia{width:41px;margin-top:-5px}.header-posicion{margin-top:-22px}.footer-movil{display:none}#carrusel-img-1{content:url(/images/fondo2-movil.jpg?74ddfeb1b1c2a66c096df076782b325b)}#carrusel-img-2{content:url(/images/fondo3-movil.jpg?9b134619a594c36a679d5c894ddea3de)}.texto-nosotros{text-align:initial;padding-left:0;padding-right:0;font-size:20px;font-family:Heebo;line-height:100%}.titulo-nosotros{font-size:41px}}@media (max-width:500px){.logo-home-2{width:50%}.ribbon{right:122px;top:5px;padding-top:5px}.bloque-proveedor-precios{display:none!important}}@media (max-width:500px)and (min-width:300px){.logo-home-2{width:50%}.ribbon{right:75px;top:5px;padding-top:5px}.logo-tecnologia{width:41px;margin-top:-31px}.bloque-proveedor-precios{display:none!important}.bloque-3{margin-top:0}.texto-hbo{margin-top:-14px}.tecnologia-movil{display:inline}.bloque-tecnologia{margin-top:-50px}.logo-mb{margin-top:0;width:110px}.hbo{margin-top:125px}.offer-card-separator10,.offer-card-separator11{width:80%;height:1px;background:#0bdcf3!important}.offer-card-separator11{margin-left:18px}.logo-movil-planes{margin-top:-313px}.logo-movil-planes,.logo-movil-planes2,.logo-movil-tecnologia1{margin-left:190px;width:65%}.tegnologia-movil{display:block}.beneficio-movil{margin-top:85px}.icono-ondas{margin-top:-52px}.precio-movil{font-size:27px;margin-top:0}.btn-adquierelo{font-family:Heebo;background:#0bdcf3;box-shadow:0 0 7px 0 #000;margin-top:-48px;font-weight:700}}@media (max-width:500px)and (min-width:360px){.logo-home-2{width:50%}.ribbon{right:115px;top:5px;padding-top:5px}.logo-tecnologia{width:41px;margin-top:-31px}.bloque-proveedor-precios{display:none!important}.bloque-3{margin-top:0}.texto-hbo{margin-top:-14px}.tecnologia-movil{display:inline}.bloque-tecnologia{margin-top:-50px}.logo-mb{margin-top:0;width:110px}.hbo{margin-top:125px}.offer-card-separator10,.offer-card-separator11{width:80%;height:1px;background:#0bdcf3!important}.offer-card-separator11{margin-left:18px}.logo-movil-planes,.logo-movil-planes2,.logo-movil-tecnologia1{margin-left:190px;margin-top:-313px;width:87%}.tegnologia-movil{display:block}.beneficio-movil{margin-top:85px}.icono-ondas{margin-top:-52px}.precio-movil{font-size:27px;margin-top:0}.btn-adquierelo{font-family:Heebo;background:#0bdcf3;box-shadow:0 0 7px 0 #000;margin-top:-48px;font-weight:700}}@media (max-width:500px)and (min-width:375px){.logo-home-2{width:50%}.ribbon{right:122px;top:5px;padding-top:5px}.logo-tecnologia{width:41px;margin-top:-31px}.bloque-proveedor-precios{display:none!important}.bloque-3{margin-top:0}.texto-hbo{margin-top:-14px}.tecnologia-movil{display:inline}.bloque-tecnologia{margin-top:-50px}.logo-mb{margin-top:0;width:110px}.hbo{margin-top:125px}.offer-card-separator10,.offer-card-separator11{width:80%;height:1px;background:#0bdcf3!important}.offer-card-separator11{margin-left:18px}.logo-movil-planes,.logo-movil-planes2,.logo-movil-tecnologia1{margin-left:208px;margin-top:-313px;width:81%}.tegnologia-movil{display:block}.beneficio-movil{margin-top:85px}.icono-ondas{margin-top:-52px}.precio-movil{font-size:27px;margin-top:0}.btn-adquierelo{font-family:Heebo;background:#0bdcf3;box-shadow:0 0 7px 0 #000;margin-top:-48px;font-weight:700}}@media (max-width:500px)and (min-width:411px){.logo-home-2{width:50%}.ribbon{right:135px;top:5px;padding-top:5px}.logo-tecnologia{width:41px;margin-top:-31px}.bloque-proveedor-precios{display:none!important}.bloque-3{margin-top:0}.texto-hbo{margin-top:-14px}.tecnologia-movil{display:inline}.bloque-tecnologia{margin-top:-50px}.logo-mb{margin-top:0;width:110px}.hbo{margin-top:125px}.offer-card-separator10,.offer-card-separator11{width:80%;height:1px;background:#0bdcf3!important}.offer-card-separator11{margin-left:18px}.logo-movil-planes,.logo-movil-planes2,.logo-movil-tecnologia1{margin-left:242px;margin-top:-313px;width:71%}.tegnologia-movil{display:block}.beneficio-movil{margin-top:85px}.icono-ondas{margin-top:-52px}.precio-movil{font-size:27px;margin-top:0}.btn-adquierelo{font-family:Heebo;background:#0bdcf3;box-shadow:0 0 7px 0 #000;margin-top:-48px;font-weight:700}}@media (max-width:500px)and (min-width:499px){.logo-home-2{width:50%}.ribbon{right:180px;top:5px;padding-top:5px}.logo-tecnologia{width:41px;margin-top:-31px}.bloque-proveedor-precios{display:none!important}.bloque-3{margin-top:0}.texto-hbo{margin-top:-14px}.tecnologia-movil{display:inline}.bloque-tecnologia{margin-top:-50px}.logo-mb{margin-top:0;width:110px}.hbo{margin-top:125px}.offer-card-separator10,.offer-card-separator11{width:80%;height:1px;background:#0bdcf3!important}.offer-card-separator11{margin-left:18px}.logo-movil-planes,.logo-movil-planes2,.logo-movil-tecnologia1{margin-left:392px;margin-top:-313px;width:30%}.tegnologia-movil{display:block}.beneficio-movil{margin-top:85px}.icono-ondas{margin-top:-52px}.precio-movil{font-size:27px;margin-top:0}.btn-adquierelo{font-family:Heebo;background:#0bdcf3;box-shadow:0 0 7px 0 #000;margin-top:-48px;font-weight:700}}.texto-velocidad-resultado-busqueda{font-family:Heebo;font-size:1.59rem!important;color:#5b5757!important;margin-top:50px}.texto-tecnologia-resultado-busqueda{font-family:Heebo;margin-top:4px;font-size:1.59rem!important;color:#5b5757;margin-top:13px!important}.modal-velocidad-1{font-family:Heebo;color:#5b5b5f;font-weight:800;font-size:3em}@media (max-width:500px){.modal-velocidad-1{font-size:4vw}.logo-movil-planes2{display:none;margin-left:-9px!important;margin-top:0!important;width:20px!important}.logo-movil-tecnologia1{margin-left:0!important;margin-top:0!important;width:80%!important}.imagen-movil-tecnologia2{margin-top:33px!important;margin-left:-28px!important;width:41%!important}.modal-valor-1{font-size:4.5vw!important}.btn-adquierelo{margin-top:-52px!important}.modal-texto-atributos{font-size:3vw!important}.modal-atributos{line-height:81%}.btn-main-blue{font-size:4vw!important}.modal-texto-tecnologia3{font-size:2.3vw!important}.modal-texto-tecnologia4{margin-left:-29px}.modal-chatea{width:130px;margin-top:-15px}}.mts-regular,body{font-family:Work Sans,sans-serif}body{scroll-behavior:smooth;word-break:break-word;box-sizing:content-box}h1,h2,h3,h4,h5,h6{font-family:Heebo,sans-serif}
+@import url(https://fonts.googleapis.com/css?family=Nunito);@import url(https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap);@import url(https://fonts.googleapis.com/css2?family=Heebo&display=swap);@charset "UTF-8";
+
+.image-logo-banner {
+  max-width: 100%;
+  max-height: 70px;
+}
+
+.ic-logo {
+  margin-left: 33px;
+  padding-top: 27px;
+  max-height: 92%;
+}
+
+.icon-btn-sm {
+  height: 47px;
+  width: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-header2 {
+  display: none;
+  font-size: 13px;
+}
+
+.ic-main {
+  font-size: 1.27rem;
+  font-family: "Work Sans", sans-serif;
+  /*    color: $dark-blue;*/
+  text-align: center;
+}
+
+a {
+  color: #00c2d6;
+}
+
+.i-c-fab {
+  padding: 3px;
+  border-radius: 30%;
+  color: white;
+}
+
+.ic-bg-main {
+  background-color: #00c2d6;
+}
+
+.ic-logo {
+  margin-left: 33px;
+}
+
+.nav-btn {
+  font-size: 20px;
+  color: #13293d;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #00c2d6;
+}
+
+.nav-item-border:after {
+  display: block;
+  content: "";
+  border-bottom: solid 3.5px #13293d;
+  border-radius: 15px;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+
+.nav-item-border.active:after {
+  transform: scaleX(0.45);
+}
+
+.nav-item-border:hover:after {
+  transform: scaleX(1);
+}
+
+.texto-header {
+  padding: 5px;
+  /*border: 1px solid rgb(12,207,244) ;*/
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+}
+
+@media (max-width: 1300px) {
+  .ic-main {
+    font-size: 1rem;
+    font-family: "Work Sans", sans-serif;
+    /*    color: $dark-blue;*/
+    text-align: center;
+  }
+
+  .texto-header {
+    padding: 5px;
+    /* border: 1px solid rgb(12,207,244) ;*/
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1140px) {
+  .ic-main {
+    font-size: 0.8rem;
+    font-family: "Work Sans", sans-serif;
+    /*    color: $dark-blue;*/
+    text-align: center;
+  }
+
+  .texto-header {
+    padding: 5px;
+    /*  border: 1px solid rgb(12,207,244) ;*/
+    font-family: "Work Sans", sans-serif;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 767px) {
+  .ic-logo {
+    margin-left: 0px;
+    margin-top: -35px;
+  }
+
+  .grid-header1 {
+    display: none;
+  }
+
+  .grid-header2 {
+    display: inline;
+  }
+
+  .nav-item-border:after {
+    display: none;
+  }
+
+  .section-form {
+    text-align: center;
+    margin-top: -38%;
+  }
+
+  #btn-enviar {
+    margin-top: 20px;
+  }
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+  padding-right: 1rem;
+  padding-left: 2.3rem;
+}
+
+.bg-ic {
+  background: linear-gradient(to bottom, rgba(19, 41, 61, 0.8), rgba(19, 41, 61, 0.8)), url(/images/fondo_switch.jpg?bdd900f51ec26d13f42d23f8b5f2f82a);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  height: auto;
+  padding: 2rem 1em;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  z-index: 3;
+  margin-top: -124px;
+  height: 300px;
+}
+
+.bg-dark-blue {
+  background-color: #3d3c3c63;
+}
+
+.bg-main-blue {
+  background-color: #00c2d6;
+}
+
+.bg-main-pink {
+  background-color: #ec008c;
+}
+
+.main-section-bg {
+  padding-bottom: 5vh;
+  position: relative;
+  background: transparent;
+  margin-top: -20%;
+}
+
+.high-companies {
+  background: white;
+  border-bottom: solid 50px #00adef;
+  border-top: solid 50px #00adef;
+}
+
+.footer-bg {
+  min-height: 35vh;
+  background: url(/images/fondo_signal.jpg?d47b689077795af54a745eee62009098), linear-gradient(to bottom, rgba(0, 194, 214, 0.8), rgba(0, 194, 214, 0.8));
+  background-size: cover;
+  padding: 20px 100px;
+}
+
+.section-search {
+  background: url(/images/FondoWEB2-23.webp?9f95b0c8e8851e5fe2427d752f656269);
+  /* background: no-repeat; */
+  background-size: cover;
+  padding-bottom: 64px;
+}
+
+@media (max-width: 768px) {
+  .section-search {
+    background: url(/images/FondoWEB2-23.webp?9f95b0c8e8851e5fe2427d752f656269);
+  }
+
+  .footer-bg {
+    padding: 20px 1rem;
+  }
+
+  .bg-main-pink {
+    background: white !important;
+  }
+}
+
+.footer-footer {
+  min-height: 5vh;
+  background-color: #212121;
+}
+
+.planComparator-bg {
+  padding-top: 8vh !important;
+  width: 100%;
+  min-height: 50vh;
+  background-color: #f7f7f7 !important;
+}
+
+.ic-logo-grey {
+  max-width: 220px;
+  padding: 5px 10px;
+}
+
+.main-middle {
+  min-height: 45%;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about-section {
+  width: 100%;
+  height: auto;
+  background: white;
+}
+
+.about-number {
+  width: 2rem;
+  height: 2rem;
+}
+
+.about-text {
+  font-size: 0.85rem;
+  color: #13293d;
+  padding: 0px;
+}
+
+.about-title {
+  font-weight: bold;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.about-title-container:after {
+  display: block;
+  content: "";
+  border-bottom: solid 3.5px #cdcdcd;
+  border-radius: 15px;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+
+.about-title-container:after {
+  transform: scaleX(0.45);
+}
+
+.texto-btn {
+  font-size: 11px;
+  background-color: transparent;
+  color: #ffffff !important;
+}
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+
+.icon-btn {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #fff;
+}
+
+.offers-pagination-item {
+  background-color: white;
+  border-radius: 20px;
+  border-color: #00c2d6;
+  text-align: center;
+  padding-top: 10px;
+  border: solid 1px;
+  border-color: #0cd9f4;
+}
+
+.offers-pagination-item:hover {
+  box-shadow: 0px 0px 4px 5px rgba(0, 0, 0, 0.61);
+}
+
+.stars-container {
+  color: #00c2d6;
+  font-size: 13px;
+}
+
+.consult-card {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  border-radius: 50px;
+  max-width: 80vw !important;
+  border-width: 0 !important;
+}
+
+.modal-adjust {
+  width: auto !important;
+}
+
+.consult-card-modal {
+  max-width: 80vw !important;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+}
+
+.consult-card-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.consult-card-logo {
+  max-height: 150px;
+}
+
+.consult-card-company {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #13293d;
+  margin-top: 1.2rem;
+}
+
+.consult-card-sub-title {
+  font-size: 0.8rem;
+  color: #9b9b9b;
+}
+
+.benefits-content {
+  font-size: 0.85rem;
+  color: #13293d;
+}
+
+.field-content {
+  font-size: 1.75rem;
+  color: #13293d;
+}
+
+.consult-card-benefits {
+  padding: 0.3rem;
+}
+
+.consult-card-fields {
+  display: flex;
+  flex-direction: row;
+}
+
+.form-consulting-field {
+  border-bottom-right-radius: 50px;
+  justify-content: center;
+}
+
+.form-consulting-input {
+  background-color: transparent !important;
+  border: 1px solid white !important;
+  color: white !important;
+}
+
+.form-consulting-header {
+  text-align: center;
+}
+
+.form-consulting-header:after {
+  display: block;
+  content: "";
+  border-bottom: solid 3.5px #e6e6e6;
+  border-radius: 15px;
+  transform: scaleX(0.25);
+  transition: transform 250ms ease-in-out;
+}
+
+.form-consulting-title {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.consult-card-full-rounded {
+  border-radius: 50px !important;
+}
+
+@media (min-width: 992px) {
+  .form-consulting-field {
+    border-top-right-radius: 50px;
+  }
+}
+
+@media (max-width: 991px) {
+  .consult-card {
+    width: 90vw;
+  }
+
+  .form-consulting-field {
+    border-bottom-left-radius: 50px;
+  }
+}
+
+@media (max-width: 575px) {
+  .consult-card {
+    width: 100%;
+  }
+}
+
+.modal-xl-xl {
+  width: 100% !important;
+}
+
+.company-logo-item {
+  max-width: 100%;
+  max-height: 120px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.offer-card-separator {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 0.1rem;
+  margin-top: -8px;
+}
+
+.card {
+  box-shadow: none;
+}
+
+.btn-dark-blue {
+  background-color: #13293d;
+  color: white;
+}
+
+.btn-main-pink {
+  background-color: #ec008c;
+  color: white;
+}
+
+.btn-main-blue {
+  background-color: #00c2d6;
+  color: white;
+}
+
+.btn-main-pink:hover {
+  background-color: #de007c;
+  color: #cdcdcd;
+}
+
+.btn-dark-blue:hover {
+  background-color: #16415f;
+  color: lightgray;
+}
+
+.btn-main-blue:hover {
+  background-color: #109de4;
+  color: #cdcdcd;
+}
+
+.btn-footer {
+  background-color: #0DD9F5;
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+  color: white;
+  box-shadow: black 2px 2px 6px;
+}
+
+.autocomplete__suggestions {
+  z-index: 3 !important;
+}
+
+.rounded-input + .autocomplete__suggestions {
+  box-shadow: 0px 0px 3px 0.3px rgba(0, 0, 0, 0.75);
+}
+
+.page-item {
+  width: 2.7rem;
+  height: 2.6rem;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.high-companies-color {
+  color: #13293d;
+}
+
+.high-companies-title:after {
+  display: block;
+  padding-top: 5px;
+  content: "";
+  border-bottom: solid 3.5px #9b9b9b;
+  border-radius: 5px;
+  transform: scaleX(0.25);
+  transition: transform 250ms ease-in-out;
+}
+
+.high-companies-carousel {
+  width: 80vw;
+}
+
+.high-companies-img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  max-width: 100%;
+  max-height: 100px;
+}
+
+.vueperslide--active {
+  transition: height 1s;
+}
+
+.vueperslide--active .offer-card {
+  transition: height 1s;
+}
+
+#offer-cards .vueperslides__inner .vueperslides__parallax-wrapper {
+  padding-bottom: 520px !important;
+  padding-top: 40px;
+}
+
+.high-plans-color {
+  color: #535353;
+}
+
+.high-plans-title:after {
+  display: block;
+  padding-top: 5px;
+  content: "";
+  border-bottom: solid 3.5px #cdcdcd;
+  border-radius: 5px;
+  transform: scaleX(0.25);
+  transition: transform 250ms ease-in-out;
+}
+
+.high-plans-carousel {
+  width: 80vw;
+}
+
+.offer-card {
+  width: 300px;
+  /* height:480px;*/
+  border-radius: 24px;
+  background-color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  border: solid 7px;
+  border-color: #00c2d6;
+}
+
+@media (max-width: 450px) {
+  .offer-card {
+    /* width: 260px;*/
+  }
+}
+
+.offer-card-lg {
+  width: 60vw;
+  height: auto;
+  border-radius: 40px;
+  background-color: white;
+  box-shadow: 0px 0px 24px 0px rgba(30, 30, 30, 0.35);
+}
+
+@media (max-width: 768px) {
+  .offer-card-lg {
+    width: 80vw;
+  }
+}
+
+.offer-card-header {
+  flex-flow: column;
+  padding: 1.2rem;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.offer-card-separator {
+  width: 80%;
+  /*  height: 1px;*/
+  background: #00c2d6;
+}
+
+.offer-card-content {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  color: #13293d;
+}
+
+.offer-card-title {
+  background: #00ffda;
+  background: linear-gradient(90deg, #00ffda 0%, #06d1fc 100%);
+  border-radius: 3px;
+  font-family: "Heebo";
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.rounded-pill {
+  border-radius: 5px !important;
+}
+
+.offer-card-benefits {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  height: 90px;
+  overflow-y: visible;
+}
+
+.offer-card-logo {
+  -o-object-fit: contain;
+     object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.offer-card-price {
+  font-size: 33px;
+  word-break: break-all;
+  font-family: "Heebo", sans-serif;
+  margin-top: -20px;
+  color: #434040;
+}
+
+.offer-card-footer {
+  display: flex;
+  padding: 0 1rem;
+  padding-bottom: 1rem;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 8px;
+}
+
+.offer-card-btn {
+  font-size: 15px;
+  color: white;
+  font-family: "Heebo";
+  font-weight: bold;
+  margin-top: -20px;
+}
+
+.nosotros-main {
+  min-height: 100vh;
+}
+
+.nosotros-title {
+  min-height: 15vh;
+  background: linear-gradient(to bottom, rgba(19, 41, 61, 0.8), rgba(19, 41, 61, 0.8)), url(/images/nosotros-bg.jpg?19b0dcc137c7a27ad415d163b4f13c04);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+}
+
+.nosotros-title-text {
+  font-size: 48px;
+}
+
+.nosotros-main-content {
+  min-height: 50vh;
+}
+
+.nosotros-main-content span {
+  font-family: montserrat-regular;
+}
+
+.mision-title::after {
+  display: block;
+  content: "";
+  padding-top: 5px;
+  border-bottom: solid 3.5px #00c2d6;
+  border-radius: 5px;
+  transform: scaleX(0.25);
+  transition: transform 250ms ease-in-out;
+}
+
+.mision-title {
+  color: #00c2d6;
+  font-size: 1.3rem;
+}
+
+.nosotros-services-bg {
+  min-height: 40vh;
+  background-color: #f7f7f8;
+}
+
+.nosotros-services-title {
+  color: #000000;
+  font-size: 2rem;
+}
+
+.nosotros-services-title::after {
+  display: block;
+  content: "";
+  padding-top: 5px;
+  border-bottom: solid 3.5px #e6e6e6;
+  border-radius: 5px;
+  transform: scaleX(0.25);
+  transition: transform 250ms ease-in-out;
+}
+
+.img-nosotros-services {
+  width: 100px;
+  height: 100px;
+}
+
+.nosotros-service-text {
+  color: #00adef;
+}
+
+.nosotros-service-btn {
+  border: 2px solid #00adef;
+}
+
+.nosotros-service-btn:hover {
+  color: #fff;
+}
+
+.contacto-main {
+  min-height: 100vh;
+}
+
+.contacto-title {
+  min-height: 40vh;
+  background: linear-gradient(to bottom, rgba(19, 41, 61, 0.8), rgba(19, 41, 61, 0.8)), url(/images/contacta-bg.jpg?348012bed6dbf0b129a4cbd40fb39392);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+}
+
+.contacto-title-text {
+  font-size: 48px;
+}
+
+.contacto-main-content {
+  padding-bottom: 3rem;
+}
+
+.contacto-main-content span {
+  font-family: montserrat-regular;
+}
+
+.contacto-card {
+  position: -webkit-sticky;
+  position: sticky;
+  margin-top: -40px;
+  border-radius: 50px;
+  box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+.contacto-card-title {
+  color: #00c2d6;
+}
+
+.contacto-card-title::after {
+  display: block;
+  content: "";
+  padding-top: 5px;
+  border-bottom: solid 3.5px #00c2d6;
+  border-radius: 5px;
+  transform: scaleX(0.25);
+  transition: transform 250ms ease-in-out;
+}
+
+.contacto-card-label {
+  font-size: 14px;
+}
+
+.contacto-footer {
+  /*background-color: rgba(0, 173, 239, 1);
+  min-height: 40vh;*/
+  background: #20ADF4;
+}
+
+.contacto-footer-title {
+  color: #e6e6e6;
+  font-size: 36px;
+}
+
+.footer-img {
+  max-height: 130px;
+  max-width: 180px;
+}
+
+.footer-links {
+  margin-top: 30px;
+}
+
+.footer-link-border {
+  border-left: 3px solid rgba(126, 126, 126, 0.4);
+  padding-left: 20px;
+}
+
+@media (max-width: 575px) {
+  .footer-link-border {
+    border-left: none;
+    padding-left: 0px;
+    margin-top: 10px;
+  }
+}
+
+.footer-title-color {
+  color: #D6D8DB;
+}
+
+.footer-list {
+  list-style: none;
+}
+
+.footer-list li {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-footer span {
+  color: rgba(126, 126, 126, 0.7);
+  font-size: 12px;
+}
+
+.filter-card {
+  background-color: #f7f7f7;
+}
+
+.filter-card-title {
+  color: #525973;
+}
+
+.filter-card-label {
+  font-size: 14px;
+}
+
+.offer-company {
+  max-height: 3rem;
+}
+
+@media (max-width: 980px) {
+  .offer-benefits {
+    display: none !important;
+  }
+}
+
+@media (max-width: 368px) {
+  .hidden-xs-xs {
+    display: none;
+  }
+}
+
+/* Extra Small devices (tablets, 576px and down) */
+
+@media (max-width: 576px) {
+  .hidden-xs {
+    display: none;
+  }
+}
+
+/* Small devices (tablets, 576px and up to 768px and down) */
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .hidden-sm {
+    display: none;
+  }
+}
+
+/* Medium devices (desktops, 768px and up to 992px and down) */
+
+@media (min-width: 767px) and (max-width: 991px) {
+  .hidden-md {
+    display: none;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up to 1200px and down) */
+
+@media (min-width: 991px) and (max-width: 1199px) {
+  .hidden-lg {
+    display: none;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up to 1320px and down) */
+
+@media (min-width: 1199px) and (max-width: 1320px) {
+  .hidden-xl {
+    display: none;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1320px) {
+  .hidden-xl-xl {
+    display: none;
+  }
+}
+
+.vld-overlay.is-full-page {
+  z-index: 1051 !important;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+  color: #fff;
+  border-color: #13293d;
+  background-color: #13293d;
+}
+
+.main-search-form {
+  z-index: 10;
+  height: auto;
+  background: white;
+  border-image-slice: 1;
+  border-radius: 20px;
+  width: 70%;
+  box-shadow: 0 3px 3px #06D1FC, ease-in-out 0 2px 2px #00FFDA;
+  border-color: #00FFDA;
+  border: 3px solid #00FFDA;
+}
+
+@media (max-width: 768px) {
+  .main-search-form {
+    width: 100%;
+    z-index: 10;
+  }
+}
+
+.main-form-title-container:after {
+  display: block;
+  content: "";
+  border-bottom: solid 3.5px #cdcdcd;
+  border-radius: 5px;
+  transform: scaleX(0.35);
+  transition: transform 250ms ease-in-out;
+}
+
+.main-form-title {
+  color: #00c2d6;
+  font-size: 1.3rem;
+}
+
+.ci-select {
+  padding-left: 2.375rem !important;
+  color: gray;
+  /* background-image: url("images/PaginaWEBFlechas.png");
+   background-size: 17px;;*/
+  border-radius: 10px;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+
+@media (max-width: 767px) {
+  .main-search-form {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .filterCard {
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0;
+    top: 15%;
+  }
+}
+
+#btn-enviar {
+  box-shadow: 1px 5px 8px 0px rgba(0, 0, 0, 0.75);
+  font-family: "Work Sans", sans-serif;
+}
+
+#btn-enviar2 {
+  box-shadow: 1px 5px 8px 0px rgba(0, 0, 0, 0.75);
+  font-family: "Work Sans", sans-serif;
+  margin-left: 9px;
+  margin-top: 5px;
+}
+
+#text-form::-moz-placeholder {
+  font-family: "Work Sans", sans-serif;
+  font-style: italic;
+}
+
+#text-form:-ms-input-placeholder {
+  font-family: "Work Sans", sans-serif;
+  font-style: italic;
+}
+
+#text-form::placeholder {
+  font-family: "Work Sans", sans-serif;
+  font-style: italic;
+}
+
+.form-control-footer {
+  margin-top: 3px;
+}
+
+.form-control-footer::-moz-placeholder {
+  color: #9B999F;
+  font-family: "Work Sans", sans-serif;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.form-control-footer:-ms-input-placeholder {
+  color: #9B999F;
+  font-family: "Work Sans", sans-serif;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.form-control-footer::placeholder {
+  color: #9B999F;
+  font-family: "Work Sans", sans-serif;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.text-main-blue {
+  color: #00c2d6;
+}
+
+.text-dark-blue {
+  color: #13293d;
+}
+
+.text-ws {
+  font-family: "Work Sans", sans-serif;
+}
+
+.text-heebo {
+  font-family: "Heebo", sans-serif;
+}
+
+.text-dark-gray {
+  color: #9b9b9b;
+}
+
+.company-card-label {
+  height: 90px;
+}
+
+@media (max-width: 768px) {
+  .company-card-label {
+    height: 100px;
+  }
+}
+
+.text-wrap {
+  word-break: break-word;
+}
+
+.text-wrap-all {
+  word-break: break-all;
+}
+
+@media (min-width: 1000px) {
+  .offers-label {
+    font-size: 0.8rem !important;
+  }
+}
+
+.text-item-list {
+  font-size: 1.25rem;
+  font-weight: bold;
+  font-family: "Work Sans", sans-serif;
+  color: #D6D8DB;
+}
+
+.text-item-list a {
+  font-size: 0.8rem;
+  font-weight: bold;
+  font-family: "Work Sans", sans-serif;
+  text-transform: uppercase;
+  color: #D6D8DB;
+}
+
+.offer-table-label {
+  font-size: 0.7rem;
+  background-color: transparent;
+}
+
+.text-tabla-detalles {
+  color: #00c2d6;
+  font-size: 1.2rem;
+  font-family: "Heebo";
+  font-weight: 600;
+}
+
+.offer-table-price {
+  font-size: 1.2rem;
+}
+
+.counters-container {
+  display: flex;
+  padding: 1.4rem 0;
+  margin-top: 3rem;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.counter-value {
+  font-size: 3rem;
+}
+
+.counter-label {
+  font-size: 1.3rem !important;
+}
+
+@media (max-width: 767px) {
+  .counter-label {
+    font-family: "Heebo";
+    font-weight: 100;
+  }
+}
+
+.whatsapp {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  width: 100px;
+}
+
+.botones-sobre-buscador {
+  background-color: transparent;
+}
+
+.fila-de-botones-sobre-buscador {
+  margin-top: 40px;
+  padding-left: 177px;
+  padding-right: 208px;
+  margin-bottom: -30px;
+}
+
+.btn-1 {
+  background-color: #3d3c3c63;
+  color: white;
+  font-size: 13px;
+}
+
+.btn-1:hover {
+  color: white;
+}
+
+.fila-iconos-buscador {
+  padding-left: 51px;
+  padding-right: 160px;
+  padding-top: 30px;
+}
+
+.lupa {
+  cursor: pointer;
+  margin-top: -71px;
+  margin-left: 61px;
+  height: 120px;
+}
+
+.borde-caja-buscador {
+  padding-left: 137px;
+  padding-right: 182px;
+}
+
+@media (max-width: 1400px) {
+  .btn-1 {
+    background-color: #3d3c3c63;
+    color: white;
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .btn-1 {
+    background-color: #3d3c3c63;
+    color: white;
+    font-size: 7px;
+  }
+
+  .borde-caja-buscador {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .lupa {
+    margin-top: -71px;
+    margin-left: -21px;
+    height: 84px;
+  }
+}
+
+@media (max-width: 1095px) {
+  .fila-iconos-buscador {
+    padding-left: 25px;
+    padding-right: 120px;
+    padding-top: 15px;
+  }
+}
+
+@media (max-width: 991px) {
+  .fila-iconos-buscador {
+    padding-left: 25px;
+    padding-right: 56px;
+    padding-top: 15px;
+  }
+
+  .fila-de-botones-sobre-buscador {
+    margin-top: -50px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .borde-caja-buscador {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .lupa {
+    margin-top: -12px;
+    margin-left: 85px;
+    height: 73px;
+  }
+}
+
+@media (max-width: 411x) {
+  .lupa {
+    margin-top: 0px;
+    margin-left: 129px;
+    height: 77px;
+  }
+}
+
+@media (max-width: 375x) {
+  .lupa {
+    margin-top: 0px;
+    margin-left: 109px;
+    height: 77px;
+  }
+}
+
+@media (max-width: 768px) {
+  .lupa {
+    margin-top: 0px;
+    margin-left: 116px;
+    height: 77px;
+  }
+
+  span.text0-botones::before {
+    content: ‘\a ’;
+    white-space: pre;
+  }
+
+  .borde-caja-buscador {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .fila-de-botones-sobre-buscador {
+    margin-top: 54px;
+    padding-left: 9px;
+    padding-right: 0px;
+  }
+
+  .botones-sobre-buscador {
+    background-color: transparent;
+  }
+
+  .fila-iconos-buscador {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .about-number {
+    width: 2rem;
+    height: 2rem;
+    background-color: #00c2d6;
+  }
+
+  .texto-btn {
+    font-size: 11px;
+    color: black;
+  }
+
+  .btn-1 {
+    background-color: white;
+    color: black;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 500px) {
+  .fila-de-botones-sobre-buscador {
+    margin-top: 43px;
+    padding-left: 9px;
+    padding-right: 0px;
+  }
+
+  .btn-1 {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 441px) {
+  .fila-de-botones-sobre-buscador {
+    margin-top: 43px;
+    padding-left: 9px;
+    padding-right: 0px;
+  }
+
+  .btn-1 {
+    font-size: 17px;
+  }
+}
+
+.contador2 {
+  display: none;
+}
+
+@media (max-width: 500px) {
+  .contador1 {
+    display: none;
+  }
+
+  .contador2 {
+    display: inline;
+  }
+}
+
+.counters-container {
+  z-index: 0;
+}
+
+.bg-ic2 {
+  background: linear-gradient(to bottom, rgba(19, 41, 61, 0.8), rgba(19, 41, 61, 0.8)), url(/images/fondo_switch.jpg?bdd900f51ec26d13f42d23f8b5f2f82a);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  height: auto;
+  padding: 2rem 1em;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  z-index: 3;
+  margin-top: 0px;
+  height: 348px;
+}
+
+.formulario-centro {
+  background: #00c2d6;
+  min-height: 400px;
+  padding-top: 9%;
+  margin-top: -16px;
+}
+
+.texto-formulario-centro1 {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.texto-formulario-centro2 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+@media (max-width: 767px) {
+  .formulario-centro {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: -36%;
+    padding-top: 12%;
+    padding-left: 38px;
+    padding-right: 38px;
+  }
+
+  .texto-formulario-centro1 {
+    font-size: 20px;
+  }
+
+  .texto-formulario-centro2 {
+    font-size: 25px;
+  }
+
+  .counter-value {
+    font-size: 1.5rem;
+  }
+
+  .counters-container {
+    display: flex;
+    /*  padding: 0.1rem 0; */
+    margin-top: -3rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+
+.fondo-ETB-modal {
+  background: #20487f;
+}
+
+.fondo-Movistar-modal {
+  background: #019df4;
+}
+
+.fondo-Azteca_Comunicaciones-modal {
+  background: #04a64b;
+}
+
+.fondo-ETB {
+  background: #20487f;
+}
+
+.fondo-Azteca_Comunicaciones {
+  background: #04a64b;
+}
+
+.logo-home-2 {
+  margin-top: -59px;
+  padding-bottom: 93px;
+}
+
+.modal-chatea {
+  width: 170px;
+}
+
+.ribbon {
+  width: 125px;
+  height: 32px;
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  transform: rotate(0deg);
+  /* position: absolute;*/
+  margin-top: -11px;
+  padding-top: 5px;
+}
+
+.titulo-blog {
+  font-family: "Heebo";
+  font-size: 20px;
+  font-weight: 400;
+  color: #5b5a5f;
+}
+
+.fondo-blog {
+  background-color: #d7d8dc;
+}
+
+.texto-blog {
+  color: #88868b;
+  font-size: 15px;
+  font-weight: 300;
+  text-align: justify;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.bloque-tecnologia {
+  margin-top: -7px;
+}
+
+.logo-tecnologia {
+  width: 65px;
+  margin-top: -31px;
+}
+
+.logo-movil-planes {
+  width: 126px;
+  margin-top: -72px;
+}
+
+.logo-movil-planes2 {
+  width: 126px;
+}
+
+.logo-movil-tecnologia1 {
+  width: 126px;
+}
+
+.bloque-3 {
+  margin-top: 55px;
+}
+
+.btn-adquierelo {
+  font-family: "Heebo";
+  background: #0bdcf3;
+  box-shadow: 0px 0px 7px 0px black;
+  font-weight: bold;
+  font-size: 1vw;
+}
+
+.logo-mb {
+  max-height: 130px;
+}
+
+.tecnologia-movil {
+  display: none;
+}
+
+.logo-tecnologia {
+  width: 41px;
+  margin-top: -51px;
+}
+
+.tegnologia-movil {
+  display: none;
+}
+
+.titulo-nosotros {
+  font-family: "Heebo";
+  color: #7f7f7f;
+  font-size: 56px;
+}
+
+.texto-resultado-busqueda-banner {
+  line-height: 0px;
+  font-weight: 300;
+}
+
+.texto-nosotros {
+  padding-left: 73px;
+  padding-right: 73px;
+  font-size: 20px;
+  font-family: "Heebo";
+  text-align: initial;
+  line-height: 100%;
+}
+
+@media (min-width: 1226px) {
+  .logo-home-2 {
+    width: 20%;
+  }
+
+  .ribbon {
+    right: 122px;
+    top: 5px;
+    padding-top: 5px;
+  }
+
+  .logo-tecnologia {
+    width: 65px;
+    margin-top: -5px;
+  }
+
+  .logo-tecnologia2 {
+    width: 65px;
+  }
+
+  .texto-resultado-busqueda-banner {
+    line-height: 0px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .logo-home-2 {
+    width: 20%;
+  }
+
+  .ribbon {
+    right: 100px;
+    top: 5px;
+    padding-top: 5px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .sin-resultados-1 {
+    margin-top: 30px;
+  }
+
+  .sin-resultados-2 {
+    margin-top: 30px;
+  }
+
+  .sin-resultados-3 {
+    margin-top: 30px;
+  }
+
+  .sin-resultados-4 {
+    margin-top: 30px;
+  }
+
+  .logo-tecnologia {
+    width: 65px;
+    margin-top: -5px;
+  }
+
+  .texto-resultado-busqueda-banner {
+    line-height: 12px;
+  }
+}
+
+@media (max-width: 755px) {
+  .logo-tecnologia {
+    width: 41px;
+    margin-top: -5px;
+  }
+
+  .header-posicion {
+    margin-top: -22px;
+  }
+
+  .footer-movil {
+    display: none;
+  }
+
+  #carrusel-img-1 {
+    content: url(/images/fondo2-movil.jpg?74ddfeb1b1c2a66c096df076782b325b);
+  }
+
+  #carrusel-img-2 {
+    content: url(/images/fondo3-movil.jpg?9b134619a594c36a679d5c894ddea3de);
+  }
+
+  .texto-nosotros {
+    text-align: initial;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 20px;
+    font-family: "Heebo";
+    line-height: 100%;
+  }
+
+  .titulo-nosotros {
+    font-size: 41px;
+  }
+}
+
+@media (max-width: 500px) {
+  .logo-home-2 {
+    width: 50%;
+  }
+
+  .ribbon {
+    right: 122px;
+    top: 5px;
+    padding-top: 5px;
+  }
+
+  .bloque-proveedor-precios {
+    display: none !important;
+  }
+}
+
+@media (max-width: 500px) and (min-width: 300px) {
+  .logo-home-2 {
+    width: 50%;
+  }
+
+  .ribbon {
+    right: 75px;
+    top: 5px;
+    padding-top: 5px;
+  }
+
+  .logo-tecnologia {
+    width: 41px;
+    margin-top: -31px;
+  }
+
+  .bloque-proveedor-precios {
+    display: none !important;
+  }
+
+  .bloque-3 {
+    margin-top: 0px;
+  }
+
+  .texto-hbo {
+    margin-top: -14px;
+  }
+
+  .tecnologia-movil {
+    display: inline;
+  }
+
+  .bloque-tecnologia {
+    margin-top: -50px;
+  }
+
+  .logo-mb {
+    margin-top: 0px;
+    width: 110px;
+  }
+
+  .hbo {
+    margin-top: 125px;
+  }
+
+  .offer-card-separator10 {
+    width: 80%;
+    height: 1px;
+    background: #0bdcf3 !important;
+  }
+
+  .offer-card-separator11 {
+    width: 80%;
+    height: 1px;
+    background: #0bdcf3 !important;
+    margin-left: 18px;
+  }
+
+  .logo-movil-planes {
+    margin-left: 190px;
+    margin-top: -313px;
+    width: 65%;
+  }
+
+  .logo-movil-planes2 {
+    margin-left: 190px;
+    width: 65%;
+  }
+
+  .logo-movil-tecnologia1 {
+    margin-left: 190px;
+    width: 65%;
+  }
+
+  .tegnologia-movil {
+    display: block;
+  }
+
+  .beneficio-movil {
+    margin-top: 85px;
+  }
+
+  .icono-ondas {
+    margin-top: -52px;
+  }
+
+  .precio-movil {
+    font-size: 27px;
+    margin-top: 0px;
+  }
+
+  .btn-adquierelo {
+    font-family: "Heebo";
+    background: #0bdcf3;
+    box-shadow: 0px 0px 7px 0px black;
+    margin-top: -48px;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 500px) and (min-width: 360px) {
+  .logo-home-2 {
+    width: 50%;
+  }
+
+  .ribbon {
+    right: 115px;
+    top: 5px;
+    padding-top: 5px;
+  }
+
+  .logo-tecnologia {
+    width: 41px;
+    margin-top: -31px;
+  }
+
+  .bloque-proveedor-precios {
+    display: none !important;
+  }
+
+  .bloque-3 {
+    margin-top: 0px;
+  }
+
+  .texto-hbo {
+    margin-top: -14px;
+  }
+
+  .tecnologia-movil {
+    display: inline;
+  }
+
+  .bloque-tecnologia {
+    margin-top: -50px;
+  }
+
+  .logo-mb {
+    margin-top: 0px;
+    width: 110px;
+  }
+
+  .hbo {
+    margin-top: 125px;
+  }
+
+  .offer-card-separator10 {
+    width: 80%;
+    height: 1px;
+    background: #0bdcf3 !important;
+  }
+
+  .offer-card-separator11 {
+    width: 80%;
+    height: 1px;
+    background: #0bdcf3 !important;
+    margin-left: 18px;
+  }
+
+  .logo-movil-planes {
+    margin-left: 190px;
+    margin-top: -313px;
+    width: 87%;
+  }
+
+  .logo-movil-planes2 {
+    margin-left: 190px;
+    margin-top: -313px;
+    width: 87%;
+  }
+
+  .logo-movil-tecnologia1 {
+    margin-left: 190px;
+    margin-top: -313px;
+    width: 87%;
+  }
+
+  .tegnologia-movil {
+    display: block;
+  }
+
+  .beneficio-movil {
+    margin-top: 85px;
+  }
+
+  .icono-ondas {
+    margin-top: -52px;
+  }
+
+  .precio-movil {
+    font-size: 27px;
+    margin-top: 0px;
+  }
+
+  .btn-adquierelo {
+    font-family: "Heebo";
+    background: #0bdcf3;
+    box-shadow: 0px 0px 7px 0px black;
+    margin-top: -48px;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 500px) and (min-width: 375px) {
+  .logo-home-2 {
+    width: 50%;
+  }
+
+  .ribbon {
+    right: 122px;
+    top: 5px;
+    padding-top: 5px;
+  }
+
+  .logo-tecnologia {
+    width: 41px;
+    margin-top: -31px;
+  }
+
+  .bloque-proveedor-precios {
+    display: none !important;
+  }
+
+  .bloque-3 {
+    margin-top: 0px;
+  }
+
+  .texto-hbo {
+    margin-top: -14px;
+  }
+
+  .tecnologia-movil {
+    display: inline;
+  }
+
+  .bloque-tecnologia {
+    margin-top: -50px;
+  }
+
+  .logo-mb {
+    margin-top: 0px;
+    width: 110px;
+  }
+
+  .hbo {
+    margin-top: 125px;
+  }
+
+  .offer-card-separator10 {
+    width: 80%;
+    height: 1px;
+    background: #0bdcf3 !important;
+  }
+
+  .offer-card-separator11 {
+    width: 80%;
+    height: 1px;
+    background: #0bdcf3 !important;
+    margin-left: 18px;
+  }
+
+  .logo-movil-planes {
+    margin-left: 208px;
+    margin-top: -313px;
+    width: 81%;
+  }
+
+  .logo-movil-planes2 {
+    margin-left: 208px;
+    margin-top: -313px;
+    width: 81%;
+  }
+
+  .logo-movil-tecnologia1 {
+    margin-left: 208px;
+    margin-top: -313px;
+    width: 81%;
+  }
+
+  .tegnologia-movil {
+    display: block;
+  }
+
+  .beneficio-movil {
+    margin-top: 85px;
+  }
+
+  .icono-ondas {
+    margin-top: -52px;
+  }
+
+  .precio-movil {
+    font-size: 27px;
+    margin-top: 0px;
+  }
+
+  .btn-adquierelo {
+    font-family: "Heebo";
+    background: #0bdcf3;
+    box-shadow: 0px 0px 7px 0px black;
+    margin-top: -48px;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 500px) and (min-width: 411px) {
+  .logo-home-2 {
+    width: 50%;
+  }
+
+  .ribbon {
+    right: 135px;
+    top: 5px;
+    padding-top: 5px;
+  }
+
+  .logo-tecnologia {
+    width: 41px;
+    margin-top: -31px;
+  }
+
+  .bloque-proveedor-precios {
+    display: none !important;
+  }
+
+  .bloque-3 {
+    margin-top: 0px;
+  }
+
+  .texto-hbo {
+    margin-top: -14px;
+  }
+
+  .tecnologia-movil {
+    display: inline;
+  }
+
+  .bloque-tecnologia {
+    margin-top: -50px;
+  }
+
+  .logo-mb {
+    margin-top: 0px;
+    width: 110px;
+  }
+
+  .hbo {
+    margin-top: 125px;
+  }
+
+  .offer-card-separator10 {
+    width: 80%;
+    height: 1px;
+    background: #0bdcf3 !important;
+  }
+
+  .offer-card-separator11 {
+    width: 80%;
+    height: 1px;
+    background: #0bdcf3 !important;
+    margin-left: 18px;
+  }
+
+  .logo-movil-planes {
+    margin-left: 242px;
+    margin-top: -313px;
+    width: 71%;
+  }
+
+  .logo-movil-planes2 {
+    margin-left: 242px;
+    margin-top: -313px;
+    width: 71%;
+  }
+
+  .logo-movil-tecnologia1 {
+    margin-left: 242px;
+    margin-top: -313px;
+    width: 71%;
+  }
+
+  .tegnologia-movil {
+    display: block;
+  }
+
+  .beneficio-movil {
+    margin-top: 85px;
+  }
+
+  .icono-ondas {
+    margin-top: -52px;
+  }
+
+  .precio-movil {
+    font-size: 27px;
+    margin-top: 0px;
+  }
+
+  .btn-adquierelo {
+    font-family: "Heebo";
+    background: #0bdcf3;
+    box-shadow: 0px 0px 7px 0px black;
+    margin-top: -48px;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 500px) and (min-width: 499px) {
+  .logo-home-2 {
+    width: 50%;
+  }
+
+  .ribbon {
+    right: 180px;
+    top: 5px;
+    padding-top: 5px;
+  }
+
+  .logo-tecnologia {
+    width: 41px;
+    margin-top: -31px;
+  }
+
+  .bloque-proveedor-precios {
+    display: none !important;
+  }
+
+  .bloque-3 {
+    margin-top: 0px;
+  }
+
+  .texto-hbo {
+    margin-top: -14px;
+  }
+
+  .tecnologia-movil {
+    display: inline;
+  }
+
+  .bloque-tecnologia {
+    margin-top: -50px;
+  }
+
+  .logo-mb {
+    margin-top: 0px;
+    width: 110px;
+  }
+
+  .hbo {
+    margin-top: 125px;
+  }
+
+  .offer-card-separator10 {
+    width: 80%;
+    height: 1px;
+    background: #0bdcf3 !important;
+  }
+
+  .offer-card-separator11 {
+    width: 80%;
+    height: 1px;
+    background: #0bdcf3 !important;
+    margin-left: 18px;
+  }
+
+  .logo-movil-planes {
+    margin-left: 392px;
+    margin-top: -313px;
+    width: 30%;
+  }
+
+  .logo-movil-planes2 {
+    margin-left: 392px;
+    margin-top: -313px;
+    width: 30%;
+  }
+
+  .logo-movil-tecnologia1 {
+    margin-left: 392px;
+    margin-top: -313px;
+    width: 30%;
+  }
+
+  .tegnologia-movil {
+    display: block;
+  }
+
+  .beneficio-movil {
+    margin-top: 85px;
+  }
+
+  .icono-ondas {
+    margin-top: -52px;
+  }
+
+  .precio-movil {
+    font-size: 27px;
+    margin-top: 0px;
+  }
+
+  .btn-adquierelo {
+    font-family: "Heebo";
+    background: #0bdcf3;
+    box-shadow: 0px 0px 7px 0px black;
+    margin-top: -48px;
+    font-weight: bold;
+  }
+}
+
+.texto-velocidad-resultado-busqueda {
+  font-family: "Heebo";
+  font-size: 1.59rem !important;
+  color: #5b5757 !important;
+  margin-top: 50px;
+}
+
+.texto-tecnologia-resultado-busqueda {
+  font-family: "Heebo";
+  margin-top: 4px;
+  font-size: 1.59rem !important;
+  color: #5b5757;
+  margin-top: 13px !important;
+}
+
+.modal-velocidad-1 {
+  font-family: "Heebo";
+  color: #5b5b5f;
+  font-weight: 800;
+  font-size: 3em;
+}
+
+@media (max-width: 500px) {
+  .modal-velocidad-1 {
+    font-size: 4vw;
+  }
+
+  .logo-movil-planes2 {
+    display: none;
+    margin-left: -9px !important;
+    margin-top: 0px !important;
+    width: 20px !important;
+  }
+
+  .logo-movil-tecnologia1 {
+    margin-left: 0px !important;
+    margin-top: 0px !important;
+    width: 80% !important;
+  }
+
+  .imagen-movil-tecnologia2 {
+    margin-top: 33px !important;
+    margin-left: -28px !important;
+    width: 41% !important;
+  }
+
+  .modal-valor-1 {
+    font-size: 4.5vw !important;
+  }
+
+  .btn-adquierelo {
+    margin-top: -52px !important;
+  }
+
+  .modal-texto-atributos {
+    font-size: 3vw !important;
+  }
+
+  .modal-atributos {
+    line-height: 81%;
+  }
+
+  .btn-main-blue {
+    font-size: 4vw !important;
+  }
+
+  .modal-texto-tecnologia3 {
+    font-size: 2.3vw !important;
+  }
+
+  .modal-texto-tecnologia4 {
+    margin-left: -29px;
+  }
+
+  .modal-chatea {
+    width: 130px;
+    margin-top: -15px;
+  }
+}
+
+/*
+
+
+@font-face{
+    font-family: work-sans-light;
+    src: url("./../assets/fonts/WorkSans-Light.ttf");
+}
+@font-face{
+    font-family: montserrat-bold;
+    src: url("./../assets/fonts/Montserrat-Bold.otf");
+}
+
+@font-face{
+    font-family: montserrat-regular;
+    src: url("./../assets/fonts/Montserrat-Regular.otf");
+}
+
+
+@font-face{
+	font-famili: heebo-regular;
+	src: url("./../assets/fonts/Heebo-Regular.ttf");
+}*/
+
+.mts-regular {
+  font-family: "Work Sans", sans-serif;
+}
+
+body {
+  scroll-behavior: smooth;
+  font-family: "Work Sans", sans-serif;
+  word-break: break-word;
+  box-sizing: content-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Heebo", sans-serif;
+}
+
