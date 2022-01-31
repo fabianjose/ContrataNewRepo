@@ -266,6 +266,17 @@ a {
   background-color: #f7f7f7 !important;
 }
 
+.sec1 {
+  min-height: 30em;
+  background: url("/images/sec1.png");
+}
+
+.sec2 {
+  margin-top: 40px;
+  min-height: 30em;
+  background: url("/images/sec2.png");
+}
+
 .ic-logo-grey {
   max-width: 220px;
   padding: 5px 10px;
@@ -1410,6 +1421,13 @@ a {
   }
 }
 
+.buscador {
+  background-color: #1599d6;
+  border-radius: 10%;
+  min-height: 100%;
+  width: 100%;
+}
+
 .contador2 {
   display: none;
 }
@@ -2343,6 +2361,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Heebo", sans-serif;
+  font-family: poppins-regular;
+  color: #055a76;
 }
 
