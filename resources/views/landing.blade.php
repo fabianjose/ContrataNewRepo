@@ -163,8 +163,8 @@ function correo2(){
                 
             </section>
 
-            <section id="blog" class="container">
-<?php 
+            <!--section id="blog" class="container">
+<?php /*
 	$url = "https://contratainternet.co/blog/wp-json/wp/v2/posts?_embed"; $ch = curl_init($url);  curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 	$post = curl_exec($ch);
 	$post = json_decode($post,true);
@@ -247,9 +247,9 @@ function correo2(){
                           <a href="<?php print_r($post[2]["link"]);?>"> <img src="{{asset('images/leermas.png')}}" width=100%; alt="">   </a> 
                         </div>
                      </div>
-					</div>
-				</div>
-            </section>
+					</div
+                <?php */?>
+            </section-->
             
 
 

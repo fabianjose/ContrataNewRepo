@@ -16,7 +16,19 @@ class HomeController extends Controller
      */
     public function __construct()
     {
-        //$this->middleware('auth');
+        
+      
+    }
+
+
+    public function new(){
+          $configItems=Config::all();
+        $configs =  DB::table('configs')->get();
+        $clientes = DB::table('companies')->count();
+       $configs[2]->value = "".( intval($configs[2]->value) + intval($clientes));
+       // print_r($configs);
+      //  return;
+        return view('homepage')->with(["configs"=>$configs]);
     }
 
     /**

@@ -1,5 +1,4 @@
-@extends('layouts.app')
-@section('content')
+<?php $__env->startSection('content'); ?>
     <meta name="description" content=""/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
    
@@ -42,7 +41,7 @@
         <nav id="nav-grande" class="  main-header navbar-light navbar navbar-expand-md mx-auto py-3 px-1 align-items-center header-posicion fixed-top" >
             <ul  class="navbar-nav ml-3 ">
                 <a class="nav-item  " href="/"  style="margin-top: -22px;">
-                    <img class="ic-logo" src="{{ asset('images/logo1.png') }}"  alt="">
+                    <img class="ic-logo" src="<?php echo e(asset('images/logo1.png')); ?>"  alt="">
                 </a>
             </ul>
             <a class="nav-link hidden-md nav-btn ml-auto mx-1 hidden-xl-xl hidden-xl hidden-lg hidden-xs"  href="https://contratainternet.speedtestcustom.com/">
@@ -99,7 +98,7 @@
 
      
 
-        @yield('content-page')
+        <?php echo $__env->yieldContent('content-page'); ?>
 
         <div class="footer-bg">
           <div class="d-flex flex-column align-items-center">
@@ -109,7 +108,7 @@
 
               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 " style="text-align: center;">
                    <div class="text-center">
-              <img src="{{asset('images/logo1_azul.png')}}" class="img-responsive text-center" style="max-width: 65%;">
+              <img src="<?php echo e(asset('images/logo1_azul.png')); ?>" class="img-responsive text-center" style="max-width: 65%;">
              
             </div>
                
@@ -189,7 +188,7 @@
        </a>
 
         <!--div class="whatsapp">
-            <a target="_blank"href="https://api.whatsapp.com/send?phone=573212120281&text=hola, me gustaria saber de los planes"> <img src="{{asset('/images/whatsapp.png')}}" width="67" height="67"> </a>
+            <a target="_blank"href="https://api.whatsapp.com/send?phone=573212120281&text=hola, me gustaria saber de los planes"> <img src="<?php echo e(asset('/images/whatsapp.png')); ?>" width="67" height="67"> </a>
         </div>
         <button type="button" id="btn-modal333" class="btn btn-primary d-none" data-bs-toggle="modal" data-bs-target="#MyModal333"  >
   Launch demo
@@ -267,4 +266,6 @@ $("#nav-grande").css({'height':'105px'});
    
       
 
-@stop
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.app', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /home/djmbdv/fabian/contrataNewRepo/resources/views/layouts/landing.blade.php ENDPATH**/ ?>

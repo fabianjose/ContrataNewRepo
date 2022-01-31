@@ -43,9 +43,14 @@
 
 .footer-bg {
     min-height: 35vh;
-    background: url("./../assets/images/fondo_signal.jpg"), linear-gradient(to bottom, rgba($main-blue, 80%), rgba($main-blue, 80%));
+    background: $dark-blue;
     background-size: cover;
     padding: 20px 100px;
+
+    border-top-style:double ;
+    border-top-color: white ;
+    border-top-width: 12px;
+    border-spacing: 2px;
 }
 
 .section-search {

@@ -33,11 +33,11 @@
 }
 
 .btn-footer{
-    background-color: #0DD9F5;
-    font-family: "Work Sans", sans-serif;
+    background-color: $main-blue;
+    font-family: poppins-medium;
     font-weight: bold;
     color: white;
-    box-shadow: black 2px 2px 6px;
+    border-radius: 0;
 }
 
 .autocomplete__suggestions{
