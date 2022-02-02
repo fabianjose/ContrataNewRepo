@@ -15,7 +15,7 @@
 
     
                 <br><br><br>
-            <div class="container" style="    width: 75%;    text-align: justify;     line-height: 255%;     margin-left: 220px;">
+            <div class="container" style="    width: 75%;    text-align: justify;     line-height: 255%;     margin-left: 220px;     font-family: 'poppins-regular';">
                          <div>
                                      <h2 style="line-height: 100%;    font-weight: bold;     margin-top: 14px;">¿ Como funciona <br>El mejor Internet?</h2>
                                    <p style=" " >   <span style="font-size: 50px; color:#5691ff">1.</span> <span style="font-size: 20px;     font-weight: 500;">Seleccione el uso</span> </p>
