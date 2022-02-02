@@ -4,21 +4,21 @@
         <div class="main-search-form py-1 px-1 mt-3" >
 
           <div class="row text-center fila-iconos-buscador"  >
-             <div class=" text-center text-heebo custom-control custom-radio form-group has-search col-6 col-sm-3" @click="offerType='private';" >
+             <div class=" text-center text-heebo custom-control custom-radio form-group has-search col-6 col-sm-6" @click="offerType='private';" >
                     <input type="radio" class="custom-control-input " :checked="offerType=='private'" id="privateOffer" >
                     <label class="custom-control-label" style="font-weight: medium;color: #606060;" for="privateOffer">Hogar  </label> <span> <img style="    margin-top: -14px;" src="images/Iconos-11.png" height="35px" alt=""> </span> 
                 </div>
              
-                <div class=" text-center text-heebo custom-control custom-radio form-group has-search col-6 col-sm-3" @click="offerType='Pyme';" >
+                <div class=" text-center text-heebo custom-control custom-radio form-group has-search col-6 col-sm-6" @click="offerType='Pyme';" >
                     <input type="radio" class="custom-control-input " :checked="offerType=='Pyme'" id="pymeOffer" >
                     <label class="custom-control-label" style="font-weight: medium;color: #606060;" for="pymeOffer">Pyme</label>   <span> <img style="    margin-top: -14px;" src="images/Iconos-12.png" height="35px" alt=""> </span> 
                 </div>               
 
-                <div class=" text-center text-heebo custom-control custom-radio form-group has-search col-6 col-sm-3" @click="offerType='company';" >
+                <div class=" text-center text-heebo custom-control custom-radio form-group has-search col-6 col-sm-6" @click="offerType='company';" >
                     <input type="radio" class="custom-control-input " :checked="offerType=='company'" id="companyOffer">
                     <label class="custom-control-label" style="font-weight: medium;color: #606060;" for="companyOffer">Empresa</label>  <span> <img style="    margin-top: -14px;" src="images/Iconos-13.png" height="35px" alt=""> </span> 
                 </div>
-                 <div class=" text-center text-heebo custom-control custom-radio form-group has-search col-6 col-sm-3" @click="offerType='isp';" >
+                 <div class=" text-center text-heebo custom-control custom-radio form-group has-search col-6 col-sm-6" @click="offerType='isp';" >
                     <input type="radio" class="custom-control-input " :checked="offerType=='isp'" id="ispOffer" >
                     <label class="custom-control-label" style="font-weight: medium;color: #606060;" for="ispOffer">ISP</label>  <span> <img style="    margin-top: -14px;" src="images/Iconos-14.png" height="35px" alt=""> </span> 
                 </div>
@@ -26,9 +26,6 @@
 
            
          
-          <div :class="' '+(index%2?'bg-main-blue':'bg-main-pink')" style=" width: 73%; height: 1px; background: #585e5e;
-    margin-left: 67px;
-"></div>
 <br>
 
             <div class="d-flex flex-row flex-wrap justify-content-around borde-caja-buscador" >
@@ -68,6 +65,40 @@
           </div>
             
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
 </template>
 

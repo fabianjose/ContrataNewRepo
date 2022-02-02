@@ -1,6 +1,4 @@
-@extends("layouts.landing")
-
-@section("content-page")
+<?php $__env->startSection("content-page"); ?>
 
 
    
@@ -200,16 +198,16 @@
                             </div>
                         </div>
                     </div>                
-                    @if ($errors->any())
-                    <search-form :errors="{{$errors}}"/>
-                    @else
+                    <?php if($errors->any()): ?>
+                    <search-form :errors="<?php echo e($errors); ?>"/>
+                    <?php else: ?>
                     <search-form />
-                    @endif
+                    <?php endif; ?>
                     
                 </div>
                 <section class="contador1">
                 <div class="bg-ic d-flex flex-row justify-content-around flex-wrap align-items-center" style="z-index:3">
-                          <config-counters :counters="{{json_encode($configs)}}" class="col-10 col-sm-10 col-md-7 col-lg-7 col-xl-7"></config-counters>
+                          <config-counters :counters="<?php echo e(json_encode($configs)); ?>" class="col-10 col-sm-10 col-md-7 col-lg-7 col-xl-7"></config-counters>
                      </div>
                 </section>
              
@@ -223,7 +221,7 @@
              </div>
              <div style="    text-align: center;
 "> 
-    <img src="{{asset('images/logoCI-1.png')}}"    class="logo-home-2" >     
+    <img src="<?php echo e(asset('images/logoCI-1.png')); ?>"    class="logo-home-2" >     
              </div>
              
             
@@ -289,7 +287,7 @@ function correo2(){
 
             <section class="contador2" style="margin-top: 0px;">
                 <div class="bg-ic2 d-flex flex-row justify-content-around flex-wrap align-items-center" style="z-index:3">
-                          <config-counters :counters="{{json_encode($configs)}}" class="col-10 col-sm-10 col-md-7 col-lg-7 col-xl-7"></config-counters>
+                          <config-counters :counters="<?php echo e(json_encode($configs)); ?>" class="col-10 col-sm-10 col-md-7 col-lg-7 col-xl-7"></config-counters>
                      </div>
                 </section>
 
@@ -503,7 +501,9 @@ function correo2(){
 	ellipsis_box(".limitado6",80);
 	});
                         </script>
-@stop
+<?php $__env->stopSection(); ?>
 
 
 
+
+<?php echo $__env->make("layouts.landing", \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\xampp\htdocs\ContrataNewRepo\resources\views/landing.blade.php ENDPATH**/ ?>
