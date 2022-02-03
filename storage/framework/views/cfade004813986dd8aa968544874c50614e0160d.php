@@ -41,13 +41,13 @@
         <nav id="" class=" navbar-light navbar navbar-expand-md mx-auto py-3 px-1 align-items-center header-posicion fixed-top" >
             <ul  class="navbar-nav ml-3 ">
                 <a class="nav-item  " href="/"  style="margin-top: -22px;">
-                    <img class="ic-logo" src="<?php echo e(asset('images/logo1.png')); ?>"  alt="">
+                    <img class="ic-logo" src="<?php echo e(asset('images/el_mejor_internet_co-05.png')); ?>"  alt="">
                 </a>
             </ul>
             <a class="nav-link hidden-md nav-btn ml-auto mx-1 hidden-xl-xl hidden-xl hidden-lg hidden-xs"  href="https://contratainternet.speedtestcustom.com/">
                 <i class="fas fa-tachometer-alt"></i>
             </a>
-            <a class="nav-link hidden-md nav-btn mx-1 hidden-xl-xl hidden-xl hidden-lg" data-toggle="collapse"
+            <a class="hidden-md  mx-1 hidden-xl-xl hidden-xl hidden-lg" data-toggle="collapse"
               data-target="#responsive-menu">
                 <i class="fas fa-bars"></i>
             </a>

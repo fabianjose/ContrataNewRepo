@@ -4,14 +4,13 @@
    
    
 
-   <section style="background-image: url('images/Seccion-1-Pagina-Web.jpg');
-            height: 100vh; background-size: contain;
-    background-repeat: no-repeat;">
+   <section class="background-seccion-1" style=" background-image: url('images/Seccion-1-Pagina-Web.jpg');">
 
 <div class="row" style="margin-top: 110px;">
-    <div class="col-sm-6 col-12">
-
-            <div class="col text-center">
+    <div class="col-sm-6 col-12" style="margin-top: 86px;text-align: right;margin-left: -30px;">
+<!--
+    <div>
+        <div class="col text-center">
 
     
                 <br><br><br>
@@ -38,16 +37,11 @@
 
                       
             </div>
-               
-                
-
-
-
-
-
-
             </div>
 
+    </div>
+-->
+<img class="img-textos" style=" height: 60%; " src="images/Pimer-elemento-texto.png"  alt="">   
 
     </div>
 
@@ -147,11 +141,26 @@
 
 
 
+<section class="background-seccion-2" style=" background-image: url('images/Seccion-2-Pagina-Web.jpg');">
+
+            <div class="row">
+                <div class="col text-center">
+                    <div class="div">
+                        <h1>Ofertas del mes</h1>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+
+            <div class=" justify-content-center container p-3" id="planes-destacados" >
+                 <high-plans></high-plans>
+             </div>
+</section>
 
 
 
 
-<div>
 
   
        
@@ -389,16 +398,13 @@ function correo2(){
 
 
 
-            
-            <section>
-              
-            </section>
+          
            
-        </div>
+       
      
        
 
-</div>
+
 
 <style>
                          

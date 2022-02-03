@@ -1,3 +1,16 @@
+.background-seccion-1{
+   
+    height: 100vh; 
+    background-size: contain;
+    background-repeat: no-repeat;
+ }
+
+ .background-seccion-2{
+   
+    height: 100vh; 
+    background-size: contain;
+    background-repeat: no-repeat;
+ }
 .registration-form{
 	padding: 50px 0;
     font-weight: 100 !important;
@@ -128,4 +141,30 @@
         font-weight: 500;
    
    /* margin-left: -54px ;*/
+}
+@media (min-width: 570px) and (max-width: 950px) {
+    
+    .registration-form{
+        margin-top: 0px !important;
+    }
+}
+
+
+
+
+@media (max-width: 767px){
+    .registration-form{
+        margin-top: -345px;
+   }
+    .img-textos{
+        margin-left: 50px;
+    }
+
+    .background-seccion-1{
+        background-image: none !important;
+    }
+    .background-seccion-2{
+   
+        margin-top: 380px;
+     }
 }
