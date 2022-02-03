@@ -1,20 +1,21 @@
 <template>
  
-  <div class="offer-card d-flex flex-column">
+  <div class="offer-card d-flex flex-column" style="background-image: url('images/imf-footer.png'); background-repeat: no-repeat;
+    background-size: contain; background-position: bottom;
+    border-radius: 23px;">
     
     <div class="offer-card-header">
       <div class="offer-card-header" >     
-    <div :class="'ribbon ' + 'fondo-'+offer.company_name.replace(' ','_')" >Planes    
+   <!--  <div :class="'ribbon ' + 'fondo-'+offer.company_name.replace(' ','_')" >Planes    
             <span v-if="offer.type =='private'"> Hogar  </span> 
             <span v-if="offer.type =='isp'"> ISP  </span> 
             <span v-if="offer.type =='company'"> Empresa  </span> 
             <span v-if="offer.type =='pyme'"> pyme  </span> 
-             </div> 
+             </div> -->
 
            
     
-      <img :src="baseUrl+'/storage/'+offer.company_logo" alt="logo" class="h-100 " style="    margin-top: 6px;
-">
+      <img :src="baseUrl+'/storage/'+offer.company_logo" alt="logo" class="h-100 " style="    ">
 
     
     </div>
@@ -24,35 +25,43 @@
       
    <!--  <div :class="'offer-card-separator '+(index%2?'bg-main-blue':'bg-main-pink')"></div> -->
 
-    <div  class="offer-card-content">
-      <div class="row" style="    padding-left: 50px;  padding-right:50px; margin-top: -12px;">
+    <div  class="offer-card-content ">
+      <div class="row" style=" justify-content: center; ">
        <!-- <h6 class="col-12 offer-card-title">{{offer.company_name}}</h6> -->
-       <h6 :class="'col-12 offer-card-title ' + 'fondo-'+offer.company_name.replace(' ','_')"  >         
-     <!--    {{offer.fields_values[0].value}} -->
-          <span v-if="offer.tecnologia ==0">Fibra Óptica</span> 
+     <!--  <h6 :class="'col-12 offer-card-title ' + 'fondo-'+offer.company_name.replace(' ','_')"  >         
+       {{offer.fields_values[0].value}} -->
+      <!--      <span v-if="offer.tecnologia ==0">Fibra Óptica</span> 
           <span v-if="offer.tecnologia ==1">Satelital</span> 
           <span v-if="offer.tecnologia ==2">Híbrido</span> 
           <span v-if="offer.tecnologia ==3">Cobre</span> 
           <span v-if="offer.tecnologia ==4">Radio</span> 
           <span v-if="offer.tecnologia ==5">Voz Ip</span> 
-         </h6>   
+         </h6>   -->
 
-     
+    <span class="texto-card-nuevo" style="" v-if="offer.tipo_plan_logos == 0 ">internet</span> 
+    <span class="texto-card-nuevo" style="" v-if="offer.tipo_plan_logos ==1">Internet + Telefonia</span> 
+    <span class="texto-card-nuevo" style=""  v-if="offer.tipo_plan_logos ==2">Internet + Telefonia + Tv</span> 
+    <span class="texto-card-nuevo" style=""  v-if="offer.tipo_plan_logos ==3">VozIp</span> 
+
+
       </div>
-      <div class="row text-center">
+      <div class="row text-center" style="justify-content: center;">
        <!--  <h6 class="col-12 offer-card-benefits text-wrap" style="font-family:heebo">{{offer.benefits}}</h6>-->
-        <p class="col-12" style="font-family: 'Heebo';    margin-top: -9px; color:#88868b; " >velocidad</p>
         <!-- <h6 class="col-12 offer-card-title">{{offer.company_name}}</h6>  ACA VA EL VALOR DE LA VELOCIDAD -->
-        <h1 class="col-12 " style="font-family: 'Heebo';    color: #5b5b5f;    margin-top: -18px; font-weight: 800; font-size: 3em"> 
+        <h1 class="col-12 " style="font-family: 'Poppins', sans-serif;    color: #145b77;    margin-top: -18px; font-weight: 600; font-size: 3em"> 
    
                
-              {{offer.fields_values[1].value}} 
-  <span> <span v-if="offer.company_name =='Net2Phone' || offer.company_name =='SkyNet' "> Kbps  </span> 
-   <span v-if="offer.company_name != 'Net2Phone' && offer.company_name !='SkyNet'"> Mbps </span>  </span>
+              {{offer.fields_values[1].value}} <br>   </h1><span style="font-size: 1.2em;
+    font-family: poppins-regular;
+    margin-top: -22px;
+    font-weight: bold;">Megas</span>
+  <!--<span> <span v-if="offer.company_name =='Net2Phone' || offer.company_name =='SkyNet' "> Kbps  </span> 
+   <span v-if="offer.company_name != 'Net2Phone' && offer.company_name !='SkyNet'"> Mbps </span>  </span>-->
+   
 
           
       
-  </h1>
+
          
 
           
@@ -61,21 +70,21 @@
 
        
       </div> 
-                   <div :class="'offer-card-separator '+(index%2?'bg-main-blue':'bg-main-pink')"></div> 
+                <!-- <div :class="'offer-card-separator '+(index%2?'bg-main-blue':'bg-main-pink')"></div> 
 
             <div class="row text-center">
-       <!--  <h6 class="col-12 offer-card-benefits text-wrap" style="font-family:heebo">{{offer.benefits}}</h6>-->
-        <p class="col-12 " style="font-family: 'Heebo';    color:#88868b">Cantidad de Canales</p>
-        <!-- <h6 class="col-12 offer-card-title">{{offer.company_name}}</h6>  ACA VA EL VALOR DE CANALES DE BASE DEDATOS -->
+         <h6 class="col-12 offer-card-benefits text-wrap" style="font-family:heebo">{{offer.benefits}}</h6>
+        <p class="col-12 " style="font-family: 'Heebo';    color:#88868b">Cantidad de Canales</p>-->
+        <!-- <h6 class="col-12 offer-card-title">{{offer.company_name}}</h6>  ACA VA EL VALOR DE CANALES DE BASE DEDATOS 
         <h5 class="col-12 " style="font-family: 'Heebo';    color: #5b5b5f;     margin-top: -19px;  font-weight: 800;   "> {{offer.canales}}</h5>
       </div> 
 
           <div :class="'offer-card-separator '+(index%2?'bg-main-blue':'bg-main-pink')"></div> 
 
-            <div class="row text-center">
+            <div class="row text-center">-->
        <!--  <h6 class="col-12 offer-card-benefits text-wrap" style="font-family:heebo">{{offer.benefits}}</h6>-->
-        <p class="col-12 " style="font-family: 'Heebo';    color:#88868b">Telefonía</p>
-        <!-- <h6 class="col-12 offer-card-title">{{offer.company_name}}</h6>  ACA VA EL VALOR DE CANALES DE BASE DEDATOS -->
+      <!--   <p class="col-12 " style="font-family: 'Heebo';    color:#88868b">Telefonía</p>
+        <h6 class="col-12 offer-card-title">{{offer.company_name}}</h6>  ACA VA EL VALOR DE CANALES DE BASE DEDATOS 
         
         
                <h5   v-if="offer.telefonia==0" class="col-12 " style="font-family: 'Heebo';    color: #5b5b5f;     margin-top: -19px; font-weight: 800; text-center ">N/A</h5>
@@ -90,13 +99,18 @@
 
 
 
-      </div> 
+      </div> -->
 
        <div   v-if="offer.titulo1!=NULL && offer.titulo2!=NULL && offer.titulo3!=NULL">
                                  
                          
         <div class="row" >
-             <h5 :class="'col-12 offer-card-title ' + 'fondo-'+offer.company_name.replace(' ','_')" >{{offer.titulo1}}<br>{{offer.titulo2}}<br>{{offer.titulo3}}</h5>  
+             <h5 :class="'col-12 offer-card-title ' " >{{offer.titulo1}}<br>{{offer.titulo2}}<br>
+             
+               <div class="row" >
+        <h1 class="col-12 " style="font-family: Poppins, sans-serif;    color: rgb(20, 91, 119); font-weight: 600;  font-size: 3em;" >$ {{showPrice(offer.tariff)}}</h1>
+      </div>
+             {{offer.titulo3}}<br>{{offer.titulo4}} </h5>  
         </div>
 
            </div>
@@ -105,7 +119,7 @@
                                  
                          
         <div class="row" >
-             <h5 :class="'col-12 offer-card-title ' + 'fondo-'+offer.company_name.replace(' ','_')" >{{offer.titulo1}}<br>{{offer.titulo2}}<br><br></h5>  
+             <h5 :class="'col-12 offer-card-title ' " >{{offer.titulo1}}<br>{{offer.titulo2}}<br><br></h5>  
         </div>
 
            </div>
@@ -118,14 +132,19 @@
 
            </div>
                 
-    <!-- <p class="col-12 " style="font-family: 'Heebo';  #00c2d6   color:#88868b">Desde</p> -->   <br>
+    <!-- <p class="col-12 " style="font-family: 'Heebo';  #00c2d6   color:#88868b">Desde</p> --> 
 
-      <div class="row" >
-        <h1 class="col-12 " style="font-family: 'Heebo';    color: #5b5b5f;    margin-top: -18px; font-weight: 800; font-size:3em" >$ {{showPrice(offer.tariff)}}</h1>
+    <div class="row" >
+      <div class="col text-center">
+        <span style="font-family: Poppins, sans-serif;    color: #535353;  
+    font-weight: 500;
+   "> Saber mas..</span>
       </div>
     </div>
-    <div class="offer-card-footer">
-      <div class="col-10">
+
+     
+    </div>
+    <div class="offer-card-footer" >
         <div>
         
           
@@ -133,7 +152,7 @@
                         <a @click="emitContact" data-toggle="modal" data-target="#modalConsultOffer" > 
                          <button  data-toggle="modal" data-target="#modalConsultOffer" 
           :class="'btn  text-white offer-card-btn rounded-pill '+(index%2?'fondo-'+offer.company_name.replace(' ','_'):'fondo-'+offer.company_name.replace(' ','_')) ">
-          DETALLE DEL PLAN
+         Solocitar plan
         </button>
                         </a>
         <!-- <button @click="emitContact" data-toggle="modal" data-target="#modalConsultOffer" 

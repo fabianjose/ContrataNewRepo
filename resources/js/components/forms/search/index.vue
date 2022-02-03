@@ -1,106 +1,91 @@
 
 <template>
-    <div class="main-middle text-ws" >
-        <div class="main-search-form py-1 px-1 mt-3" >
 
-          <div class="row text-center fila-iconos-buscador"  >
-             <div class=" text-center text-heebo custom-control custom-radio form-group has-search col-6 col-sm-6" @click="offerType='private';" >
-                    <input type="radio" class="custom-control-input " :checked="offerType=='private'" id="privateOffer" >
-                    <label class="custom-control-label" style="font-weight: medium;color: #606060;" for="privateOffer">Hogar  </label> <span> <img style="    margin-top: -14px;" src="images/Iconos-11.png" height="35px" alt=""> </span> 
-                </div>
-             
-                <div class=" text-center text-heebo custom-control custom-radio form-group has-search col-6 col-sm-6" @click="offerType='Pyme';" >
-                    <input type="radio" class="custom-control-input " :checked="offerType=='Pyme'" id="pymeOffer" >
-                    <label class="custom-control-label" style="font-weight: medium;color: #606060;" for="pymeOffer">Pyme</label>   <span> <img style="    margin-top: -14px;" src="images/Iconos-12.png" height="35px" alt=""> </span> 
-                </div>               
+   
 
-                <div class=" text-center text-heebo custom-control custom-radio form-group has-search col-6 col-sm-6" @click="offerType='company';" >
-                    <input type="radio" class="custom-control-input " :checked="offerType=='company'" id="companyOffer">
-                    <label class="custom-control-label" style="font-weight: medium;color: #606060;" for="companyOffer">Empresa</label>  <span> <img style="    margin-top: -14px;" src="images/Iconos-13.png" height="35px" alt=""> </span> 
-                </div>
-                 <div class=" text-center text-heebo custom-control custom-radio form-group has-search col-6 col-sm-6" @click="offerType='isp';" >
-                    <input type="radio" class="custom-control-input " :checked="offerType=='isp'" id="ispOffer" >
-                    <label class="custom-control-label" style="font-weight: medium;color: #606060;" for="ispOffer">ISP</label>  <span> <img style="    margin-top: -14px;" src="images/Iconos-14.png" height="35px" alt=""> </span> 
-                </div>
-          </div>
 
-           
-         
-<br>
+  <div class="registration-form">
+        <form>
+           <div class="row">
 
-            <div class="d-flex flex-row flex-wrap justify-content-around borde-caja-buscador" >
-               
-             
-                <div class="form-group has-search ci-select-container col-md-6 col-sm-10 col-lg-3">
+                          <div class="col">
                   
-                    <select  class="custom-select ci-select "  v-model="service">
+                  
+                                    <div class="custom-control custom-radio" @click="offerType='private';">
+                                                    <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input"  :checked="offerType=='private'">
+                                                    <label class="custom-control-label" for="customRadio1"> <p class="texto-radios" > Hogar</p>  </label><span> <img style="    margin-top: -14px; " src="images/Icono-Hogar.png" height="35px" alt=""> </span>
+                                    </div>
+                          </div>
+
+                          <div class="col">
+                    
+                                    <div class="custom-control custom-radio "  @click="offerType='company';">
+                                        <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input"  :checked="offerType=='company'">
+                                        <label class="custom-control-label" for="customRadio2"> <p class="texto-radios" >Empresa </p> </label><span> <img style="    margin-top: -14px;" src="images/Icono-Empresas.png" height="35px" alt=""> </span>
+                                    </div>
+                          </div>             
+
+           </div>
+           <br>
+
+            <div class="row">
+
+                        <div class="col">
+                            <div class="custom-control custom-radio" :checked="offerType=='Pyme'">
+                              <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input" :checked="offerType=='Pyme'">
+                                <label class="custom-control-label" for="customRadio3"> <p class="texto-radios" >Pymes </p> </label><span> <img style="    margin-top: -14px;" src="images/Icono-Pymes.png" height="35px" alt=""> </span>
+                            </div>
+                        </div>
+
+
+                        <div class="col">
+                                <div class="custom-control custom-radio" @click="offerType='isp';">
+                                    <input type="radio" id="customRadio4" name="customRadio" class="custom-control-input" :checked="offerType=='isp'" >
+                                    <label class="custom-control-label" for="customRadio4"> <p class="texto-radios" >ISPs </p> </label><span> <img style="    margin-top: -14px;" src="images/Icono-ISPs.png" height="35px" alt=""> </span>
+                                </div>
+
+                        </div>
+            
+  
+            </div>
+
+                    <br>
+                        <div class="form-group">
+                        <select class="custom-select custom-select-sm " v-model="service">
                         <option value="" class="d-none" selected>Servicio</option>
                         <option v-for="(service,index) in services" :key="index"
                             :value="service.name">{{service.name}}
                         </option>
-                    </select>
-                </div>
+            </select>
+                        </div>
+                        <div class="form-group">
+                        <select class="custom-select custom-select-sm" v-model="department" @change="getMunicipalities">
+                         <option value="" class="d-none" selected>Departamento</option>
+                         <option v-for="(department,index) in departments" :key="index" :value="department.name">{{department.name}}</option>
+            </select>
+                        </div>
+                        <div class="form-group">
+                        <select class="custom-select custom-select-sm" v-model="municipality">
+                        <option value="" class="d-none" selected>Municipio</option>
+                        <option v-for="(municipality,index) in municipalities" :key="index" :value="municipality.name">{{municipality.name}}</option>
+            </select>
 
-                <div class="form-group has-search col-md-6 col-sm-10 col-lg-4">
-                 
-                    <select class="custom-select ci-select" v-model="department" @change="getMunicipalities">
-                      <option value="" class="d-none" selected>Departamento</option>
-                      <option v-for="(department,index) in departments" :key="index" :value="department.name">{{department.name}}</option>
-                    </select>
-                 
-                </div>
-
-                <div class="form-group has-search col-md-6 col-sm-10 col-lg-4">
-                
-                    <select class="custom-select ci-select" v-model="municipality">
-                      <option value="" class="d-none" selected>Municipio</option>
-                      <option v-for="(municipality,index) in municipalities" :key="index" :value="municipality.name">{{municipality.name}}</option>
-                    </select>
-               
-                </div>
-                 <div class="form-group has-search col-md-6 col-sm-10 col-lg-1 " @click="search" >
-                 <img class="lupa"  src="images/Iconos_lupa-14.png"  alt=""> 
-                   </div>
+            <div class="form-group" style="text-align: -webkit-center;">
+                <button type="button" class="btn btn-block create-account" @click="search">Buscar</button>
             </div>
-          </div>
-            
+            </div>
+         
+        </form>
+       
     </div>
 
 
+<!--///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
+   
 </template>
+
+
 
 <script>
 export default {

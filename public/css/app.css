@@ -643,12 +643,12 @@ a {
 }
 
 .offer-card {
-  width: 300px;
+  width: 250px;
   /* height:480px;*/
   border-radius: 24px;
   background-color: white;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  border: solid 7px;
+  border: solid 2px;
   border-color: #00c2d6;
 }
 
@@ -697,14 +697,15 @@ a {
 }
 
 .offer-card-title {
-  background: #00ffda;
-  background: linear-gradient(90deg, #00ffda 0%, #06d1fc 100%);
+  /* background: rgb(0, 255, 218);
+   background: linear-gradient(90deg, rgba(0, 255, 218, 1) 0%, rgba(6, 209, 252, 1) 100%);*/
+  margin-top: -5px;
   border-radius: 3px;
-  font-family: "Heebo";
   padding-top: 3px;
   padding-bottom: 3px;
-  font-weight: 500;
-  color: #fff;
+  font-weight: 600;
+  color: #042c44;
+  font-size: 0.9em;
 }
 
 .rounded-pill {
@@ -1440,6 +1441,15 @@ a {
   border-radius: 10%;
   min-height: 100%;
   width: 100%;
+}
+
+.texto-card-nuevo {
+  justify-content: center;
+  font-family: "Poppins", sans-serif !important;
+  margin-top: -45px;
+  color: #145b77;
+  font-size: 1em;
+  font-weight: 600;
 }
 
 .contador2 {

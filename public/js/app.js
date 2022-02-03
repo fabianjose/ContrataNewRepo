@@ -3755,21 +3755,6 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ['errors'],
   data: function data() {
@@ -4964,6 +4949,25 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -47412,341 +47416,289 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "main-middle text-ws" }, [
-    _c("div", { staticClass: "main-search-form py-1 px-1 mt-3" }, [
-      _c("div", { staticClass: "row text-center fila-iconos-buscador" }, [
-        _c(
-          "div",
-          {
-            staticClass:
-              " text-center text-heebo custom-control custom-radio form-group has-search col-6 col-sm-6",
-            on: {
-              click: function($event) {
-                _vm.offerType = "private"
+  return _c("div", { staticClass: "registration-form" }, [
+    _c("form", [
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col" }, [
+          _c(
+            "div",
+            {
+              staticClass: "custom-control custom-radio",
+              on: {
+                click: function($event) {
+                  _vm.offerType = "private"
+                }
               }
-            }
-          },
-          [
-            _c("input", {
-              staticClass: "custom-control-input ",
-              attrs: { type: "radio", id: "privateOffer" },
-              domProps: { checked: _vm.offerType == "private" }
-            }),
-            _vm._v(" "),
-            _c(
-              "label",
-              {
-                staticClass: "custom-control-label",
-                staticStyle: { "font-weight": "medium", color: "#606060" },
-                attrs: { for: "privateOffer" }
-              },
-              [_vm._v("Hogar  ")]
-            ),
-            _vm._v(" "),
-            _vm._m(0)
-          ]
-        ),
+            },
+            [
+              _c("input", {
+                staticClass: "custom-control-input",
+                attrs: {
+                  type: "radio",
+                  id: "customRadio1",
+                  name: "customRadio"
+                },
+                domProps: { checked: _vm.offerType == "private" }
+              }),
+              _vm._v(" "),
+              _vm._m(0),
+              _vm._m(1)
+            ]
+          )
+        ]),
         _vm._v(" "),
-        _c(
-          "div",
-          {
-            staticClass:
-              " text-center text-heebo custom-control custom-radio form-group has-search col-6 col-sm-6",
-            on: {
-              click: function($event) {
-                _vm.offerType = "Pyme"
+        _c("div", { staticClass: "col" }, [
+          _c(
+            "div",
+            {
+              staticClass: "custom-control custom-radio ",
+              on: {
+                click: function($event) {
+                  _vm.offerType = "company"
+                }
               }
-            }
-          },
-          [
-            _c("input", {
-              staticClass: "custom-control-input ",
-              attrs: { type: "radio", id: "pymeOffer" },
-              domProps: { checked: _vm.offerType == "Pyme" }
-            }),
-            _vm._v(" "),
-            _c(
-              "label",
-              {
-                staticClass: "custom-control-label",
-                staticStyle: { "font-weight": "medium", color: "#606060" },
-                attrs: { for: "pymeOffer" }
-              },
-              [_vm._v("Pyme")]
-            ),
-            _vm._v(" "),
-            _vm._m(1)
-          ]
-        ),
-        _vm._v(" "),
-        _c(
-          "div",
-          {
-            staticClass:
-              " text-center text-heebo custom-control custom-radio form-group has-search col-6 col-sm-6",
-            on: {
-              click: function($event) {
-                _vm.offerType = "company"
-              }
-            }
-          },
-          [
-            _c("input", {
-              staticClass: "custom-control-input ",
-              attrs: { type: "radio", id: "companyOffer" },
-              domProps: { checked: _vm.offerType == "company" }
-            }),
-            _vm._v(" "),
-            _c(
-              "label",
-              {
-                staticClass: "custom-control-label",
-                staticStyle: { "font-weight": "medium", color: "#606060" },
-                attrs: { for: "companyOffer" }
-              },
-              [_vm._v("Empresa")]
-            ),
-            _vm._v(" "),
-            _vm._m(2)
-          ]
-        ),
-        _vm._v(" "),
-        _c(
-          "div",
-          {
-            staticClass:
-              " text-center text-heebo custom-control custom-radio form-group has-search col-6 col-sm-6",
-            on: {
-              click: function($event) {
-                _vm.offerType = "isp"
-              }
-            }
-          },
-          [
-            _c("input", {
-              staticClass: "custom-control-input ",
-              attrs: { type: "radio", id: "ispOffer" },
-              domProps: { checked: _vm.offerType == "isp" }
-            }),
-            _vm._v(" "),
-            _c(
-              "label",
-              {
-                staticClass: "custom-control-label",
-                staticStyle: { "font-weight": "medium", color: "#606060" },
-                attrs: { for: "ispOffer" }
-              },
-              [_vm._v("ISP")]
-            ),
-            _vm._v(" "),
-            _vm._m(3)
-          ]
-        )
+            },
+            [
+              _c("input", {
+                staticClass: "custom-control-input",
+                attrs: {
+                  type: "radio",
+                  id: "customRadio2",
+                  name: "customRadio"
+                },
+                domProps: { checked: _vm.offerType == "company" }
+              }),
+              _vm._v(" "),
+              _vm._m(2),
+              _vm._m(3)
+            ]
+          )
+        ])
       ]),
       _vm._v(" "),
       _c("br"),
       _vm._v(" "),
-      _c(
-        "div",
-        {
-          staticClass:
-            "d-flex flex-row flex-wrap justify-content-around borde-caja-buscador"
-        },
-        [
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col" }, [
           _c(
             "div",
             {
-              staticClass:
-                "form-group has-search ci-select-container col-md-6 col-sm-10 col-lg-3"
+              staticClass: "custom-control custom-radio",
+              attrs: { checked: _vm.offerType == "Pyme" }
             },
             [
-              _c(
-                "select",
-                {
-                  directives: [
-                    {
-                      name: "model",
-                      rawName: "v-model",
-                      value: _vm.service,
-                      expression: "service"
-                    }
-                  ],
-                  staticClass: "custom-select ci-select ",
-                  on: {
-                    change: function($event) {
-                      var $$selectedVal = Array.prototype.filter
-                        .call($event.target.options, function(o) {
-                          return o.selected
-                        })
-                        .map(function(o) {
-                          var val = "_value" in o ? o._value : o.value
-                          return val
-                        })
-                      _vm.service = $event.target.multiple
-                        ? $$selectedVal
-                        : $$selectedVal[0]
-                    }
-                  }
+              _c("input", {
+                staticClass: "custom-control-input",
+                attrs: {
+                  type: "radio",
+                  id: "customRadio3",
+                  name: "customRadio"
                 },
-                [
-                  _c(
-                    "option",
-                    {
-                      staticClass: "d-none",
-                      attrs: { value: "", selected: "" }
-                    },
-                    [_vm._v("Servicio")]
-                  ),
-                  _vm._v(" "),
-                  _vm._l(_vm.services, function(service, index) {
-                    return _c(
-                      "option",
-                      { key: index, domProps: { value: service.name } },
-                      [
-                        _vm._v(
-                          _vm._s(service.name) + "\n                        "
-                        )
-                      ]
-                    )
-                  })
-                ],
-                2
-              )
-            ]
-          ),
-          _vm._v(" "),
-          _c(
-            "div",
-            {
-              staticClass: "form-group has-search col-md-6 col-sm-10 col-lg-4"
-            },
-            [
-              _c(
-                "select",
-                {
-                  directives: [
-                    {
-                      name: "model",
-                      rawName: "v-model",
-                      value: _vm.department,
-                      expression: "department"
-                    }
-                  ],
-                  staticClass: "custom-select ci-select",
-                  on: {
-                    change: [
-                      function($event) {
-                        var $$selectedVal = Array.prototype.filter
-                          .call($event.target.options, function(o) {
-                            return o.selected
-                          })
-                          .map(function(o) {
-                            var val = "_value" in o ? o._value : o.value
-                            return val
-                          })
-                        _vm.department = $event.target.multiple
-                          ? $$selectedVal
-                          : $$selectedVal[0]
-                      },
-                      _vm.getMunicipalities
-                    ]
-                  }
-                },
-                [
-                  _c(
-                    "option",
-                    {
-                      staticClass: "d-none",
-                      attrs: { value: "", selected: "" }
-                    },
-                    [_vm._v("Departamento")]
-                  ),
-                  _vm._v(" "),
-                  _vm._l(_vm.departments, function(department, index) {
-                    return _c(
-                      "option",
-                      { key: index, domProps: { value: department.name } },
-                      [_vm._v(_vm._s(department.name))]
-                    )
-                  })
-                ],
-                2
-              )
-            ]
-          ),
-          _vm._v(" "),
-          _c(
-            "div",
-            {
-              staticClass: "form-group has-search col-md-6 col-sm-10 col-lg-4"
-            },
-            [
-              _c(
-                "select",
-                {
-                  directives: [
-                    {
-                      name: "model",
-                      rawName: "v-model",
-                      value: _vm.municipality,
-                      expression: "municipality"
-                    }
-                  ],
-                  staticClass: "custom-select ci-select",
-                  on: {
-                    change: function($event) {
-                      var $$selectedVal = Array.prototype.filter
-                        .call($event.target.options, function(o) {
-                          return o.selected
-                        })
-                        .map(function(o) {
-                          var val = "_value" in o ? o._value : o.value
-                          return val
-                        })
-                      _vm.municipality = $event.target.multiple
-                        ? $$selectedVal
-                        : $$selectedVal[0]
-                    }
-                  }
-                },
-                [
-                  _c(
-                    "option",
-                    {
-                      staticClass: "d-none",
-                      attrs: { value: "", selected: "" }
-                    },
-                    [_vm._v("Municipio")]
-                  ),
-                  _vm._v(" "),
-                  _vm._l(_vm.municipalities, function(municipality, index) {
-                    return _c(
-                      "option",
-                      { key: index, domProps: { value: municipality.name } },
-                      [_vm._v(_vm._s(municipality.name))]
-                    )
-                  })
-                ],
-                2
-              )
-            ]
-          ),
-          _vm._v(" "),
-          _c(
-            "div",
-            {
-              staticClass: "form-group has-search col-md-6 col-sm-10 col-lg-1 ",
-              on: { click: _vm.search }
-            },
-            [
-              _c("img", {
-                staticClass: "lupa",
-                attrs: { src: "images/Iconos_lupa-14.png", alt: "" }
-              })
+                domProps: { checked: _vm.offerType == "Pyme" }
+              }),
+              _vm._v(" "),
+              _vm._m(4),
+              _vm._m(5)
             ]
           )
-        ]
-      )
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col" }, [
+          _c(
+            "div",
+            {
+              staticClass: "custom-control custom-radio",
+              on: {
+                click: function($event) {
+                  _vm.offerType = "isp"
+                }
+              }
+            },
+            [
+              _c("input", {
+                staticClass: "custom-control-input",
+                attrs: {
+                  type: "radio",
+                  id: "customRadio4",
+                  name: "customRadio"
+                },
+                domProps: { checked: _vm.offerType == "isp" }
+              }),
+              _vm._v(" "),
+              _vm._m(6),
+              _vm._m(7)
+            ]
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("div", { staticClass: "form-group" }, [
+        _c(
+          "select",
+          {
+            directives: [
+              {
+                name: "model",
+                rawName: "v-model",
+                value: _vm.service,
+                expression: "service"
+              }
+            ],
+            staticClass: "custom-select custom-select-sm ",
+            on: {
+              change: function($event) {
+                var $$selectedVal = Array.prototype.filter
+                  .call($event.target.options, function(o) {
+                    return o.selected
+                  })
+                  .map(function(o) {
+                    var val = "_value" in o ? o._value : o.value
+                    return val
+                  })
+                _vm.service = $event.target.multiple
+                  ? $$selectedVal
+                  : $$selectedVal[0]
+              }
+            }
+          },
+          [
+            _c(
+              "option",
+              { staticClass: "d-none", attrs: { value: "", selected: "" } },
+              [_vm._v("Servicio")]
+            ),
+            _vm._v(" "),
+            _vm._l(_vm.services, function(service, index) {
+              return _c(
+                "option",
+                { key: index, domProps: { value: service.name } },
+                [_vm._v(_vm._s(service.name) + "\n                        ")]
+              )
+            })
+          ],
+          2
+        )
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "form-group" }, [
+        _c(
+          "select",
+          {
+            directives: [
+              {
+                name: "model",
+                rawName: "v-model",
+                value: _vm.department,
+                expression: "department"
+              }
+            ],
+            staticClass: "custom-select custom-select-sm",
+            on: {
+              change: [
+                function($event) {
+                  var $$selectedVal = Array.prototype.filter
+                    .call($event.target.options, function(o) {
+                      return o.selected
+                    })
+                    .map(function(o) {
+                      var val = "_value" in o ? o._value : o.value
+                      return val
+                    })
+                  _vm.department = $event.target.multiple
+                    ? $$selectedVal
+                    : $$selectedVal[0]
+                },
+                _vm.getMunicipalities
+              ]
+            }
+          },
+          [
+            _c(
+              "option",
+              { staticClass: "d-none", attrs: { value: "", selected: "" } },
+              [_vm._v("Departamento")]
+            ),
+            _vm._v(" "),
+            _vm._l(_vm.departments, function(department, index) {
+              return _c(
+                "option",
+                { key: index, domProps: { value: department.name } },
+                [_vm._v(_vm._s(department.name))]
+              )
+            })
+          ],
+          2
+        )
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "form-group" }, [
+        _c(
+          "select",
+          {
+            directives: [
+              {
+                name: "model",
+                rawName: "v-model",
+                value: _vm.municipality,
+                expression: "municipality"
+              }
+            ],
+            staticClass: "custom-select custom-select-sm",
+            on: {
+              change: function($event) {
+                var $$selectedVal = Array.prototype.filter
+                  .call($event.target.options, function(o) {
+                    return o.selected
+                  })
+                  .map(function(o) {
+                    var val = "_value" in o ? o._value : o.value
+                    return val
+                  })
+                _vm.municipality = $event.target.multiple
+                  ? $$selectedVal
+                  : $$selectedVal[0]
+              }
+            }
+          },
+          [
+            _c(
+              "option",
+              { staticClass: "d-none", attrs: { value: "", selected: "" } },
+              [_vm._v("Municipio")]
+            ),
+            _vm._v(" "),
+            _vm._l(_vm.municipalities, function(municipality, index) {
+              return _c(
+                "option",
+                { key: index, domProps: { value: municipality.name } },
+                [_vm._v(_vm._s(municipality.name))]
+              )
+            })
+          ],
+          2
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          {
+            staticClass: "form-group",
+            staticStyle: { "text-align": "-webkit-center" }
+          },
+          [
+            _c(
+              "button",
+              {
+                staticClass: "btn btn-block create-account",
+                attrs: { type: "button" },
+                on: { click: _vm.search }
+              },
+              [_vm._v("Buscar")]
+            )
+          ]
+        )
+      ])
     ])
   ])
 }
@@ -47755,12 +47707,11 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("span", [
-      _c("img", {
-        staticStyle: { "margin-top": "-14px" },
-        attrs: { src: "images/Iconos-11.png", height: "35px", alt: "" }
-      })
-    ])
+    return _c(
+      "label",
+      { staticClass: "custom-control-label", attrs: { for: "customRadio1" } },
+      [_c("p", { staticClass: "texto-radios" }, [_vm._v(" Hogar")])]
+    )
   },
   function() {
     var _vm = this
@@ -47769,9 +47720,19 @@ var staticRenderFns = [
     return _c("span", [
       _c("img", {
         staticStyle: { "margin-top": "-14px" },
-        attrs: { src: "images/Iconos-12.png", height: "35px", alt: "" }
+        attrs: { src: "images/Icono-Hogar.png", height: "35px", alt: "" }
       })
     ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "label",
+      { staticClass: "custom-control-label", attrs: { for: "customRadio2" } },
+      [_c("p", { staticClass: "texto-radios" }, [_vm._v("Empresa ")])]
+    )
   },
   function() {
     var _vm = this
@@ -47780,9 +47741,19 @@ var staticRenderFns = [
     return _c("span", [
       _c("img", {
         staticStyle: { "margin-top": "-14px" },
-        attrs: { src: "images/Iconos-13.png", height: "35px", alt: "" }
+        attrs: { src: "images/Icono-Empresas.png", height: "35px", alt: "" }
       })
     ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "label",
+      { staticClass: "custom-control-label", attrs: { for: "customRadio3" } },
+      [_c("p", { staticClass: "texto-radios" }, [_vm._v("Pymes ")])]
+    )
   },
   function() {
     var _vm = this
@@ -47791,7 +47762,28 @@ var staticRenderFns = [
     return _c("span", [
       _c("img", {
         staticStyle: { "margin-top": "-14px" },
-        attrs: { src: "images/Iconos-14.png", height: "35px", alt: "" }
+        attrs: { src: "images/Icono-Pymes.png", height: "35px", alt: "" }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "label",
+      { staticClass: "custom-control-label", attrs: { for: "customRadio4" } },
+      [_c("p", { staticClass: "texto-radios" }, [_vm._v("ISPs ")])]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("span", [
+      _c("img", {
+        staticStyle: { "margin-top": "-14px" },
+        attrs: { src: "images/Icono-ISPs.png", height: "35px", alt: "" }
       })
     ])
   }
@@ -49598,311 +49590,179 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "offer-card d-flex flex-column" }, [
-    _c("div", { staticClass: "offer-card-header" }, [
+  return _c(
+    "div",
+    {
+      staticClass: "offer-card d-flex flex-column",
+      staticStyle: {
+        "background-image": "url('images/imf-footer.png')",
+        "background-repeat": "no-repeat",
+        "background-size": "contain",
+        "background-position": "bottom",
+        "border-radius": "23px"
+      }
+    },
+    [
       _c("div", { staticClass: "offer-card-header" }, [
+        _c("div", { staticClass: "offer-card-header" }, [
+          _c("img", {
+            staticClass: "h-100 ",
+            staticStyle: {},
+            attrs: {
+              src: _vm.baseUrl + "/storage/" + _vm.offer.company_logo,
+              alt: "logo"
+            }
+          })
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "offer-card-content " }, [
         _c(
           "div",
-          {
-            class:
-              "ribbon " + "fondo-" + _vm.offer.company_name.replace(" ", "_")
-          },
+          { staticClass: "row", staticStyle: { "justify-content": "center" } },
           [
-            _vm._v("Planes    \n            "),
-            _vm.offer.type == "private"
-              ? _c("span", [_vm._v(" Hogar  ")])
+            _vm.offer.tipo_plan_logos == 0
+              ? _c("span", { staticClass: "texto-card-nuevo" }, [
+                  _vm._v("internet")
+                ])
               : _vm._e(),
             _vm._v(" "),
-            _vm.offer.type == "isp" ? _c("span", [_vm._v(" ISP  ")]) : _vm._e(),
-            _vm._v(" "),
-            _vm.offer.type == "company"
-              ? _c("span", [_vm._v(" Empresa  ")])
+            _vm.offer.tipo_plan_logos == 1
+              ? _c("span", { staticClass: "texto-card-nuevo" }, [
+                  _vm._v("Internet + Telefonia")
+                ])
               : _vm._e(),
             _vm._v(" "),
-            _vm.offer.type == "pyme"
-              ? _c("span", [_vm._v(" pyme  ")])
+            _vm.offer.tipo_plan_logos == 2
+              ? _c("span", { staticClass: "texto-card-nuevo" }, [
+                  _vm._v("Internet + Telefonia + Tv")
+                ])
+              : _vm._e(),
+            _vm._v(" "),
+            _vm.offer.tipo_plan_logos == 3
+              ? _c("span", { staticClass: "texto-card-nuevo" }, [
+                  _vm._v("VozIp")
+                ])
               : _vm._e()
           ]
         ),
         _vm._v(" "),
-        _c("img", {
-          staticClass: "h-100 ",
-          staticStyle: { "margin-top": "6px" },
-          attrs: {
-            src: _vm.baseUrl + "/storage/" + _vm.offer.company_logo,
-            alt: "logo"
-          }
-        })
-      ])
-    ]),
-    _vm._v(" "),
-    _c("div", { staticClass: "offer-card-content" }, [
-      _c(
-        "div",
-        {
-          staticClass: "row",
-          staticStyle: {
-            "padding-left": "50px",
-            "padding-right": "50px",
-            "margin-top": "-12px"
-          }
-        },
-        [
-          _c(
-            "h6",
-            {
-              class:
-                "col-12 offer-card-title " +
-                "fondo-" +
-                _vm.offer.company_name.replace(" ", "_")
-            },
-            [
-              _vm.offer.tecnologia == 0
-                ? _c("span", [_vm._v("Fibra Óptica")])
-                : _vm._e(),
-              _vm._v(" "),
-              _vm.offer.tecnologia == 1
-                ? _c("span", [_vm._v("Satelital")])
-                : _vm._e(),
-              _vm._v(" "),
-              _vm.offer.tecnologia == 2
-                ? _c("span", [_vm._v("Híbrido")])
-                : _vm._e(),
-              _vm._v(" "),
-              _vm.offer.tecnologia == 3
-                ? _c("span", [_vm._v("Cobre")])
-                : _vm._e(),
-              _vm._v(" "),
-              _vm.offer.tecnologia == 4
-                ? _c("span", [_vm._v("Radio")])
-                : _vm._e(),
-              _vm._v(" "),
-              _vm.offer.tecnologia == 5
-                ? _c("span", [_vm._v("Voz Ip")])
-                : _vm._e()
-            ]
-          )
-        ]
-      ),
-      _vm._v(" "),
-      _c("div", { staticClass: "row text-center" }, [
         _c(
-          "p",
+          "div",
           {
-            staticClass: "col-12",
-            staticStyle: {
-              "font-family": "'Heebo'",
-              "margin-top": "-9px",
-              color: "#88868b"
-            }
-          },
-          [_vm._v("velocidad")]
-        ),
-        _vm._v(" "),
-        _c(
-          "h1",
-          {
-            staticClass: "col-12 ",
-            staticStyle: {
-              "font-family": "'Heebo'",
-              color: "#5b5b5f",
-              "margin-top": "-18px",
-              "font-weight": "800",
-              "font-size": "3em"
-            }
+            staticClass: "row text-center",
+            staticStyle: { "justify-content": "center" }
           },
           [
-            _vm._v(
-              " \n   \n               \n              " +
-                _vm._s(_vm.offer.fields_values[1].value) +
-                " \n  "
-            ),
-            _c("span", [
-              _vm.offer.company_name == "Net2Phone" ||
-              _vm.offer.company_name == "SkyNet"
-                ? _c("span", [_vm._v(" Kbps  ")])
-                : _vm._e(),
-              _vm._v(" "),
-              _vm.offer.company_name != "Net2Phone" &&
-              _vm.offer.company_name != "SkyNet"
-                ? _c("span", [_vm._v(" Mbps ")])
-                : _vm._e()
-            ])
-          ]
-        )
-      ]),
-      _vm._v(" "),
-      _c("div", {
-        class:
-          "offer-card-separator " +
-          (_vm.index % 2 ? "bg-main-blue" : "bg-main-pink")
-      }),
-      _vm._v(" "),
-      _c("div", { staticClass: "row text-center" }, [
-        _c(
-          "p",
-          {
-            staticClass: "col-12 ",
-            staticStyle: { "font-family": "'Heebo'", color: "#88868b" }
-          },
-          [_vm._v("Cantidad de Canales")]
-        ),
-        _vm._v(" "),
-        _c(
-          "h5",
-          {
-            staticClass: "col-12 ",
-            staticStyle: {
-              "font-family": "'Heebo'",
-              color: "#5b5b5f",
-              "margin-top": "-19px",
-              "font-weight": "800"
-            }
-          },
-          [_vm._v(" " + _vm._s(_vm.offer.canales))]
-        )
-      ]),
-      _vm._v(" "),
-      _c("div", {
-        class:
-          "offer-card-separator " +
-          (_vm.index % 2 ? "bg-main-blue" : "bg-main-pink")
-      }),
-      _vm._v(" "),
-      _c("div", { staticClass: "row text-center" }, [
-        _c(
-          "p",
-          {
-            staticClass: "col-12 ",
-            staticStyle: { "font-family": "'Heebo'", color: "#88868b" }
-          },
-          [_vm._v("Telefonía")]
-        ),
-        _vm._v(" "),
-        _vm.offer.telefonia == 0
-          ? _c(
-              "h5",
+            _c(
+              "h1",
               {
                 staticClass: "col-12 ",
                 staticStyle: {
-                  "font-family": "'Heebo'",
-                  color: "#5b5b5f",
-                  "margin-top": "-19px",
-                  "font-weight": "800"
+                  "font-family": "'Poppins', sans-serif",
+                  color: "#145b77",
+                  "margin-top": "-18px",
+                  "font-weight": "600",
+                  "font-size": "3em"
                 }
               },
-              [_vm._v("N/A")]
+              [
+                _vm._v(
+                  " \n   \n               \n              " +
+                    _vm._s(_vm.offer.fields_values[1].value) +
+                    " "
+                ),
+                _c("br")
+              ]
+            ),
+            _c(
+              "span",
+              {
+                staticStyle: {
+                  "font-size": "1.2em",
+                  "font-family": "poppins-regular",
+                  "margin-top": "-22px",
+                  "font-weight": "bold"
+                }
+              },
+              [_vm._v("Megas")]
             )
+          ]
+        ),
+        _vm._v(" "),
+        _vm.offer.titulo1 != _vm.NULL &&
+        _vm.offer.titulo2 != _vm.NULL &&
+        _vm.offer.titulo3 != _vm.NULL
+          ? _c("div", [
+              _c("div", { staticClass: "row" }, [
+                _c("h5", { class: "col-12 offer-card-title " }, [
+                  _vm._v(_vm._s(_vm.offer.titulo1)),
+                  _c("br"),
+                  _vm._v(_vm._s(_vm.offer.titulo2)),
+                  _c("br"),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "row" }, [
+                    _c(
+                      "h1",
+                      {
+                        staticClass: "col-12 ",
+                        staticStyle: {
+                          "font-family": "Poppins, sans-serif",
+                          color: "rgb(20, 91, 119)",
+                          "font-weight": "600",
+                          "font-size": "3em"
+                        }
+                      },
+                      [_vm._v("$ " + _vm._s(_vm.showPrice(_vm.offer.tariff)))]
+                    )
+                  ]),
+                  _vm._v("\n             " + _vm._s(_vm.offer.titulo3)),
+                  _c("br"),
+                  _vm._v(_vm._s(_vm.offer.titulo4) + " ")
+                ])
+              ])
+            ])
           : _vm._e(),
         _vm._v(" "),
-        _vm.offer.telefonia == 1
-          ? _c(
-              "h5",
-              {
-                staticClass: "col-12 ",
-                staticStyle: {
-                  "font-family": "'Heebo'",
-                  color: "#5b5b5f",
-                  "margin-top": "-19px",
-                  "font-weight": "800"
-                }
-              },
-              [_vm._v("ILIMITADA")]
-            )
-          : _vm._e()
+        _vm.offer.titulo1 != _vm.NULL &&
+        _vm.offer.titulo2 != _vm.NULL &&
+        _vm.offer.titulo3 == _vm.NULL
+          ? _c("div", [
+              _c("div", { staticClass: "row" }, [
+                _c("h5", { class: "col-12 offer-card-title " }, [
+                  _vm._v(_vm._s(_vm.offer.titulo1)),
+                  _c("br"),
+                  _vm._v(_vm._s(_vm.offer.titulo2)),
+                  _c("br"),
+                  _c("br")
+                ])
+              ])
+            ])
+          : _vm._e(),
+        _vm._v(" "),
+        _vm.offer.titulo1 != _vm.NULL &&
+        _vm.offer.titulo2 == _vm.NULL &&
+        _vm.offer.titulo3 == _vm.NULL
+          ? _c("div", [
+              _c("div", { staticClass: "row" }, [
+                _c(
+                  "h5",
+                  { staticClass: "col-12 offer-card-title", staticStyle: {} },
+                  [
+                    _c("br"),
+                    _vm._v(_vm._s(_vm.offer.titulo1)),
+                    _c("br"),
+                    _c("br")
+                  ]
+                )
+              ])
+            ])
+          : _vm._e(),
+        _vm._v(" "),
+        _vm._m(0)
       ]),
       _vm._v(" "),
-      _vm.offer.titulo1 != _vm.NULL &&
-      _vm.offer.titulo2 != _vm.NULL &&
-      _vm.offer.titulo3 != _vm.NULL
-        ? _c("div", [
-            _c("div", { staticClass: "row" }, [
-              _c(
-                "h5",
-                {
-                  class:
-                    "col-12 offer-card-title " +
-                    "fondo-" +
-                    _vm.offer.company_name.replace(" ", "_")
-                },
-                [
-                  _vm._v(_vm._s(_vm.offer.titulo1)),
-                  _c("br"),
-                  _vm._v(_vm._s(_vm.offer.titulo2)),
-                  _c("br"),
-                  _vm._v(_vm._s(_vm.offer.titulo3))
-                ]
-              )
-            ])
-          ])
-        : _vm._e(),
-      _vm._v(" "),
-      _vm.offer.titulo1 != _vm.NULL &&
-      _vm.offer.titulo2 != _vm.NULL &&
-      _vm.offer.titulo3 == _vm.NULL
-        ? _c("div", [
-            _c("div", { staticClass: "row" }, [
-              _c(
-                "h5",
-                {
-                  class:
-                    "col-12 offer-card-title " +
-                    "fondo-" +
-                    _vm.offer.company_name.replace(" ", "_")
-                },
-                [
-                  _vm._v(_vm._s(_vm.offer.titulo1)),
-                  _c("br"),
-                  _vm._v(_vm._s(_vm.offer.titulo2)),
-                  _c("br"),
-                  _c("br")
-                ]
-              )
-            ])
-          ])
-        : _vm._e(),
-      _vm._v(" "),
-      _vm.offer.titulo1 != _vm.NULL &&
-      _vm.offer.titulo2 == _vm.NULL &&
-      _vm.offer.titulo3 == _vm.NULL
-        ? _c("div", [
-            _c("div", { staticClass: "row" }, [
-              _c(
-                "h5",
-                { staticClass: "col-12 offer-card-title", staticStyle: {} },
-                [
-                  _c("br"),
-                  _vm._v(_vm._s(_vm.offer.titulo1)),
-                  _c("br"),
-                  _c("br")
-                ]
-              )
-            ])
-          ])
-        : _vm._e(),
-      _vm._v(" "),
-      _c("br"),
-      _vm._v(" "),
-      _c("div", { staticClass: "row" }, [
-        _c(
-          "h1",
-          {
-            staticClass: "col-12 ",
-            staticStyle: {
-              "font-family": "'Heebo'",
-              color: "#5b5b5f",
-              "margin-top": "-18px",
-              "font-weight": "800",
-              "font-size": "3em"
-            }
-          },
-          [_vm._v("$ " + _vm._s(_vm.showPrice(_vm.offer.tariff)))]
-        )
-      ])
-    ]),
-    _vm._v(" "),
-    _c("div", { staticClass: "offer-card-footer" }, [
-      _c("div", { staticClass: "col-10" }, [
+      _c("div", { staticClass: "offer-card-footer" }, [
         _c("div", [
           _c(
             "a",
@@ -49927,16 +49787,37 @@ var render = function() {
                     "data-target": "#modalConsultOffer"
                   }
                 },
-                [_vm._v("\n          DETALLE DEL PLAN\n        ")]
+                [_vm._v("\n         Solocitar plan\n        ")]
               )
             ]
           )
         ])
       ])
-    ])
-  ])
+    ]
+  )
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col text-center" }, [
+        _c(
+          "span",
+          {
+            staticStyle: {
+              "font-family": "Poppins, sans-serif",
+              color: "#535353",
+              "font-weight": "500"
+            }
+          },
+          [_vm._v(" Saber mas..")]
+        )
+      ])
+    ])
+  }
+]
 render._withStripped = true
 
 

@@ -22,12 +22,12 @@
 }
 
 .offer-card {
-    width: 300px;
+    width: 250px;
     /* height:480px;*/
     border-radius: 24px;
     background-color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    border: solid 7px;
+    border: solid 2px;
     border-color: #00c2d6;
 }
 
@@ -78,14 +78,15 @@
 }
 
 .offer-card-title {
-    background: rgb(0, 255, 218);
-    background: linear-gradient(90deg, rgba(0, 255, 218, 1) 0%, rgba(6, 209, 252, 1) 100%);
+   /* background: rgb(0, 255, 218);
+    background: linear-gradient(90deg, rgba(0, 255, 218, 1) 0%, rgba(6, 209, 252, 1) 100%);*/
+    margin-top: -5px;
     border-radius: 3px;
-    font-family: 'Heebo';
     padding-top: 3px;
     padding-bottom: 3px;
-    font-weight: 500;
-    color: #fff;
+    font-weight: 600;
+    color: #042c44;
+    font-size: 0.9em;
 }
 
 .rounded-pill {

@@ -49,86 +49,15 @@
 
 
     <div class="col-sm-6 col-12" style="margin-top: 40px;">
+
+
+    <?php if($errors->any()): ?>
+                    <search-form :errors="<?php echo e($errors); ?>"/>
+                    <?php else: ?>
+                    <search-form />
+                    <?php endif; ?>
         
-    <div class="registration-form">
-        <form>
-           <div class="row">
-
-           <div class="col">
- <div class="custom-control custom-radio">
-                        <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadio1"> <p class="texto-radios" > Hogar</p>  </label><span> <img style="    margin-top: -14px; " src="images/Icono-Hogar.png" height="35px" alt=""> </span>
-                    </div>
-
-           </div>
-           <div class="col">
-
-  <div class="custom-control custom-radio">
-                        <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadio2"> <p class="texto-radios" >Empresa </p> </label><span> <img style="    margin-top: -14px;" src="images/Icono-Empresas.png" height="35px" alt=""> </span>
-                     </div>
-           </div>
-                   
-
-                   
-
-           </div>
-           <br>
-                    <div class="row">
-
-                        <div class="col">
-                            <div class="custom-control custom-radio">
-                              <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
-                               <label class="custom-control-label" for="customRadio3"> <p class="texto-radios" >Pymes </p> </label><span> <img style="    margin-top: -14px;" src="images/Icono-Pymes.png" height="35px" alt=""> </span>
-                            </div>
-                        </div>
-
-
-                        <div class="col">
-                                <div class="custom-control custom-radio">
-                                   <input type="radio" id="customRadio4" name="customRadio" class="custom-control-input">
-                                   <label class="custom-control-label" for="customRadio4"> <p class="texto-radios" >ISPs </p> </label><span> <img style="    margin-top: -14px;" src="images/Icono-ISPs.png" height="35px" alt=""> </span>
-                               </div>
-
-                        </div>
-                   
-          
-                    </div>
-
-                    <br>
-                        <div class="form-group">
-                        <select class="custom-select custom-select-sm ">
-            <option selected>Servicio</option>
-            <option value="1">One</option>
-            <option value="2">Two</option>
-            <option value="3">Three</option>
-            </select>
-                        </div>
-                        <div class="form-group">
-                        <select class="custom-select custom-select-sm">
-            <option selected>Departamento</option>
-            <option value="1">One</option>
-            <option value="2">Two</option>
-            <option value="3">Three</option>
-            </select>
-                        </div>
-                        <div class="form-group">
-                        <select class="custom-select custom-select-sm">
-            <option selected>Municipio</option>
-            <option value="1">One</option>
-            <option value="2">Two</option>
-            <option value="3">Three</option>
-            </select>
-
-            <div class="form-group" style="text-align: -webkit-center;">
-                <button type="button" class="btn btn-block create-account">Buscar</button>
-            </div>
-            </div>
-         
-        </form>
-       
-    </div>
-
+  
 
 
 </div>
