@@ -82,9 +82,9 @@
                 </div>
             </div>
 
-            <br>
+           
 
-            <div class=" justify-content-center container p-3" id="planes-destacados" >
+            <div class=" justify-content-center container p-3" id="planes-destacados"  style="margin-top: -75px;">
                  <high-plans></high-plans>
              </div>
 </section>

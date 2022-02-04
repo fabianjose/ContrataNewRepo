@@ -5132,6 +5132,20 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ['offer', 'index'],
   data: function data() {
@@ -49663,7 +49677,7 @@ var render = function() {
                   color: "#145b77",
                   "margin-top": "-18px",
                   "font-weight": "600",
-                  "font-size": "3em"
+                  "font-size": "2.5em"
                 }
               },
               [
@@ -49690,74 +49704,68 @@ var render = function() {
           ]
         ),
         _vm._v(" "),
-        _vm.offer.titulo1 != _vm.NULL &&
-        _vm.offer.titulo2 != _vm.NULL &&
-        _vm.offer.titulo3 != _vm.NULL
-          ? _c("div", [
-              _c("div", { staticClass: "row" }, [
-                _c("h5", { class: "col-12 offer-card-title " }, [
-                  _vm._v(_vm._s(_vm.offer.titulo1)),
-                  _c("br"),
-                  _vm._v(_vm._s(_vm.offer.titulo2)),
-                  _c("br"),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "row" }, [
-                    _c(
-                      "h1",
-                      {
-                        staticClass: "col-12 ",
-                        staticStyle: {
-                          "font-family": "Poppins, sans-serif",
-                          color: "rgb(20, 91, 119)",
-                          "font-weight": "600",
-                          "font-size": "3em"
-                        }
-                      },
-                      [_vm._v("$ " + _vm._s(_vm.showPrice(_vm.offer.tariff)))]
+        _c("div", [
+          _c("div", { staticClass: "row" }, [
+            _c("h5", { class: "col-12 offer-card-title " }, [
+              _vm.offer.titulo1 != _vm.NULL
+                ? _c("div", [
+                    _vm._v(
+                      "\n                  " +
+                        _vm._s(_vm.offer.titulo1) +
+                        "\n               "
                     )
-                  ]),
-                  _vm._v("\n             " + _vm._s(_vm.offer.titulo3)),
-                  _c("br"),
-                  _vm._v(_vm._s(_vm.offer.titulo4) + " ")
-                ])
-              ])
-            ])
-          : _vm._e(),
-        _vm._v(" "),
-        _vm.offer.titulo1 != _vm.NULL &&
-        _vm.offer.titulo2 != _vm.NULL &&
-        _vm.offer.titulo3 == _vm.NULL
-          ? _c("div", [
-              _c("div", { staticClass: "row" }, [
-                _c("h5", { class: "col-12 offer-card-title " }, [
-                  _vm._v(_vm._s(_vm.offer.titulo1)),
-                  _c("br"),
-                  _vm._v(_vm._s(_vm.offer.titulo2)),
-                  _c("br"),
-                  _c("br")
-                ])
-              ])
-            ])
-          : _vm._e(),
-        _vm._v(" "),
-        _vm.offer.titulo1 != _vm.NULL &&
-        _vm.offer.titulo2 == _vm.NULL &&
-        _vm.offer.titulo3 == _vm.NULL
-          ? _c("div", [
+                  ])
+                : _vm._e(),
+              _vm._v(" "),
+              _vm.offer.titulo1 == _vm.NULL ? _c("div", [_c("br")]) : _vm._e(),
+              _vm._v(
+                "\n               \n               \n            \n               \n               " +
+                  _vm._s(_vm.offer.titulo2)
+              ),
+              _c("br"),
+              _vm._v(" "),
               _c("div", { staticClass: "row" }, [
                 _c(
-                  "h5",
-                  { staticClass: "col-12 offer-card-title", staticStyle: {} },
-                  [
-                    _c("br"),
-                    _vm._v(_vm._s(_vm.offer.titulo1)),
-                    _c("br"),
-                    _c("br")
-                  ]
+                  "h1",
+                  {
+                    staticClass: "col-12 ",
+                    staticStyle: {
+                      "font-family": "Poppins, sans-serif",
+                      color: "rgb(20, 91, 119)",
+                      "font-weight": "600",
+                      "font-size": "2.8em"
+                    }
+                  },
+                  [_vm._v("$ " + _vm._s(_vm.showPrice(_vm.offer.tariff)))]
                 )
-              ])
+              ]),
+              _vm._v(" "),
+              _vm.offer.titulo3 != _vm.NULL
+                ? _c("div", [
+                    _vm._v(
+                      "\n                  " +
+                        _vm._s(_vm.offer.titulo3) +
+                        "\n               "
+                    )
+                  ])
+                : _vm._e(),
+              _vm._v(" "),
+              _vm.offer.titulo3 == _vm.NULL ? _c("div", [_c("br")]) : _vm._e(),
+              _vm._v(" "),
+              _vm.offer.titulo4 != _vm.NULL
+                ? _c("div", [
+                    _vm._v(
+                      "\n                  " +
+                        _vm._s(_vm.offer.titulo4) +
+                        "\n               "
+                    )
+                  ])
+                : _vm._e(),
+              _vm._v(" "),
+              _vm.offer.titulo4 == _vm.NULL ? _c("div", [_c("br")]) : _vm._e()
             ])
-          : _vm._e(),
+          ])
+        ]),
         _vm._v(" "),
         _vm._m(0)
       ]),
@@ -49779,15 +49787,13 @@ var render = function() {
                 {
                   class:
                     "btn  text-white offer-card-btn rounded-pill " +
-                    (_vm.index % 2
-                      ? "fondo-" + _vm.offer.company_name.replace(" ", "_")
-                      : "fondo-" + _vm.offer.company_name.replace(" ", "_")),
+                    (_vm.index % 2 ? "bg-main-blue" : "bg-main-pink"),
                   attrs: {
                     "data-toggle": "modal",
                     "data-target": "#modalConsultOffer"
                   }
                 },
-                [_vm._v("\n         Solocitar plan\n        ")]
+                [_vm._v("         Solocitar plan\n        ")]
               )
             ]
           )

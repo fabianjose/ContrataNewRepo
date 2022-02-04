@@ -52,10 +52,6 @@
   text-align: center;
 }
 
-a {
-  color: #1599d6;
-}
-
 .i-c-fab {
   padding: 3px;
   border-radius: 30%;
@@ -63,7 +59,7 @@ a {
 }
 
 .ic-bg-main {
-  background-color: #1599d6;
+  background-color: #055a76;
 }
 
 .ic-logo {
@@ -81,11 +77,11 @@ a {
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show > .nav-link {
-  color: #1599d6;
+  color: #055a76;
 }
 
 .nav-item-border:after {
-  color: #1599d6;
+  color: #055a76;
   display: block;
   content: "";
   border-bottom: solid 3.5px #055a76;
@@ -216,11 +212,11 @@ a {
 }
 
 .bg-main-blue {
-  background-color: #1599d6;
+  background-color: #055a76;
 }
 
 .bg-main-pink {
-  background-color: #ec008c;
+  background-color: #055a76;
 }
 
 .main-section-bg {
@@ -264,7 +260,7 @@ a {
   }
 
   .bg-main-pink {
-    background: white !important;
+    background: #055a76 !important;
   }
 }
 
@@ -378,7 +374,7 @@ a {
 .offers-pagination-item {
   background-color: white;
   border-radius: 20px;
-  border-color: #1599d6;
+  border-color: #055a76;
   text-align: center;
   padding-top: 10px;
   border: solid 1px;
@@ -390,7 +386,7 @@ a {
 }
 
 .stars-container {
-  color: #1599d6;
+  color: #055a76;
   font-size: 13px;
 }
 
@@ -539,12 +535,12 @@ a {
 }
 
 .btn-main-pink {
-  background-color: #ec008c;
+  background-color: #055a76;
   color: white;
 }
 
 .btn-main-blue {
-  background-color: #1599d6;
+  background-color: #055a76;
   color: white;
 }
 
@@ -564,7 +560,7 @@ a {
 }
 
 .btn-footer {
-  background-color: #1599d6;
+  background-color: #055a76;
   font-family: poppins-medium;
   font-weight: bold;
   color: white;
@@ -782,14 +778,14 @@ a {
   display: block;
   content: "";
   padding-top: 5px;
-  border-bottom: solid 3.5px #1599d6;
+  border-bottom: solid 3.5px #055a76;
   border-radius: 5px;
   transform: scaleX(0.25);
   transition: transform 250ms ease-in-out;
 }
 
 .mision-title {
-  color: #1599d6;
+  color: #055a76;
   font-size: 1.3rem;
 }
 
@@ -866,14 +862,14 @@ a {
 }
 
 .contacto-card-title {
-  color: #1599d6;
+  color: #055a76;
 }
 
 .contacto-card-title::after {
   display: block;
   content: "";
   padding-top: 5px;
-  border-bottom: solid 3.5px #1599d6;
+  border-bottom: solid 3.5px #055a76;
   border-radius: 5px;
   transform: scaleX(0.25);
   transition: transform 250ms ease-in-out;
@@ -1049,7 +1045,7 @@ a {
 }
 
 .main-form-title {
-  color: #1599d6;
+  color: #055a76;
   font-size: 1.3rem;
 }
 
@@ -1145,7 +1141,7 @@ a {
 }
 
 .text-main-blue {
-  color: #1599d6;
+  color: #055a76;
 }
 
 .text-dark-blue {
@@ -1437,7 +1433,7 @@ a {
 }
 
 .buscador {
-  background-color: #1599d6;
+  background-color: #055a76;
   border-radius: 10%;
   min-height: 100%;
   width: 100%;
@@ -2383,6 +2379,7 @@ a {
   height: 100vh;
   background-size: contain;
   background-repeat: no-repeat;
+  margin-top: 1px;
 }
 
 .registration-form {

@@ -48,7 +48,7 @@
       <div class="row text-center" style="justify-content: center;">
        <!--  <h6 class="col-12 offer-card-benefits text-wrap" style="font-family:heebo">{{offer.benefits}}</h6>-->
         <!-- <h6 class="col-12 offer-card-title">{{offer.company_name}}</h6>  ACA VA EL VALOR DE LA VELOCIDAD -->
-        <h1 class="col-12 " style="font-family: 'Poppins', sans-serif;    color: #145b77;    margin-top: -18px; font-weight: 600; font-size: 3em"> 
+        <h1 class="col-12 " style="font-family: 'Poppins', sans-serif;    color: #145b77;    margin-top: -18px; font-weight: 600; font-size: 2.5em"> 
    
                
               {{offer.fields_values[1].value}} <br>   </h1><span style="font-size: 1.2em;
@@ -101,36 +101,51 @@
 
       </div> -->
 
-       <div   v-if="offer.titulo1!=NULL && offer.titulo2!=NULL && offer.titulo3!=NULL">
+       <div  >
                                  
                          
         <div class="row" >
-             <h5 :class="'col-12 offer-card-title ' " >{{offer.titulo1}}<br>{{offer.titulo2}}<br>
+             <h5 :class="'col-12 offer-card-title ' " >
+               <div  v-if="offer.titulo1!=NULL">
+                  {{offer.titulo1}}
+               </div>
+                <div  v-if="offer.titulo1==NULL">
+                  <br>
+               </div>
+               
+               
+            
+               
+               {{offer.titulo2}}<br>
              
                <div class="row" >
-        <h1 class="col-12 " style="font-family: Poppins, sans-serif;    color: rgb(20, 91, 119); font-weight: 600;  font-size: 3em;" >$ {{showPrice(offer.tariff)}}</h1>
+        <h1 class="col-12 " style="font-family: Poppins, sans-serif;    color: rgb(20, 91, 119); font-weight: 600;  font-size: 2.8em;" >$ {{showPrice(offer.tariff)}}</h1>
       </div>
-             {{offer.titulo3}}<br>{{offer.titulo4}} </h5>  
+            
+            
+                <div  v-if="offer.titulo3!=NULL">
+                  {{offer.titulo3}}
+               </div>
+                <div  v-if="offer.titulo3==NULL">
+                  <br>
+               </div>
+             
+           <div  v-if="offer.titulo4!=NULL">
+                  {{offer.titulo4}}
+               </div>
+                <div  v-if="offer.titulo4==NULL">
+                  <br>
+               </div>
+             
+            
+             
+              </h5>  
         </div>
 
            </div>
 
-           <div   v-if="offer.titulo1!=NULL && offer.titulo2!=NULL && offer.titulo3==NULL">
-                                 
-                         
-        <div class="row" >
-             <h5 :class="'col-12 offer-card-title ' " >{{offer.titulo1}}<br>{{offer.titulo2}}<br><br></h5>  
-        </div>
-
-           </div>
-            <div   v-if="offer.titulo1!=NULL && offer.titulo2==NULL && offer.titulo3==NULL">
-                                 
-                         
-        <div class="row" >
-             <h5 class="col-12 offer-card-title" style="font"><br>{{offer.titulo1}}<br><br></h5>  
-        </div>
-
-           </div>
+        
+            
                 
     <!-- <p class="col-12 " style="font-family: 'Heebo';  #00c2d6   color:#88868b">Desde</p> --> 
 
@@ -151,8 +166,7 @@
 
                         <a @click="emitContact" data-toggle="modal" data-target="#modalConsultOffer" > 
                          <button  data-toggle="modal" data-target="#modalConsultOffer" 
-          :class="'btn  text-white offer-card-btn rounded-pill '+(index%2?'fondo-'+offer.company_name.replace(' ','_'):'fondo-'+offer.company_name.replace(' ','_')) ">
-         Solocitar plan
+          :class="'btn  text-white offer-card-btn rounded-pill '+(index%2?'bg-main-blue':'bg-main-pink')">         Solocitar plan
         </button>
                         </a>
         <!-- <button @click="emitContact" data-toggle="modal" data-target="#modalConsultOffer" 
@@ -165,7 +179,7 @@
     </div>
 
      
-  </div>
+ 
 
   
 
