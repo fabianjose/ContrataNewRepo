@@ -40,7 +40,7 @@
 
 
         <nav id="" class=" navbar-light navbar navbar-expand-md mx-auto py-3 px-1 align-items-center header-posicion fixed-top" >
-            <ul  class="navbar-nav ml-3 ">
+            <ul  class="navbar-nav ml-1 ">
                 <a class="nav-item  " href="/"  style="margin-top: -22px;">
                     <img class="ic-logo" src="{{ asset('images/el_mejor_internet_co-05.png') }}"  alt="">
                 </a>
@@ -50,7 +50,7 @@
             </a>
             <a class="hidden-md  mx-1 hidden-xl-xl hidden-xl hidden-lg" data-toggle="collapse"
               data-target="#responsive-menu">
-                <i class="fas fa-bars"></i>
+                <i  class="fas fa-bars" style="    margin-left: -35px;"></i>
             </a>
             <div id="responsive-menu" class="navbar-collapse collapse ml-auto mr-0"  style="margin-top: 37px;">
                 <ul class="navbar-nav ml-auto mr-x3 " style="margin-top: -30px; background-color:white;">

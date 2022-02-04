@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap);@charset "UTF-8";
 
 @font-face {
   font-family: poppins-regular;
@@ -662,7 +662,55 @@
   box-shadow: 0px 0px 24px 0px rgba(30, 30, 30, 0.35);
 }
 
+.titulo-seccion4 {
+  font-size: 2.1em;
+  font-family: Poppins;
+  color: #055a76;
+  font-weight: 700;
+  margin-top: -84px;
+}
+
+.contenedor-seccion4 {
+  padding-left: 157px;
+  padding-right: 160px;
+}
+
+.parrafos-seccion4 {
+  text-align: justify;
+  padding: 20px;
+  margin-left: -12px;
+  margin-top: -25px;
+  font-family: Poppins;
+  color: #60605e;
+}
+
 @media (max-width: 768px) {
+  .parrafos-seccion4 {
+    text-align: justify;
+    padding: 20px;
+    font-size: 0.8em;
+    line-height: 106%;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+  .titulo-seccion4 {
+    font-size: 0.9em;
+    font-family: Poppins, sans-serif;
+    color: #055a76;
+    font-weight: 700;
+  }
+
+  .contenedor-seccion4 {
+    font-size: 1.7em;
+    padding: 15px;
+    text-align: -webkit-center;
+  }
+
+  .imagen-seccion3 {
+    width: 40% !important;
+  }
+
   .offer-card-lg {
     width: 80vw;
   }
@@ -745,6 +793,80 @@
   font-family: "Heebo";
   font-weight: bold;
   margin-top: -20px;
+}
+
+.imagen-seccion3 {
+  width: 16%;
+  max-width: 345px;
+  padding: 13px;
+}
+
+.wrap {
+  display: flex;
+  background: #ecece9;
+  padding: 1rem 1rem 1rem 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  margin-bottom: 2rem;
+  font-family: Poppins;
+  color: #60605e;
+  text-align: justify;
+  border-radius: 15px;
+  border-radius: 15px;
+  padding: 12px;
+}
+
+/*
+.wrap:hover {
+    background: linear-gradient(135deg,#6394ff 0%,#0a193b 100%);
+    color: white;
+}*/
+
+.ico-wrap {
+  margin: auto;
+  color: #0099ed;
+}
+
+.mbr-iconfont {
+  font-size: 4.5rem !important;
+  color: #313131;
+  margin: 1rem;
+  padding-right: 1rem;
+}
+
+.vcenter {
+  margin: auto;
+}
+
+.mbr-section-title3 {
+  text-align: left;
+}
+
+h2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.display-5 {
+  font-family: Poppins, sans-serif !important;
+  color: #0099ed !important;
+  font-size: 1.4rem;
+}
+
+.mbr-bold {
+  font-weight: 700;
+}
+
+p {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  line-height: 25px;
+}
+
+.display-6 {
+  font-family: Poppins, sans-serif;
+  font-size: 1rem;
+  line-height: 136%;
 }
 
 .nosotros-main {

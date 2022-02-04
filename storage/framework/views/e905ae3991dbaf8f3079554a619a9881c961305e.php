@@ -90,9 +90,114 @@
 
 
 
+<section class="background-seccion-3" style="    margin-top: -73px;">
 
+            <div class="row">
+                <div class="col text-center">
+                    <div class="div">
+                        <h1>Servicios</h1>
+                    </div>
+                </div>
+            </div>
+<style>
+   
+</style>
+            <div class="row" style="justify-content: center;">
+                <img class="imagen-seccion3" src="/images/mpls.png" alt="">
+                <img class="imagen-seccion3" src="/images/internetsatelital.png" alt="">
+                <img class="imagen-seccion3" src="/images/internet.png" alt="">
+                <img class="imagen-seccion3" src="/images/television.png" alt="">
+                <img class="imagen-seccion3" src="/images/telefoniaip.png" alt="">
+            </div>
+</section>
   
        
+<section class="background-seccion-1" style=" background-image: url('images/Seccion-3-Pagina-Web.jpg');">
+
+<div class="row" style="margin-top: 50px;">
+    <div class="col-sm-8 col-12" style="margin-top: 86px; ">
+   <div class="container contenedor-seccion4" style="">
+     <h1 class="titulo-seccion4" style="">¿por qué El mejor Internet <br> es el mejor comparador?</h1>
+   
+  <div class="row">
+      <div>
+          <p class="parrafos-seccion4">
+                Nuestra misión es facilitar a todos los hogares y empresas colombianas la búsqueda del mejor proveedor en 
+               telecomunicaciones, posicionándonos como la plataforma web para la solución de conectividad a nivel nacional.
+          </p>
+      </div>
+
+    </div>
+
+    <div class="row">
+        
+            
+    <div class="container">
+
+	
+<div class="row mbr-justify-content-center">
+
+    <div class="col-lg-12 mbr-col-md-12">
+        <div class="wrap">
+            <div class="ico-wrap">
+            <img src="/images/Icono-personas.png" alt="">
+            </div>
+            <div class="text-wrap vcenter">
+                <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5"><span>Encuentra lo que necesitas</span></h2>
+                <p class="mbr-fonts-style text1 mbr-text display-6">
+                Nuestro compromiso es mostrarte los planes que ofrecen los diferentes operadores en 
+                telecomunicación, para que puedas encontrar el mejor servicio para tus necesidades.</p>
+            </div>
+        </div>
+    </div>    
+</div>
+
+<div class="row mbr-justify-content-center">
+
+    <div class="col-lg-12 mbr-col-md-12">
+        <div class="wrap">
+            <div class="ico-wrap">
+                <img src="/images/Icono-Manos.png" alt="">
+            </div>
+            <div class="text-wrap vcenter">
+                <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5"><span>Tienes el apoyo de expertos</span></h2>
+                <p class="mbr-fonts-style text1 mbr-text display-6">
+                Nuestros asesores te guiarán durante todo el proceso para que soluciones online
+                 cualquier duda o problema que se te presente.</p>
+            </div>
+        </div>
+    </div>    
+</div>
+
+</div>
+      
+       
+    </div>
+</div>
+
+  
+</div>
+
+
+
+
+
+    <div class="col-sm-4 col-12" >
+
+
+ 
+  
+
+
+</div>
+
+
+</div>
+    
+    
+</section>
+
+
    <!-- 
 
         <div class="main-section-bg" style="position:relative;background: transparent;margin-top:-15%;" >
