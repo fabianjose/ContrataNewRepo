@@ -62,8 +62,8 @@
     font-size: 15px;
     font-weight: 300;
     text-align: justify;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .bloque-tecnologia {
@@ -731,4 +731,33 @@
         margin-top: -15px;
     }
     .modal-mas-planes {}
+}
+
+
+@media (min-width: 770px) and (max-width: 1400px){
+    .img-seccion4{
+        width: 70%;
+    }
+    .display-6 {
+        font-size: 1vw;
+        line-height: 136%;
+    }
+    .ico-wrap{
+        width: 50% !important;
+    }
+    .display-5{
+        font-size: 1vw !important;
+    }
+    .parrafos-seccion4 {
+        font-size: 1vw !important;
+        line-height: 131% !important;
+    }
+	.titulo-seccion4 {
+        font-size: 2vw;
+      
+     
+    }
+    .parrafos-seccion4{
+        font-size: 1.5vw;
+    }
 }

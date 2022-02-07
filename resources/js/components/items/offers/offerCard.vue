@@ -119,7 +119,7 @@
                {{offer.titulo2}}<br>
              
                <div class="row" >
-        <h1 class="col-12 " style="font-family: Poppins, sans-serif;    color: rgb(20, 91, 119); font-weight: 600;  font-size: 2.8em;" >$ {{showPrice(offer.tariff)}}</h1>
+        <h1 class="col-12 card-precios-nuevos" >$ {{showPrice(offer.tariff)}}</h1>
       </div>
             
             

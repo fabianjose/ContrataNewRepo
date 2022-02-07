@@ -75,7 +75,7 @@
             <div class="row">
                 <div class="col text-center">
                     <div class="div">
-                        <h1>Ofertas del mes</h1>
+                        <h1 class="titulos-generales">Ofertas del mes</h1>
                     </div>
                 </div>
             </div>
@@ -95,7 +95,8 @@
             <div class="row">
                 <div class="col text-center">
                     <div class="div">
-                        <h1>Servicios</h1>
+                        <h1 class="titulos-generales">Servicios</h1>
+                        <br> <br>
                     </div>
                 </div>
             </div>
@@ -140,7 +141,7 @@
     <div class="col-lg-12 mbr-col-md-12">
         <div class="wrap">
             <div class="ico-wrap">
-            <img src="/images/Icono-personas.png" alt="">
+            <img class="img-seccion4" src="/images/Icono-personas.png" alt="">
             </div>
             <div class="text-wrap vcenter">
                 <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5"><span>Encuentra lo que necesitas</span></h2>
@@ -157,7 +158,7 @@
     <div class="col-lg-12 mbr-col-md-12">
         <div class="wrap">
             <div class="ico-wrap">
-                <img src="/images/Icono-Manos.png" alt="">
+                <img class="img-seccion4" src="/images/Icono-Manos.png" alt="">
             </div>
             <div class="text-wrap vcenter">
                 <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5"><span>Tienes el apoyo de expertos</span></h2>
@@ -196,6 +197,115 @@
     
     
 </section>
+
+
+
+
+
+
+
+            <section class="seccion-blog" id="blog" class="container">
+
+            <div class="row " >
+                <div class="col text-center ">
+                    <div class="div">
+                        <h1 class="titulos-generales">Nuestro Blog</h1>
+                        <br><br>
+                    </div>
+                </div>
+             </div>
+            <?php 
+	$url = "https://contratainternet.co/blog/wp-json/wp/v2/posts?_embed"; $ch = curl_init($url);  curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+	$post = curl_exec($ch);
+	$post = json_decode($post,true);
+?>
+				<div class="row fila-blog" >
+
+
+                <div class="col-12 col-md-4" style="text-align: -webkit-center;">
+						<div class="thumbnail" style="width: 100%;background-position:center;background-size: cover; height: 230px; background-image: url('<?=$post[0]["_embedded"]["wp:featuredmedia"][0]["source_url"] ?>');" alt=""></div>
+                      <div class="">
+                      <br>
+                    <!--  <div class="titulo-blog limitado4">
+                      <?php print_r($post[0]["title"]["rendered"]);?>
+                      </div> -->  
+
+                      
+                    
+                        <br> 
+						<div class="texto-blog limitado1">
+                            
+                        <?php  print_r($post[0]["excerpt"]["rendered"]);?>
+                        </div>
+                        <br>
+
+                    
+                        <div style="">
+                          <a style="color:#05213e; float: left;" href="<?php print_r($post[0]["link"]);?>"> Ver mas...  </a> 
+                        </div>
+
+
+                      </div>
+					</div>
+
+
+ 
+
+
+                                  
+
+					<div class="col-12 col-md-4" style="text-align: -webkit-center;">
+						<div class="thumbnail" style="width: 100%;background-position:center;background-size: cover; height: 230px; background-image: url('<?=$post[1]["_embedded"]["wp:featuredmedia"][0]["source_url"] ?>');" alt=""></div>
+                      <div class="">
+                      <br>
+                     <!-- <div class="titulo-blog limitado5">
+                      <?php print_r($post[1]["title"]["rendered"]);?>
+                      </div>  -->
+
+                      
+                    
+                        <br> 
+						<div class="texto-blog limitado2">
+                            
+                        <?php  print_r($post[1]["excerpt"]["rendered"]);?>
+                        </div>
+                        <br>
+
+                    
+                        <div style="">
+                        <a style="color:#05213e; float: left;" href="<?php print_r($post[1]["link"]);?>"> Ver mas...  </a> 
+                        </div>
+
+
+                      </div>
+					</div>
+
+                    
+					<div class="col-12 col-md-4" style="text-align: -webkit-center;">
+						<div class="thumbnail" style="width: 100%; background-position:center;height: 230px;background-size: cover; background-image: url('<?=$post[2]["_embedded"]["wp:featuredmedia"][0]["source_url"] ?>');" alt=""></div>
+                     <div class="">
+                      <br>
+                   <!--  <div class="titulo-blog limitado6">
+                      <?php print_r($post[2]["title"]["rendered"]);?>
+                     </div>  -->
+
+                    	<br> 
+					<div class="texto-blog limitado3">
+                            
+                    	<?php print_r($post[2]["excerpt"]["rendered"]);?>
+                    </div>
+                    <br>
+                    <div style="">
+                    <a style="color:#05213e; float: left;" href="<?php print_r($post[2]["link"]);?>"> Ver mas...  </a> 
+                        </div>
+                     </div>
+					</div
+                <?php ?>
+          </div>
+ 
+
+          </section>
+
 
 
    <!-- 
@@ -340,93 +450,6 @@ function correo2(){
                 
             </section>-->
 
-            <!--section id="blog" class="container">
-<?php /*
-	$url = "https://contratainternet.co/blog/wp-json/wp/v2/posts?_embed"; $ch = curl_init($url);  curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-	$post = curl_exec($ch);
-	$post = json_decode($post,true);
-?>
-				<div class="row" >
-
-
-                                   <div class="col-12 col-md-4" style="text-align: -webkit-center;">
-                    
-
-                                            <div class="thumbnail" style="width: 100%; background-position:center;height: 230px;background-size: cover; background-image: url('<?=$post[0]["_embedded"]["wp:featuredmedia"][0]["source_url"] ?>');" alt=""></div> 
-                                                            <div class="fondo-blog">
-                                                            <br>
-                                                                        <div class="titulo-blog limitado4">
-                                                                        <?php print_r($post[0]["title"]["rendered"]);?>
-                                                                        </div> 
-                                                                <br>                         
-                                                                    <div class="texto-blog limitado1 ">
-                                                                        
-                                                                        <span> <?php  print_r($post[0]["excerpt"]["rendered"]);?> </span>   
-                                                                    </div>
-
-
-                                                                <br>
-                                                                <div style="">
-                                                                        <a href="<?php print_r($post[0]["link"]);?>"> <img src="{{asset('images/leermas.png')}}" width=100%; alt="">   </a> 
-                                                                </div>
-
-
-                                                        </div>
-
-
-                                            </div>
-
- 
-
-
-                                  
-
-					<div class="col-12 col-md-4" style="text-align: -webkit-center;">
-						<div class="thumbnail" style="width: 100%;background-position:center;background-size: cover; height: 230px; background-image: url('<?=$post[1]["_embedded"]["wp:featuredmedia"][0]["source_url"] ?>');" alt=""></div>
-                      <div class="fondo-blog">
-                      <br>
-                      <div class="titulo-blog limitado5">
-                      <?php print_r($post[1]["title"]["rendered"]);?>
-                      </div>  
-
-                      
-                    
-                        <br> 
-						<div class="texto-blog limitado2">
-                            
-                        <?php  print_r($post[1]["excerpt"]["rendered"]);?>
-                        </div>
-                        <br>
-
-                    
-                        <div style="">
-                          <a href="<?php print_r($post[1]["link"]);?>"> <img src="{{asset('images/leermas.png')}}" width=100%; alt="">   </a> 
-                        </div>
-
-
-                      </div>
-					</div>
-					<div class="col-12 col-md-4" style="text-align: -webkit-center;">
-						<div class="thumbnail" style="width: 100%; background-position:center;height: 230px;background-size: cover; background-image: url('<?=$post[2]["_embedded"]["wp:featuredmedia"][0]["source_url"] ?>');" alt=""></div>
-                     <div class="fondo-blog">
-                      <br>
-                     <div class="titulo-blog limitado6">
-                      <?php print_r($post[2]["title"]["rendered"]);?>
-                     </div>  
-
-                    	<br> 
-					<div class="texto-blog limitado3">
-                            
-                    	<?php print_r($post[2]["excerpt"]["rendered"]);?>
-                    </div>
-                    <br>
-                    <div style="">
-                          <a href="<?php print_r($post[2]["link"]);?>"> <img src="{{asset('images/leermas.png')}}" width=100%; alt="">   </a> 
-                        </div>
-                     </div>
-					</div
-                <?php */?>
-            </section-->
             
 
 
@@ -457,7 +480,7 @@ function correo2(){
 
 	$(function()
 	{
-	ellipsis_box(".limitado1", 213);
+	ellipsis_box(".limitado1", 175);
 	});
                         </script>
 
@@ -490,7 +513,7 @@ function correo2(){
 
 	$(function()
 	{
-	ellipsis_box(".limitado3", 213);
+	ellipsis_box(".limitado3", 200);
 	});
                         </script>
                          <script>

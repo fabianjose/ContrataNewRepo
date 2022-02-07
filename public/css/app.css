@@ -233,6 +233,7 @@
 }
 
 .footer-bg {
+  font-family: "Poppins";
   min-height: 35vh;
   background: #055a76;
   background-size: cover;
@@ -256,6 +257,7 @@
   }
 
   .footer-bg {
+    font-family: "Poppins";
     padding: 20px 1rem;
   }
 
@@ -615,6 +617,11 @@
   transition: height 1s;
 }
 
+.fila-blog {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
 #offer-cards .vueperslides__inner .vueperslides__parallax-wrapper {
   padding-bottom: 520px !important;
   padding-top: 40px;
@@ -685,6 +692,16 @@
 }
 
 @media (max-width: 768px) {
+  .fila-blog {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .seccion-blog {
+    margin-top: 381px;
+    padding: 10px;
+  }
+
   .parrafos-seccion4 {
     text-align: justify;
     padding: 20px;
@@ -867,6 +884,18 @@ p {
   font-family: Poppins, sans-serif;
   font-size: 1rem;
   line-height: 136%;
+}
+
+.titulos-generales {
+  font-size: 1.6rem !important;
+}
+
+.card-precios-nuevos {
+  font-family: Poppins, sans-serif;
+  padding-bottom: 4px !important;
+  color: #145b77;
+  font-weight: 600;
+  font-size: 2.5em;
 }
 
 .nosotros-main {
@@ -1712,8 +1741,8 @@ p {
   font-size: 15px;
   font-weight: 300;
   text-align: justify;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .bloque-tecnologia {
@@ -2488,6 +2517,38 @@ p {
   .modal-chatea {
     width: 130px;
     margin-top: -15px;
+  }
+}
+
+@media (min-width: 770px) and (max-width: 1400px) {
+  .img-seccion4 {
+    width: 70%;
+  }
+
+  .display-6 {
+    font-size: 1vw;
+    line-height: 136%;
+  }
+
+  .ico-wrap {
+    width: 50% !important;
+  }
+
+  .display-5 {
+    font-size: 1vw !important;
+  }
+
+  .parrafos-seccion4 {
+    font-size: 1vw !important;
+    line-height: 131% !important;
+  }
+
+  .titulo-seccion4 {
+    font-size: 2vw;
+  }
+
+  .parrafos-seccion4 {
+    font-size: 1.5vw;
   }
 }
 

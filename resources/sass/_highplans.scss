@@ -1,6 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
-
+.fila-blog{
+    padding-left: 80px;
+    padding-right: 80px;
+}
 #offer-cards .vueperslides__inner .vueperslides__parallax-wrapper {
     padding-bottom: 520px!important;
     padding-top: 40px;
@@ -69,7 +72,17 @@
         color: #60605e;
   
 }
+
 @media(max-width:768px) {
+    .fila-blog{
+        padding-left: 10px;
+        padding-right:10px;
+    }
+
+    .seccion-blog{
+        margin-top: 381px;
+        padding: 10px;
+    }
     .parrafos-seccion4{
         text-align: justify;
         padding: 20px;
@@ -248,4 +261,14 @@
         font-family: Poppins, sans-serif;      
         font-size: 1rem;
         line-height: 136%;
+    }
+    .titulos-generales{
+        font-size: 1.6rem !important;
+    }
+    .card-precios-nuevos{
+        font-family: Poppins, sans-serif;
+          padding-bottom: 4px !important; 
+           color: rgb(20, 91, 119);
+            font-weight: 600;
+              font-size: 2.5em;
     }

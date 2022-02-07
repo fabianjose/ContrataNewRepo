@@ -49725,19 +49725,9 @@ var render = function() {
               _c("br"),
               _vm._v(" "),
               _c("div", { staticClass: "row" }, [
-                _c(
-                  "h1",
-                  {
-                    staticClass: "col-12 ",
-                    staticStyle: {
-                      "font-family": "Poppins, sans-serif",
-                      color: "rgb(20, 91, 119)",
-                      "font-weight": "600",
-                      "font-size": "2.8em"
-                    }
-                  },
-                  [_vm._v("$ " + _vm._s(_vm.showPrice(_vm.offer.tariff)))]
-                )
+                _c("h1", { staticClass: "col-12 card-precios-nuevos" }, [
+                  _vm._v("$ " + _vm._s(_vm.showPrice(_vm.offer.tariff)))
+                ])
               ]),
               _vm._v(" "),
               _vm.offer.titulo3 != _vm.NULL
