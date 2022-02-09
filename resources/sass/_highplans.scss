@@ -79,14 +79,11 @@
         padding-right:10px;
     }
 
-    .seccion-blog{
-        margin-top: 381px;
-        padding: 10px;
-    }
+   
     .parrafos-seccion4{
         text-align: justify;
         padding: 20px;
-        font-size: 0.8em;
+        font-size: 4vw;
         line-height: 106%;
         margin-left: 0px;
         margin-top: 0px;
@@ -272,3 +269,35 @@
             font-weight: 600;
               font-size: 2.5em;
     }
+
+
+   
+
+
+      
+        @media (min-width: 300px) and (max-width: 330px){
+            .seccion-blog{
+               margin-top: 320px !important;
+              
+          
+                         }
+            }
+
+          
+
+            @media (min-width: 330px) and (max-width: 350px){
+                .seccion-blog{
+                   margin-top: 256px !important;
+                  
+              
+                             }
+                }
+
+                @media (min-width: 350px) and (max-width: 375px){
+                    .seccion-blog{
+                       margin-top: 155px !important;
+                      
+                  
+                                 }
+                    }
+       

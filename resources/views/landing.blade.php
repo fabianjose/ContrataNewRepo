@@ -135,44 +135,49 @@
     <div class="row">
         
             
-    <div class="container">
+            <div class="container">
 
-	
-<div class="row mbr-justify-content-center">
+                
+                        <div class="row mbr-justify-content-center">
 
-    <div class="col-lg-12 mbr-col-md-12">
-        <div class="wrap">
-            <div class="ico-wrap">
-            <img class="img-seccion4" src="/images/Icono-personas.png" alt="">
+                            <div class="col-lg-12 mbr-col-md-12">
+                                <div class="wrap">
+                                    <div class="ico-wrap">
+                                    <img class="img-seccion4" src="/images/Icono-personas.png" alt="">
+                                    </div>
+                                    <div class="text-wrap vcenter">
+                                        <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5"><span>Encuentra lo que necesitas</span></h2>
+                                        <p class="mbr-fonts-style text1 mbr-text display-6">
+                                        Nuestro compromiso es mostrarte los planes que ofrecen los diferentes operadores en 
+                                        telecomunicación, para que puedas encontrar el mejor servicio para tus necesidades.</p>
+                                    </div>
+                                </div>
+                            </div>    
+                        </div>
+
+                        <div class="row mbr-justify-content-center">
+
+                            <div class="col-lg-12 mbr-col-md-12">
+
+                            <div class="wrap">
+                                    <div class="ico-wrap">
+                                    <img class="img-seccion4" src="/images/Icono-Manos.png" alt="">
+                                    </div>
+                                    <div class="text-wrap vcenter">
+                                        <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5"><span>Tienes el apoyo de expertos</span></h2>
+                                        <p class="mbr-fonts-style text1 mbr-text display-6">
+                                        Nuestros asesores te guiarán durante todo el proceso para que soluciones online
+                                        cualquier duda o problema que se te presentes.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                    </div>
+                                </div>
+                               
+                            </div>    
+                        </div>
+
             </div>
-            <div class="text-wrap vcenter">
-                <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5"><span>Encuentra lo que necesitas</span></h2>
-                <p class="mbr-fonts-style text1 mbr-text display-6">
-                Nuestro compromiso es mostrarte los planes que ofrecen los diferentes operadores en 
-                telecomunicación, para que puedas encontrar el mejor servicio para tus necesidades.</p>
-            </div>
-        </div>
-    </div>    
-</div>
-
-<div class="row mbr-justify-content-center">
-
-    <div class="col-lg-12 mbr-col-md-12">
-        <div class="wrap">
-            <div class="ico-wrap">
-                <img class="img-seccion4" src="/images/Icono-Manos.png" alt="">
-            </div>
-            <div class="text-wrap vcenter">
-                <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5"><span>Tienes el apoyo de expertos</span></h2>
-                <p class="mbr-fonts-style text1 mbr-text display-6">
-                Nuestros asesores te guiarán durante todo el proceso para que soluciones online
-                 cualquier duda o problema que se te presente.</p>
-            </div>
-        </div>
-    </div>    
-</div>
-
-</div>
       
        
     </div>

@@ -77,7 +77,7 @@
                         </a>
                     </li>
                     <li class="nav-item item-menu" >
-                        <a class="nav-link nav-item-border" href="https://contratainternet1.speedtestcustom.com/">
+                        <a class="nav-link nav-item-border" href="https://contratainternet.co/blog/">
                             <h6 class="ic-main  item-menu">
                                 Blog
                             </h6>
@@ -106,15 +106,16 @@
             <div class="d-flex w-100 flex-wrap justify-content-bewtween">
 
 
-              <div class="col-sm-3 col-12 " style="text-align: center;">
+              <div class="col-sm-3 col-12 " style="text-align: center; ">
                    <div class="text-center">
                         <img src="<?php echo e(asset('images/el_mejor_internet_co-07.png')); ?>" class="img-responsive text-center" style="max-width: 65%;">
              
                      </div>
                
-                    <h3 class="text-ws text-justify text-gray" style="font-size:16px;font-weight: 100;color: #D6D8DB;">Lorem ipsum dolor sit amet c
-                    onsectetur adipisicing elit. Accusamus, ratione possimus! Animi vel, mollitia, quasi reiciendis
-                     repellat sed dolorum soluta obcaecati hic adipisci quam voluptatibus magnam iusto odio placeat velit!</h3>
+                    <h3 class="text-ws text-justify text-gray" style="font-size:16px;font-weight: 100;color: #D6D8DB;">Nuestra misión es facilitar a todos 
+                    los hogares y empresas colombianas la búsqueda del mejor
+                     proveedor en telecomunicaciones, posicionándonos como la plataforma web para la solución de 
+                     conectividad a nivel nacional.</h3>
                   
                
            </div>
