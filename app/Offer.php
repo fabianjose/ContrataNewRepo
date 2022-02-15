@@ -32,8 +32,8 @@ class Offer extends Model{
     'permanencia',
     'fijo',
     'movil',
-    'deco' ,
-    'color'
+    'deco' 
+    
     
   ];
 

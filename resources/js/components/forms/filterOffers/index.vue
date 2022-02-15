@@ -5,14 +5,17 @@
       <div class="d-flex flex-column justify-content-between" style="width: 100%;">
       
       <h4  class="filter-card-title font-weight-bold text-center" style="align-self: center;" >
-        <i class="fas fa-filter" style="color:#606060;display: inline-block;">    </i>
-        Filtro de búsqueda</h4>
+      
+      Filtro de búsqueda</h4>
+        <!--<i class="fas fa-filter" style="display: inline-block;">    </i>-->
+        
      </div>
          <br>
 
            <div class="form-horizontal my-2 col-12 flex-wrap" >
         <div  type="button" data-toggle="collapse" data-target="#collapsePlan" aria-expanded="false" aria-controls="collapsePlan" style="display:flex;justify-content: space-between;">
-          <h4 class="btn-block" style="color:#606060; font-family:'Work Sans'; font-weight: 500;">  Tipo de Plan   </h4> <span><i class="fas fa-angle-down" style="margin-left: auto; font-size: 33px;   color: #afaeb4;"></i></span>
+          <h4 class="btn-block texto-filtro" style="">  Tipo de Plan   </h4> <span><i  class="fas fa-angle-down" style="color: #055a76;
+    font-size: 1.2em;"></i></span>
         </div>
         <div class="collapse" id="collapsePlan">
           <div class="card card-body" style="background-color: #f7f7f7;">
@@ -25,7 +28,8 @@
       </div>
       <div class="form-horizontal my-2 col-12 flex-wrap" >
         <div  type="button" data-toggle="collapse" data-target="#collapseProveedor" aria-expanded="false" aria-controls="collapseProveedor" style="display:flex;justify-content: space-between;">
-          <h4 class="btn-block" style="color:#606060; font-family:'Work Sans'; font-weight: 500;">  Proveedor   </h4> <span><i class="fas fa-angle-down" style="margin-left: auto; font-size: 33px;   color: #afaeb4;"></i></span>
+          <h4 class="btn-block texto-filtro" style="">  Proveedor   </h4> <span><i  class="fas fa-angle-down" style="color: #055a76;
+    font-size: 1.2em;"></i></span>
         </div>
         <div class="collapse" id="collapseProveedor">
           <div class="card card-body" style="background-color: #f7f7f7;">
@@ -39,7 +43,8 @@
      
       <div class="form-horizontal my-2 col-12 flex-wrap">
         <div  type="button" data-toggle="collapse" data-target="#collapseTecnologia" aria-expanded="false" aria-controls="collapseTecnologia"  style="display:flex;justify-content: space-between;">
-        <h4 class="btn-block text-ws" style="color:#606060; font-weight: 500;">  Tecnología   </h4> <span><i class="fas fa-angle-down" style="margin-left: auto; font-size: 33px;   color: #afaeb4;"></i></span>    
+        <h4 class="btn-block text-ws texto-filtro" style="">  Tecnología   </h4> <span><i  class="fas fa-angle-down" style="color: #055a76;
+    font-size: 1.2em;"></i></span>    
  
         </div>
         <div class="collapse" id="collapseTecnologia">
@@ -62,7 +67,8 @@
 
       <div class="form-horizontal my-2 col-12 flex-wrap">
         <div type="button" data-toggle="collapse" data-target="#collapseVelocidad" aria-expanded="false" aria-controls="collapseVelocidad" style="display:flex;justify-content: space-between;">
-          <h4 class="btn-block" style="color:#616161; font-family:'Work Sans'; font-weight: 500;">  Velocidad   </h4> <span><i class="fas fa-angle-down" style="margin-left: auto; font-size: 33px;   color: #afaeb4;"></i></span>
+          <h4 class="btn-block texto-filtro" style="">  Velocidad   </h4> <span><i  class="fas fa-angle-down" style="color: #055a76;
+    font-size: 1.2em;"></i></span>
         </div>
 <div class="collapse" id="collapseVelocidad">
   <div class="card card-body" style="background-color: #f7f7f7;">
@@ -86,9 +92,12 @@
   </div>
 </div>
 </div>
+
+
 <div class="form-horizontal my-2 col-12 flex-wrap" >
   <div  type="button" data-toggle="collapse" data-target="#collapsePrecio" aria-expanded="false" aria-controls="collapseExample" style="display:flex;justify-content: space-between;">
- <h4 class="btn-block" style="color:#616161">  Precio   </h4> <span><i class="fas fa-angle-down" style="margin-left: auto; font-size: 33px;   color: #afaeb4;"></i></span>
+ <h4 class="btn-block texto-filtro" style="">  Precio   </h4> <span><i  class="fas fa-angle-down" style="color: #055a76;
+    font-size: 1.2em;"></i></span>
 
   </div>
 

@@ -10,7 +10,7 @@
      <!--+'fondo-'+offer.company_name.replace(' ','_')+'-modal'-->
 
 
-         <div  :class="'col col-sm-4 '" :style="'background-color:'+offer.color" >   
+         <div  :class="'col col-sm-4 '" :style="':'" >   
 
 
                <div class="row  pt-5 pb-5" style=" justify-content: center;">
@@ -114,7 +114,7 @@
                </div>
 
               
-               <div :class="'row p-1 mb-2 mt-2 '"  :style="'width:104%;color: white;margin: -4 !important; background-color:'+offer.color">            
+               <div :class="'row p-1 mb-2 mt-2 '"  :style="'width:104%;color: white;margin: -4 !important; '">            
                                                 
                <div class="pl-3 mt-2">
                    
@@ -149,7 +149,7 @@
                  <div>
                                              
 
-                  <a :class="'col-12 btn btn-main-blue rounded-pill '"  :style="'font-family: Heebo;  border-radius: 28px !important;   font-weight: 800; font-size:3em; color: white; background-color:'+offer.color" >
+                  <a :class="'col-12 btn btn-main-blue rounded-pill '"  :style="'font-family: Heebo;  border-radius: 28px !important;   font-weight: 800; font-size:3em; color: white; '" >
                       $  {{offer.tariff.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}}/mes</a>
               </div>
                   <hr>

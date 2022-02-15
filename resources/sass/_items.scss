@@ -27,18 +27,18 @@
 }
 
 .offers-pagination-item {
-    background-color: white;
+    background-color: #f7f7f7;
     ;
     border-radius: 20px;
     border-color: $main-blue;
     text-align: center;
-    padding-top: 10px;
-    border: solid 1px;
-    border-color: #0cd9f4;
+    
 }
 
 .offers-pagination-item:hover {
-    box-shadow: 0px 0px 4px 5px rgb(0 0 0 / 61%)
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 }
 
 .stars-container {

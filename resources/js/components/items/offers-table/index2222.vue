@@ -126,7 +126,7 @@
                         
                     <div class="hbo">
                     <div class=" tecnologia-movil  text-center p-2 offer-table-label w-100 text-white mx-auto bg-dark-blue rounded-pill p-1 text-wrap " >   <p class="text-tabla-detalles" style="margin-top: -50px;">  Beneficios</p> </div>
-                    <h5 style="font-family: Heebo;font-size: 16px;color: rgb(91, 87, 87); font-weight: 800;" class="texto-hbo" >{{offer.titulo1}}</h5> 
+                    <h5 style="" class="titulo1" >{{offer.titulo1}}</h5> 
                   </div>
 
                     <div >

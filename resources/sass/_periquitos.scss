@@ -1,3 +1,37 @@
+.card-body{
+    padding: 0rem !important;
+}
+.texto-filtro{
+    
+    font-family: 'poppins-regular';
+    font-size: 1.2em;
+}
+
+.columna-tecnologia{ 
+    place-self: center;
+    margin-top: 16px;
+    z-index: 10;
+}
+.columna-precio{ 
+    place-self: center;
+    margin-top: 16px;
+}
+
+.columna-velocidad{
+    place-self: center;
+    margin-top: 16px;
+}
+.imagen-proveedor{
+   width: 250%;
+}
+.titulo1{
+    font-family: 'poppins-medium';
+    font-size: 16px;
+    color: #16415f;
+    font-weight: 800;
+}
+
+
 /////////////////////////////////////////////Fondos MODAL ETB/////////////////////////////////////////////////
 .fondo-ETB-modal {
     background: #20487f;
@@ -91,12 +125,13 @@
 }
 
 .bloque-3 {
-    margin-top: 55px;
+    align-self: center;
+    margin-top: 0px;
 }
 
 .btn-adquierelo {
     font-family: 'Heebo';
-    background: #0bdcf3;
+    background: #055a76;
     box-shadow: 0px 0px 7px 0px black;
     font-weight: bold;
     font-size: 1vw;
@@ -257,11 +292,10 @@
             display: none !important;
         }
         .bloque-3 {
+            align-self: center;
             margin-top: 0px;
         }
-        .texto-hbo {
-            margin-top: -14px;
-        }
+       
         .tecnologia-movil {
             display: inline;
         }
@@ -316,13 +350,7 @@
         }
         .logo-ondas {}
         .texto-velocidad {}
-        .btn-adquierelo {
-            font-family: 'Heebo';
-            background: #0bdcf3;
-            box-shadow: 0px 0px 7px 0px black;
-            margin-top: -48px;
-            font-weight: bold;
-        }
+      
     }
     @media (min-width: 360px) {
         .logo-home-2 {
@@ -341,11 +369,10 @@
             display: none !important;
         }
         .bloque-3 {
+            align-self: center;
             margin-top: 0px;
         }
-        .texto-hbo {
-            margin-top: -14px;
-        }
+      
         .tecnologia-movil {
             display: inline;
         }
@@ -402,13 +429,7 @@
         }
         .logo-ondas {}
         .texto-velocidad {}
-        .btn-adquierelo {
-            font-family: 'Heebo';
-            background: #0bdcf3;
-            box-shadow: 0px 0px 7px 0px black;
-            margin-top: -48px;
-            font-weight: bold;
-        }
+    
     }
     @media (min-width: 375px) {
         .logo-home-2 {
@@ -427,11 +448,10 @@
             display: none !important;
         }
         .bloque-3 {
+            align-self: center;
             margin-top: 0px;
         }
-        .texto-hbo {
-            margin-top: -14px;
-        }
+       
         .tecnologia-movil {
             display: inline;
         }
@@ -488,13 +508,7 @@
         }
         .logo-ondas {}
         .texto-velocidad {}
-        .btn-adquierelo {
-            font-family: 'Heebo';
-            background: #0bdcf3;
-            box-shadow: 0px 0px 7px 0px black;
-            margin-top: -48px;
-            font-weight: bold;
-        }
+       
     }
     @media (min-width: 411px) {
         .logo-home-2 {
@@ -513,11 +527,10 @@
             display: none !important;
         }
         .bloque-3 {
+            align-self: center;
             margin-top: 0px;
         }
-        .texto-hbo {
-            margin-top: -14px;
-        }
+       
         .tecnologia-movil {
             display: inline;
         }
@@ -574,13 +587,7 @@
         }
         .logo-ondas {}
         .texto-velocidad {}
-        .btn-adquierelo {
-            font-family: 'Heebo';
-            background: #0bdcf3;
-            box-shadow: 0px 0px 7px 0px black;
-            margin-top: -48px;
-            font-weight: bold;
-        }
+      
     }
     @media (min-width: 499px) {
         .logo-home-2 {
@@ -599,11 +606,10 @@
             display: none !important;
         }
         .bloque-3 {
+            align-self: center;
             margin-top: 0px;
         }
-        .texto-hbo {
-            margin-top: -14px;
-        }
+      
         .tecnologia-movil {
             display: inline;
         }
@@ -660,30 +666,60 @@
         }
         .logo-ondas {}
         .texto-velocidad {}
-        .btn-adquierelo {
-            font-family: 'Heebo';
-            background: #0bdcf3;
-            box-shadow: 0px 0px 7px 0px black;
-            margin-top: -48px;
-            font-weight: bold;
-        }
+
+        
+      
     }
 }
 
 .texto-velocidad-resultado-busqueda {
-    font-family: 'Heebo';
     font-size: 1.59rem!important;
-    color: rgb(91, 87, 87) !important;
-    margin-top: 50px;
+   /* margin-top: 50px;*/
+     padding-top: 20px;
+     padding-bottom: 20px;
+     font-weight: bold;
+     color: #055a76 !important;
+     font-family: 'poppins-medium';
+     
 }
 
 .texto-tecnologia-resultado-busqueda {
-    font-family: 'Heebo';
-    margin-top: 4px;
-    font-size: 1.59rem!important;
-    color: rgb(91, 87, 87);
-    margin-top: 13px !important;
+    font-size: 1.3rem!important;
+   /* margin-top: 50px;*/
+     padding-top: 20px;
+     padding-bottom: 20px;
+     font-weight: bold;
+     color: #055a76 !important;
+     font-family: 'poppins-medium';
+     
 }
+
+.texto-precio-resultado-busqueda {
+    font-size: 1.59rem!important;
+   /* margin-top: 50px;*/
+     padding-top: 20px;
+     padding-bottom: 20px;
+     font-weight: bold;
+     color: #055a76 !important;
+     font-family: 'poppins-medium';
+    
+
+}
+
+.raya-vertical-velocidad{
+    border-color: #afaeb4 !important; border-right: solid 1px; border-left: solid 1px;
+
+}
+
+.raya-vertical-tecnologia{
+    border-color: #afaeb4 !important; border-left: solid 1px;
+}
+
+.fila-resultado-busqueda{
+    justify-content: center;
+}
+
+
 
 .modal-velocidad-1 {
     font-family: 'Heebo';
@@ -715,9 +751,7 @@
     .modal-valor-1 {
         font-size: 4.5vw !important;
     }
-    .btn-adquierelo {
-        margin-top: -52px !important;
-    }
+  
     .modal-texto-atributos {
         font-size: 3vw !important;
     }
@@ -739,6 +773,7 @@
     }
     .modal-mas-planes {}
 }
+
 
 
 @media (min-width: 770px) and (max-width: 1400px){
@@ -768,4 +803,90 @@
     .parrafos-seccion4{
         font-size: 1.5vw;
     }
+}
+
+@media (min-width: 1198px){
+    .boton-solicitarplan-mobile {
+        display: none;
+
+}
+
+.logo-empresa-mobile{
+    display: none;
+
+}
+
+}
+
+@media (min-width: 700px){
+  .titulos{
+    margin-top: 31px;
+  }
+}
+
+  @media (max-width: 700px){
+    .titulos{
+      margin-top:  0px;
+    }
+
+}
+
+
+////////////////////////////CARD DE RESULTADOS DE BUSQUEDA PARA MOBILE CSS////////////////////////////////////////////////
+
+@media (min-width: 300px) and (max-width: 375px){
+
+    .texto-tecnologia-resultado-busqueda{
+        margin-top: 0px !important;
+    }
+
+    .columna-precio{
+        margin-top: -221px;
+    }
+
+    .texto-precio-resultado-busqueda {
+   
+         margin-top: 236px;
+    
+    }
+   
+
+}
+
+@media (min-width: 375px) and (max-width: 400px){
+
+    .texto-precio-resultado-busqueda {
+   
+        margin-top: 236px;
+   
+   }
+    .texto-tecnologia-resultado-busqueda{
+        margin-top: 0px !important;
+    }
+
+    .columna-precio{
+        margin-top: -221px;
+    }
+   
+    
+
+}
+
+@media (min-width: 401px) and (max-width: 430px){
+    .texto-precio-resultado-busqueda {
+   
+        margin-top: 236px;
+   
+   }
+
+    .texto-tecnologia-resultado-busqueda{
+        margin-top: 0px !important;
+    }
+
+    .columna-precio{
+        margin-top: -221px;
+    }
+
+
+
 }

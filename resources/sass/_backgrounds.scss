@@ -81,11 +81,17 @@
     background-color: rgba(33, 33, 33, 1);
 }
 
+.justify-content-around{
+    justify-content: baseline !important;
+}
+
 .planComparator-bg {
+    border-left:  solid 35px #005a85;
+    border-right: solid 35px #005a85;
     padding-top: 18vh!important;
     width: 100%;
     min-height: 50vh;
-    background-color: #f7f7f7!important;
+    background-color: #ffffff!important;
 }
 
 .sec1{

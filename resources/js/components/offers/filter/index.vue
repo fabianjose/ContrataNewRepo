@@ -1,14 +1,23 @@
 <template>
-    <div class="planComparator-bg py-4 px-lg-4 px-md-4">
-        <div class="d-flex flex-row h-100 w-100 flex-wrap justify-content-around align-items-start">
-            <div class="filterCard col-10 col-lg-4 col-xl-3">
+    <div class="planComparator-bg ">
+                <div class="row">
+                    <div class="col-sm-3 col-12">
+
+                         <div >
                 <filter-card @customFiltering="refreshData" :fields="compFields" :technologies="compTechnologies" :speeds="compSpeeds" :max_price="compMaxPrice" :min_price="compMinPrice"  :providers="compProviders" :plans="compPlans"/>
             </div>
+                    </div>
+                    <div class="col-sm-9 col-12">
             <filter-table @consultItem="consultItem" :query="compQuery" @customFiltering="refreshData" @viewItem="viewItem" @pageSwitch="changePage" :fields="compFields" :items="compPagination.data" :currentpage="compPagination.current_page" :lastpage="compLastpage" ></filter-table>
-        </div>
-        <offer-consult v-if="currentItem&&consultMode" :offerMode="true" :offer="currentItem"></offer-consult>
+
+
+                    </div>
+                </div>
+             <offer-consult v-if="currentItem&&consultMode" :offerMode="true" :offer="currentItem"></offer-consult>
         <offer-modal v-if="currentItem&&viewMode" :offer="currentItem" ></offer-modal>
-    </div>
+        </div>
+      
+
 
     
 </template>
