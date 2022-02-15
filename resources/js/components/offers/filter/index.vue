@@ -1,7 +1,17 @@
 <template>
     <div class="planComparator-bg ">
+        <a href="/">
+         <p style=" margin-left: 55px;
+    margin-top: 0px;
+    font-family: 'poppins-regular';
+    color: #055a76;">Inicio - Planes</p></a>
                 <div class="row">
-                    <div class="col-sm-3 col-12">
+                        
+                               
+                                   
+                               
+                             
+                    <div class="col-sm-3 col-12" style="margin-top: 40px;">
 
                          <div >
                 <filter-card @customFiltering="refreshData" :fields="compFields" :technologies="compTechnologies" :speeds="compSpeeds" :max_price="compMaxPrice" :min_price="compMinPrice"  :providers="compProviders" :plans="compPlans"/>

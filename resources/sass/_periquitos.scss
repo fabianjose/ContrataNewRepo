@@ -1,3 +1,22 @@
+.modal-texto-tecnologia4 {
+    font-family: "poppins-regular";
+    font-size: 20px;
+    color: #2ba8e0;
+  
+}
+.modal-texto-atributos {
+    font-family: "poppins-regular";
+  
+    padding: 0px 0px 0px 0px !important;
+    line-height: 28% !important; 
+    }
+.li-modal {
+    padding: 0px 0px 0px 0px !important;
+    line-height: 28% !important; }
+.logo-movil-tecnologia1 {
+    width: 225px;
+    padding: 10px;
+}
 .card-body{
     padding: 0rem !important;
 }
@@ -120,9 +139,7 @@
     width: 126px;
 }
 
-.logo-movil-tecnologia1 {
-    width: 126px;
-}
+
 
 .bloque-3 {
     align-self: center;
@@ -135,6 +152,15 @@
     box-shadow: 0px 0px 7px 0px black;
     font-weight: bold;
     font-size: 1vw;
+}
+
+.btn-adquierelo-modal {
+    font-family: 'poppins-regular';
+    background: #00ab49;
+    box-shadow: 0px 0px 7px 0px black;
+    /* font-weight: bold; */
+    font-size: 1.3vw;
+    width: 85%;
 }
 
 .logo-mb {
@@ -330,10 +356,7 @@
             margin-left: 190px;
             width: 65%;
         }
-        .logo-movil-tecnologia1 {
-            margin-left: 190px;
-            width: 65%;
-        }
+      
         .tegnologia-movil {
             display: block;
         }
@@ -408,11 +431,7 @@
             margin-top: -313px;
             width: 87%;
         }
-        .logo-movil-tecnologia1 {
-            margin-left: 190px;
-            margin-top: -313px;
-            width: 87%;
-        }
+       
         .tegnologia-movil {
             display: block;
         }
@@ -487,11 +506,7 @@
             margin-top: -313px;
             width: 81%;
         }
-        .logo-movil-tecnologia1 {
-            margin-left: 208px;
-            margin-top: -313px;
-            width: 81%;
-        }
+       
         .tegnologia-movil {
             display: block;
         }
@@ -566,11 +581,7 @@
             margin-top: -313px;
             width: 71%;
         }
-        .logo-movil-tecnologia1 {
-            margin-left: 242px;
-            margin-top: -313px;
-            width: 71%;
-        }
+       
         .tegnologia-movil {
             display: block;
         }
@@ -590,6 +601,10 @@
       
     }
     @media (min-width: 499px) {
+
+        .modal-texto-atributos{
+            font-size: 10px;
+        }
         .logo-home-2 {
             width: 50%;
         }
@@ -645,11 +660,7 @@
             margin-top: -313px;
             width: 30%;
         }
-        .logo-movil-tecnologia1 {
-            margin-left: 392px;
-            margin-top: -313px;
-            width: 30%;
-        }
+     
         .tegnologia-movil {
             display: block;
         }
@@ -722,10 +733,10 @@
 
 
 .modal-velocidad-1 {
-    font-family: 'Heebo';
-    color: #5b5b5f;
+    
+    color: #055a76;
     font-weight: 800;
-    font-size: 3em;
+    font-size: 1.2em;
 }
 
 @media (max-width: 500px) {
@@ -738,11 +749,7 @@
         margin-top: 0px !important;
         width: 20px !important;
     }
-    .logo-movil-tecnologia1 {
-        margin-left: 0px !important;
-        margin-top: 0px !important;
-        width: 80% !important;
-    }
+   
     .imagen-movil-tecnologia2 {
         margin-top: 33px !important;
         margin-left: -28px !important;
@@ -752,9 +759,7 @@
         font-size: 4.5vw !important;
     }
   
-    .modal-texto-atributos {
-        font-size: 3vw !important;
-    }
+    
     .modal-atributos {
         line-height: 81%;
     }
@@ -762,11 +767,9 @@
         font-size: 4vw !important;
     }
     .modal-texto-tecnologia3 {
-        font-size: 2.3vw !important;
+       
     }
-    .modal-texto-tecnologia4 {
-        margin-left: -29px;
-    }
+  
     .modal-chatea {
         width: 130px;
         margin-top: -15px;
@@ -819,16 +822,36 @@
 }
 
 @media (min-width: 700px){
+    .ul-modal{
+        margin-left: -34px;
+        font-size: 10px;
+      }
   .titulos{
     margin-top: 31px;
   }
+
+ 
 }
 
   @media (max-width: 700px){
+      
     .titulos{
       margin-top:  0px;
     }
+    .logo-movil-tecnologia1 {
+        width: 143px;
+       
+    }
 
+}
+
+
+@media (min-width: 700px) and (max-width: 992px){
+
+    .logo-movil-tecnologia1 {
+        width: 152px;
+       
+    }
 }
 
 

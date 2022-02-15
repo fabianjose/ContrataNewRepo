@@ -50,9 +50,7 @@ box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
     background-color: #fff;
     display: flex;
     flex-direction: row;
-    border-radius: 50px;
-    max-width: 80vw!important;
-    border-width: 0!important
+    max-width: 56vw!important;
 }
 
 .modal-adjust {
@@ -73,7 +71,7 @@ box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 }
 
 .consult-card-logo {
-    max-height: 150px;
+    max-height: 100px;
 }
 
 .consult-card-company {
@@ -147,18 +145,14 @@ box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 }
 
 @media(max-width:991px) {
-    .consult-card {
-        width: 90vw;
-    }
+   
     .form-consulting-field {
         border-bottom-left-radius: 50px;
     }
 }
 
 @media(max-width:575px) {
-    .consult-card {
-        width: 100%;
-    }
+ 
 }
 
 .modal-xl-xl {
@@ -182,3 +176,16 @@ box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 .card {
     box-shadow: none;
 }
+
+
+
+@media (max-width: 700px){
+    .consult-card {
+      
+        max-width: 96vw!important;
+        margin-left: -16px;
+    }
+
+}
+
+

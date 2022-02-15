@@ -399,9 +399,7 @@
   background-color: #fff;
   display: flex;
   flex-direction: row;
-  border-radius: 50px;
-  max-width: 80vw !important;
-  border-width: 0 !important;
+  max-width: 56vw !important;
 }
 
 .modal-adjust {
@@ -422,7 +420,7 @@
 }
 
 .consult-card-logo {
-  max-height: 150px;
+  max-height: 100px;
 }
 
 .consult-card-company {
@@ -496,18 +494,8 @@
 }
 
 @media (max-width: 991px) {
-  .consult-card {
-    width: 90vw;
-  }
-
   .form-consulting-field {
     border-bottom-left-radius: 50px;
-  }
-}
-
-@media (max-width: 575px) {
-  .consult-card {
-    width: 100%;
   }
 }
 
@@ -532,6 +520,13 @@
 
 .card {
   box-shadow: none;
+}
+
+@media (max-width: 700px) {
+  .consult-card {
+    max-width: 96vw !important;
+    margin-left: -16px;
+  }
 }
 
 .btn-dark-blue {
@@ -1102,7 +1097,7 @@ p {
 }
 
 .filter-card-title {
-  font-size: 1.5vw;
+  font-size: 20px;
 }
 
 .filter-card-label {
@@ -1313,6 +1308,7 @@ p {
 
 .text-dark-blue {
   color: #055a76;
+  padding-top: 30px;
 }
 
 .text-ws {
@@ -1699,6 +1695,28 @@ p {
   }
 }
 
+.modal-texto-tecnologia4 {
+  font-family: "poppins-regular";
+  font-size: 20px;
+  color: #2ba8e0;
+}
+
+.modal-texto-atributos {
+  font-family: "poppins-regular";
+  padding: 0px 0px 0px 0px !important;
+  line-height: 28% !important;
+}
+
+.li-modal {
+  padding: 0px 0px 0px 0px !important;
+  line-height: 28% !important;
+}
+
+.logo-movil-tecnologia1 {
+  width: 225px;
+  padding: 10px;
+}
+
 .card-body {
   padding: 0rem !important;
 }
@@ -1816,10 +1834,6 @@ p {
   width: 126px;
 }
 
-.logo-movil-tecnologia1 {
-  width: 126px;
-}
-
 .bloque-3 {
   align-self: center;
   margin-top: 0px;
@@ -1831,6 +1845,15 @@ p {
   box-shadow: 0px 0px 7px 0px black;
   font-weight: bold;
   font-size: 1vw;
+}
+
+.btn-adquierelo-modal {
+  font-family: "poppins-regular";
+  background: #00ab49;
+  box-shadow: 0px 0px 7px 0px black;
+  /* font-weight: bold; */
+  font-size: 1.3vw;
+  width: 85%;
 }
 
 .logo-mb {
@@ -2056,11 +2079,6 @@ p {
     width: 65%;
   }
 
-  .logo-movil-tecnologia1 {
-    margin-left: 190px;
-    width: 65%;
-  }
-
   .tegnologia-movil {
     display: block;
   }
@@ -2141,12 +2159,6 @@ p {
   }
 
   .logo-movil-planes2 {
-    margin-left: 190px;
-    margin-top: -313px;
-    width: 87%;
-  }
-
-  .logo-movil-tecnologia1 {
     margin-left: 190px;
     margin-top: -313px;
     width: 87%;
@@ -2237,12 +2249,6 @@ p {
     width: 81%;
   }
 
-  .logo-movil-tecnologia1 {
-    margin-left: 208px;
-    margin-top: -313px;
-    width: 81%;
-  }
-
   .tegnologia-movil {
     display: block;
   }
@@ -2328,12 +2334,6 @@ p {
     width: 71%;
   }
 
-  .logo-movil-tecnologia1 {
-    margin-left: 242px;
-    margin-top: -313px;
-    width: 71%;
-  }
-
   .tegnologia-movil {
     display: block;
   }
@@ -2353,6 +2353,10 @@ p {
 }
 
 @media (max-width: 500px) and (min-width: 499px) {
+  .modal-texto-atributos {
+    font-size: 10px;
+  }
+
   .logo-home-2 {
     width: 50%;
   }
@@ -2414,12 +2418,6 @@ p {
   }
 
   .logo-movil-planes2 {
-    margin-left: 392px;
-    margin-top: -313px;
-    width: 30%;
-  }
-
-  .logo-movil-tecnologia1 {
     margin-left: 392px;
     margin-top: -313px;
     width: 30%;
@@ -2489,10 +2487,9 @@ p {
 }
 
 .modal-velocidad-1 {
-  font-family: "Heebo";
-  color: #5b5b5f;
+  color: #055a76;
   font-weight: 800;
-  font-size: 3em;
+  font-size: 1.2em;
 }
 
 @media (max-width: 500px) {
@@ -2507,12 +2504,6 @@ p {
     width: 20px !important;
   }
 
-  .logo-movil-tecnologia1 {
-    margin-left: 0px !important;
-    margin-top: 0px !important;
-    width: 80% !important;
-  }
-
   .imagen-movil-tecnologia2 {
     margin-top: 33px !important;
     margin-left: -28px !important;
@@ -2523,24 +2514,12 @@ p {
     font-size: 4.5vw !important;
   }
 
-  .modal-texto-atributos {
-    font-size: 3vw !important;
-  }
-
   .modal-atributos {
     line-height: 81%;
   }
 
   .btn-main-blue {
     font-size: 4vw !important;
-  }
-
-  .modal-texto-tecnologia3 {
-    font-size: 2.3vw !important;
-  }
-
-  .modal-texto-tecnologia4 {
-    margin-left: -29px;
   }
 
   .modal-chatea {
@@ -2592,6 +2571,11 @@ p {
 }
 
 @media (min-width: 700px) {
+  .ul-modal {
+    margin-left: -34px;
+    font-size: 10px;
+  }
+
   .titulos {
     margin-top: 31px;
   }
@@ -2600,6 +2584,16 @@ p {
 @media (max-width: 700px) {
   .titulos {
     margin-top: 0px;
+  }
+
+  .logo-movil-tecnologia1 {
+    width: 143px;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 992px) {
+  .logo-movil-tecnologia1 {
+    width: 152px;
   }
 }
 
