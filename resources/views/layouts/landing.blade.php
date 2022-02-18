@@ -32,7 +32,7 @@
 
     <div class="content"  >
 
-        <div  class="content2" style="    margin-top: -25px;">
+        <div  class="content2" style="   ">
 
 
 
@@ -40,13 +40,13 @@
 
 
 
-        <nav id="" class=" navbar-light navbar navbar-expand-md mx-auto py-3 px-1 align-items-center header-posicion fixed-top" >
+        <nav id="" class=" navbar-light navbar navbar-expand-md mx-auto py-3 px-1 align-items-center  fixed-top" >
             <ul  class="navbar-nav ml-1 ">
                 <a class="nav-item  " href="/"  style="margin-top: -22px;">
                     <img class="ic-logo" src="{{ asset('images/el_mejor_internet_co-05.png') }}"  alt="">
                 </a>
             </ul>
-            <a class="nav-link hidden-md nav-btn ml-auto mx-1 hidden-xl-xl hidden-xl hidden-lg hidden-xs"  href="https://contratainternet.speedtestcustom.com/">
+            <a class="nav-link hidden-md nav-btn ml-auto mx-1 hidden-xl-xl hidden-xl hidden-lg hidden-xs"  href="https://contratainternet.co/speedtest/">
                 <i class="fas fa-tachometer-alt"></i>
             </a>
             <a class="hidden-md  mx-1 hidden-xl-xl hidden-xl hidden-lg" data-toggle="collapse"
@@ -58,36 +58,36 @@
 
                 <li class="nav-item">
                         <a class="nav-link nav-item-border" href="#planes_destacados">
-                            <h6 class="ic-main  item-menu">
-                            Comparador
+                            <h6 class="  texto-navbar">
+                            Home
                             </h6>
                         </a>
                     </li>
                     <li class="nav-item item-menu" >
                         <a class="nav-link nav-item-border " href="https://contratainternet.co/etb/">
-                            <h6 class="ic-main  item-menu">
+                            <h6 class="  texto-navbar">
                                 Ofertas mes
                             </h6>
                         </a>
                     </li>
 
                     <li class="nav-item item-menu">
-                        <a class="nav-link nav-item-border" href="https://contratainternet1.speedtestcustom.com/">
-                            <h6 class="ic-main  item-menu">
+                        <a class="nav-link nav-item-border" href="https://contratainternet.co/speedtest/" target="_blank">
+                            <h6 class="  texto-navbar">
                                 Speedtest
                             </h6>
                         </a>
                     </li>
                     <li class="nav-item item-menu" >
                         <a class="nav-link nav-item-border" href="https://contratainternet.co/blog/">
-                            <h6 class="ic-main  item-menu">
+                            <h6 class="  texto-navbar">
                                 Blog
                             </h6>
                         </a>
                     </li>
                     <li class="nav-item item-menu" >
                         <a class="nav-link  " href="/#">
-                            <h6 class="ic-main  item-menu">
+                            <h6 class="  texto-navbar">
                                 PBX: +57 (1) 7868510
                             </h6>
                         </a>
@@ -96,6 +96,12 @@
               </div>
 
         </nav>
+
+     
+<style>
+
+                          
+</style>
 
 
      

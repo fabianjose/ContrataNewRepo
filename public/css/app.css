@@ -523,9 +523,24 @@
 }
 
 @media (max-width: 700px) {
+  .seccion-blog {
+    margin-top: 232px !important;
+  }
+
   .consult-card {
     max-width: 96vw !important;
     margin-left: -16px;
+  }
+}
+
+@media (min-width: 768px) {
+  .texto-navabar {
+    font-size: 10px !important;
+  }
+
+  .navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 0rem;
   }
 }
 
@@ -2784,10 +2799,6 @@ p {
 @media (max-width: 767px) {
   .registration-form {
     margin-top: -345px;
-  }
-
-  .img-textos {
-    margin-left: 50px;
   }
 
   .background-seccion-1 {

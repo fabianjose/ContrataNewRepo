@@ -6,10 +6,10 @@
    
    
 
-   <section class="background-seccion-1" style=" background-image: url('images/Seccion-1-Pagina-Web.jpg');">
+   <section class="background-seccion-1" style="margin-top: 85px; background-image: url('images/Seccion-1-Pagina-Web.jpg');">
 
-<div class="row" style="margin-top: 110px;">
-    <div class="col-sm-6 col-12" style="margin-top: 86px;text-align: right;margin-left: -30px;">
+<div class="row" style="">
+    <div class="col-sm-6 col-md-6 col-xs-12 col-12" style="text-align: -webkit-center; margin-top: 86px;">
 <!--
     <div>
         <div class="col text-center">
@@ -50,7 +50,7 @@
 
 
 
-    <div class="col-sm-6 col-12" style="margin-top: 40px;">
+    <div class="col-sm-6 col-md-6 col-xs-12 col-12" style="margin-top: 40px;     align-items: center;">
 
 
     @if ($errors->any())
