@@ -575,11 +575,13 @@
 }
 
 .btn-footer {
-  background-color: #055a76;
-  font-family: poppins-medium;
-  font-weight: bold;
+  background-color: #2ca8e0;
+  /* font-family: poppins-medium; */
+  /* font-weight: bold; */
   color: white;
   border-radius: 0;
+  width: 50%;
+  font-size: 12px;
 }
 
 .autocomplete__suggestions {
@@ -1296,6 +1298,16 @@ p {
   margin-top: 3px;
 }
 
+.input-text-footer {
+  WIDTH: 100%;
+}
+
+.texto-footer-form {
+  font-size: 25px;
+  color: #fff;
+  margin-top: 12px;
+}
+
 .form-control-footer::-moz-placeholder {
   color: #9B999F;
   font-family: "Work Sans", sans-serif;
@@ -1328,6 +1340,14 @@ p {
 
 .text-ws {
   font-family: "poppins-regular";
+  font-size: 16px !important;
+  font-weight: 100 !important;
+  color: #d6d8db !important;
+}
+
+.columna-footer-central {
+  margin-top: 3.9rem !important;
+  text-align: center;
 }
 
 .text-heebo {
@@ -1342,7 +1362,19 @@ p {
   height: 90px;
 }
 
+.texto-form-footer {
+  color: #d6d8db !important;
+  font-family: "poppins-regular" !important;
+  font-size: 12px;
+  line-height: 100%;
+  margin-bottom: 0px !important;
+}
+
 @media (max-width: 768px) {
+  .columna-footer-central {
+    margin-top: 0.5rem !important;
+  }
+
   .company-card-label {
     height: 100px;
   }

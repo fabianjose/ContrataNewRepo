@@ -109,95 +109,106 @@
         @yield('content-page')
 
         <div class="footer-bg">
-          <div class="d-flex flex-column align-items-center">
+
+
+        <div class="row">
+                  <div class="col-sm-3 col-lg-3 col-xs-3 col-12 " style="text-align: center; ">
+                            <div class="text-center">
+                                  <img src="{{asset('images/el_mejor_internet_co-07.png')}}" class="img-responsive text-center" style="max-width: 65%;">
+                      
+                              </div>
+                        
+                              <h3 class="text-ws text-justify text-gray" style="font-size:16px;font-weight: 100;color: #D6D8DB;">
+                              Nuestra misión es facilitar a todos 
+                              los hogares y empresas colombianas la búsqueda del mejor
+                              proveedor en telecomunicaciones, posicionándonos como la plataforma web para la solución de 
+                              conectividad a nivel nacional.</h3>
+                            
+                        
+                  </div>
+
+
+          <div class="col-sm-3 col-lg-3 col-xs-3 col-12 columna-footer-central" style="">
+            <div class="continer">
+
           
-            <div class="d-flex w-100 flex-wrap justify-content-bewtween">
+         
+                  <ul class="  list-unstyled" style="font-size: 1.25rem;">
+                                  
+                                  <li class="text-ws" style=""><a class="text-ws" style="" href="">Oferta Especial del Mes </a>      </li>
 
+                                  <li class="text-ws" style=""><a class="text-ws" style="" href="">Home  </a>      </li>
 
-              <div class="col-sm-3 col-12 " style="text-align: center; ">
-                   <div class="text-center">
-                        <img src="{{asset('images/el_mejor_internet_co-07.png')}}" class="img-responsive text-center" style="max-width: 65%;">
-             
-                     </div>
-               
-                    <h3 class="text-ws text-justify text-gray" style="font-size:16px;font-weight: 100;color: #D6D8DB;">Nuestra misión es facilitar a todos 
-                    los hogares y empresas colombianas la búsqueda del mejor
-                     proveedor en telecomunicaciones, posicionándonos como la plataforma web para la solución de 
-                     conectividad a nivel nacional.</h3>
-                  
-               
-           </div>
-              <div class="col-sm-9 col-12  my-2 ">
-                <div class="row container">
-                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-12  my-2  order-2  " style="line-height: 240%;">
-                          <h5 class="footer-title-color text-left text-ws font-weight-bold" style="font-weight: bold;"> <a style="color:white"href="">NOSOTROS</a> </h5>
-
-                          <ul class="footer-title-color  text-ws mt-2 list-unstyled" style="font-size: 1.25rem;">
-                                  <li class=""> <a style="color:white" href="">OFERTA ESPECIAL DEL MES</a>          </li>
-
-                                  <li class="footer-title-color  text-ws" style="font-size: 1.25rem;"><a style="color:white" href="">PRUEBA DE VELOCIDAD  </a>      </li>
-
-                                  <li class="footer-title-color  text-ws" style="font-size: 1.25rem;"><a style="color:white" href="">  NOSOTROS  </a>    </li>
+                                  <li class="text-ws" style=""><a class="text-ws" style="" href="">  Nosotros  </a>    </li>
+                                  </li>
+                                  <li class="text-ws" style=""><a class="text-ws" style="" href="">SpeedTest</a>      </li>
                                   </li>
 
-                                  <li class="footer-title-color  text-ws" style="font-size: 1.25rem;"><a style="color:white" href=""> BLOG </a>      </li>
+                                  <li class="text-ws" style=""><a class="text-ws" style="" href="">Blog </a>      </li>
                                   </li>
-                        </ul>
-                </div>
-
-
-                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-12  my-2  order-2  " style="line-height: 240%;">
-                          <h5 class="footer-title-color text-left text-ws font-weight-bold" style="font-weight: bold;"> <a style="color:white"href="">ALIADOS</a> </h5>
-
-                          <ul class="footer-title-color text-ws mt-2 list-unstyled" style="font-size: 1.25rem;">
-                                  <li class=""> <a style="color:white" href="">OFERTA ESPECIAL DEL MES</a>          </li>
-
-                                  <li class="footer-title-color text-ws" style=""><a style="color:white" href="">PRUEBA DE VELOCIDAD  </a>      </li>
-
-                                  <li class="footer-title-color text-ws" style=""><a style="color:white" href="">  NOSOTROS  </a>    </li>
-                                  </li>
-
-                                  <li class="footer-title-color text-ws" style=""><a style="color:white" href=""> BLOG </a>      </li>
-                                  </li>
-                        </ul>
-                </div>
-
-                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12  my-2  order-1  order-sm-12 "> 
-                 <a style="color:white; font-weight: 900; font-size: 1.7em;" href="">?quieres hacer parte de nuestro comparador?</a>   
-                 <p style="color:#fff">Dejanos tus datos en el siguiente formulari y un asesor se pondra en contacto con usted</p>      
-                </div>
-                
-                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12  my-2  order-1  order-sm-12 ">
-                  <ul class="footer-list p-2">
-                      <form action="../conta.php" method="post"> 
-                        <li><input type="text" id="nombre"  placeholder="NOMBRE" class="form-control form-control-footer" name="nombre"/></li>
-                        <li><input id="telefono"  type="email" placeholder="EMAIL"  class="form-control form-control-footer" name="correo"/></li>
-                        <li><textarea id="mensaje"   placeholder="MENSAJE" class="form-control form-control-footer" name="mensaje"></textarea> </li>
-                        <li><button   type="submit" name="submit"   class="btn btn-footer mt-2 ">ENVIAR MENSAJE</button>  </li>
-                      </form>
-   
-
-                       
                   </ul>
-                </div>
-
-               
-
+                  </div>
+          </div>
 
 
 
-              </div>
-              <div class="footer-movil" class="row">
-              
-                </ul>
-              </div>
+          <div class="col-sm-6 col-lg-6 col-xs-6 col-12">
 
 
 
-              </div>
-            </div>
+                  <div class="row">
+                    <div class="col">
+                          <div> 
+                            <p class="texto-footer-form">¿quieres hacer parte de nuestro comparador?</p>   
+                            <p style="color:#d6d8db !important">Dejanos tus datos en el siguiente formulario y un asesor se pondra en contacto con usted</p>      
+                        </div>
+
+                    </div>
+                    <div class="col">
+    <div class=" my-2  order-1  order-sm-12 ">
+                          <ul class="footer-list">
+                              <form action="../conta.php" method="post"> 
+                              <label for="" class="texto-form-footer">Nombre</label>
+                                <li><input type="text" id="nombre"  placeholder="" class="input-text-footer" name="nombre"/></li>
+                                <label for="" class="texto-form-footer">Empresa</label>
+                                <li><input id="empresa"  type="text" placeholder=""  class="input-text-footer" name="empresa"/></li>
+                                <label for="" class="texto-form-footer">Correo</label>
+                                <li><input id="correo"  type="mail" placeholder=""  class="input-text-footer" name="correo"/></li>
+                                <label for="" class="texto-form-footer">Telefono</label>
+                                <li><input id="telefono"  type="text" placeholder=""  class="input-text-footer" name="telefono"/></li>
+                                <label for="" class="texto-form-footer">Ciudad</label>
+                                <li><input id="ciudad"  type="text" placeholder=""  class="input-text-footer" name="ciudad"/></li>
+                                
+                                <li>
+                                  <button   type="submit" name="submit"   class="btn btn-footer mt-2 ">enviar</button>  
+                                </li>
+                                
+                              </form>
+          
+
+                              
+                          </ul>
+
+                        </div>
+
+                    </div>
+                  </div>
+                        
+                
+                    
+
           </div>
         </div>
+
+         
+
+            
+
+
+
+
+            </div>
+      
  
 
 

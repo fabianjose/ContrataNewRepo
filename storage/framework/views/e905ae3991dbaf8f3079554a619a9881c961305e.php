@@ -485,7 +485,7 @@ function correo2(){
 
 	$(function()
 	{
-	ellipsis_box(".limitado1", 175);
+	ellipsis_box(".limitado1", 213);
 	});
                         </script>
 

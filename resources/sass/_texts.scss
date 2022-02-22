@@ -10,6 +10,13 @@
 
 .text-ws{
    font-family: 'poppins-regular';
+   font-size: 16px !important;
+    font-weight: 100 !important;
+    color: rgb(214, 216, 219) !important;
+}
+.columna-footer-central{
+    margin-top: 3.9rem!important;
+    text-align: center;
 }
 
 
@@ -24,7 +31,22 @@
     height: 90px;
 }
 
+.texto-form-footer{
+    color: rgb(214, 216, 219) !important;
+    font-family: 'poppins-regular' !important;
+    font-size: 12px;
+    line-height: 100%;
+    margin-bottom: 0px !important;
+
+
+
+
+}
+
 @media (max-width:768px){
+    .columna-footer-central{
+        margin-top: 0.5rem!important;
+    }
     .company-card-label{
         height: 100px;
     }
