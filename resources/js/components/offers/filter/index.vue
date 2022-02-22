@@ -7,9 +7,6 @@
     color: #055a76;">Inicio - Planes</p></a>
                 <div class="row">
                         
-                               
-                                   
-                               
                              
                     <div class="col-sm-3 col-12" style="margin-top: 40px;">
 
@@ -62,8 +59,10 @@ export default {
 
     methods:{
 
-        consultItem(index){
-            this.currentItem= this.pagination.data[index];
+        consultItem(offer){
+            this.currentItem= offer; //this.pagination.data[index];
+            console.log("consultItem")
+            console.log(JSON.stringify(this.currentItem))
             this.consultMode=true;
             this.viewMode=false;
 

@@ -1,25 +1,319 @@
 <?php $__env->startSection("content-page"); ?>
-<div>
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active " >
-      <img id="carrusel-img-1"  src="<?php echo e(asset('images/fondo-carrusel-1.png')); ?>" class="d-block w-100" alt="...">
+
+
+   
+   
+
+   <section class="background-seccion-1" style="margin-top: 85px; background-image: url('images/Seccion-1-Pagina-Web.jpg');">
+
+<div class="row" style="">
+    <div class="col-sm-6 col-md-6 col-xs-12 col-12" style="text-align: -webkit-center; margin-top: 86px;">
+<!--
+    <div>
+        <div class="col text-center">
+
+    
+                <br><br><br>
+            <div class="container" style="    width: 75%;    text-align: justify;     line-height: 255%;     margin-left: 220px;     font-family: 'poppins-regular';">
+                         <div>
+                                     <h2 style="line-height: 100%;    font-weight: bold;     margin-top: 14px;">¿ Como funciona <br>El mejor Internet?</h2>
+                                   <p style=" " >   <span style="font-size: 50px; color:#5691ff">1.</span> <span style="font-size: 20px;     font-weight: 500;">Seleccione el uso</span> </p>
+                                   <p class="texto-gris-home">De clic en el icono que mas se <br> <span class="texto-gris-home-2">ajuste a su necesidad.</span>   </p>
+                         </div>
+
+                        <div>
+                                    <p style=" " >   <span style="font-size: 50px; color:#5691ff">2.</span> <span style="font-size: 20px;     font-weight: 500;">Seleccione el tipo de servicio</span> </p>
+                                    <p class="texto-gris-home">Elija el tipo de servicio por el <br> <span class="texto-gris-home-2">que se encuentre interesado.</span>   </p>
+                        </div>
+
+                        <div>
+                                    <p style=" " >   <span style="font-size: 50px; color:#5691ff">3.</span> <span style="font-size: 20px;     font-weight: 500;">Seleccione departamento y municipio</span> </p>
+                                    <p class="texto-gris-home">Especifique cual es el departamento y municipio<br> <span class="texto-gris-home-2">donde quiere instalar el servicio.</span>   </p>
+                        </div>
+                        <div>
+                                    <p style=" " >   <span style="font-size: 50px; color:#5691ff">4.</span> <span style="font-size: 20px;     font-weight: 500;">Compare y elija la mejor opcion</span> </p>
+                                    <p class="texto-gris-home">Encuentra la opcion ideal que se<br> <span class="texto-gris-home-2">ajuste a tus necesidades.</span>   </p>
+                        </div>
+
+                      
+            </div>
+            </div>
+
     </div>
-    <div class="carousel-item">
-      <img id="carrusel-img-2" src="<?php echo e(asset('images/fondo-carrusel-2.png')); ?>" class="d-block w-100" alt="...">
+-->
+<img class="img-textos" style=" height: 60%; " src="images/Pimer-elemento-texto.png"  alt="">   
+
     </div>
+
+
+
+
+    <div class="col-sm-6 col-md-6 col-xs-12 col-12" style="margin-top: 40px;     align-items: center;">
+
+
+    <?php if($errors->any()): ?>
+                    <search-form :errors="<?php echo e($errors); ?>"/>
+                    <?php else: ?>
+                    <search-form />
+                    <?php endif; ?>
+        
   
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
+
+
+</div>
+</div>
+    
+    
+</section>
+
+
+
+
+
+<section class="background-seccion-2" style=" background-image: url('images/Seccion-2-Pagina-Web.jpg');">
+
+            <div class="row">
+                <div class="col text-center">
+                    <div class="div">
+                        <h1 class="titulos-generales">Ofertas del mes</h1>
+                    </div>
+                </div>
+            </div>
+
+           
+
+            <div class=" justify-content-center container p-3" id="planes-destacados"  style="margin-top: -75px;">
+                 <high-plans></high-plans>
+             </div>
+</section>
+
+
+
+
+<section class="background-seccion-3" style="    margin-top: -73px;">
+
+            <div class="row">
+                <div class="col text-center">
+                    <div class="div">
+                        <h1 class="titulos-generales">Servicios</h1>
+                        <br> <br>
+                    </div>
+                </div>
+            </div>
+<style>
+   
+</style>
+            <div class="row" style="justify-content: center;">
+                <img class="imagen-seccion3" src="/images/mpls.png" alt="">
+                <img class="imagen-seccion3" src="/images/internetsatelital.png" alt="">
+                <img class="imagen-seccion3" src="/images/internet.png" alt="">
+                <img class="imagen-seccion3" src="/images/television.png" alt="">
+                <img class="imagen-seccion3" src="/images/telefoniaip.png" alt="">
+            </div>
+</section>
+  
+       
+<section class="background-seccion-1" style=" background-image: url('images/Seccion-3-Pagina-Web.jpg');">
+
+<div class="row" style="margin-top: 50px;">
+    <div class="col-sm-8 col-12" style="margin-top: 86px; ">
+   <div class="container contenedor-seccion4" style="">
+     <h1 class="titulo-seccion4" style="">¿por qué El mejor Internet <br> es el mejor comparador?</h1>
+   
+  <div class="row">
+      <div>
+          <p class="parrafos-seccion4">
+                Nuestra misión es facilitar a todos los hogares y empresas colombianas la búsqueda del mejor proveedor en 
+               telecomunicaciones, posicionándonos como la plataforma web para la solución de conectividad a nivel nacional.
+          </p>
+      </div>
+
+    </div>
+
+    <div class="row">
+        
+            
+            <div class="container">
+
+                
+                        <div class="row mbr-justify-content-center">
+
+                            <div class="col-lg-12 mbr-col-md-12">
+                                <div class="wrap">
+                                    <div class="ico-wrap">
+                                    <img class="img-seccion4" src="/images/Icono-personas.png" alt="">
+                                    </div>
+                                    <div class="text-wrap vcenter">
+                                        <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5"><span>Encuentra lo que necesitas</span></h2>
+                                        <p class="mbr-fonts-style text1 mbr-text display-6">
+                                        Nuestro compromiso es mostrarte los planes que ofrecen los diferentes operadores en 
+                                        telecomunicación, para que puedas encontrar el mejor servicio para tus necesidades.</p>
+                                    </div>
+                                </div>
+                            </div>    
+                        </div>
+
+                        <div class="row mbr-justify-content-center">
+
+                            <div class="col-lg-12 mbr-col-md-12">
+
+                            <div class="wrap">
+                                    <div class="ico-wrap">
+                                    <img class="img-seccion4" src="/images/Icono-Manos.png" alt="">
+                                    </div>
+                                    <div class="text-wrap vcenter">
+                                        <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5"><span>Tienes el apoyo de expertos</span></h2>
+                                        <p class="mbr-fonts-style text1 mbr-text display-6">
+                                        Nuestros asesores te guiarán durante todo el proceso para que soluciones online
+                                        cualquier duda o problema que se te presentes.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                    </div>
+                                </div>
+                               
+                            </div>    
+                        </div>
+
+            </div>
+      
+       
+    </div>
 </div>
 
+  
+</div>
+
+
+
+
+
+    <div class="col-sm-4 col-12" >
+
+
+ 
+  
+
+
+</div>
+
+
+</div>
+    
+    
+</section>
+
+
+
+
+
+
+
+            <section class="seccion-blog" id="blog" class="container">
+
+            <div class="row " >
+                <div class="col text-center ">
+                    <div class="div">
+                        <h1 class="titulos-generales">Nuestro Blog</h1>
+                        <br><br>
+                    </div>
+                </div>
+             </div>
+            <?php 
+	$url = "https://contratainternet.co/blog/wp-json/wp/v2/posts?_embed"; $ch = curl_init($url);  curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+	$post = curl_exec($ch);
+	$post = json_decode($post,true);
+?>
+				<div class="row fila-blog" >
+
+
+                <div class="col-12 col-md-4" style="text-align: -webkit-center;">
+						<div class="thumbnail" style="width: 100%;background-position:center;background-size: cover; height: 230px; background-image: url('<?=$post[0]["_embedded"]["wp:featuredmedia"][0]["source_url"] ?>');" alt=""></div>
+                      <div class="">
+                      <br>
+                    <!--  <div class="titulo-blog limitado4">
+                      <?php print_r($post[0]["title"]["rendered"]);?>
+                      </div> -->  
+
+                      
+                    
+                        <br> 
+						<div class="texto-blog limitado1">
+                            
+                        <?php  print_r($post[0]["excerpt"]["rendered"]);?>
+                        </div>
+                        <br>
+
+                    
+                        <div style="">
+                          <a style="color:#05213e; float: left;" href="<?php print_r($post[0]["link"]);?>"> Ver mas...  </a> 
+                        </div>
+
+
+                      </div>
+					</div>
+
+
+ 
+
+
+                                  
+
+					<div class="col-12 col-md-4" style="text-align: -webkit-center;">
+						<div class="thumbnail" style="width: 100%;background-position:center;background-size: cover; height: 230px; background-image: url('<?=$post[1]["_embedded"]["wp:featuredmedia"][0]["source_url"] ?>');" alt=""></div>
+                      <div class="">
+                      <br>
+                     <!-- <div class="titulo-blog limitado5">
+                      <?php print_r($post[1]["title"]["rendered"]);?>
+                      </div>  -->
+
+                      
+                    
+                        <br> 
+						<div class="texto-blog limitado2">
+                            
+                        <?php  print_r($post[1]["excerpt"]["rendered"]);?>
+                        </div>
+                        <br>
+
+                    
+                        <div style="">
+                        <a style="color:#05213e; float: left;" href="<?php print_r($post[1]["link"]);?>"> Ver mas...  </a> 
+                        </div>
+
+
+                      </div>
+					</div>
+
+                    
+					<div class="col-12 col-md-4" style="text-align: -webkit-center;">
+						<div class="thumbnail" style="width: 100%; background-position:center;height: 230px;background-size: cover; background-image: url('<?=$post[2]["_embedded"]["wp:featuredmedia"][0]["source_url"] ?>');" alt=""></div>
+                     <div class="">
+                      <br>
+                   <!--  <div class="titulo-blog limitado6">
+                      <?php print_r($post[2]["title"]["rendered"]);?>
+                     </div>  -->
+
+                    	<br> 
+					<div class="texto-blog limitado3">
+                            
+                    	<?php print_r($post[2]["excerpt"]["rendered"]);?>
+                    </div>
+                    <br>
+                    <div style="">
+                    <a style="color:#05213e; float: left;" href="<?php print_r($post[2]["link"]);?>"> Ver mas...  </a> 
+                        </div>
+                     </div>
+					</div
+                <?php ?>
+          </div>
+ 
+
+          </section>
+
+
+
+   <!-- 
 
         <div class="main-section-bg" style="position:relative;background: transparent;margin-top:-15%;" >
 
@@ -84,7 +378,7 @@
                  <high-plans></high-plans>
              </div>
              <div style="    text-align: center;
-">
+"> 
     <img src="<?php echo e(asset('images/logoCI-1.png')); ?>"    class="logo-home-2" >     
              </div>
              
@@ -159,110 +453,20 @@ function correo2(){
             <section class="section-blog" style="padding-top: 3rem;">
                 <h1 class="text-center text-ws" style="font-weight: 800;">Nuestras Publicaciones de Blog</h1> <br>
                 
-            </section>
-
-            <!--section id="blog" class="container">
-<?php /*
-	$url = "https://contratainternet.co/blog/wp-json/wp/v2/posts?_embed"; $ch = curl_init($url);  curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-	$post = curl_exec($ch);
-	$post = json_decode($post,true);
-?>
-				<div class="row" >
-
-
-                                   <div class="col-12 col-md-4" style="text-align: -webkit-center;">
-                    
-
-                                            <div class="thumbnail" style="width: 100%; background-position:center;height: 230px;background-size: cover; background-image: url('<?=$post[0]["_embedded"]["wp:featuredmedia"][0]["source_url"] ?>');" alt=""></div> 
-                                                            <div class="fondo-blog">
-                                                            <br>
-                                                                        <div class="titulo-blog limitado4">
-                                                                        <?php print_r($post[0]["title"]["rendered"]);?>
-                                                                        </div> 
-                                                                <br>                         
-                                                                    <div class="texto-blog limitado1 ">
-                                                                        
-                                                                        <span> <?php  print_r($post[0]["excerpt"]["rendered"]);?> </span>   
-                                                                    </div>
-
-
-                                                                <br>
-                                                                <div style="">
-                                                                        <a href="<?php print_r($post[0]["link"]);?>"> <img src="{{asset('images/leermas.png')}}" width=100%; alt="">   </a> 
-                                                                </div>
-
-
-                                                        </div>
-
-
-                                            </div>
-
- 
-
-
-                                  
-
-					<div class="col-12 col-md-4" style="text-align: -webkit-center;">
-						<div class="thumbnail" style="width: 100%;background-position:center;background-size: cover; height: 230px; background-image: url('<?=$post[1]["_embedded"]["wp:featuredmedia"][0]["source_url"] ?>');" alt=""></div>
-                      <div class="fondo-blog">
-                      <br>
-                      <div class="titulo-blog limitado5">
-                      <?php print_r($post[1]["title"]["rendered"]);?>
-                      </div>  
-
-                      
-                    
-                        <br> 
-						<div class="texto-blog limitado2">
-                            
-                        <?php  print_r($post[1]["excerpt"]["rendered"]);?>
-                        </div>
-                        <br>
-
-                    
-                        <div style="">
-                          <a href="<?php print_r($post[1]["link"]);?>"> <img src="{{asset('images/leermas.png')}}" width=100%; alt="">   </a> 
-                        </div>
-
-
-                      </div>
-					</div>
-					<div class="col-12 col-md-4" style="text-align: -webkit-center;">
-						<div class="thumbnail" style="width: 100%; background-position:center;height: 230px;background-size: cover; background-image: url('<?=$post[2]["_embedded"]["wp:featuredmedia"][0]["source_url"] ?>');" alt=""></div>
-                     <div class="fondo-blog">
-                      <br>
-                     <div class="titulo-blog limitado6">
-                      <?php print_r($post[2]["title"]["rendered"]);?>
-                     </div>  
-
-                    	<br> 
-					<div class="texto-blog limitado3">
-                            
-                    	<?php print_r($post[2]["excerpt"]["rendered"]);?>
-                    </div>
-                    <br>
-                    <div style="">
-                          <a href="<?php print_r($post[2]["link"]);?>"> <img src="{{asset('images/leermas.png')}}" width=100%; alt="">   </a> 
-                        </div>
-                     </div>
-					</div
-                <?php */?>
-            </section-->
-            
-
-
-
+            </section>-->
 
             
-            <section>
-              
-            </section>
+
+
+
+
+          
            
-        </div>
+       
      
        
 
-</div>
+
 
 <style>
                          
@@ -281,7 +485,7 @@ function correo2(){
 
 	$(function()
 	{
-	ellipsis_box(".limitado1", 213);
+	ellipsis_box(".limitado1", 175);
 	});
                         </script>
 
@@ -314,7 +518,7 @@ function correo2(){
 
 	$(function()
 	{
-	ellipsis_box(".limitado3", 213);
+	ellipsis_box(".limitado3", 200);
 	});
                         </script>
                          <script>

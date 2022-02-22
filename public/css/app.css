@@ -1031,7 +1031,6 @@ p {
 }
 
 .contacto-card {
-  position: -webkit-sticky;
   position: sticky;
   margin-top: -40px;
   border-radius: 50px;
@@ -1254,7 +1253,6 @@ p {
 
 @media (min-width: 992px) {
   .filterCard {
-    position: -webkit-sticky;
     position: sticky;
     left: 0;
     top: 15%;

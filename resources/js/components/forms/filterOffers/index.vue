@@ -161,11 +161,6 @@ export default {
         searchKey+="&sortBy="+this.orderBy;
         if(this.orderBySort=="desc") searchKey+="&sortByDesc=true";
       }
-    /*  if(this.value[0]&&this.value[1]!=""){
-        if(!isNaN(this.value[0])) searchKey+="&from="+parseFloat(this.value[0]);
-        if(!isNaN(this.value[1])) searchKey+="&to="+parseFloat(this.value[1]);
-    //    else return toastr.error("El campo 'Desde' es de valor numérico")
-      }*/
  if(this.fromPrice&&this.fromPrice!=""){
         
         if(!isNaN(this.fromPrice)) searchKey+="&from="+parseFloat(this.fromPrice);

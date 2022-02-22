@@ -6,6 +6,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js" ></script>
 
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151798596-4"></script>
 <script>
@@ -30,7 +31,7 @@
 
     <div class="content"  >
 
-        <div  class="content2">
+        <div  class="content2" style="   ">
 
 
 
@@ -38,54 +39,54 @@
 
 
 
-        <nav id="nav-grande" class="  main-header navbar-light navbar navbar-expand-md mx-auto py-3 px-1 align-items-center header-posicion fixed-top" >
-            <ul  class="navbar-nav ml-3 ">
+        <nav id="" class=" navbar-light navbar navbar-expand-md mx-auto py-3 px-1 align-items-center  fixed-top" >
+            <ul  class="navbar-nav ml-1 ">
                 <a class="nav-item  " href="/"  style="margin-top: -22px;">
-                    <img class="ic-logo" src="<?php echo e(asset('images/logo1.png')); ?>"  alt="">
+                    <img class="ic-logo" src="<?php echo e(asset('images/el_mejor_internet_co-05.png')); ?>"  alt="">
                 </a>
             </ul>
-            <a class="nav-link hidden-md nav-btn ml-auto mx-1 hidden-xl-xl hidden-xl hidden-lg hidden-xs"  href="https://contratainternet.speedtestcustom.com/">
+            <a class="nav-link hidden-md nav-btn ml-auto mx-1 hidden-xl-xl hidden-xl hidden-lg hidden-xs"  href="https://contratainternet.co/speedtest/">
                 <i class="fas fa-tachometer-alt"></i>
             </a>
-            <a class="nav-link hidden-md nav-btn mx-1 hidden-xl-xl hidden-xl hidden-lg" data-toggle="collapse"
+            <a class="hidden-md  mx-1 hidden-xl-xl hidden-xl hidden-lg" data-toggle="collapse"
               data-target="#responsive-menu">
-                <i class="fas fa-bars"></i>
+                <i  class="fas fa-bars" style="    margin-left: -35px;"></i>
             </a>
             <div id="responsive-menu" class="navbar-collapse collapse ml-auto mr-0"  style="margin-top: 37px;">
                 <ul class="navbar-nav ml-auto mr-x3 " style="margin-top: -30px; background-color:white;">
 
                 <li class="nav-item">
                         <a class="nav-link nav-item-border" href="#planes_destacados">
-                            <h6 class="ic-main font-weight-bold item-menu">
-                            Comparador
+                            <h6 class="  texto-navbar">
+                            Home
                             </h6>
                         </a>
                     </li>
                     <li class="nav-item item-menu" >
                         <a class="nav-link nav-item-border " href="https://contratainternet.co/etb/">
-                            <h6 class="ic-main font-weight-bold item-menu">
+                            <h6 class="  texto-navbar">
                                 Ofertas mes
                             </h6>
                         </a>
                     </li>
 
                     <li class="nav-item item-menu">
-                        <a class="nav-link nav-item-border" href="https://contratainternet1.speedtestcustom.com/">
-                            <h6 class="ic-main font-weight-bold item-menu">
+                        <a class="nav-link nav-item-border" href="https://contratainternet.co/speedtest/" target="_blank">
+                            <h6 class="  texto-navbar">
                                 Speedtest
                             </h6>
                         </a>
                     </li>
                     <li class="nav-item item-menu" >
-                        <a class="nav-link nav-item-border" href="https://contratainternet1.speedtestcustom.com/">
-                            <h6 class="ic-main font-weight-bold item-menu">
+                        <a class="nav-link nav-item-border" href="https://contratainternet.co/blog/">
+                            <h6 class="  texto-navbar">
                                 Blog
                             </h6>
                         </a>
                     </li>
                     <li class="nav-item item-menu" >
                         <a class="nav-link  " href="/#">
-                            <h6 class="ic-main  item-menu">
+                            <h6 class="  texto-navbar">
                                 PBX: +57 (1) 7868510
                             </h6>
                         </a>
@@ -94,6 +95,12 @@
               </div>
 
         </nav>
+
+     
+<style>
+
+                          
+</style>
 
 
      
@@ -106,59 +113,78 @@
             <div class="d-flex w-100 flex-wrap justify-content-bewtween">
 
 
-              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 " style="text-align: center;">
+              <div class="col-sm-3 col-12 " style="text-align: center; ">
                    <div class="text-center">
-              <img src="<?php echo e(asset('images/logo1_azul.png')); ?>" class="img-responsive text-center" style="max-width: 65%;">
+                        <img src="<?php echo e(asset('images/el_mejor_internet_co-07.png')); ?>" class="img-responsive text-center" style="max-width: 65%;">
              
-            </div>
+                     </div>
                
-                  <h3 class="text-ws text-center text-gray" style="font-size:16px;font-weight: 700;color: #D6D8DB;">¡Te conectamos al mundo!</h3>
+                    <h3 class="text-ws text-justify text-gray" style="font-size:16px;font-weight: 100;color: #D6D8DB;">Nuestra misión es facilitar a todos 
+                    los hogares y empresas colombianas la búsqueda del mejor
+                     proveedor en telecomunicaciones, posicionándonos como la plataforma web para la solución de 
+                     conectividad a nivel nacional.</h3>
                   
-  <div class="text-center text-white pt-4">
-    <div class="textos-logos-footer">
-
-    <a style="" href="https://www.facebook.com/colombiainternet/" >  <img src="/images/Iconos_redes-11.png"     height=35px;  alt=""> </span> </a> 
-                  <a href="https://www.instagram.com/contratainternet.co/?hl=es-la" class=" " >  <img src="/images/Iconos_redes-12.png"     height=35px;  alt=""> </span>  </a>
-                  <a style="" href="https://www.instagram.com/contratainternet.co/?hl=es-la">  <img src="/images/Iconos_redes-13.png"     height=35px;  alt=""> </span> </a>
-
-              </div>
-              <ul class="list-unstyled text-ws footer-title-color mt-2">
-                <li class="list-item" style="font-variant: bold; font-size: 18px;">contacto@contratainternet.co</li>
-                    <li class="list-item" style="font-variant: bold; font-size: 18px;">PBX: +57 (1) 7868510</li>
-             </ul>
-              </div>
-    </div>
-              <div class="col-xl-8 col-lg-8 col-md-8 col-sm-10 col-12  my-2 ">
+               
+           </div>
+              <div class="col-sm-9 col-12  my-2 ">
                 <div class="row container">
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12  my-2  order-2  " style="line-height: 340%;">
-                  <h5 class="footer-title-color text-left text-ws font-weight-bold" style="font-weight: bold;"> <a style="color:white"href="">PLANES DE INTERNET</a> </h5>
+                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-12  my-2  order-2  " style="line-height: 240%;">
+                          <h5 class="footer-title-color text-left text-ws font-weight-bold" style="font-weight: bold;"> <a style="color:white"href="">NOSOTROS</a> </h5>
 
-                  <ul class="footer-title-color font-weight-bold text-ws mt-2 list-unstyled" style="font-size: 1.25rem;">
-                  <li class=""> <a style="color:white" href="">OFERTA ESPECIAL DEL MES</a>          </li>
+                          <ul class="footer-title-color  text-ws mt-2 list-unstyled" style="font-size: 1.25rem;">
+                                  <li class=""> <a style="color:white" href="">OFERTA ESPECIAL DEL MES</a>          </li>
 
-                  <li class="footer-title-color font-weight-bold text-ws" style="font-size: 1.25rem;"><a style="color:white" href="">PRUEBA DE VELOCIDAD  </a>      </li>
+                                  <li class="footer-title-color  text-ws" style="font-size: 1.25rem;"><a style="color:white" href="">PRUEBA DE VELOCIDAD  </a>      </li>
 
-                  <li class="footer-title-color font-weight-bold text-ws" style="font-size: 1.25rem;"><a style="color:white" href="">  NOSOTROS  </a>    </li>
-                  </li>
+                                  <li class="footer-title-color  text-ws" style="font-size: 1.25rem;"><a style="color:white" href="">  NOSOTROS  </a>    </li>
+                                  </li>
 
-                  <li class="footer-title-color font-weight-bold text-ws" style="font-size: 1.25rem;"><a style="color:white" href=""> BLOG </a>      </li>
-                  </li>
-                </ul>
+                                  <li class="footer-title-color  text-ws" style="font-size: 1.25rem;"><a style="color:white" href=""> BLOG </a>      </li>
+                                  </li>
+                        </ul>
+                </div>
+
+
+                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-12  my-2  order-2  " style="line-height: 240%;">
+                          <h5 class="footer-title-color text-left text-ws font-weight-bold" style="font-weight: bold;"> <a style="color:white"href="">ALIADOS</a> </h5>
+
+                          <ul class="footer-title-color text-ws mt-2 list-unstyled" style="font-size: 1.25rem;">
+                                  <li class=""> <a style="color:white" href="">OFERTA ESPECIAL DEL MES</a>          </li>
+
+                                  <li class="footer-title-color text-ws" style=""><a style="color:white" href="">PRUEBA DE VELOCIDAD  </a>      </li>
+
+                                  <li class="footer-title-color text-ws" style=""><a style="color:white" href="">  NOSOTROS  </a>    </li>
+                                  </li>
+
+                                  <li class="footer-title-color text-ws" style=""><a style="color:white" href=""> BLOG </a>      </li>
+                                  </li>
+                        </ul>
+                </div>
+
+                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12  my-2  order-1  order-sm-12 "> 
+                 <a style="color:white; font-weight: 900; font-size: 1.7em;" href="">?quieres hacer parte de nuestro comparador?</a>   
+                 <p style="color:#fff">Dejanos tus datos en el siguiente formulari y un asesor se pondra en contacto con usted</p>      
                 </div>
                 
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12  my-2  order-1  order-sm-12 ">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12  my-2  order-1  order-sm-12 ">
                   <ul class="footer-list p-2">
-                  <form action="../conta.php" method="post"> 
-                  <li><input type="text" id="nombre"  placeholder="NOMBRE" class="form-control form-control-footer" name="nombre"/></li>
-                   <li><input id="telefono"  type="email" placeholder="EMAIL"  class="form-control form-control-footer" name="correo"/></li>
-                    <li><textarea id="mensaje"   placeholder="MENSAJE" class="form-control form-control-footer" name="mensaje"></textarea> </li>
-                     <li><button   type="submit" name="submit"   class="btn btn-footer mt-2 ">ENVIAR MENSAJE</button>
-           </form>
+                      <form action="../conta.php" method="post"> 
+                        <li><input type="text" id="nombre"  placeholder="NOMBRE" class="form-control form-control-footer" name="nombre"/></li>
+                        <li><input id="telefono"  type="email" placeholder="EMAIL"  class="form-control form-control-footer" name="correo"/></li>
+                        <li><textarea id="mensaje"   placeholder="MENSAJE" class="form-control form-control-footer" name="mensaje"></textarea> </li>
+                        <li><button   type="submit" name="submit"   class="btn btn-footer mt-2 ">ENVIAR MENSAJE</button>  </li>
+                      </form>
    
 
-                         </li>
+                       
                   </ul>
                 </div>
+
+               
+
+
+
+
               </div>
               <div class="footer-movil" class="row">
               
@@ -175,7 +201,7 @@
 
 
  
-        <div id="fb-root"></div>
+        <div id="fb-root"></div> 
       <!-- Your Chat Plugin code -->
       <div class="fb-customerchat"
         attribution=setup_tool
@@ -225,7 +251,7 @@
    
       <script >
         window.fbAsyncInit = function() {
-          FB.init({
+          FB.init({ 
             xfbml            : true,
             version          : 'v9.0'
           });
