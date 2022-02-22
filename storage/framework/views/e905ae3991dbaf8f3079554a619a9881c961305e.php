@@ -220,7 +220,7 @@
                 </div>
              </div>
             <?php 
-	$url = "https://contratainternet.co/blog/wp-json/wp/v2/posts?_embed"; $ch = curl_init($url);  curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+	$url = "https://teledisca.com/blog/wp-json/wp/v2/posts?_embed"; $ch = curl_init($url);  curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 	$post = curl_exec($ch);
 	$post = json_decode($post,true);
 ?>

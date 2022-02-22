@@ -63,12 +63,9 @@
       </div>
     </div>
 
-    <div
-      v-for="(offer, k) in compItems"
-      :key="k"
-      class="justify-content-around my-1 mb-3 offer offers-pagination-item pb-3"
+    <div      v-for="(offer, k) in compItems"      :key="k"      class="justify-content-around my-1 mb-3 offer offers-pagination-item pb-3"
     >
-      <div class="row" style="box-shadow: 0px 0px 4px 5px rgb(0 0 0 / 61%)">
+      <div class="row" style="">
         <div class="row hidden-sm hidden-lg hidden-md logo-empresa-mobile">
           <div class="col">
             <img
