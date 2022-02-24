@@ -2,7 +2,8 @@
 
 <html lang="<?php echo e(str_replace('_', '-', app()->getLocale())); ?>">
 <head>
-<link rel="icon" type="image/png" href="<?php echo e(asset('images/intercolombia.png')); ?>">
+    
+<link rel="icon" type="image/png" href="<?php echo e(asset('images/favicon.png')); ?>">
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">

@@ -2,7 +2,8 @@
 
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
-<link rel="icon" type="image/png" href="{{asset('images/intercolombia.png') }}">
+    
+<link rel="icon" type="image/png" href="{{asset('images/favicon.png') }}">
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,7 +28,8 @@
     mas economico de colombia, colombia internet, internet barato, tigo, claro, net2phone,
     telefonia ip, telefonia movil, voz sobre ip, telefonos grandStream, internexa, 
     azteca comunicaciones, HughesNet, ETB, Voip, telefonia en la nube, central virtual">
-    <h1> <title>{{ config('app.name', 'Contratar Internet') }}</title> </h1>
+  <!--  <h1> <title>{{ config('app.name', 'Contratar Internet') }}</title> </h1>-->
+  <title>El Mejor internet</title> </h1>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>

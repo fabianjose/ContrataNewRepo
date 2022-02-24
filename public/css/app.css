@@ -1345,6 +1345,13 @@ p {
   color: #515151 !important;
 }
 
+.text-ws1 {
+  font-family: "poppins-regular";
+  font-size: 16px !important;
+  font-weight: 100 !important;
+  color: #d6d8db !important;
+}
+
 .columna-footer-central {
   margin-top: 3.9rem !important;
   text-align: center;

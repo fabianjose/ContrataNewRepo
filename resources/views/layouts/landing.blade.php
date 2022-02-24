@@ -46,7 +46,7 @@
                     <img class="ic-logo" src="{{ asset('images/el_mejor_internet_co-05.png') }}"  alt="">
                 </a>
             </ul>
-            <a class="nav-link hidden-md nav-btn ml-auto mx-1 hidden-xl-xl hidden-xl hidden-lg hidden-xs"  href="https://contratainternet.co/speedtest/">
+            <a class="nav-link hidden-md nav-btn ml-auto mx-1 hidden-xl-xl hidden-xl hidden-lg hidden-xs"  href="https://elmejorinternet.co/speedtest/">
                 <i class="fas fa-tachometer-alt"></i>
             </a>
             <a class="hidden-md  mx-1 hidden-xl-xl hidden-xl hidden-lg" data-toggle="collapse"
@@ -64,7 +64,7 @@
                         </a>
                     </li>
                     <li class="nav-item item-menu" >
-                        <a class="nav-link nav-item-border " href="https://contratainternet.co/etb/">
+                        <a class="nav-link nav-item-border " href="https://elmejorinternet.co/#/">
                             <h6 class="  texto-navbar">
                                 Ofertas mes
                             </h6>
@@ -72,14 +72,14 @@
                     </li>
 
                     <li class="nav-item item-menu">
-                        <a class="nav-link nav-item-border" href="https://contratainternet.co/speedtest/" target="_blank">
+                        <a class="nav-link nav-item-border" href="https://elmejorinternet.co/speedtest/" target="_blank">
                             <h6 class="  texto-navbar">
                                 Speedtest
                             </h6>
                         </a>
                     </li>
                     <li class="nav-item item-menu" >
-                        <a class="nav-link nav-item-border" href="https://contratainternet.co/blog/">
+                        <a class="nav-link nav-item-border" href="https://elmejorinternet.co/blogs/">
                             <h6 class="  texto-navbar">
                                 Blog
                             </h6>
@@ -118,7 +118,7 @@
                       
                               </div>
                         
-                              <h3 class="text-ws text-justify text-gray" style="font-size:16px;font-weight: 100;color: #D6D8DB;">
+                              <h3 class="text-ws1 text-justify text-gray" style="font-size:16px;font-weight: 100;color: #D6D8DB;">
                               Nuestra misión es facilitar a todos 
                               los hogares y empresas colombianas la búsqueda del mejor
                               proveedor en telecomunicaciones, posicionándonos como la plataforma web para la solución de 
@@ -135,16 +135,23 @@
          
                   <ul class="  list-unstyled" style="font-size: 1.25rem;">
                                   
-                                  <li class="text-ws" style=""><a class="text-ws" style="" href="">Oferta Especial del Mes </a>      </li>
+                                  <li class="" style="font-size: 16px;
+    font-weight: 100;
+    color: rgb(214, 216, 219);">Oferta Especial del Mes    </li>
 
-                                  <li class="text-ws" style=""><a class="text-ws" style="" href="">Home  </a>      </li>
+                                  <li class="" style=" font-size: 16px;
+    font-weight: 100;
+    color: rgb(214, 216, 219);">Home       </li>
 
-                                  <li class="text-ws" style=""><a class="text-ws" style="" href="">  Nosotros  </a>    </li>
+                                 
+                                  <li class="" style=" font-size: 16px;
+    font-weight: 100;
+    color: rgb(214, 216, 219);">SpeedTest    </li>
                                   </li>
-                                  <li class="text-ws" style=""><a class="text-ws" style="" href="">SpeedTest</a>      </li>
-                                  </li>
 
-                                  <li class="text-ws" style=""><a class="text-ws" style="" href="">Blog </a>      </li>
+                                  <li class="" style=" font-size: 16px;
+    font-weight: 100;
+    color: rgb(214, 216, 219);">Blog    </li>
                                   </li>
                   </ul>
                   </div>
