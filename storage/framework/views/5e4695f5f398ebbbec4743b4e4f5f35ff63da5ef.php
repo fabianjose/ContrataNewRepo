@@ -28,8 +28,8 @@
     mas economico de colombia, colombia internet, internet barato, tigo, claro, net2phone,
     telefonia ip, telefonia movil, voz sobre ip, telefonos grandStream, internexa, 
     azteca comunicaciones, HughesNet, ETB, Voip, telefonia en la nube, central virtual">
-    <h1> <title><?php echo e(config('app.name', 'Contratar Internet')); ?></title> </h1>
-
+  <!--  <h1> <title><?php echo e(config('app.name', 'Contratar Internet')); ?></title> </h1>-->
+  <title>El Mejor internet</title> 
     <!-- Scripts -->
     <script src="<?php echo e(asset('js/app.js')); ?>" defer></script>
 
@@ -71,7 +71,9 @@
   
 </body>
 
-
+<div class="whatsapp">
+            <a target="_blank"href="https://api.whatsapp.com/send?phone=573212120281&text=hola, me gustaria saber de los planes"> <img src="<?php echo e(asset('/images/whatsapp.png')); ?>" width="67" height="67"> </a>
+        </div>
 
 </html>
 <?php /**PATH C:\xampp\htdocs\ContrataNewRepo\resources\views/layouts/app.blade.php ENDPATH**/ ?>

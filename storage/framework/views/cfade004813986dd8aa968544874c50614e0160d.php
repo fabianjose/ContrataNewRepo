@@ -56,14 +56,14 @@
                 <ul class="navbar-nav ml-auto mr-x3 " style="margin-top: -30px; background-color:white;">
 
                 <li class="nav-item">
-                        <a class="nav-link nav-item-border" href="#planes_destacados">
+                        <a class="nav-link nav-item-border" href="https://elmejorinternet.co">
                             <h6 class="  texto-navbar">
                             Home
                             </h6>
                         </a>
                     </li>
                     <li class="nav-item item-menu" >
-                        <a class="nav-link nav-item-border " href="https://elmejorinternet.co/#/">
+                        <a class="nav-link nav-item-border " href="https://elmejorinternet.co/#/" target="_blank">
                             <h6 class="  texto-navbar">
                                 Ofertas mes
                             </h6>
@@ -78,7 +78,7 @@
                         </a>
                     </li>
                     <li class="nav-item item-menu" >
-                        <a class="nav-link nav-item-border" href="https://elmejorinternet.co/blogs/">
+                        <a class="nav-link nav-item-border" href="https://elmejorinternet.co/blogs/" target="_blank">
                             <h6 class="  texto-navbar">
                                 Blog
                             </h6>

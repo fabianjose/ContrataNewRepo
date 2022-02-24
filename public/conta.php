@@ -11,14 +11,14 @@ if(isset($_POST['submit'])){
     require 'phpmailer/PHPMailerAutoload.php';
     $mail = new PHPMailer;
     $mail->isSMTP();
-    $mail->Host='mail.teledisca.com';
+    $mail->Host='mail.elmejorinternet.co';
     $mail->Port=465;
     $mail->SMTPAuth=true;
     $mail->SMTPSecure='ssl';
-    $mail->Username='envios@teledisca.com';
-    $mail->Password=';3Wt5+H)3!FO';
+    $mail->Username='enviosetb@elmejorinternet.co';
+    $mail->Password='r$vac8ZfUIB}';
 
-    $mail->setFrom($_POST['envios@teledisca.com']);
+    $mail->setFrom($_POST['enviosetb@elmejorinternet.co']);
     $mail->addAddress('espejofabian@gmail.com');
 
     $mail->isHTML(true);
@@ -28,6 +28,8 @@ if(isset($_POST['submit'])){
     '<br>Telefono: '.$_POST['telefono'].    
     '<br>Correo: '.$_POST['correo'].
     '<br>mensaje: '.$_POST['mensaje'].
+    '<br>Correo: '.$_POST['empresa'].
+    '<br>mensaje: '.$_POST['ciudad'].
     '</h1>';
     if(!$mail->send()){
         $result="Algo esta mal, por favor inténtelo de nuevo.";
@@ -42,6 +44,6 @@ if(isset($_POST['submit'])){
 
 echo'<script type="text/javascript">
     alert("Correo Enviado");
- window.location.href="http://contratainternet.co/";
+ window.location.href="http://elmejorinternet.co/";
     </script>';
 ?>
