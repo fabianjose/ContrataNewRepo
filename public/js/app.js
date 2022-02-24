@@ -3608,6 +3608,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ["fields", "providers", "plans", "max_price", "min_price", "technologies", "speeds"],
   data: function data() {
@@ -47173,7 +47174,7 @@ var staticRenderFns = [
         }
       },
       [
-        _c("h4", { staticClass: "btn-block text-ws texto-filtro" }, [
+        _c("h4", { staticClass: "btn-block texto-filtro" }, [
           _vm._v("  Tecnología   ")
         ]),
         _vm._v(" "),

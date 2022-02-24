@@ -43,7 +43,8 @@
      
       <div class="form-horizontal my-2 col-12 flex-wrap">
         <div  type="button" data-toggle="collapse" data-target="#collapseTecnologia" aria-expanded="false" aria-controls="collapseTecnologia"  style="display:flex;justify-content: space-between;">
-        <h4 class="btn-block text-ws texto-filtro" style="">  Tecnología   </h4> <span><i  class="fas fa-angle-down" style="color: #055a76;
+        <h4 class="btn-block texto-filtro" style="">  Tecnología   </h4> 
+        <span><i  class="fas fa-angle-down" style="color: #055a76;
     font-size: 1.2em;"></i></span>    
  
         </div>
