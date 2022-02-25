@@ -3454,6 +3454,17 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ["offer", "fields"],
   data: function data() {
@@ -46272,7 +46283,24 @@ var staticRenderFns = [
               "btn-adquierelo-modal btn btn-lx btn-lg btn-main-blue rounded-pill mx-1 px-1  img-fluid",
             attrs: { type: "button" }
           },
-          [_vm._v("Chatea con un asesor")]
+          [
+            _c(
+              "a",
+              {
+                attrs: {
+                  href:
+                    "https://api.whatsapp.com/send?phone=573212083412&text=hola elmejorinternet.co, me gustaria saber de los planes"
+                }
+              },
+              [
+                _c("span", { staticStyle: { color: "white" } }, [
+                  _vm._v(
+                    "Chatea con un asesor\n                                      "
+                  )
+                ])
+              ]
+            )
+          ]
         )
       ]
     )
@@ -46548,7 +46576,24 @@ var staticRenderFns = [
                   "btn-adquierelo btn btn-lx btn-lg btn-main-blue rounded-pill mx-1 px-1  img-fluid",
                 attrs: { type: "button" }
               },
-              [_vm._v("Solicitar Plan")]
+              [
+                _c(
+                  "a",
+                  {
+                    attrs: {
+                      href:
+                        "https://api.whatsapp.com/send?phone=573212083412&text=hola elmejorinternet.co, me gustaria saber de los planes"
+                    }
+                  },
+                  [
+                    _c("span", { staticStyle: { color: "white" } }, [
+                      _vm._v(
+                        " Solicitar Plan \n                                                                    "
+                      )
+                    ])
+                  ]
+                )
+              ]
             )
           ]
         )

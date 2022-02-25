@@ -19,7 +19,12 @@
                            </div>
                         </div>
                         <div class="row  " style=" justify-content: center;">
-                           <button  type="button" class="btn-adquierelo-modal btn btn-lx btn-lg btn-main-blue rounded-pill mx-1 px-1  img-fluid"  >Chatea con un asesor</button>
+                           <button  type="button" class="btn-adquierelo-modal btn btn-lx btn-lg btn-main-blue rounded-pill mx-1 px-1  img-fluid"  >
+                             <a href="https://api.whatsapp.com/send?phone=573212083412&text=hola elmejorinternet.co, me gustaria saber de los planes">
+                                <span style="color:white">Chatea con un asesor
+                                        </span> 
+                                </a> 
+                              </button>
             
                         
                         </div>
@@ -163,8 +168,14 @@
 
                                                       <div class="row" style="justify-content: center;">
                                                             <div class="row  " style=" justify-content: center;">
-                                                         
-                                                            <button  type="button" class="btn-adquierelo btn btn-lx btn-lg btn-main-blue rounded-pill mx-1 px-1  img-fluid"  >Solicitar Plan</button>
+                                                               
+                                                            <button  type="button" class="btn-adquierelo btn btn-lx btn-lg btn-main-blue rounded-pill mx-1 px-1  img-fluid"  >
+                                                                <a href="https://api.whatsapp.com/send?phone=573212083412&text=hola elmejorinternet.co, me gustaria saber de los planes">
+                                                                
+                                                               <span style="color:white"> Solicitar Plan 
+                                                                      </span>  
+                                                                 </a>
+                                                                 </button>
                                  
                                              
                                                             </div>
