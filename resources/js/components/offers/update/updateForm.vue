@@ -169,6 +169,51 @@
 
       
 
+<div class="row">------------Informacion para el modal----------------</div> <br>
+        <div class="row">
+          
+                <div class="col">
+                    <label style="color:red">
+                    Permanencia
+                    </label>
+                    <select class="custom-select" v-model="offer.permanencia">
+                      <option value="Con Permancencia" selected>Con Permancencia</option>
+                      <option value="Sin Permancencia">Sin Permancencia</option>
+                      
+                
+                    </select>
+                </div>
+                <div class="col">
+                          <label style="color:red">
+                    Fijo
+                    </label>
+                    <select class="custom-select" v-model="offer.fijo">
+                      <option value="Si" selected>Si</option>
+                      <option value="No">NO</option>
+                      
+                
+                    </select>
+                </div>
+                <div class="col">
+                    <label style="color:red">
+                    Movil
+                    </label>
+                    <select class="custom-select" v-model="offer.movil">
+                      <option value="Si" selected>Si</option>
+                      <option value="No">NO</option>
+                      
+                
+                    </select>
+                </div>
+                <div class="col">
+
+                  <label  style="color:red">Deco (max 21 caracteres)</label>
+                    <input type="text" name="" id="" class="form-control" maxlength="21" placeholder="Ingresa descripcion para deco" v-model="offer.deco" >
+                  
+                    </div>
+        </div> 
+          
+
         
       
 
@@ -278,6 +323,10 @@ export default {
       fd.append("tecnologia", this.offer.tecnologia);
       fd.append("canales", this.offer.canales);
       fd.append("tipo_plan_logos", this.offer.tipo_plan_logos);
+      fd.append("permanencia", this.offer.permanencia);
+      fd.append("fijo", this.offer.fijo);
+      fd.append("movil", this.offer.movil);
+      fd.append("deco", this.offer.deco);
 
       if(this.offer.departments) 
         if(JSON.parse(this.offer.departments)&&JSON.parse(this.offer.departments).length)

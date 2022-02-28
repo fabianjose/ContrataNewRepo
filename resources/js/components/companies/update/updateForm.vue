@@ -44,10 +44,95 @@
               <input v-model="company.web" class="form-control">
           </div>
       </div>
+
+
+
+
+
+
+
+<div class="row">------------Informacion para el modal----------------</div> <br>
+        <div class="row">
+          
+                <div class="col">
+                    <label style="color:red">
+                    Permanencia
+                    </label>
+                    <select class="custom-select" v-model="permanencia">
+                      <option value="Con Permancencia" selected>Con Permancencia</option>
+                      <option value="Sin Permancencia">Sin Permancencia</option>
+                      
+                
+                    </select>
+                </div>
+                <div class="col">
+                          <label style="color:red">
+                    Fijo
+                    </label>
+                    <select class="custom-select" v-model="fijo">
+                      <option value="Si" selected>Si</option>
+                      <option value="No">NO</option>
+                      
+                
+                    </select>
+                </div>
+                <div class="col">
+                    <label style="color:red">
+                    Movil
+                    </label>
+                    <select class="custom-select" v-model="movil">
+                      <option value="Si" selected>Si</option>
+                      <option value="No">NO</option>
+                      
+                
+                    </select>
+                </div>
+                <div class="col">
+
+                  <label  style="color:red">Deco (max 21 caracteres)</label>
+                    <input type="text" name="" id="" class="form-control" maxlength="21" placeholder="Ingresa descripcion para deco" v-model="deco" >
+                  
+                    </div>
+        </div> 
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       <div class="modal-footer justify-content-between">
         <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
         <button type="button" class="btn btn-outline-info" @click="editCompany">Editar</button>
       </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
     </div>
     <!-- /.modal-content -->
   </div>
