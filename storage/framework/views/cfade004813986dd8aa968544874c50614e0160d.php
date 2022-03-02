@@ -111,7 +111,7 @@
 
 
         <div class="row">
-                  <div class="col-sm-3 col-lg-3 col-xs-3 col-12 " style="text-align: center; ">
+                  <div class="col-sm-3 col-lg-3  col-12 " style="text-align: center; ">
                             <div class="text-center">
                                   <img src="<?php echo e(asset('images/el_mejor_internet_co-07.png')); ?>" class="img-responsive text-center" style="max-width: 65%;">
                       
@@ -127,38 +127,30 @@
                   </div>
 
 
-          <div class="col-sm-3 col-lg-3 col-xs-3 col-12 columna-footer-central" style="">
+          <div class="col-sm-3 col-lg-3  col-12 columna-footer-central" style="">
             <div class="continer">
 
-          
-         
-                  <ul class="  list-unstyled" style="font-size: 1.25rem;">
+          <div class="row" style="    place-content: center; padding-top: 25px; text-align: left;">
+               <ul class="  list-unstyled" style="font-size: 1.25rem;">
                                   
-                                  <li class="" style="font-size: 16px;
-    font-weight: 100;
-    color: rgb(214, 216, 219);">Oferta Especial del Mes    </li>
+        <li class="" > <a href="" style=" font-size: 21px;   font-weight: 100;   color: rgb(214, 216, 219);">Home  </a>    </li>
 
-                                  <li class="" style=" font-size: 16px;
-    font-weight: 100;
-    color: rgb(214, 216, 219);">Home       </li>
-
-                                 
-                                  <li class="" style=" font-size: 16px;
-    font-weight: 100;
-    color: rgb(214, 216, 219);">SpeedTest    </li>
-                                  </li>
-
-                                  <li class="" style=" font-size: 16px;
-    font-weight: 100;
-    color: rgb(214, 216, 219);">Blog    </li>
-                                  </li>
+        <li class=""> <a href="" style=" font-size: 21px;   font-weight: 100;   color: rgb(214, 216, 219);">  Oferta de mes </a>  </li>
+                
+        <li class=""> <a href="" style=" font-size: 21px;   font-weight: 100;   color: rgb(214, 216, 219);"> SpeedTest </a>     </li>
+        
+       <li class="" > <a href="" style=" font-size: 21px;   font-weight: 100;   color: rgb(214, 216, 219);"> Blog   </a>    </li>
+                                  
                   </ul>
+          </div>
+         
+                 
                   </div>
           </div>
 
 
 
-          <div class="col-sm-6 col-lg-6 col-xs-6 col-12">
+          <div class="col-sm-6 col-lg-6  col-12">
 
 
 
@@ -171,7 +163,7 @@
 
                     </div>
                     <div class="col">
-    <div class=" my-2  order-1  order-sm-12 ">
+                        <div class=" my-2  order-1  order-sm-12 ">
                           <ul class="footer-list">
                               <form action="../conta.php" method="post"> 
                               <label for="" class="texto-form-footer">Nombre</label>

@@ -272,7 +272,7 @@
                     
                         <div style="">
                           <a style="color:#2BA8E0; float: left;  font-family: poppins-regular;     text-decoration-line: underline;
-                            " href="<?php print_r($post[0]["link"]);?>"> VER MAS  </a> 
+                            " href="<?php print_r($post[0]["link"]);?>"> Ver mas...  </a> 
                         </div>
                             <br>
 
@@ -288,8 +288,13 @@
                                   
 
 					<div class="col-12 col-md-4  col-blog2" >
+
+                    
+                    <a href="<?php print_r($post[1]["link"]);?>"> 
+
 						<div class="thumbnail img-blog"  style="width: 100%;background-position:center;background-size: cover; height: 230px; background-image: url('<?=$post[1]["_embedded"]["wp:featuredmedia"][0]["source_url"] ?>');" alt=""></div>
-                      <div class="col-blog">
+                   </a>
+                        <div class="col-blog">
                       <br>
                       <div class="titulo-blog limitado5">
                       <?php print_r($post[1]["title"]["rendered"]);?>
@@ -315,8 +320,11 @@
 
                     
 					<div class="col-12 col-md-4 col-blog2"  >
+                    <a href="<?php print_r($post[2]["link"]);?>"> 
+
 						<div class="thumbnail img-blog" style="width: 100%;background-position:center;background-size: cover; height: 230px; background-image: url('<?=$post[2]["_embedded"]["wp:featuredmedia"][0]["source_url"] ?>');" alt=""></div>
-                     <div class="col-blog">
+                   </a>
+                        <div class="col-blog">
                       <br>
                     <div class="titulo-blog limitado6">
                       <?php print_r($post[2]["title"]["rendered"]);?>
