@@ -32,7 +32,10 @@
 
                         <div class="row text-center" style="margin-top: 20px;">
                            <div class="col"> <a href="" style="color:#055a76; font-size: 1.2em;  font-weight: 100; ">
-                              <span class="" style="">  <u> <p style="font-family: 'poppins-regular';">Ver mas planes... </p>   </u>  </span  ></a> </div>
+                              <span class="" style="">  <u> <p style="font-family: 'poppins-regular';"   data-dismiss="modal">
+                                 
+                                 Ver mas planes... 
+                                 </p>   </u>  </span  ></a> </div>
                            
                         </div>
 

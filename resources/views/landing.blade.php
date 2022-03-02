@@ -77,7 +77,7 @@
             <div class="row">
                 <div class="col text-center">
                     <div class="div">
-                        <h1 class="titulos-generales">Ofertas del mes</h1>
+                        <h1 class="titulos-generales" style="margin-top: 46px;">Ofertas del mes</h1>
                     </div>
                 </div>
             </div>
@@ -211,6 +211,24 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             <section class="seccion-blog" id="blog" class="container">
 
             <div class="row " >
@@ -221,6 +239,8 @@
                     </div>
                 </div>
              </div>
+
+             
             <?php 
 	$url = "https://elmejorinternet.co/blogs/wp-json/wp/v2/posts?_embed"; $ch = curl_init($url);  curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 	$post = curl_exec($ch);
@@ -229,13 +249,18 @@
 				<div class="row fila-blog" >
 
 
-                <div class="col-12 col-md-4" style="text-align: -webkit-center;">
-						<div class="thumbnail" style="width: 100%;background-position:center;background-size: cover; height: 230px; background-image: url('<?=$post[0]["_embedded"]["wp:featuredmedia"][0]["source_url"] ?>');" alt=""></div>
-                      <div class="">
+                <div class="col-12 col-md-4 col-blog2" >
+
+                            <a href="<?php print_r($post[0]["link"]);?>"> 
+						<div class="thumbnail img-blog"                        
+                         style="width: 100%;background-position:center;background-size: cover; height: 230px; background-image:url('<?=$post[0]["_embedded"]["wp:featuredmedia"][0]["source_url"] ?>');" alt="">
+                         </div></a>
+                     <div class="col-blog">
                       <br>
-                    <!--  <div class="titulo-blog limitado4">
-                      <?php print_r($post[0]["title"]["rendered"]);?>
-                      </div> -->  
+                      <div class="titulo-blog limitado4">
+                      <a href="<?php print_r($post[0]["link"]);?>">
+                      <?php print_r($post[0]["title"]["rendered"]);?> </a>
+                      </div>  
 
                       
                     
@@ -248,11 +273,14 @@
 
                     
                         <div style="">
-                          <a style="color:#05213e; float: left;" href="<?php print_r($post[0]["link"]);?>"> Ver mas...  </a> 
+                          <a style="color:#2BA8E0; float: left;  font-family: poppins-regular;     text-decoration-line: underline;
+                            " href="<?php print_r($post[0]["link"]);?>"> VER MAS  </a> 
                         </div>
-
+                            <br>
 
                       </div>
+
+
 					</div>
 
 
@@ -261,13 +289,13 @@
 
                                   
 
-					<div class="col-12 col-md-4" style="text-align: -webkit-center;">
-						<div class="thumbnail" style="width: 100%;background-position:center;background-size: cover; height: 230px; background-image: url('<?=$post[1]["_embedded"]["wp:featuredmedia"][0]["source_url"] ?>');" alt=""></div>
-                      <div class="">
+					<div class="col-12 col-md-4  col-blog2" >
+						<div class="thumbnail img-blog"  style="width: 100%;background-position:center;background-size: cover; height: 230px; background-image: url('<?=$post[1]["_embedded"]["wp:featuredmedia"][0]["source_url"] ?>');" alt=""></div>
+                      <div class="col-blog">
                       <br>
-                     <!-- <div class="titulo-blog limitado5">
+                      <div class="titulo-blog limitado5">
                       <?php print_r($post[1]["title"]["rendered"]);?>
-                      </div>  -->
+                      </div>  
 
                       
                     
@@ -280,21 +308,21 @@
 
                     
                         <div style="">
-                        <a style="color:#05213e; float: left;" href="<?php print_r($post[1]["link"]);?>"> Ver mas...  </a> 
+                           <a style="color:#2BA8E0; float: left;  font-family: poppins-regular;     text-decoration-line: underline;" href="<?php print_r($post[1]["link"]);?>"> Ver mas...  </a> 
                         </div>
 
-
+<br>
                       </div>
 					</div>
 
                     
-					<div class="col-12 col-md-4" style="text-align: -webkit-center;">
-						<div class="thumbnail" style="width: 100%; background-position:center;height: 230px;background-size: cover; background-image: url('<?=$post[2]["_embedded"]["wp:featuredmedia"][0]["source_url"] ?>');" alt=""></div>
-                     <div class="">
+					<div class="col-12 col-md-4 col-blog2"  >
+						<div class="thumbnail img-blog" style="width: 100%;background-position:center;background-size: cover; height: 230px; background-image: url('<?=$post[2]["_embedded"]["wp:featuredmedia"][0]["source_url"] ?>');" alt=""></div>
+                     <div class="col-blog">
                       <br>
-                   <!--  <div class="titulo-blog limitado6">
+                    <div class="titulo-blog limitado6">
                       <?php print_r($post[2]["title"]["rendered"]);?>
-                     </div>  -->
+                     </div>  
 
                     	<br> 
 					<div class="texto-blog limitado3">
@@ -303,12 +331,15 @@
                     </div>
                     <br>
                     <div style="">
-                    <a style="color:#05213e; float: left;" href="<?php print_r($post[2]["link"]);?>"> Ver mas...  </a> 
+                    <a style="color:#2BA8E0; float: left;  font-family: poppins-regular;     text-decoration-line: underline;" href="<?php print_r($post[2]["link"]);?>"> Ver mas...  </a> 
                         </div>
+                        <br>
                      </div>
-					</div
-                <?php ?>
-          </div>
+                      </div>
+                    <?php ?>
+               </div>
+            
+            </div>
  
 
           </section>
@@ -520,7 +551,7 @@ function correo2(){
 
 	$(function()
 	{
-	ellipsis_box(".limitado3", 200);
+	ellipsis_box(".limitado3", 250);
 	});
                         </script>
                          <script>
@@ -536,7 +567,7 @@ function correo2(){
 
 	$(function()
 	{
-	ellipsis_box(".limitado4",130);
+	ellipsis_box(".limitado4",80);
 	});
                         </script>
                            <script>

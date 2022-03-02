@@ -19,25 +19,25 @@
           </div>
         </div>
 
+
+
+
         <div
-          v-for="(field, k2) in compFields"
-          :key="k2"
-          :class="'col-6 col-sm-2 offer-benefits \ ' + (!k2 ? 'd-lg-flex' : '')"
-        >
-          <div
+          v-for="(field, k2) in compFields"          :key="k2"          :class="'col-6 col-sm-2 offer-benefits \ ' + (!k2 ? 'd-lg-flex' : '')" >          <div
             class="text-center p-2 offer-table-label w-100 text-white mx-auto bg-dark-blue rounded-pill p-1 text-wrap"
           >
             <p @click="emitSpeed" class="text-tabla-detalles">
               {{ field.name }}
-              <i
-                v-if="field.name == 'Velocidad'"
-                :class="
-                  'fa fa-angle-' + (sortByDesc && sortBy != '' ? 'up' : 'down')
-                "
-              ></i>
+
+             
+                <i v-if="field.name == 'Velocidad'" :class="    'fa fa-angle-' + (sortByDesc && sortBy != '' ? 'up' : 'down') "></i>
             </p>
           </div>
         </div>
+
+
+
+        
 
         <div class="col-6 col-sm-2">
           <div
@@ -127,25 +127,58 @@
         <div
           class="col-6 col-sm-2 columna-velocidad 'hidden-md hidden-sm '+(!k3?'d-lg-flex':'hidden-lg ')"
         >
-          <div
-            class="row fila-resultado-busqueda raya-vertical-velocidad"
-            style=""
-          >
-            <span class="texto-velocidad-resultado-busqueda" style="">
+          <div  class="row fila-resultado-busqueda raya-vertical-velocidad" style="" >
+
+             
+             
+             
+             <span  v-if=" offer.fields_values[1].value != 1">
+            
+             <span class="texto-velocidad-resultado-busqueda" style="">
               {{ offer.fields_values[1].value }}
 
               <span v-if="offer.tecnologia == 5"> Kb </span>
 
               <span v-if="offer.tecnologia != 5"> Mb </span>
             </span>
+            </span>
+
+             <span  v-if=" offer.fields_values[1].value == 1">
+            
+             <span class="texto-velocidad-resultado-busqueda" style="">
+            
+
+              <span v-if="offer.tecnologia == 5">
+                <a href="https://api.whatsapp.com/send?phone=573212083412&text=hola elmejorinternet.co, me gustaria saber de los planes">Consultar </a>
+                 
+                 
+                  </span>
+
+              <span v-if="offer.tecnologia != 5">  
+                
+                <a class="texto-velocidad-resultado-busqueda" href="https://api.whatsapp.com/send?phone=573212083412&text=hola elmejorinternet.co, me gustaria saber de los planes">Consultar </a> </span>
+            </span>
+            </span>
+
+
+
+
+
+
           </div>
         </div>
 
         <div class="col-6 col-sm-2 columna-precio">
           <div class="row fila-resultado-busqueda">
-            <span class="texto-precio-resultado-busqueda">
+            <span  v-if="offer.tariff == 1" class="texto-precio-resultado-busqueda">
+         <a class="texto-velocidad-resultado-busqueda" href="https://api.whatsapp.com/send?phone=573212083412&text=hola elmejorinternet.co, me gustaria saber de los planes">Consultar </a> 
+
+            </span>
+
+             <span  v-if="offer.tariff != 1" class="texto-precio-resultado-busqueda">
               $ {{ showPrice(offer.tariff) }}
             </span>
+
           </div>
         </div>
 

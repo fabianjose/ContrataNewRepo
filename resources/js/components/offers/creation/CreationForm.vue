@@ -175,46 +175,49 @@
 <div class="row">------------Informacion para el modal----------------</div> <br>
         <div class="row">
           
-          <div class="col">
-              <label style="color:red">
-              Permanencia
-              </label>
-              <select class="custom-select" v-model="permanencia">
-                <option value="Con Permancencia" selected>Con Permancencia</option>
-                <option value="Sin Permancencia">Sin Permancencia</option>
-                
-           
-              </select>
-          </div>
-          <div class="col">
+                <div class="col">
                     <label style="color:red">
-              Fijo
-              </label>
-              <select class="custom-select" v-model="fijo">
-                <option value="Si" selected>Si</option>
-                <option value="No">NO</option>
+                    Permanencia
+                    </label>
+                    <select class="custom-select" v-model="permanencia">
+                      <option value="Con Permancencia" selected>Con Permancencia</option>
+                      <option value="Sin Permancencia">Sin Permancencia</option>
+                      
                 
-           
-              </select>
-          </div>
-          <div class="col">
-               <label style="color:red">
-              Movil
-              </label>
-              <select class="custom-select" v-model="movil">
-                <option value="Si" selected>Si</option>
-                <option value="No">NO</option>
+                    </select>
+                </div>
+                <div class="col">
+                          <label style="color:red">
+                    Fijo
+                    </label>
+                    <select class="custom-select" v-model="fijo">
+                      <option value="Si" selected>Si</option>
+                      <option value="No">NO</option>
+                      
                 
-           
-              </select>
-          </div>
-          <div class="col">
+                    </select>
+                </div>
+                <div class="col">
+                    <label style="color:red">
+                    Movil
+                    </label>
+                    <select class="custom-select" v-model="movil">
+                      <option value="Si" selected>Si</option>
+                      <option value="No">NO</option>
+                      
+                
+                    </select>
+                </div>
+                <div class="col">
 
-             <label  style="color:red">Deco (max 21 caracteres)</label>
-              <input type="text" name="" id="" class="form-control" maxlength="21" placeholder="Ingresa descripcion para deco" v-model="deco" >
-             
-              </div>
-          </div> <br><br><br><br>
+                  <label  style="color:red">Deco (max 21 caracteres)</label>
+                    <input type="text" name="" id="" class="form-control" maxlength="21" placeholder="Ingresa descripcion para deco" v-model="deco" >
+                  
+                    </div>
+        </div> 
+          
+          
+          <br><br><br><br>
         
        
 
