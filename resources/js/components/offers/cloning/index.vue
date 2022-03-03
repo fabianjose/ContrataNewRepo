@@ -291,6 +291,11 @@ export default {
       fd.append("tecnologia", this.offer.tecnologia);
       fd.append("canales", this.offer.canales);
       fd.append("tipo_plan_logos", this.offer.tipo_plan_logos);
+      fd.append("permanencia", this.offer.permanencia);
+      fd.append("fijo", this.offer.fijo);
+      fd.append("movil", this.offer.movil);
+      fd.append("deco", this.offer.deco);
+
 
       if(this.offer.departments) 
         if(JSON.parse(this.offer.departments)&&JSON.parse(this.offer.departments).length)
