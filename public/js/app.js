@@ -49693,11 +49693,15 @@ var render = function() {
                   : _vm._e(),
                 _vm._v(" "),
                 _vm.offer.fields_values[1].value == 1
-                  ? _c("span", [
-                      _vm._v(
-                        "  \n              \n             \n                  Consultar\n             \n               "
-                      )
-                    ])
+                  ? _c(
+                      "span",
+                      { staticStyle: { "font-size": "0.8em !important" } },
+                      [
+                        _vm._v(
+                          "  \n              \n             \n                  Consultar\n             \n               "
+                        )
+                      ]
+                    )
                   : _vm._e(),
                 _vm._v(" "),
                 _c("br")

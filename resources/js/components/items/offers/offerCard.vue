@@ -58,7 +58,7 @@
                     {{offer.fields_values[1].value}}
              
                </span>
-                <span v-if="offer.fields_values[1].value == 1">  
+                <span v-if="offer.fields_values[1].value == 1" style="font-size: 0.8em !important">  
               
              
                   Consultar
