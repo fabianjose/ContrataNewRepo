@@ -8,21 +8,27 @@
                 <div class="row">
                         
                              
-                    <div class="col-sm-3 col-12" style="margin-top: 40px;">
+                    <div class="col-lg-3 col-xl-3 col-sm-12" style="margin-top: 40px;">
 
-                         <div >
-                <filter-card @customFiltering="refreshData" :fields="compFields" :technologies="compTechnologies" :speeds="compSpeeds" :max_price="compMaxPrice" :min_price="compMinPrice"  :providers="compProviders" :plans="compPlans"/>
-            </div>
+                        <div>
+                            <filter-card @customFiltering="refreshData" :fields="compFields"
+                                :technologies="compTechnologies" :speeds="compSpeeds" :max_price="compMaxPrice"
+                                :min_price="compMinPrice" :providers="compProviders" :plans="compPlans" />
+                        </div>
                     </div>
-                    <div class="col-sm-9 col-12">
-            <filter-table @consultItem="consultItem" :query="compQuery" @customFiltering="refreshData" @viewItem="viewItem" @pageSwitch="changePage" :fields="compFields" :items="compPagination.data" :currentpage="compPagination.current_page" :lastpage="compLastpage" ></filter-table>
+                    <div class="col-lg-9 col-xl-9 col-sm-12">
+                        <filter-table @consultItem="consultItem" :query="compQuery" @customFiltering="refreshData"
+                            @viewItem="viewItem" @pageSwitch="changePage" :fields="compFields"
+                            :items="compPagination.data" :currentpage="compPagination.current_page"
+                            :lastpage="compLastpage"></filter-table>
 
 
                     </div>
-                </div>
-             <offer-consult v-if="currentItem&&consultMode" :offerMode="true" :offer="currentItem"></offer-consult>
-        <offer-modal v-if="currentItem&&viewMode" :offer="currentItem" ></offer-modal>
-        </div>
+                    </div>
+                    <offer-consult v-if="currentItem&&consultMode" :offerMode="true" :offer="currentItem">
+                    </offer-consult>
+                    <offer-modal v-if="currentItem&&viewMode" :offer="currentItem"></offer-modal>
+                    </div>
       
 
 

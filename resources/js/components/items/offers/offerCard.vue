@@ -48,13 +48,34 @@
       <div class="row text-center" style="justify-content: center;">
        <!--  <h6 class="col-12 offer-card-benefits text-wrap" style="font-family:heebo">{{offer.benefits}}</h6>-->
         <!-- <h6 class="col-12 offer-card-title">{{offer.company_name}}</h6>  ACA VA EL VALOR DE LA VELOCIDAD -->
-        <h1 class="col-12 " style="font-family: 'Poppins', sans-serif;    color: #145b77;    margin-top: -18px; font-weight: 600; font-size: 2.5em"> 
+      
+     <h1 class="col-12 " style="font-family: 'Poppins', sans-serif;    color: #145b77;    margin-top: -18px; font-weight: 600; font-size: 2.5em"> 
    
                
-              {{offer.fields_values[1].value}} <br>   </h1><span style="font-size: 1.2em;
+            <span v-if="offer.fields_values[1].value != 1">  
+              
+             
+                    {{offer.fields_values[1].value}}
+             
+               </span>
+                <span v-if="offer.fields_values[1].value == 1">  
+              
+             
+                  Consultar
+             
+               </span>
+               <br>   </h1><span style="font-size: 1.2em;
     font-family: poppins-regular;
     margin-top: -22px;
     font-weight: bold;">Megas</span>
+
+
+
+ 
+
+
+
+    
   <!--<span> <span v-if="offer.company_name =='Net2Phone' || offer.company_name =='SkyNet' "> Kbps  </span> 
    <span v-if="offer.company_name != 'Net2Phone' && offer.company_name !='SkyNet'"> Mbps </span>  </span>-->
    
@@ -118,9 +139,26 @@
                
                {{offer.titulo2}}<br>
              
-               <div class="row" >
-        <h1 class="col-12 card-precios-nuevos" >$ {{showPrice(offer.tariff)}}</h1>
-      </div>
+               <div class="row" style="justify-content: center;" >
+     <!-- <h1 class="col-12 card-precios-nuevos" >$ {{showPrice(offer.tariff)}}</h1>-->
+      
+    
+      <span  v-if="offer.tariff == 1" class="">
+                   <a class="" href="https://api.whatsapp.com/send?phone=573212083412&text=hola elmejorinternet.co, me gustaria saber de los planes">
+                   <h1 class="card-precios-nuevos"> Consultar </h1>
+                   </a> 
+          </span>
+
+          <span  v-if="offer.tariff != 1" class="">
+
+                  <h1 class="card-precios-nuevos" style="">
+                    $ {{showPrice(offer.tariff)}} </h1> 
+                      
+                     
+                                 
+           </span> 
+    
+        </div>
             
             
                 <div  v-if="offer.titulo3!=NULL">
@@ -188,12 +226,7 @@
   
 </template>
 
-<script>
-alert("aca toy")
-console.log(offer.company_name);
-this.$alert("Hello Vue Simple Alert.");
 
-</script>
 
 <script>
 

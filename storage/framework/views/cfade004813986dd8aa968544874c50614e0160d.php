@@ -45,15 +45,15 @@
                     <img class="ic-logo" src="<?php echo e(asset('images/el_mejor_internet_co-05.png')); ?>"  alt="">
                 </a>
             </ul>
-            <a class="nav-link hidden-md nav-btn ml-auto mx-1 hidden-xl-xl hidden-xl hidden-lg hidden-xs"  href="https://elmejorinternet.co/speedtest/">
+            <a class="nav-link hidden-md nav-btn  mx-1 hidden-xl-xl hidden-xl hidden-lg hidden-xs"  href="https://elmejorinternet.co/blogs/speedtest/">
                 <i class="fas fa-tachometer-alt"></i>
             </a>
             <a class="hidden-md  mx-1 hidden-xl-xl hidden-xl hidden-lg" data-toggle="collapse"
               data-target="#responsive-menu">
                 <i  class="fas fa-bars" style="    margin-left: -35px;"></i>
             </a>
-            <div id="responsive-menu" class="navbar-collapse collapse ml-auto mr-0"  style="margin-top: 37px;">
-                <ul class="navbar-nav ml-auto mr-x3 " style="margin-top: -30px; background-color:white;">
+            <div id="responsive-menu" class="navbar-collapse collapse  mr-0"  style="margin-top: 37px; place-content: center;">
+                <ul class="navbar-nav  mr-x3 " style="margin-top: -30px; background-color:white; ">
 
                 <li class="nav-item">
                         <a class="nav-link nav-item-border" href="https://elmejorinternet.co">
@@ -71,7 +71,7 @@
                     </li>
 
                     <li class="nav-item item-menu">
-                        <a class="nav-link nav-item-border" href="https://elmejorinternet.co/speedtest/" target="_blank">
+                        <a class="nav-link nav-item-border" href="https://elmejorinternet.co/blogs/speedtest/" target="_blank">
                             <h6 class="  texto-navbar">
                                 Speedtest
                             </h6>
@@ -95,6 +95,8 @@
               </div>
 
         </nav>
+
+
 
      
 <style>

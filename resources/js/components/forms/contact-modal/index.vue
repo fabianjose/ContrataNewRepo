@@ -98,10 +98,24 @@
                                           
                                                    <div class="row ">
                                                       <h1 class="  modal-velocidad-1" >                
-                                                       <span style="font-size: 1.2em;"> {{offer.fields_values[1].value}}  </span>  
-                                                         <span> <span v-if="offer.company_name =='Net2Phone' || offer.company_name =='SkyNet' "> Kbps  </span> 
-                                                         <span v-if="offer.company_name != 'Net2Phone' && offer.company_name !='SkyNet'"> Mbps </span>  </span>
-                                                         de Internet     
+                                                     
+
+                                                                    
+                                                               <span  v-if="offer.fields_values[1].value == 1" class="">
+                                                               <a class="texto-velocidad-resultado-busqueda" href="https://api.whatsapp.com/send?phone=573212083412&text=hola elmejorinternet.co, me gustaria saber de los planes">Consultar </a> 
+
+                                                                  </span>
+                                                                  <span  v-if="offer.fields_values[1].value != 1" class="">
+                                                                     <span style="font-size: 1.2em;"> {{offer.fields_values[1].value}}  </span>  
+
+                                                                       <span> <span v-if="offer.company_name =='Net2Phone' || offer.company_name =='SkyNet' "> Kbps  </span> 
+                                                                        <span v-if="offer.company_name != 'Net2Phone' && offer.company_name !='SkyNet'"> Mbps </span>  </span>
+                                                                        de Internet     
+                                                                  </span>
+
+
+
+                                                       
                                                       </h1>
                                                 </div>
 
@@ -121,15 +135,20 @@
                                                                <!-- //////////////////////////// Precio//////////////////////////////////// -->         
                                                                <div class="">
                                                                   
-                                                                  <h4 class="modal-valor-1" style="font-family: 'poppins-medium';
-    color: #055a76;
-    font-size: 1.8em;
-    font-weight: bold;">{{offer.tariff.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}} <span style="font-family: 'poppins-regular';
-    color: #055a76;
-    font-size: 0.8em;
-    font-weight: 100;">x mes</span></h4>
+   
                                                                      
-                                                                    
+          <span  v-if="offer.tariff == 1" class="">
+                   <a class="texto-velocidad-resultado-busqueda" href="https://api.whatsapp.com/send?phone=573212083412&text=hola elmejorinternet.co, me gustaria saber de los planes">Consultar </a> 
+          </span>
+
+          <span  v-if="offer.tariff != 1" class="">
+
+                  <h4 class="modal-valor-1" style="font-family: 'poppins-medium'; color: #055a76;  font-size: 1.8em; font-weight: bold;">
+                     {{offer.tariff.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}} 
+                       <span style="font-family: 'poppins-regular';    color: #055a76;    font-size: 0.8em;    font-weight: 100;">x mes</span>
+                   </h4>    
+                                 
+           </span>                                     
                                                                   
                                                                </div>
                                                          <hr>
