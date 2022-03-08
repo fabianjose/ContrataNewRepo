@@ -2,71 +2,54 @@
 
 @section("content-page")
 
-
-   
-   
-
-   <section class="background-seccion-1" style="margin-top: 85px; background-image: url('images/Seccion-1-Pagina-Web.jpg');">
-
-<div class="row" style="">
-    <div class="col-sm-6 col-md-6 col-xs-12 col-12" style="text-align: -webkit-center; margin-top: 86px;">
-<!--
-    <div>
-        <div class="col text-center">
-
-    
-                <br><br><br>
-            <div class="container" style="    width: 75%;    text-align: justify;     line-height: 255%;     margin-left: 220px;     font-family: 'poppins-regular';">
-                         <div>
-                                     <h2 style="line-height: 100%;    font-weight: bold;     margin-top: 14px;">¿ Como funciona <br>El mejor Internet?</h2>
-                                   <p style=" " >   <span style="font-size: 50px; color:#5691ff">1.</span> <span style="font-size: 20px;     font-weight: 500;">Seleccione el uso</span> </p>
-                                   <p class="texto-gris-home">De clic en el icono que mas se <br> <span class="texto-gris-home-2">ajuste a su necesidad.</span>   </p>
-                         </div>
-
-                        <div>
-                                    <p style=" " >   <span style="font-size: 50px; color:#5691ff">2.</span> <span style="font-size: 20px;     font-weight: 500;">Seleccione el tipo de servicio</span> </p>
-                                    <p class="texto-gris-home">Elija el tipo de servicio por el <br> <span class="texto-gris-home-2">que se encuentre interesado.</span>   </p>
-                        </div>
-
-                        <div>
-                                    <p style=" " >   <span style="font-size: 50px; color:#5691ff">3.</span> <span style="font-size: 20px;     font-weight: 500;">Seleccione departamento y municipio</span> </p>
-                                    <p class="texto-gris-home">Especifique cual es el departamento y municipio<br> <span class="texto-gris-home-2">donde quiere instalar el servicio.</span>   </p>
-                        </div>
-                        <div>
-                                    <p style=" " >   <span style="font-size: 50px; color:#5691ff">4.</span> <span style="font-size: 20px;     font-weight: 500;">Compare y elija la mejor opcion</span> </p>
-                                    <p class="texto-gris-home">Encuentra la opcion ideal que se<br> <span class="texto-gris-home-2">ajuste a tus necesidades.</span>   </p>
-                        </div>
-
-                      
-            </div>
-            </div>
-
-    </div>
--->
-<img class="img-textos" style=" height: 60%; " src="images/Pimer-elemento-texto.png"  alt="">   
-
-    </div>
-
-
-
-
-    <div class="col-sm-6 col-md-6 col-xs-12 col-12" style="margin-top: 40px;     align-items: center;">
-
-
-    @if ($errors->any())
+  <!-- ========== Start Slider ========== -->
+  <section class="slider d-flex align-items-center fondo-seccion-slider" style="    background-size: contain;
+    background-image: url(images/Seccion-1-Pagina-Web.jpg);
+    background-repeat: no-repeat;">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 col-12">
+                    <div class="text">
+                        <h1 class="wow fadeInUp " style="fonr-size:30px"> ¿ Como funciona <span class="color-1">elmejorinternet.co</span>? <br>
+                        </h1>
+                        <p>  
+                         <ul style="list-style: none;">
+                            <li spam-texto-slider style="">
+                            <h1 class="wow" style="font-size: 25px !important;">  <span class="color-1">1.  </span> <span>Selecciona el Uso</span> </h1> 
+                                <span class="spam-texto-slider ">De clik en el icono que mas se ajuste a su necesidad.</span> 
+                            </li> <br>
+                            <li spam-texto-slider style="">
+                            <h1 class="wow" style="font-size: 25px !important;">  <span class="color-1">2.  </span> <span>Selecciona el tipo de servicio</span> </h1> 
+                                <span class="spam-texto-slider ">De clik en el icono que mas se ajuste a su necesidad.</span> 
+                            </li> <br>
+                            <li spam-texto-slider style="">
+                            <h1 class="wow" style="font-size: 25px !important;">  <span class="color-1">3.  </span> <span>Selecciona departamento y municipio </span> </h1> 
+                                <span class="spam-texto-slider ">Especifique el departamento y el municipio donde quiere instalar el servicio.</span> 
+                            </li> <br>
+                            <li spam-texto-slider style="">
+                            <h1 class="wow" style="font-size: 25px !important;">  <span class="color-1">4.  </span> <span>Compare y elija mejor opcion</span> </h1> 
+                                <span class="spam-texto-slider ">Encuentre la opcion ideal que se ajuste a sus necesidades.</span> 
+                            </li> <br>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 col-12">
+                    <div class="image">
+                    @if ($errors->any())
                     <search-form :errors="{{$errors}}"/>
                     @else
                     <search-form />
                     @endif
-        
-  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========== End Slider ========== -->
 
-
-</div>
-</div>
-    
-    
-</section>
+   
+   
 
 
 

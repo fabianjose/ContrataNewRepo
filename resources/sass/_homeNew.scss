@@ -151,11 +151,21 @@
 }
 
 
+@media (min-width: 767px){
 
+    .container-principal{
+        padding-top: 168px;
+    }
+}
 
 @media (max-width: 767px){
+
+    .container-principal{
+        padding-top: 168px;
+    }
+    
     .registration-form{
-        margin-top: -345px;
+        margin-top: -100px;
    }
  
 

@@ -28,81 +28,73 @@
 
 <!-- Load Facebook SDK for JavaScript -->
 
+<div class="header-classic fixed-top navbar-light wow fadeInDown">
+            <!-- navigation start -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <nav class="navbar navbar-expand-lg navbar-classic">
+                            <a class="navbar-brand" href="#0">
+                               <!-- <img src="assets/img/saas-1/logo.png" alt="">-->
+                                <img src="/images/el_mejor_internet_co-06.png" width="210px" alt="">
+                            </a>
+                            <button
+                                class="navbar-toggler collapsed"
+                                type="button"
+                                data-toggle="collapse"
+                                data-target="#navbar-classic"
+                                aria-controls="navbar-classic"
+                                aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="icon-bar top-bar mt-0"></span>
+                                <span class="icon-bar middle-bar"></span>
+                                <span class="icon-bar bottom-bar"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbar-classic">
+                                <ul class="navbar-nav ml-auto mt-2 mt-lg-0 mr-3">
+                                    
+                                    <li class="nav-item dropdown">
+                                        <a
+                                            class="nav-link "
+                                            href="#"
+                                            id="menu-2"
+                                            data-toggle="dropdown"
+                                            aria-haspopup="true"
+                                            aria-expanded="false">
+                                            Home
+                                        </a>
+                                      
+                                    </li>
 
-    <div class="content"  >
-
-        <div  class="content2" style="   ">
-
-
-
-
-
-
-
-        <nav id="" class=" navbar-light navbar navbar-expand-md mx-auto py-3 px-1 align-items-center  fixed-top" >
-            <ul  class="navbar-nav ml-1 ">
-                <a class="nav-item  " href="/"  style="margin-top: -22px;">
-                    <img class="ic-logo" src="<?php echo e(asset('images/el_mejor_internet_co-05.png')); ?>"  alt="">
-                </a>
-            </ul>
-            <a class="nav-link hidden-md nav-btn  mx-1 hidden-xl-xl hidden-xl hidden-lg hidden-xs"  href="https://elmejorinternet.co/blogs/speedtest/">
-                <i class="fas fa-tachometer-alt"></i>
-            </a>
-            <a class="hidden-md  mx-1 hidden-xl-xl hidden-xl hidden-lg" data-toggle="collapse"
-              data-target="#responsive-menu">
-                <i  class="fas fa-bars" style="    margin-left: -35px;"></i>
-            </a>
-            <div id="responsive-menu" class="navbar-collapse collapse  mr-0"  style="margin-top: 37px; place-content: center;">
-                <ul class="navbar-nav  mr-x3 " style="margin-top: -30px; background-color:white; ">
-
-                <li class="nav-item">
-                        <a class="nav-link nav-item-border" href="https://elmejorinternet.co">
-                            <h6 class="  texto-navbar">
-                            Home
-                            </h6>
-                        </a>
-                    </li>
-                    <li class="nav-item item-menu" >
-                        <a class="nav-link nav-item-border " href="https://elmejorinternet.co/#/" target="_blank">
-                            <h6 class="  texto-navbar">
-                                Ofertas mes
-                            </h6>
-                        </a>
-                    </li>
-
-                    <li class="nav-item item-menu">
-                        <a class="nav-link nav-item-border" href="https://elmejorinternet.co/blogs/speedtest/" target="_blank">
-                            <h6 class="  texto-navbar">
-                                Speedtest
-                            </h6>
-                        </a>
-                    </li>
-                    <li class="nav-item item-menu" >
-                        <a class="nav-link nav-item-border" href="https://elmejorinternet.co/blogs/" target="_blank">
-                            <h6 class="  texto-navbar">
-                                Blog
-                            </h6>
-                        </a>
-                    </li>
-                    <li class="nav-item item-menu" >
-                        <a class="nav-link  " href="/#">
-                            <h6 class="  texto-navbar">
-                                PBX: +57 (1) 7868510
-                            </h6>
-                        </a>
-                    </li>
-                </ul>
-              </div>
-
-        </nav>
+                                    <li class="nav-item dropdown">
+                                        <a
+                                            class="nav-link "
+                                            href="#"
+                                            id="menu-1"
+                                            data-toggle="dropdown"
+                                            aria-haspopup="true"
+                                            aria-expanded="false">
+                                            Pages
+                                        </a>
+                                      
+                                    </li>
 
 
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="contact-1.html">Contact us</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <!-- navigation close -->
+        </div>
 
-     
-<style>
 
-                          
-</style>
+    <div class="content" style="padding-top: 80px;"  >
+
 
 
      
