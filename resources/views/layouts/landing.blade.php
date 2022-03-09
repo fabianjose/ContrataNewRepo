@@ -35,7 +35,7 @@
                 <div class="row">
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                         <nav class="navbar navbar-expand-lg navbar-classic">
-                            <a class="navbar-brand" href="#0">
+                            <a class="navbar-brand" href="https://elmejorinternet.co/">
                                <!-- <img src="assets/img/saas-1/logo.png" alt="">-->
                                 <img src="/images/el_mejor_internet_co-06.png" width="210px" alt="">
                             </a>
@@ -56,8 +56,8 @@
                                     
                                     <li class="nav-item dropdown">
                                         <a
-                                            class="nav-link "
-                                            href="#"
+                                            class="nav-link " style="color:#145b77"
+                                            href="https://elmejorinternet.co/"
                                             id="menu-2"
                                             data-toggle="dropdown"
                                             aria-haspopup="true"
@@ -69,20 +69,26 @@
 
                                     <li class="nav-item dropdown">
                                         <a
-                                            class="nav-link "
+                                            class="nav-link " style="color:#145b77"
                                             href="#"
                                             id="menu-1"
                                             data-toggle="dropdown"
                                             aria-haspopup="true"
                                             aria-expanded="false">
-                                            Pages
+                                            Oferta del mes
                                         </a>
                                       
                                     </li>
 
 
                                     <li class="nav-item">
-                                        <a class="nav-link" href="contact-1.html">Contact us</a>
+                                        <a class="nav-link " style="color:#145b77" href="https://elmejorinternet.co/blogs/speedtest/">Speedtest</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" style="color:#145b77" href="https://elmejorinternet.co/blogs/">Blog</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" style="color:#145b77" href="tel:+576017868510">PBX: +57(1)7868510</a>
                                     </li>
                                 </ul>
                             </div>
@@ -106,7 +112,7 @@
 
 
         <div class="row">
-                  <div class="col-sm-3 col-lg-3  col-12 " style="text-align: center; ">
+                  <div class="col-sm-3 col-lg-3  col-12 col-xs-12 " style="text-align: center; ">
                             <div class="text-center">
                                   <img src="{{asset('images/el_mejor_internet_co-07.png')}}" class="img-responsive text-center" style="max-width: 65%;">
                       
@@ -122,7 +128,7 @@
                   </div>
 
 
-          <div class="col-sm-3 col-lg-3  col-12 columna-footer-central" style="">
+          <div class="col-sm-3 col-lg-3  col-12  col-xs-12 columna-footer-central" style="">
             <div class="continer">
 
           <div class="row" style="    place-content: center; padding-top: 25px; text-align: left;">
@@ -145,19 +151,19 @@
 
 
 
-          <div class="col-sm-6 col-lg-6  col-12">
+          <div class="col-sm-6 col-lg-6  col-12 col-xs-12">
 
 
 
                   <div class="row">
-                    <div class="col">
+                    <div class="col-xs-12 col-12 col-sm-6 col-lg-6">
                           <div> 
                             <p class="texto-footer-form">¿quieres hacer parte de nuestro comparador?</p>   
                             <p style="color:#d6d8db !important">Dejanos tus datos en el siguiente formulario y un asesor se pondra en contacto con usted</p>      
                         </div>
 
                     </div>
-                    <div class="col">
+                    <div class="col-xs-12 col-12 col-sm-6 col-lg-6">
                         <div class=" my-2  order-1  order-sm-12 ">
                           <ul class="footer-list">
                               <form action="../conta.php" method="post"> 

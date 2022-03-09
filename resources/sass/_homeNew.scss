@@ -177,3 +177,21 @@
         margin-top: 380px;
      }
 }
+@media (min-width: 575px) and (max-width: 768px) {
+    
+    .fila-blog {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+    .seccion-blog{
+        margin-top:232px !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .seccion-blog{
+        margin-top:-232px !important;
+    }
+
+}
+

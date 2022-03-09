@@ -182,7 +182,7 @@ box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 @media (max-width: 700px){
 
     .seccion-blog{
-margin-top: 232px !important;
+//margin-top: 232px !important;
     }
     .consult-card {
       
@@ -191,8 +191,49 @@ margin-top: 232px !important;
     }
 
 }
+.lista-texto-home{
+    text-align: left;
+    list-style: none;
+}
+@media (min-width: 375px) and (max-width: 400px) {
+    .seccion-blog{
+        margin-top: 72px;
+    }
+    .background-seccion-2{
+        margin-top: 157px !important;
+    }
+    .background-seccion-3{
+        margin-top: -239px !important;
+
+    }
+
+    }
+
+    @media (min-width: 401px) and (max-width: 767px) {
+        .background-seccion-2{
+            margin-top: 169px !important;
+        }
+        
+    
+        }
+
+
+@media (min-width: 250px) and (max-width: 768px) {
+    .titulos-home{
+        font-size: 20px;
+    }
+    .lista-texto-home{
+        line-height: 95%;
+        text-align: left;
+        list-style: none;
+    }
+}
+ 
 
 @media (min-width: 768px){ 
+
+
+
     .texto-navbar{
         font-size: 0.9rem !important;
     }

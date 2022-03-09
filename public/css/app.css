@@ -523,13 +523,46 @@
 }
 
 @media (max-width: 700px) {
-  .seccion-blog {
-    margin-top: 232px !important;
-  }
-
   .consult-card {
     max-width: 96vw !important;
     margin-left: -16px;
+  }
+}
+
+.lista-texto-home {
+  text-align: left;
+  list-style: none;
+}
+
+@media (min-width: 375px) and (max-width: 400px) {
+  .seccion-blog {
+    margin-top: 72px;
+  }
+
+  .background-seccion-2 {
+    margin-top: 157px !important;
+  }
+
+  .background-seccion-3 {
+    margin-top: -239px !important;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 767px) {
+  .background-seccion-2 {
+    margin-top: 169px !important;
+  }
+}
+
+@media (min-width: 250px) and (max-width: 768px) {
+  .titulos-home {
+    font-size: 20px;
+  }
+
+  .lista-texto-home {
+    line-height: 95%;
+    text-align: left;
+    list-style: none;
   }
 }
 
@@ -2858,6 +2891,23 @@ p {
 
   .background-seccion-2 {
     margin-top: 380px;
+  }
+}
+
+@media (min-width: 575px) and (max-width: 768px) {
+  .fila-blog {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+
+  .seccion-blog {
+    margin-top: 232px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .seccion-blog {
+    margin-top: -232px !important;
   }
 }
 
