@@ -16,11 +16,11 @@
                          <ul style="" class="lista-texto-home">
                             <li spam-texto-slider style="">
                             <h1 class="wow" style="font-size: 25px !important;">  <span class="color-1">1.  </span> <span class="titulos-home">Selecciona el Uso</span> </h1> 
-                                <span class="spam-texto-slider ">De clik en el icono que mas se ajuste a su necesidad.</span> 
+                                <span class="spam-texto-slider ">De click en el icono que más se ajuste a su necesidad.</span> 
                             </li> <br>
                             <li spam-texto-slider style="">
                             <h1 class="wow" style="font-size: 25px !important;">  <span class="color-1">2.  </span> <span class="titulos-home">Selecciona el tipo de servicio</span> </h1> 
-                                <span class="spam-texto-slider ">De clik en el icono que mas se ajuste a su necesidad.</span> 
+                                <span class="spam-texto-slider ">Elija el tipo de servicio por el que se encuentra interesado.</span> 
                             </li> <br>
                             <li spam-texto-slider style="">
                             <h1 class="wow" style="font-size: 25px !important;">  <span class="color-1">3.  </span> <span class="titulos-home">Selecciona departamento y municipio </span> </h1> 
@@ -28,7 +28,7 @@
                             </li> <br>
                             <li spam-texto-slider style="">
                             <h1 class="wow" style="font-size: 25px !important;">  <span class="color-1">4.  </span> <span class="titulos-home">Compare y elija mejor opcion</span> </h1> 
-                                <span class="spam-texto-slider ">Encuentre la opcion ideal que se ajuste a sus necesidades.</span> 
+                                <span class="spam-texto-slider ">Encuentre la opción ideal que se ajuste a sus necesidades.</span> 
                             </li> <br>
                         </ul>
                         </p>

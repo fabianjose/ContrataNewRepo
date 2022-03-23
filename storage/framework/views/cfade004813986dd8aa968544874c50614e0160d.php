@@ -58,9 +58,7 @@
                                             class="nav-link " style="color:#145b77"
                                             href="https://elmejorinternet.co/"
                                             id="menu-2"
-                                            data-toggle="dropdown"
-                                            aria-haspopup="true"
-                                            aria-expanded="false">
+                                           >
                                             Home
                                         </a>
                                       
@@ -70,10 +68,8 @@
                                         <a
                                             class="nav-link " style="color:#145b77"
                                             href="#"
-                                            id="menu-1"
-                                            data-toggle="dropdown"
-                                            aria-haspopup="true"
-                                            aria-expanded="false">
+                                            id="menu-1"                                          
+                                           >
                                             Oferta del mes
                                         </a>
                                       
