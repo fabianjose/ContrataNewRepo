@@ -1,5 +1,39 @@
 <?php $__env->startSection("content-page"); ?>
+<section class="background-seccion-0" >
+ <div class="row fila-banner-0">
+     <div class="col-12 col-sm-6 col-xs-12 col-lg-6 text-center">
 
+     <div class="row ">
+                <p class="titulo-banner-0 pt-5">
+                     Encuentra la mejor oferta <br> de Internet en tu área
+                </p>
+
+     </div>
+     <div class="row" style="">
+         <p class="texto-banner-0"> Contamos con proveedores de Internet en nuestra base de datos,
+             en donde podemos encontrar la combinación perfecta de Internet
+                para tu área, presupuesto y necesidades de velocidad. <br>
+            A continuación selecciona el uso y el tipo de servicio que aparece en 
+            nuestro comparador y descubre cuánta velocidad de Internet necesitas .
+
+        </p>
+
+     </div>
+
+       
+
+      
+
+
+     </div>
+     <div class="col-12 col-sm-6 col-xs-12 col-lg-6 text-center align-items-center">
+
+        <img id="img-banner-0" src="images/Mujersiluetapc.png" width="50%" alt="">
+
+     </div>
+ </div>
+
+</section>
   <!-- ========== Start Slider ========== -->
   <section class="slider d-flex align-items-center fondo-seccion-slider" style="    background-size: contain;
     background-image: url(images/Seccion-1-Pagina-Web.jpg);
@@ -14,11 +48,11 @@
                          <ul style="" class="lista-texto-home">
                             <li spam-texto-slider style="">
                             <h1 class="wow" style="font-size: 25px !important;">  <span class="color-1">1.  </span> <span class="titulos-home">Selecciona el Uso</span> </h1> 
-                                <span class="spam-texto-slider ">De clik en el icono que mas se ajuste a su necesidad.</span> 
+                                <span class="spam-texto-slider ">De click en el icono que más se ajuste a su necesidad.</span> 
                             </li> <br>
                             <li spam-texto-slider style="">
                             <h1 class="wow" style="font-size: 25px !important;">  <span class="color-1">2.  </span> <span class="titulos-home">Selecciona el tipo de servicio</span> </h1> 
-                                <span class="spam-texto-slider ">De clik en el icono que mas se ajuste a su necesidad.</span> 
+                                <span class="spam-texto-slider ">Elija el tipo de servicio por el que se encuentra interesado.</span> 
                             </li> <br>
                             <li spam-texto-slider style="">
                             <h1 class="wow" style="font-size: 25px !important;">  <span class="color-1">3.  </span> <span class="titulos-home">Selecciona departamento y municipio </span> </h1> 
@@ -26,7 +60,7 @@
                             </li> <br>
                             <li spam-texto-slider style="">
                             <h1 class="wow" style="font-size: 25px !important;">  <span class="color-1">4.  </span> <span class="titulos-home">Compare y elija mejor opcion</span> </h1> 
-                                <span class="spam-texto-slider ">Encuentre la opcion ideal que se ajuste a sus necesidades.</span> 
+                                <span class="spam-texto-slider ">Encuentre la opción ideal que se ajuste a sus necesidades.</span> 
                             </li> <br>
                         </ul>
                         </p>

@@ -1,3 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&display=swap');.background-seccion-0{
+    background-image: url('img/Banner-principal-fase-2-sin-mujer-elmejorinternet2022.png');
+  
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.titulo-banner-0{
+      font-family: poppins;
+      color:white;
+      font-size: 2em;
+      
+    text-align: left;
+    font-weight: bold;
+
+
+      
+}
+.texto-banner-0{
+ /*   font-family: 'poppins-regular';
+    color: white;
+    font-size: 12px;
+    font-weight: 100;
+    text-align: -webkit-left;
+    padding-left:93px;*/
+    color: white;
+    font-size: 126%;
+    font-weight: 100;
+    text-align: -webkit-left;
+    -webkit-text-size-adjust: auto;
+    -moz-text-size-adjust: auto;
+    text-size-adjust: auto;
+    text-align: justify;
+    line-height: 118%;
+    font-family: 'poppins-regular';
+    font-weight: 100;
+  
+    
+}
+@media (min-width: 250px) and (max-width: 900px) {
+
+    .fila-banner-0{
+        padding: 20px !important ;
+    }
+
+    
+ 
+}
+
+@media (min-width: 250px) and (max-width: 575px) {
+
+  
+    .titulo-banner-0{
+      
+        font-size: 1.5em; 
+        
+  }
+    #img-banner-0{
+        width: 50%;
+    }   
+
+    .texto-banner-0{
+        font-size:90%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 1000px) {
+
+  
+    #img-banner-0{
+        width: 100%;
+    }   
+}
+
+
+.fila-banner-0{
+    padding-left: 190px;
+}
+
+
+
+
 .has-search .form-control {
     padding-left: 2.375rem;
 }
