@@ -35,6 +35,9 @@
 
 </section>
   <!-- ========== Start Slider ========== -->
+
+
+
   <section class="slider d-flex align-items-center fondo-seccion-slider" style="    background-size: contain;
     background-image: url(images/Seccion-1-Pagina-Web.jpg);
     background-repeat: no-repeat;">
@@ -94,7 +97,9 @@
 
 
 
-<section class="background-seccion-2" style=" background-image: url('images/Seccion-2-Pagina-Web.jpg');">
+
+
+    <section class="background-seccion-2" style=" background-image: url('images/Seccion-2-Pagina-Web.jpg');">
 
             <div class="row">
                 <div class="col text-center">
@@ -111,7 +116,19 @@
              </div>
 </section>
 
+<section class="carrusel-home" style="    text-align: -webkit-center;">
+<div class="row">
+                <div class="col text-center">
+                    <div class="div">
+                        <h1 class="titulos-generales">Nuestros Clientes</h1>
+                        <br> <br>
+                    </div>
+                </div>
+            </div>
+<companies-slider> </companies-slider>
+</section>
 
+<br><br><br><br><br>
 
 
 <section class="background-seccion-3" style="    margin-top: -73px;">

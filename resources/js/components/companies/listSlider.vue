@@ -1,10 +1,10 @@
 <template>
   <vueper-slides
-    class="no-shadow high-companies-carousel mt-4 text-center"
-    :autoplay="false"
+    class="no-shadow high-companies-carousel  text-center"
+    :autoplay="true"
     slide-multiple="false"
     ref="companiesSlider"
-    :duration="1000"
+    :duration="3000"
     :bullets="false"
     :arrows="false"
     :visible-slides="(companies.length < 4)?companies.length:4"
@@ -13,7 +13,7 @@
     :breakpoints="breakpoints">
     <vueper-slide v-for="company in companies" :key="company.id">
       <template v-slot:content>
-        <div class="h-100 d-flex text-center justify-content-center mx-2">
+        <div class="">
           <img :src="baseUrl+'/storage/'+company.logo" class="high-companies-img align-self-center">
         </div>
       </template>

@@ -45336,11 +45336,11 @@ var render = function() {
     "vueper-slides",
     {
       ref: "companiesSlider",
-      staticClass: "no-shadow high-companies-carousel mt-4 text-center",
+      staticClass: "no-shadow high-companies-carousel  text-center",
       attrs: {
-        autoplay: false,
+        autoplay: true,
         "slide-multiple": "false",
-        duration: 1000,
+        duration: 3000,
         bullets: false,
         arrows: false,
         "visible-slides": _vm.companies.length < 4 ? _vm.companies.length : 4,
@@ -45358,19 +45358,12 @@ var render = function() {
               key: "content",
               fn: function() {
                 return [
-                  _c(
-                    "div",
-                    {
-                      staticClass:
-                        "h-100 d-flex text-center justify-content-center mx-2"
-                    },
-                    [
-                      _c("img", {
-                        staticClass: "high-companies-img align-self-center",
-                        attrs: { src: _vm.baseUrl + "/storage/" + company.logo }
-                      })
-                    ]
-                  )
+                  _c("div", {}, [
+                    _c("img", {
+                      staticClass: "high-companies-img align-self-center",
+                      attrs: { src: _vm.baseUrl + "/storage/" + company.logo }
+                    })
+                  ])
                 ]
               },
               proxy: true

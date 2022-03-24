@@ -2800,7 +2800,7 @@ p {
 }
 
 .background-seccion-2 {
-  height: 100vh;
+  /* height: 100vh; */
   background-size: contain;
   background-repeat: no-repeat;
   margin-top: 1px;
@@ -3962,6 +3962,12 @@ a.navbar-brand {
 @media (max-width: 991.98px) {
   .fondo-seccion-slider {
     background-image: none !important;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 400px) {
+  .carrusel-home {
+    padding-bottom: 192px !important;
   }
 }
 
