@@ -417,14 +417,37 @@ class OfferController extends Controller{
    ->groupBy("offers.tecnologia")
   ->select("offers.tecnologia as type", DB::raw('count(offers.id) as total'))
     ->distinct()->get();
+    
+    
+    
     $plans = [
        (object)["name" =>"internet", "id" => 0],
        (object) ["name" => 'Internet + Telefonía', "id" => 1],
         (object) ["name" => 'internet + Telefonía + tv', "id" => 2],
            (object) ["name" => 'Voz IP', "id" => 3]
     ];
-
+ 
+    $plans_selected =  DB::table('offers')
+    ->where('offers.trash',0)
+   ->where(function($query) use($data){
+     $query->where("offers.type", $data["offer_type"])
+     ->orWhere("offers.type", null);
+   })
+   ->where('service',$service->id)
+   ->where(function($query) use($department){
+     $query->where('departments', "like" ,'%'.$department->name.'%')
+     ->orWhere("departments",null);
+   })
+   ->where(function($query) use($municipality){
+     $query->where('municipalities', "like" ,'%'.$municipality->name.'%')
+     ->orWhere("municipalities",null);
+   })
   
+  ->groupBy("offers.tipo_plan_logos")
+ ->select("offers.tipo_plan_logos as type", DB::raw('count(offers.id) as total'))
+   ->distinct()->get();
+   $plans =  array_filter($plans, fn($p)=>isset($plans_selected[$p->id]));
+
     $speeds =  DB::table('fields')
     ->join("fields_values", "fields.id", "=","fields_values.field_id")
     ->join("offers","fields_values.offer_id","=","offers.id")
