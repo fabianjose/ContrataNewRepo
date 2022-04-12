@@ -1,9 +1,11 @@
-@media (min-width: 375px) and (max-width: 400px) {
+@media (min-width: 200px) and (max-width: 766px) {
 
-    .carrusel-home{
-        padding-bottom: 192px !important ;
+    .carrusel-home {
+        text-align: -webkit-center;
+        padding-top: 219px !important;
     }
-
-    
+    .background-seccion-2 {
+         margin-top: 0px !important;
+    }
  
 }

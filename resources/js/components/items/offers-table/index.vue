@@ -149,14 +149,14 @@
             
 
               <span v-if="offer.tecnologia == 5">
-                <a href="https://api.whatsapp.com/send?phone=573212083412&text=hola elmejorinternet.co, me gustaria saber de los planes">Consultar </a>
+                <a href="https://api.whatsapp.com/send?phone=3003079287&text=hola elmejorinternet.co, me gustaria saber de los planes">Consultar </a>
                  
                  
                   </span>
 
               <span v-if="offer.tecnologia != 5">  
                 
-                <a class="texto-velocidad-resultado-busqueda" href="https://api.whatsapp.com/send?phone=573212083412&text=hola elmejorinternet.co, me gustaria saber de los planes">Consultar </a> </span>
+                <a class="texto-velocidad-resultado-busqueda" href="https://api.whatsapp.com/send?phone=3003079287&text=hola elmejorinternet.co, me gustaria saber de los planes">Consultar </a> </span>
             </span>
             </span>
 
@@ -171,7 +171,7 @@
         <div class="col-6 col-sm-2 columna-precio">
           <div class="row fila-resultado-busqueda">
             <span  v-if="offer.tariff == 1" class="texto-precio-resultado-busqueda">
-         <a class="texto-velocidad-resultado-busqueda" href="https://api.whatsapp.com/send?phone=573212083412&text=hola elmejorinternet.co, me gustaria saber de los planes">Consultar </a> 
+         <a class="texto-velocidad-resultado-busqueda" href="https://api.whatsapp.com/send?phone=3003079287&text=hola elmejorinternet.co, me gustaria saber de los planes">Consultar </a> 
 
             </span>
 

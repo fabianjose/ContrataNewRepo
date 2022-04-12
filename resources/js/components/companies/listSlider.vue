@@ -4,13 +4,15 @@
     :autoplay="true"
     slide-multiple="false"
     ref="companiesSlider"
-    :duration="3000"
+    transition-speed='2500'
+    :duration="4000"
     :bullets="false"
     :arrows="false"
     :visible-slides="(companies.length < 4)?companies.length:4"
     :slide-ratio="0.1"
     :dragging-distance="70"
-    :breakpoints="breakpoints">
+    :breakpoints="breakpoints"
+    :style="'transition-duration:2000ms !important' ">
     <vueper-slide v-for="company in companies" :key="company.id">
       <template v-slot:content>
         <div class="">

@@ -28,12 +28,15 @@
      </div>
      <div class="col-12 col-sm-6 col-xs-12 col-lg-6 text-center align-items-center">
 
-        <img id="img-banner-0" src="images/Mujersiluetapc.png" width="50%" alt="">
+        <img id="img-banner-0" src="images/Mujersiluetapc.png" width="50%" alt="" style="padding-top:20px;">
 
      </div>
  </div>
 
 </section>
+
+
+
   <!-- ========== Start Slider ========== -->
 
 
@@ -87,6 +90,11 @@
    
 
 
+    <section class="carrusel-home" style="    text-align: -webkit-center;">
+
+<companies-slider> </companies-slider>
+</section>
+
 
 
 
@@ -116,19 +124,7 @@
              </div>
 </section>
 
-<section class="carrusel-home" style="    text-align: -webkit-center;">
-<div class="row">
-                <div class="col text-center">
-                    <div class="div">
-                        <h1 class="titulos-generales">Nuestros Clientes</h1>
-                        <br> <br>
-                    </div>
-                </div>
-            </div>
-<companies-slider> </companies-slider>
-</section>
 
-<br><br><br><br><br>
 
 
 <section class="background-seccion-3" style="    margin-top: -73px;">

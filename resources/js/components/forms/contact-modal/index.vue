@@ -20,7 +20,7 @@
                         </div>
                         <div class="row  " style=" justify-content: center;">
                            <button  type="button" class="btn-adquierelo-modal btn btn-lx btn-lg btn-main-blue rounded-pill mx-1 px-1  img-fluid"  >
-                             <a href="https://api.whatsapp.com/send?phone=573212083412&text=hola elmejorinternet.co, me gustaria saber de los planes">
+                             <a href="https://api.whatsapp.com/send?phone=3003079287&text=hola elmejorinternet.co, me gustaria saber de los planes">
                                 <span style="color:white">Chatea con un asesor
                                         </span> 
                                 </a> 
@@ -102,7 +102,7 @@
 
                                                                     
                                                                <span  v-if="offer.fields_values[1].value == 1" class="">
-                                                               <a class="texto-velocidad-resultado-busqueda" href="https://api.whatsapp.com/send?phone=573212083412&text=hola elmejorinternet.co, me gustaria saber de los planes">Consultar </a> 
+                                                               <a class="texto-velocidad-resultado-busqueda" href="https://api.whatsapp.com/send?phone=3003079287&text=hola elmejorinternet.co, me gustaria saber de los planes">Consultar </a> 
 
                                                                   </span>
                                                                   <span  v-if="offer.fields_values[1].value != 1" class="">
@@ -138,7 +138,7 @@
    
                                                                      
           <span  v-if="offer.tariff == 1" class="">
-                   <a class="texto-velocidad-resultado-busqueda" href="https://api.whatsapp.com/send?phone=573212083412&text=hola elmejorinternet.co, me gustaria saber de los planes">Consultar </a> 
+                   <a class="texto-velocidad-resultado-busqueda" href="https://api.whatsapp.com/send?phone=3003079287&text=hola elmejorinternet.co, me gustaria saber de los planes">Consultar </a> 
           </span>
 
           <span  v-if="offer.tariff != 1" class="">
@@ -192,7 +192,7 @@
                                                             <div class="row  " style=" justify-content: center;">
                                                                
                                                             <button  type="button" class="btn-adquierelo btn btn-lx btn-lg btn-main-blue rounded-pill mx-1 px-1  img-fluid"  >
-                                                                <a href="https://api.whatsapp.com/send?phone=573212083412&text=hola elmejorinternet.co, me gustaria saber de los planes">
+                                                                <a href="https://api.whatsapp.com/send?phone=3003079287&text=hola elmejorinternet.co, me gustaria saber de los planes">
                                                                 
                                                                <span style="color:white"> Solicitar Plan 
                                                                       </span>  
