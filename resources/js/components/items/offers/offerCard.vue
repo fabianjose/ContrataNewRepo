@@ -144,7 +144,7 @@
       
     
       <span  v-if="offer.tariff == 1" class="">
-                   <a class="" href="https://api.whatsapp.com/send?phone=3003079287&text=hola elmejorinternet.co, me gustaria saber de los planes">
+                   <a class="" href="https://api.whatsapp.com/send?phone=573003079287&text=hola elmejorinternet.co, me gustaria saber de los planes">
                    <h1 class="card-precios-nuevos"> Consultar </h1>
                    </a> 
           </span>
