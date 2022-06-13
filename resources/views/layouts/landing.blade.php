@@ -154,8 +154,8 @@
                   <div class="row">
                     <div class="col-xs-12 col-12 col-sm-6 col-lg-6">
                           <div> 
-                            <p class="texto-footer-form">¿quieres hacer parte de nuestro comparador?</p>   
-                            <p style="color:#d6d8db !important">Dejanos tus datos en el siguiente formulario y un asesor se pondra en contacto con usted</p>      
+                            <p class="texto-footer-form">¿Quieres hacer parte de nuestro comparador?</p>   
+                            <p style="color:#d6d8db !important">Déjanos tus datos en el siguiente formulario y un asesor se pondrá en contacto con usted</p>      
                         </div>
 
                     </div>
@@ -169,7 +169,7 @@
                                 <li><input id="empresa"  type="text" placeholder=""  class="input-text-footer" name="empresa"/></li>
                                 <label for="" class="texto-form-footer">Correo</label>
                                 <li><input id="correo"  type="mail" placeholder=""  class="input-text-footer" name="correo"/></li>
-                                <label for="" class="texto-form-footer">Telefono</label>
+                                <label for="" class="texto-form-footer">Teléfono</label>
                                 <li><input id="telefono"  type="text" placeholder=""  class="input-text-footer" name="telefono"/></li>
                                 <label for="" class="texto-form-footer">Ciudad</label>
                                 <li><input id="ciudad"  type="text" placeholder=""  class="input-text-footer" name="ciudad"/></li>
