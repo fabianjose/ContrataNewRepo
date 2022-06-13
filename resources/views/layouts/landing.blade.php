@@ -155,7 +155,7 @@
                     <div class="col-xs-12 col-12 col-sm-6 col-lg-6">
                           <div> 
                             <p class="texto-footer-form">¿Quieres hacer parte de nuestro comparador?</p>   
-                            <p style="color:#d6d8db !important">Déjanos tus datos en el siguiente formulario y un asesor se pondrá en contacto con usted</p>      
+                            <p style="color:#d6d8db !important">Complete el siguiente formulario y un asesor se pondrá en contacto con usted</p>      
                         </div>
 
                     </div>
