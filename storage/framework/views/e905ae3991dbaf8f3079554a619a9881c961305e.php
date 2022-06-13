@@ -48,13 +48,13 @@
             <div class="row d-flex align-items-center">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 col-12">
                     <div class="text">
-                        <h1 class="wow fadeInUp " style="fonr-size:30px"> ¿ Como funciona <span class="color-1">elmejorinternet.co</span>? <br>
+                        <h1 class="wow fadeInUp " style="fonr-size:30px"> ¿ Cómo funciona <span class="color-1">elmejorinternet.co</span>? <br>
                         </h1>
                         <p>  
                          <ul style="" class="lista-texto-home">
                             <li spam-texto-slider style="">
                             <h1 class="wow" style="font-size: 25px !important;">  <span class="color-1">1.  </span> <span class="titulos-home">Selecciona el Uso</span> </h1> 
-                                <span class="spam-texto-slider ">De click en el icono que más se ajuste a su necesidad.</span> 
+                                <span class="spam-texto-slider ">De clic en el icono que más se ajuste a su necesidad.</span> 
                             </li> <br>
                             <li spam-texto-slider style="">
                             <h1 class="wow" style="font-size: 25px !important;">  <span class="color-1">2.  </span> <span class="titulos-home">Selecciona el tipo de servicio</span> </h1> 
@@ -65,7 +65,7 @@
                                 <span class="spam-texto-slider ">Especifique el departamento y el municipio donde quiere instalar el servicio.</span> 
                             </li> <br>
                             <li spam-texto-slider style="">
-                            <h1 class="wow" style="font-size: 25px !important;">  <span class="color-1">4.  </span> <span class="titulos-home">Compare y elija mejor opcion</span> </h1> 
+                            <h1 class="wow" style="font-size: 25px !important;">  <span class="color-1">4.  </span> <span class="titulos-home">Compare y elija mejor opción</span> </h1> 
                                 <span class="spam-texto-slider ">Encuentre la opción ideal que se ajuste a sus necesidades.</span> 
                             </li> <br>
                         </ul>
@@ -155,7 +155,7 @@
 <div class="row" style="margin-top: 50px;">
     <div class="col-sm-12 col-12 col-lg-8" style="margin-top: 86px; ">
    <div class="container contenedor-seccion4" style="">
-     <h1 class="titulo-seccion4" style="">¿por qué El mejor Internet <br> es el mejor comparador?</h1>
+     <h1 class="titulo-seccion4" style="">¿Por qué El mejor Internet <br> es el mejor comparador?</h1>
    
   <div class="row">
       <div>

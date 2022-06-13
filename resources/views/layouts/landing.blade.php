@@ -120,8 +120,15 @@
                               proveedor en telecomunicaciones, posicionándonos como la plataforma web para la solución de 
                               conectividad a nivel nacional.</h3>
                             
-                        
-                  </div>
+                            <div id="redes-footer">
+                                    <div class="row">
+                                    <div class="col">  <a href="https://www.linkedin.com/company/elmejorinternet/mycompany/">   <img src="/images/Iconos_redes_ElMejorInternet.Co-11.png" alt="" width="60%"> </a>  </div>
+                                    <div class="col">  <a href="https://www.facebook.com/elmejorinternet.co">   <img src="/images/Iconos_redes_ElMejorInternet.Co-12.png" alt="" width="60%"> </a>  </div>
+                                    <div class="col">  <a href="https://www.instagram.com/elmejorinternet.co/">   <img src="/images/Iconos_redes_ElMejorInternet.Co-13.png" alt="" width="60%"> </a>  </div>
+                                    <div class="col">  <a href="https://www.youtube.com/channel/UC38-LLBPKbWgjFhOHHaN7Wg">   <img src="/images/Iconos_redes_ElMejorInternet.Co-14.png" alt="" width="60%"> </a>  </div>
+                                    </div>
+                            </div>
+                      </div>
 
 
           <div class="col-sm-3 col-lg-3  col-12  col-xs-12 columna-footer-central" style="">
@@ -154,7 +161,7 @@
                   <div class="row">
                     <div class="col-xs-12 col-12 col-sm-6 col-lg-6">
                           <div> 
-                            <p class="texto-footer-form">¿Quieres hacer parte de nuestro comparador?</p>   
+                            <p class="texto-footer-form">¿Eres un prestador de servicios de Internet y quieres hacer parte de nuestro comparador?</p>   
                             <p style="color:#d6d8db !important">Complete el siguiente formulario y un asesor se pondrá en contacto con usted</p>      
                         </div>
 

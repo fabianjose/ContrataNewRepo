@@ -375,7 +375,7 @@
      text-align: -webkit-left;
      padding-left:93px;*/
   color: white;
-  font-size: 126%;
+  font-size: 100%;
   font-weight: 100;
   text-align: -webkit-left;
   -webkit-text-size-adjust: auto;
@@ -393,7 +393,7 @@
   }
 
   .texto-banner-0 {
-    font-size: 1.5em;
+    font-size: 1em;
   }
 }
 
@@ -414,7 +414,7 @@
   }
 
   .texto-banner-0 {
-    font-size: 90%;
+    font-size: 100%;
   }
 }
 

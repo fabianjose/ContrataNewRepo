@@ -119,8 +119,15 @@
                               proveedor en telecomunicaciones, posicionándonos como la plataforma web para la solución de 
                               conectividad a nivel nacional.</h3>
                             
-                        
-                  </div>
+                            <div id="redes-footer">
+                                    <div class="row">
+                                    <div class="col">  <a href="https://www.facebook.com/elmejorinternet.co">   <img src="/images/Iconos_redes_ElMejorInternet.Co-11.png" alt="" width="60%"> </a>  </div>
+                                    <div class="col">  <a href="https://www.facebook.com/elmejorinternet.co">   <img src="/images/Iconos_redes_ElMejorInternet.Co-12.png" alt="" width="60%"> </a>  </div>
+                                    <div class="col">  <a href="https://www.facebook.com/elmejorinternet.co">   <img src="/images/Iconos_redes_ElMejorInternet.Co-13.png" alt="" width="60%"> </a>  </div>
+                                    <div class="col">  <a href="https://www.facebook.com/elmejorinternet.co">   <img src="/images/Iconos_redes_ElMejorInternet.Co-14.png" alt="" width="60%"> </a>  </div>
+                                    </div>
+                            </div>
+                      </div>
 
 
           <div class="col-sm-3 col-lg-3  col-12  col-xs-12 columna-footer-central" style="">
@@ -153,8 +160,8 @@
                   <div class="row">
                     <div class="col-xs-12 col-12 col-sm-6 col-lg-6">
                           <div> 
-                            <p class="texto-footer-form">¿quieres hacer parte de nuestro comparador?</p>   
-                            <p style="color:#d6d8db !important">Dejanos tus datos en el siguiente formulario y un asesor se pondra en contacto con usted</p>      
+                            <p class="texto-footer-form">¿Eres un prestador de servicios de Internet y quieres hacer parte de nuestro comparador?</p>   
+                            <p style="color:#d6d8db !important">Complete el siguiente formulario y un asesor se pondrá en contacto con usted</p>      
                         </div>
 
                     </div>
@@ -168,7 +175,7 @@
                                 <li><input id="empresa"  type="text" placeholder=""  class="input-text-footer" name="empresa"/></li>
                                 <label for="" class="texto-form-footer">Correo</label>
                                 <li><input id="correo"  type="mail" placeholder=""  class="input-text-footer" name="correo"/></li>
-                                <label for="" class="texto-form-footer">Telefono</label>
+                                <label for="" class="texto-form-footer">Teléfono</label>
                                 <li><input id="telefono"  type="text" placeholder=""  class="input-text-footer" name="telefono"/></li>
                                 <label for="" class="texto-form-footer">Ciudad</label>
                                 <li><input id="ciudad"  type="text" placeholder=""  class="input-text-footer" name="ciudad"/></li>
