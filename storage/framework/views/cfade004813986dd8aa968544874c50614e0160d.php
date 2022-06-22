@@ -121,10 +121,10 @@
                             
                             <div id="redes-footer">
                                     <div class="row">
-                                    <div class="col">  <a href="https://www.facebook.com/elmejorinternet.co">   <img src="/images/Iconos_redes_ElMejorInternet.Co-11.png" alt="" width="60%"> </a>  </div>
+                                    <div class="col">  <a href="https://www.linkedin.com/company/elmejorinternet/mycompany/">   <img src="/images/Iconos_redes_ElMejorInternet.Co-11.png" alt="" width="60%"> </a>  </div>
                                     <div class="col">  <a href="https://www.facebook.com/elmejorinternet.co">   <img src="/images/Iconos_redes_ElMejorInternet.Co-12.png" alt="" width="60%"> </a>  </div>
-                                    <div class="col">  <a href="https://www.facebook.com/elmejorinternet.co">   <img src="/images/Iconos_redes_ElMejorInternet.Co-13.png" alt="" width="60%"> </a>  </div>
-                                    <div class="col">  <a href="https://www.facebook.com/elmejorinternet.co">   <img src="/images/Iconos_redes_ElMejorInternet.Co-14.png" alt="" width="60%"> </a>  </div>
+                                    <div class="col">  <a href="https://www.instagram.com/elmejorinternet.co/">   <img src="/images/Iconos_redes_ElMejorInternet.Co-13.png" alt="" width="60%"> </a>  </div>
+                                    <div class="col">  <a href="https://www.youtube.com/channel/UC38-LLBPKbWgjFhOHHaN7Wg">   <img src="/images/Iconos_redes_ElMejorInternet.Co-14.png" alt="" width="60%"> </a>  </div>
                                     </div>
                             </div>
                       </div>
@@ -138,7 +138,7 @@
                                   
         <li class="" > <a href="" style=" font-size: 21px;   font-weight: 100;   color: rgb(214, 216, 219);">Home  </a>    </li>
 
-        <li class=""> <a href="" style=" font-size: 21px;   font-weight: 100;   color: rgb(214, 216, 219);">  Oferta de mes </a>  </li>
+        <li class=""> <a href="/ofertadelmes" style=" font-size: 21px;   font-weight: 100;   color: rgb(214, 216, 219);">  Oferta de mes </a>  </li>
                 
         <li class=""> <a href="" style=" font-size: 21px;   font-weight: 100;   color: rgb(214, 216, 219);"> SpeedTest </a>     </li>
         

@@ -68,7 +68,7 @@
                                     <li class="nav-item dropdown">
                                         <a
                                             class="nav-link " style="color:#145b77"
-                                            href="#"
+                                            href="/ofertadelmes"
                                             id="menu-1"                                          
                                            >
                                             Oferta del mes
@@ -137,13 +137,13 @@
           <div class="row" style="    place-content: center; padding-top: 25px; text-align: left;">
                <ul class="  list-unstyled" style="font-size: 1.25rem;">
                                   
-        <li class="" > <a href="" style=" font-size: 21px;   font-weight: 100;   color: rgb(214, 216, 219);">Home  </a>    </li>
+        <li class="" > <a href="/" style=" font-size: 21px;   font-weight: 100;   color: rgb(214, 216, 219);">Home  </a>    </li>
 
-        <li class=""> <a href="" style=" font-size: 21px;   font-weight: 100;   color: rgb(214, 216, 219);">  Oferta de mes </a>  </li>
+        <li class=""> <a href="/ofertadelmes" style=" font-size: 21px;   font-weight: 100;   color: rgb(214, 216, 219);">  Oferta de mes </a>  </li>
                 
-        <li class=""> <a href="" style=" font-size: 21px;   font-weight: 100;   color: rgb(214, 216, 219);"> SpeedTest </a>     </li>
+        <li class=""> <a href="https://elmejorinternet.co/blogs/speedtest/" style=" font-size: 21px;   font-weight: 100;   color: rgb(214, 216, 219);"> SpeedTest </a>     </li>
         
-       <li class="" > <a href="" style=" font-size: 21px;   font-weight: 100;   color: rgb(214, 216, 219);"> Blog   </a>    </li>
+       <li class="" > <a href="https://elmejorinternet.co/blogs/" style=" font-size: 21px;   font-weight: 100;   color: rgb(214, 216, 219);"> Blog   </a>    </li>
                                   
                   </ul>
           </div>
