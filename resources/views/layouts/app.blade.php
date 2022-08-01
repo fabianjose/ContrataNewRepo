@@ -82,7 +82,7 @@
 </body>
 
 <div class="whatsapp">
-            <a target="_blank"href="https://api.whatsapp.com/send?phone=573003079287&text=hola elmejorinternet.co, me gustaria saber de los planes"> <img src="{{asset('/images/whatsapp.png')}}" width="67" height="67"> </a>
+            <a target="_blank"href="https://api.whatsapp.com/send?phone=573123294720&text=hola elmejorinternet.co, me gustaria saber de los planes"> <img src="{{asset('/images/whatsapp.png')}}" width="67" height="67"> </a>
 </div>
 
 </html>

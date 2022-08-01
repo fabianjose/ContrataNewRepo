@@ -234,26 +234,6 @@
   Launch demo
 </button-->
   
-	    <!-- Modal -->
-      <div class="modal fade" id="MyModal333" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button class="close" data-dismiss="modal" type="button">×</button>
-                </div>
-                <div class="modal-body">
-                    <img src="https://teledisca.com/imagenes/seminario-web.png" width="100%" alt="">
-                <a href="https://internexa.zoom.us/webinar/register/8216269612472/WN_K9QkUNMqThy-NgqtYlyMQw">  <p style="font-size: 3em;
-                    text-align: center;">Inscripción al seminario web</p> </a>    
-                </div>
-                <div class="modal-footer"><button class="btn btn-default" data-dismiss="modal"
-                        type="button">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
 <!-- Button trigger modal -->
 
 <!-- Button trigger modal -->

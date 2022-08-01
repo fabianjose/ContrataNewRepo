@@ -171,7 +171,7 @@
         <div class="col-6 col-sm-2 columna-precio">
           <div class="row fila-resultado-busqueda">
             <span  v-if="offer.tariff == 1" class="texto-precio-resultado-busqueda">
-         <a class="texto-velocidad-resultado-busqueda" href="https://api.whatsapp.com/send?phone=573003079287&text=hola elmejorinternet.co, me gustaria saber de los planes">Consultar </a> 
+         <a class="texto-velocidad-resultado-busqueda" href="https://api.whatsapp.com/send?phone=573123294720&text=hola elmejorinternet.co, me gustaria saber de los planes">Consultar </a> 
 
             </span>
 
