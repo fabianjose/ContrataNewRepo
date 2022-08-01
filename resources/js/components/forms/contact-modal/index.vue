@@ -20,7 +20,7 @@
                         </div>
                         <div class="row  " style=" justify-content: center;">
                            <button  type="button" class="btn-adquierelo-modal btn btn-lx btn-lg btn-main-blue rounded-pill mx-1 px-1  img-fluid"  >
-                             <a href="https://api.whatsapp.com/send?phone=573003079287&text=hola elmejorinternet.co, me gustaria saber de los planes">
+                             <a href="https://api.whatsapp.com/send?phone=573123294720&text=hola elmejorinternet.co, me gustaria saber de los planes">
                                 <span style="color:white">Chatea con un asesor
                                         </span> 
                                 </a> 
