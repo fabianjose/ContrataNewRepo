@@ -149,14 +149,14 @@
             
 
               <span v-if="offer.tecnologia == 5">
-                <a href="https://api.whatsapp.com/send?phone=573003079287&text=hola elmejorinternet.co, me gustaria saber de los planes">Consultar </a>
+                <a href="https://api.whatsapp.com/send?phone=573123294720&text=hola elmejorinternet.co, me gustaria saber de los planes">Consultar </a>
                  
                  
                   </span>
 
               <span v-if="offer.tecnologia != 5">  
                 
-                <a class="texto-velocidad-resultado-busqueda" href="https://api.whatsapp.com/send?phone=573003079287&text=hola elmejorinternet.co, me gustaria saber de los planes">Consultar </a> </span>
+                <a class="texto-velocidad-resultado-busqueda" href="https://api.whatsapp.com/send?phone=573123294720&text=hola elmejorinternet.co, me gustaria saber de los planes">Consultar </a> </span>
             </span>
             </span>
 
